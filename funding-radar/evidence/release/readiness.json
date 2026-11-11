@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-11T09:50:19.910420+00:00",
-  "status": "READY_FOR_OWNER_SUBMISSION",
-  "submitted": false,
+  "checked_at": "2026-11-11T09:58:10.103Z",
+  "status": "SUBMITTED_IN_REVIEW_QUEUE",
+  "submitted": true,
   "organizer_approval_or_award_claimed": false,
   "independent_review": "independent-readiness.json",
   "promotions": "promotion-confirmation.json",
@@ -9,10 +9,14 @@
   "public_clone": "public-clone-verification.json",
   "verified_code_commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
   "source_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
-  "remaining_action": "Owner makes final prize-entry click; read target-side submitted/in-review confirmation afterward.",
-  "current_india_day_confirmed_submissions": 0,
+  "remaining_action": "Await TinyFish review; approval remains unconfirmed. Never resubmit or replace this entry.",
+  "current_india_day_confirmed_submissions": 1,
   "provider_operations_during_publication": 0,
   "spending_during_publication": 0,
   "new_provider_authority": false,
-  "nonmandatory_limits": []
+  "nonmandatory_limits": [],
+  "submission_confirmation": "submission-confirmation.json",
+  "pre_submission_readiness": "readiness-before-submission.json",
+  "eligible_for_dispatch": false,
+  "resubmission_allowed": false
 }

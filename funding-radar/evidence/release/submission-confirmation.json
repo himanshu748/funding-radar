@@ -1,0 +1,25 @@
+{
+  "confirmed_at": "2026-11-11T09:58:10.103Z",
+  "status": "SUBMITTED_IN_REVIEW_QUEUE",
+  "bounty": "Funding Radar",
+  "actor": "owner",
+  "portal": "https://www.tinybounties.com/crm?view=claims",
+  "portal_submitted_date": "2026-11-11",
+  "timezone": "Asia/Kolkata",
+  "submitted_date_read_back": true,
+  "in_review_read_back": true,
+  "repository": "https://github.com/himanshu748/funding-radar",
+  "submitted_notes_match_prepared": true,
+  "notes_characters": 1804,
+  "attached_video": {
+    "filename": "funding-radar-demo.mp4",
+    "portal_asset_url": "https://peaceful-lion-524.convex.cloud/api/storage/c91c573c-e2f1-45de-8ee2-ccc718176339"
+  },
+  "daily_slot_used": true,
+  "eligible_for_dispatch": false,
+  "resubmission_allowed": false,
+  "agent_final_submit_clicked": false,
+  "organizer_approval_or_award_claimed": false,
+  "provider_operations_started": 0,
+  "spending": 0
+}
