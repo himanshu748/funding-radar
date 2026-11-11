@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-11T06:44:21.438562+00:00",
+  "checks": {
+    "tests": {
+      "command": "npm test",
+      "exit_code": 0,
+      "receipt": "tests.txt"
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "exit_code": 0,
+      "receipt": "typecheck.txt"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "receipt": "build.txt"
+    },
+    "format": {
+      "command": "npm run format:check",
+      "exit_code": 0,
+      "receipt": "format.txt"
+    }
+  }
+}

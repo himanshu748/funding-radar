@@ -1,0 +1,47 @@
+{
+  "kind": "funding-radar-recent-live-v2",
+  "input_number": 2,
+  "description": "UK seed climate software startup forecasting energy flexibility for grid operators",
+  "request_id": "d9b30b06-37ef-4791-8326-545e8c066dca",
+  "reservation_id": "53496bcd-d925-4746-ac1d-7af127117fdc",
+  "dataset_id": "6264c1fd-ee63-40e1-b5d4-80931d37e730",
+  "run_id": "0ad2b37a-7b11-4525-96a7-cbada67d22e6",
+  "checked_at": "2026-11-08T08:14:02.067Z",
+  "target_rows": 10,
+  "returned_rows": 10,
+  "reserved_microusd": 1000000,
+  "estimated_row_cost_microusd": 1000000,
+  "provider_invoice_verified": false,
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "coverage": {
+    "scope": "ten_recent_company_evidence_only",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 1,
+    "complete": false,
+    "shortfall": 9
+  },
+  "investors_ranked": 1,
+  "source_verification": "provider_reported_unverified",
+  "known_dates": [
+    {
+      "company": "Enersee",
+      "announced_on": "2025-09-09"
+    }
+  ],
+  "unknown_detail_counts": {
+    "cheque": 10,
+    "lead_partner": 6,
+    "contact_route": 9,
+    "round_stage": 2,
+    "investor_identity": 3
+  },
+  "redactions": [],
+  "original_output_sha256": "fa5211031d4cc401f4c7ba372119459cbc7eaf8190002d2cea4cf12375136fa9",
+  "monitor_or_outreach_created": false,
+  "automatic_retry": false
+}

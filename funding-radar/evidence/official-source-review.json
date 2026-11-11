@@ -1,0 +1,78 @@
+{
+  "kind": "bounded-official-source-review",
+  "checked_at": "2026-11-08T08:27:44.465155+00:00",
+  "tinyfish_jobs": 0,
+  "scope": "Selected official company/investor pages only; not a complete audit of30 company rows.",
+  "entries": [
+    {
+      "company": "CodeRabbit",
+      "url": "https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews",
+      "status": "source_read",
+      "supported_announcement_day": "2025-09-16",
+      "supported_investor": "Scale Venture Partners",
+      "excerpts": [
+        "September 16, 2025",
+        "This investment was led by Scale Venture Partners"
+      ],
+      "limits": "Company source supports this round and lead firm; no individual cheque or lead partner inferred."
+    },
+    {
+      "company": "GoKwik",
+      "url": "https://rtp.vc/views/gokwik-series-growth-round-raise-2025",
+      "status": "source_read",
+      "supported_announcement_day": "2025-06-23",
+      "supported_investor": "RTP Global",
+      "excerpts": [
+        "23 June 2025",
+        "growth round led by RTP Global"
+      ],
+      "conflict": "TinySet supplied2025-06-24. Original observations remain unchanged; that exact day is not corroborated by this official announcement."
+    },
+    {
+      "company": "Snapmint",
+      "url": "https://www.generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform/",
+      "status": "source_read",
+      "supported_announcement_day": "2025-10-31",
+      "supported_investor": "General Atlantic",
+      "excerpts": [
+        "October 31, 2025",
+        "Financial terms of the investment were not disclosed."
+      ],
+      "limits": "The official source does not substantiate the total amount in the third-party monthly report. No individual cheque or commenting executive assigned as lead partner."
+    },
+    {
+      "company": "Recur Club",
+      "url": "https://www.recurclub.com/blog/announcing-our-50m-series-a",
+      "status": "source_read",
+      "supported_announcement_day": "2025-09-29",
+      "excerpts": [
+        "September 29, 2025",
+        "$8M in equity led by InfoEdge Ventures"
+      ],
+      "limits": "Official page splits50million into8million equity and42million debt allocation. Do not describe the whole amount as one investor cheque."
+    },
+    {
+      "company": "Co-Power",
+      "url": "https://cherry.vc/news/infrastructure-investment-europe-cant-ignore",
+      "status": "source_read",
+      "supported_announcement_day": null,
+      "supported_investor": "Cherry Ventures",
+      "excerpts": [
+        "We are leading Co-Power's €6.4M Seed Round"
+      ],
+      "limits": "Funding relationship is supported; no announcement day was visible in the retrieved page text, so the supplied day remains uncorroborated."
+    },
+    {
+      "company": "Amperon",
+      "url": "https://amperon.co/newsroom/2m-seed-round",
+      "status": "not_retrieved",
+      "limits": "The web tool could not retrieve this exact page. No closure, inaccuracy or date verdict inferred."
+    },
+    {
+      "company": "Greptile",
+      "url": "https://greptile.com/blog/series-b",
+      "status": "not_retrieved",
+      "limits": "The web tool could not retrieve this exact page. Source truth remains unverified."
+    }
+  ]
+}

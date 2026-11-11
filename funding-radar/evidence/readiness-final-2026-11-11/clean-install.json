@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-11T09:13:49.244705+00:00",
+  "kind": "fresh copied package; not a Git clone",
+  "commands": [
+    "npm ci --ignore-scripts",
+    "npm test",
+    "npm run typecheck",
+    "npm run build",
+    "npm run format:check"
+  ],
+  "all_exit_codes": 0,
+  "tests_passed": 131,
+  "provider_calls": 0,
+  "environment": "Isolated temporary directory, no copied dependencies/build outputs, keys or private state. Test runner disables live flags and removes key/grant variables.",
+  "limitation": "Does not establish public clone access, hosting or arbitrary-input research quality.",
+  "source_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
+  "source_files_compared": 84,
+  "all_source_files_match": true
+}

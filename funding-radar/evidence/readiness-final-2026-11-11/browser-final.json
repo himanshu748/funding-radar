@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-11-11T08:56:23.702Z",
+  "browser": "In-app browser",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "checks": [
+    {
+      "check": "Default keyless preview has four saved briefs, with10 reviewed companies in each required demo",
+      "pass": true
+    },
+    {
+      "check": "Live research disabled by default",
+      "pass": true
+    },
+    {
+      "check": "US reviewed shortlist shows cheque range, named historical investor and current route separately",
+      "pass": true
+    },
+    {
+      "check": "UK shortlist ranks Pi Labs/Realyze and separates Volve conditional watchlist",
+      "pass": true
+    },
+    {
+      "check": "Escape closes evidence inspector and restores invoking button focus",
+      "pass": true
+    },
+    {
+      "check": "Amperon excludes old2023 funding despite later page metadata",
+      "pass": true
+    },
+    {
+      "check": "India shortlist retains sourced Arkam cheque and score",
+      "pass": true
+    },
+    {
+      "check": "Exact investment participant and overall round lead are distinct",
+      "pass": true
+    },
+    {
+      "check": "Fresh completed run replays17 reviewed from19 rows with2 non-comparables",
+      "pass": true
+    },
+    {
+      "check": "Zania conflicting raw year stays visible beside corrected review",
+      "pass": true
+    },
+    {
+      "check": "SignalFire stays conditional with0 complete shortlist records and unconfirmed AI/programme fit",
+      "pass": true
+    },
+    {
+      "check": "An unseen startup produces a local plan with no paid start control when live is off",
+      "pass": true
+    },
+    {
+      "check": "Manual reduced-motion toggle exposes and retains its state",
+      "pass": true
+    },
+    {
+      "check": "Final landing copy reflects fourth conditional recording and current motion setting survives reload",
+      "pass": true
+    },
+    {
+      "check": "Keyboard arrow switches company/investor tabs",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Mobile viewport and operating-system reduced-motion emulation remain unverified in the in-app browser. Manual reduced-motion control and keyboard were checked."
+  ],
+  "provider_calls": 0
+}

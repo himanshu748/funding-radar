@@ -1,0 +1,111 @@
+{
+  "format": "edited-browser-capture-walkthrough",
+  "narration": "none; silent with on-screen captions",
+  "duration_seconds": 100,
+  "scenes": [
+    {
+      "chapter": 1,
+      "start_seconds": 0,
+      "source": "01-landing.png",
+      "source_sha256": "d18952858077f2d11171ce8f68d3c957daaa406d4b853be1dcafbedbe2a7bf02",
+      "title": "Start with a relevant investment, not a list of names.",
+      "caption": "Four genuine TinySet investigations. Keyless local replay."
+    },
+    {
+      "chapter": 2,
+      "start_seconds": 7,
+      "source": "02-workspace.png",
+      "source_sha256": "c8e5deaee083880d22f0cb68d47753c8aa14cd606b7c144535750628c930264d",
+      "title": "Three startup briefs. Ten reviewed recent companies in each.",
+      "caption": "Original TinySet rows and ordinary-web additions remain separate."
+    },
+    {
+      "chapter": 3,
+      "start_seconds": 15,
+      "source": "05-uk-shortlist.png",
+      "source_sha256": "5b7369de3d58a8016540556fb0db4736df0e75c6b7c27a90a39c951912aee7fd",
+      "title": "An explained shortlist, with scoped cheque and stage evidence.",
+      "caption": "Scores describe research fit. They do not predict funding."
+    },
+    {
+      "chapter": 4,
+      "start_seconds": 23,
+      "source": "03-us-proof.png",
+      "source_sha256": "ea6d74f263a5a9c3d187be72f4a818248f24eb99c57325fb10082f9392ca0bbc",
+      "title": "Every rank opens into the evidence behind it.",
+      "caption": "Selected source-reviewed firms stay separate from unverified candidate heuristics."
+    },
+    {
+      "chapter": 5,
+      "start_seconds": 30,
+      "source": "04-us-person.png",
+      "source_sha256": "81892e2b8d669d3623683d1c2d68d7f0e868ad95a480747c7e3685f205b1c143",
+      "title": "Who made the investment? Where can a founder approach today?",
+      "caption": "Historical responsibility and the current firm contact are different facts."
+    },
+    {
+      "chapter": 6,
+      "start_seconds": 38,
+      "source": "06-date-proof.png",
+      "source_sha256": "d2bf9c22c0dc670f073e77f4de4ffff671e62cf97b9d9fc42a9d5a82fc5ab5c7",
+      "title": "A 2026 page label does not make a 2023 round recent.",
+      "caption": "The Amperon claim stays visible. The source review excludes it from the window."
+    },
+    {
+      "chapter": 7,
+      "start_seconds": 46,
+      "source": "07-india-proof.png",
+      "source_sha256": "b6cf4fec27f2b31cef9931e270dc624458a34f8acac1d3342c95e378a3de16d1",
+      "title": "Keep the named investor role precise.",
+      "caption": "Arkam participated in TransBnk. Bessemer led the overall round."
+    },
+    {
+      "chapter": 8,
+      "start_seconds": 54,
+      "source": "live-approved-limits.png",
+      "source_sha256": "f5749d5fd61f9bbcf9d9bc2efb04120c998fd68260a7ec563bd646b075c55495",
+      "title": "One new brief, through the real paid-start flow.",
+      "caption": "Captured before the authorized run. One attempt, a 20-row ceiling and a $2 cap."
+    },
+    {
+      "chapter": 9,
+      "start_seconds": 61,
+      "source": "live-completed.png",
+      "source_sha256": "50d4aacfcfa73644f8159833a5a7c4f6078810904eff18c3add6894d2a67c624",
+      "title": "The run completed about four minutes later with 19 rows.",
+      "caption": "Original provider output is preserved. This is a genuine completed run, now disabled."
+    },
+    {
+      "chapter": 10,
+      "start_seconds": 68,
+      "source": "08-fresh-recording.png",
+      "source_sha256": "67622ebc45fae397bb09ea9d5accd6be22f0dd4ceb9b7eb536d9702925a4528f",
+      "title": "Independent review supports 17 of those 19 companies.",
+      "caption": "Two different workflows are excluded. This fourth run has no manual company additions."
+    },
+    {
+      "chapter": 11,
+      "start_seconds": 76,
+      "source": "09-fresh-date-review.png",
+      "source_sha256": "370392d7dc3ea2cc7839863db03f4dbceda31a5473826f6ea412f0d07b7793c6",
+      "title": "Corrections are a separate layer, not a rewrite of history.",
+      "caption": "Zania retains its conflicting original dates alongside the reviewed announcement."
+    },
+    {
+      "chapter": 12,
+      "start_seconds": 84,
+      "source": "10-conditional.png",
+      "source_sha256": "129aa0579a7bdddb922a8ea7b1d7e43712c8735b9fcd3129b238bbecbfddcb56",
+      "title": "A well-sourced investor can still need a fit check.",
+      "caption": "SignalFire stays conditional. AI eligibility and current programme intake are unconfirmed."
+    },
+    {
+      "chapter": 13,
+      "start_seconds": 92,
+      "source": "11-local-plan.png",
+      "source_sha256": "53a5345c2a53e5a677f327ebc104cf72d2a270d3c0d5576d41cbdd89994776df",
+      "title": "Prepare a new brief locally. Export the evidence when it is ready.",
+      "caption": "JSON and CSV downloads work. Saved replay and planning start no provider calls."
+    }
+  ]
+}

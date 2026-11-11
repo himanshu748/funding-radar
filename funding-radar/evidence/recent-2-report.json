@@ -1,0 +1,346 @@
+{
+  "format": "funding-radar-recent-report-v2",
+  "mode": "saved_live",
+  "startup": {
+    "description": "UK seed climate software startup forecasting energy flexibility for grid operators",
+    "sectors": [
+      "climate",
+      "software"
+    ],
+    "stage": "seed",
+    "geography": "uk"
+  },
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "dataset_id": "6264c1fd-ee63-40e1-b5d4-80931d37e730",
+  "run_id": "0ad2b37a-7b11-4525-96a7-cbada67d22e6",
+  "collected_at": "2026-11-08T08:14:02.067Z",
+  "rows": [
+    {
+      "row_id": "8bed2177-9f40-4516-bf99-4f635db4ca00",
+      "company_name": "Amperon",
+      "company_url": "https://amperon.co/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series B",
+      "investor_name": "Energize Capital",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": {
+        "name": "Tyler Lancaster",
+        "source_url": "https://amperon.co/newsroom/amperon-raises-20-million-series-b-to-accelerate-energy-analytics-and-grid-decarbonization",
+        "summary": "Amperon's Series B announcement quotes 'Energize Capital Partner Tyler Lancaster, who joins the Amperon board of directors' and describes Energize as the lead investor, naming Lancaster as the partner on the deal."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "ed020e33-93a3-413e-b92f-853e8e132d61",
+      "company_name": "NOX Energy",
+      "company_url": "https://nox.energy/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "climate",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "Rise PropTech and Volve Capital",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "35265700-a90c-4390-b5aa-87d244b094fc",
+      "company_name": "FlexyGrid",
+      "company_url": "https://flexygrid.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "TechBricks",
+      "investor_url": "https://techbricks.io/portfolio",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "27265147-a6fe-4c96-b7e9-07ec7c874e07",
+      "company_name": "Capalo AI",
+      "company_url": "https://capaloai.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Heartcore Capital",
+      "investor_url": "https://heartcore.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "29e137f6-75c8-4cbf-81b9-c8a6ae7347bb",
+      "company_name": "Companion.energy",
+      "company_url": "https://companion.energy/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "term:energy"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "Realyze Ventures and Pi Labs",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "43516b72-b563-4e55-9a14-51bdec707d33",
+      "company_name": "Axle Energy",
+      "company_url": "https://axle.energy/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "term:energy",
+        "term:grid"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Energize Capital",
+      "investor_url": "https://energizecap.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Tyler Lancaster",
+        "source_url": "https://energizecap.com/insights/why-we-invested-in-axle-energy",
+        "summary": "Energize Capital 'Why We Invested in Axle Energy' (Jul 8, 2026): 'Energize Partner Tyler Lancaster joins the Axle board, and Agustina Soriano-Sergi joins as a board observer.' Names Tyler Lancaster as the Energize partner tied to the Series A; no individual cheque size is stated."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "0ab96636-22aa-4743-8667-31a799b8d9e6",
+      "company_name": "Sympower",
+      "company_url": "https://sympower.net/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "term:forecasting",
+        "term:energy",
+        "term:flexibility",
+        "term:grid"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "PGGM",
+      "investor_url": "https://pggm.nl/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "2a9d5488-b318-489c-966a-df4832cd3903",
+      "company_name": "Co-Power",
+      "company_url": "https://copower.energy/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "climate"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "Cherry Ventures",
+      "investor_url": "https://cherry.vc/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": {
+        "url": "https://cherry.vc/contact",
+        "source_url": "https://cherry.vc/news/infrastructure-investment-europe-cant-ignore",
+        "summary": "Cherry Ventures' official news page links to its public contact page at cherry.vc/contact, the investor's official enquiry route."
+      },
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "2e719927-edd8-46af-9ac5-49d4a51acc52",
+      "company_name": "Enersee",
+      "company_url": "https://enersee.ai/",
+      "announced_on": "2025-09-09",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "term:energy"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "6 Degrees Capital",
+      "investor_url": "https://6degrees.vc/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Lucas Stoops",
+        "source_url": "https://enersee.ai/insights/late-seed-funding",
+        "summary": "Enersee's official press release quotes Lucas Stoops, Partner at 6 Degrees Capital, commenting on the round."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://enersee.ai/insights/late-seed-funding",
+        "summary": "Enersee (Brussels, AI-native enterprise energy management / Virtual Energy Manager) announced on 2025-09-09 a €4,000,000 late-seed funding round led by 6 Degrees Capital, with participation from Peak, Alex Brabers, Bernard Hazard, Laurent Michiels and Vincent Nagels (official Enersee press release).",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported"
+      }
+    },
+    {
+      "row_id": "a5274039-16fe-4180-962e-bfedadb0beee",
+      "company_name": "Hybrid Greentech",
+      "company_url": "https://hybridgreentech.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "term:flexibility",
+        "term:grid"
+      ],
+      "geography": null,
+      "round_stage": "Growth",
+      "investor_name": "Nordic Alpha Partners",
+      "investor_url": "https://nordicalpha.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Marius Ipsen",
+        "source_url": "https://hybridgreentech.com/blogs/nordic-alpha-partners-investment",
+        "summary": "Official announcement quotes 'Marius Ipsen, Vice President, Investments, Nordic Alpha Partners' commenting on the investment in Hybrid Greentech, evidencing him as the named partner on the deal."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    }
+  ],
+  "investors": [
+    {
+      "id": "6degrees.vc|6 degrees capital",
+      "investor_name": "6 Degrees Capital",
+      "investor_url": "https://6degrees.vc/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: evidenced comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Enersee",
+          "company_url": "https://enersee.ai/",
+          "announced_on": "2025-09-09",
+          "round_stage": null,
+          "evidence": {
+            "url": "https://enersee.ai/insights/late-seed-funding",
+            "summary": "Enersee (Brussels, AI-native enterprise energy management / Virtual Energy Manager) announced on 2025-09-09 a €4,000,000 late-seed funding round led by 6 Degrees Capital, with participation from Peak, Alex Brabers, Bernard Hazard, Laurent Michiels and Vincent Nagels (official Enersee press release).",
+            "collected_at": "2026-11-08T08:14:02.067Z",
+            "provenance": "provider_reported"
+          },
+          "lead_partner": {
+            "name": "Lucas Stoops",
+            "source_url": "https://enersee.ai/insights/late-seed-funding",
+            "summary": "Enersee's official press release quotes Lucas Stoops, Partner at 6 Degrees Capital, commenting on the round."
+          }
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [],
+      "contact_routes": [],
+      "unknowns": [
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    }
+  ],
+  "coverage": {
+    "scope": "ten_recent_company_evidence_only",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 1,
+    "complete": false,
+    "shortfall": 9
+  },
+  "warning": "Provider-reported recent-company research; source truth is not independently verified. Unknown cheque, stage, partner and contact fields are explicit. No current mandate or funding outcome is promised."
+}

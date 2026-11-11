@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-11T07:00:55.928264+00:00",
+  "scope": "Artifact-only known-pattern text/file-name scan. Standalone directory has no Git repository, so this is not a Git-history scan or a standard clean-verdict report. Matched values are never included.",
+  "scanned_text_files": 121,
+  "patterns": [
+    "private_key",
+    "credential_token",
+    "jwt",
+    "literal_bearer",
+    "assigned_secret"
+  ],
+  "findings": [
+    {
+      "path": "shared/test/pool.test.ts",
+      "line": 407,
+      "rule": "credential_token",
+      "disposition": "Expected synthetic credential-rejection test value in a unit-test input, not a live credential; matched value withheld."
+    }
+  ],
+  "unexpected_environment_files": [],
+  "credentials_or_private_ledgers_included": false,
+  "limitation": "Pattern scanning cannot prove absence of all possible secrets.",
+  "unresolved_findings": 0,
+  "additional_scanned_download_files": 6,
+  "additional_download_findings": [],
+  "additional_download_scan_scope": "Known credential/private-key/JWT/Bearer patterns in the six actual exported text files; no Git history."
+}

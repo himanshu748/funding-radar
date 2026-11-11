@@ -1,0 +1,8 @@
+
+> funding-radar@0.1.0 format:check
+> prettier --check "shared/**/*.ts" "providers/**/*.ts" "funding-radar/{src,test,scripts}/**/*.ts" "funding-radar/web/**/*.{js,css,html}" "funding-radar/evidence/{readiness-2026-11-10,completion-2026-11-11}/*.json" "**/*.md" package.json tsconfig.json scripts/*.mjs
+
+Checking formatting...
+[warn] funding-radar/evidence/readiness-2026-11-10/browser-checks.json
+[warn] funding-radar/evidence/readiness-2026-11-10/verification.json
+[warn] Code style issues found in 2 files. Run Prettier with --write to fix.

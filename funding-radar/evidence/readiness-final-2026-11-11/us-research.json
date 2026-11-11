@@ -1,0 +1,291 @@
+{
+  "format": "funding-radar-ranked-investor-research-v1",
+  "case_id": 1,
+  "checked_at": "2026-11-11T07:14:38Z",
+  "method": "ordinary_free_public_web_research",
+  "window": {
+    "since": "2025-05-08",
+    "as_of": "2026-11-08"
+  },
+  "scope": "US investor shortlist research only. One evidence-backed ranked firm selected; other firms retained as incomplete research candidates, not padded into the ranked shortlist. No normalized runtime/data/doc changes in this research task.",
+  "original_observations_sha256": "d04351fcce291793f48291673bd07a4271737f1fc940d7d021a054afaab1aac9",
+  "review_file_sha256_for_audit_only": "fb79fdbc15a7d62490ed2c66e431eb5bcbef81357ddf63eee7ad158a615fdd91",
+  "supplement_file_sha256_for_audit_only": "0560fefbb99432d16a27e4a64771b06924ca19950a94ca7f6dc71645b8bbd5d4",
+  "ranked_shortlist": [
+    {
+      "rank": 1,
+      "firm_name": "AlleyCorp",
+      "firm_url": "https://alleycorp.com/",
+      "selection_status": "supported_shortlist_with_dated_policy_and_historical_partner_caveats",
+      "comparable_company": "Actual AI",
+      "comparable_row_id": "76dc0a38-a658-4b83-b9fd-c3a8e98894a9",
+      "record_origin": "tinyset_with_separate_ordinary_web_review",
+      "fit": {
+        "product": "Adjacent AI engineering-management, architecture-governance and review workflow; not represented as an identical automated-code-review product.",
+        "stage": "Comparable seed round and current pre-seed/seed main mandate fit the seed input.",
+        "country": "Comparable company self-reports Seattle, US; AlleyCorp invests in New York and globally.",
+        "limitations": [
+          "No present investment interest or offer is inferred.",
+          "Chequing policy is a dated partner interview, not a guarantee for every practice or this startup.",
+          "Historical lead partner has moved firms; the current pitch route is to AlleyCorp, not to Kenneth at his new firm."
+        ]
+      },
+      "ranking_reason": "Best fully populated evidence-backed firm from the retained US company set: a US seed investment in adjacent AI developer-team workflows, explicit transaction-specific named leader, stage-aligned firm policy and public investment-enquiry route. Direct code-review peers at Vela/Scale remain useful research candidates but lack equally explicit personal deal-lead proof; Scale additionally targets later stages.",
+      "facts": [
+        {
+          "field": "investment_match",
+          "value": {
+            "company": "Actual AI",
+            "round_amount_usd": 3200000,
+            "round_stage": "Seed",
+            "firm_role": "lead",
+            "announced_on": "2025-09-29",
+            "date_precision": "day_secondary_report"
+          },
+          "status": "supported",
+          "source_urls": [
+            "https://www.linkedin.com/posts/auchenberg_seattle-startup-actual-ai-raises-32m-to-activity-7378488617507172352-y8qW",
+            "https://www.geekwire.com/2025/seattle-startup-actual-ai-raises-3-2m-to-build-ai-agents-for-engineering-managers/",
+            "https://actual.ai/about"
+          ],
+          "note": "Company-authored announcement embedded in the named investor’s public repost explicitly confirms completed seed and leadership. The existing exact announcement day remains secondary reporting; no day is inferred from relative LinkedIn labels."
+        },
+        {
+          "field": "deal_partner",
+          "value": {
+            "name": "Kenneth Auchenberg",
+            "role": "Named leader of Actual AI USD3.2M seed while at AlleyCorp",
+            "historical_firm": "AlleyCorp",
+            "current_firm": "Innovation Endeavors",
+            "current_alleycorp_pitch_contact": false
+          },
+          "status": "supported_transaction_specific_primary",
+          "source_urls": [
+            "https://www.linkedin.com/posts/auchenberg_seattle-startup-actual-ai-raises-32m-to-activity-7378488617507172352-y8qW",
+            "https://kenneth.io/about"
+          ],
+          "note": "This replaces the prior quote-only uncertainty for historical leadership. Actual AI expressly says its seed was led by Kenneth at AlleyCorp. His present firm changed; no current AlleyCorp employment is implied."
+        },
+        {
+          "field": "typical_cheque",
+          "value": {
+            "currency": "USD",
+            "min": 1000000,
+            "max": 10000000,
+            "scope": "Range stated by AlleyCorp partner Susannah Shipton when asked investment stage and average cheque size",
+            "policy_as_of": "2026-02-19"
+          },
+          "status": "supported_dated_partner_interview",
+          "source_urls": [
+            "https://www.technyc.org/insights/blog/vc-spotlight-susannah-shipton",
+            "https://alleycorp.com/companies/susannah-shipton/"
+          ],
+          "note": "Direct attributable interview, not a database estimate or round-total inference. Susannah’s current official profile confirms AlleyCorp Partner, Diversified Technology with B2B/consumer marketplace emphasis. Do not label this a guaranteed universal allocation or the Actual AI cheque."
+        },
+        {
+          "field": "stage",
+          "value": "Primarily pre-seed and seed, select Series A; partner interview describes pre-seed through A",
+          "status": "supported_current_firm_and_dated_partner",
+          "source_urls": [
+            "https://alleycorp.com/about-us/",
+            "https://www.technyc.org/insights/blog/vc-spotlight-susannah-shipton"
+          ],
+          "note": "Firm-level stage policy is current about-page text; dated partner statement corroborates early-stage scope."
+        },
+        {
+          "field": "contact",
+          "value": {
+            "kind": "Official investment enquiry route",
+            "email": "info@alleycorp.com",
+            "url": "https://alleycorp.com/contact/"
+          },
+          "status": "supported_explicit_investment_enquiry",
+          "source_urls": [
+            "https://alleycorp.com/about-us/",
+            "https://alleycorp.com/contact/"
+          ],
+          "note": "About page explicitly directs enquiries about AlleyCorp or investments to its contact page, which publishes this email. This is an official investment enquiry route, not an application guarantee. No email sent or delivery test performed."
+        }
+      ],
+      "required_fields_present": {
+        "investment_proof": true,
+        "typical_cheque": true,
+        "stage": true,
+        "transaction_specific_named_partner": true,
+        "real_founder_contact_route": true,
+        "ranking_reason": true
+      },
+      "withheld_fields": [
+        "actual_AlleyCorp_cheque_in_Actual_AI",
+        "current_Actual_AI_responsible_AlleyCorp_partner",
+        "current_investment_interest",
+        "settlement_date"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "actual_personal_lead",
+      "url": "https://www.linkedin.com/posts/auchenberg_seattle-startup-actual-ai-raises-32m-to-activity-7378488617507172352-y8qW",
+      "publisher": "Actual AI company announcement embedded in Kenneth Auchenberg repost on LinkedIn",
+      "kind": "company_primary_reposted_by_transaction_participant",
+      "retrieval": "full_public_body",
+      "checked_at": "2026-11-11T07:14:38Z",
+      "supports": [
+        "completed_seed",
+        "firm_lead",
+        "transaction_specific_named_individual_lead"
+      ],
+      "attributable_excerpt": "our $3.2M seed round led by Kenneth Auchenberg 🛠 at AlleyCorp",
+      "excerpt_word_count": 11,
+      "interpretation": "Express individual transaction leadership. This is stronger than the separately quoted investor praise. Relative post age is not treated as exact announcement date."
+    },
+    {
+      "id": "alley_cheque",
+      "url": "https://www.technyc.org/insights/blog/vc-spotlight-susannah-shipton",
+      "publisher": "Tech:NYC interview of AlleyCorp Partner Susannah Shipton",
+      "kind": "primary_attributable_interview",
+      "published_on": "2026-02-19",
+      "retrieval": "full_public_body",
+      "checked_at": "2026-11-11T07:14:38Z",
+      "supports": ["cheque_range", "early_stage_practice"],
+      "attributable_excerpt": "I invest pre-seed through A ... We will write checks between $1 million and $10 million.",
+      "excerpt_word_count": 16,
+      "interpretation": "Response directly answers stage and average-check-size question. Preserve dated partner/practice scope; do not infer allocation in a named financing."
+    },
+    {
+      "id": "alley_contact",
+      "url": "https://alleycorp.com/contact/",
+      "publisher": "AlleyCorp",
+      "kind": "investor_primary",
+      "retrieval": "full_public_body",
+      "checked_at": "2026-11-11T07:14:38Z",
+      "supports": ["official_contact_email"],
+      "attributable_excerpt": "info@alleycorp.com",
+      "interpretation": "About page explicitly links here for information about the firm or investments; no delivery test or response promise."
+    },
+    {
+      "id": "alley_policy",
+      "url": "https://alleycorp.com/about-us/",
+      "publisher": "AlleyCorp",
+      "kind": "investor_primary",
+      "retrieval": "full_public_body",
+      "checked_at": "2026-11-11T07:14:38Z",
+      "supports": [
+        "preseed_seed_select_A",
+        "global_scope",
+        "investment_enquiry_invitation"
+      ],
+      "attributable_excerpt": "We invest primarily in pre-seed and seed rounds",
+      "interpretation": "Official stage policy, distinct from historical comparable and dated cheque statement."
+    },
+    {
+      "id": "kenneth_current",
+      "url": "https://kenneth.io/about",
+      "publisher": "Kenneth Auchenberg",
+      "kind": "personal_primary_bio",
+      "retrieval": "full_public_body",
+      "checked_at": "2026-11-11T07:14:38Z",
+      "supports": [
+        "current_Innovation_Endeavors_role",
+        "historical_AlleyCorp_move"
+      ],
+      "attributable_excerpt": "Kenneth Auchenberg is a partner at Innovation Endeavors",
+      "interpretation": "Current personal biography and May 13, 2026 joining-announcement link establish that the historic Actual AI leader is no longer a current AlleyCorp contact."
+    },
+    {
+      "id": "susannah_current",
+      "url": "https://alleycorp.com/companies/susannah-shipton/",
+      "publisher": "AlleyCorp",
+      "kind": "investor_primary_profile",
+      "retrieval": "full_public_body",
+      "checked_at": "2026-11-11T07:14:38Z",
+      "supports": ["current_partner_identity", "policy_speaker_scope"],
+      "attributable_excerpt": "focused on Diversified Technology investments with an emphasis on B2B and consumer marketplaces",
+      "interpretation": "Current identity confirms speaker authority; marketplace emphasis is retained rather than pretending the cheque range is a disclosed AI-code-review-specific mandate."
+    }
+  ],
+  "not_in_ranked_shortlist": [
+    {
+      "firm_name": "Vela Partners",
+      "comparable_company": "Bito",
+      "reason": "Strong direct US seed product fit and complete current cheque/stage/intake facts, but exact transaction-specific individual lead is still not primary-established.",
+      "known_facts": {
+        "typical_cheque": "USD100K–500K seed checks; inception through Series A",
+        "route": "Official Founder form, engage@vela.partners, Entrepreneur OS startup/deck intake",
+        "associated_person": "Yigit Ihlamur, current GP quoted in financing announcement"
+      },
+      "missing_required_fields": ["transaction_specific_named_partner_lead"],
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/bito-raises-5-7m-seed-extension-to-expand-ai-code-review-platform-with-codebase-awareness-302464654.html",
+        "https://vela.partners/",
+        "https://vela.partners/contact",
+        "https://vela.partners/entrepreneur-os",
+        "https://vela.partners/contributors"
+      ],
+      "limits": "No promotion from a quote or portfolio listing. A third-party press-profile page says he led Bito, but its provenance/attribution is not established and it is not adopted as verified leadership."
+    },
+    {
+      "firm_name": "Scale Venture Partners",
+      "comparable_company": "CodeRabbit",
+      "reason": "Direct product match but Series A/B policy differs from seed input; precise personal deal leadership unproved.",
+      "known_facts": {
+        "typical_cheque": "USD5M–50M usual initial checks",
+        "stage": "Series A/B, signed customers and repeatable demand",
+        "route": "Official FAQ invites direct sector-partner pitch without required warm introduction",
+        "responsible_portfolio_team": "Andy Vitus with Sabina Smith, explicitly assigned portfolio team"
+      },
+      "missing_required_fields": ["transaction_specific_named_partner_lead"],
+      "source_urls": [
+        "https://www.scalevp.com/frequently-asked-questions",
+        "https://www.scalevp.com/portfolio/coderabbit",
+        "https://www.scalevp.com/team/andy-vitus",
+        "https://www.scalevp.com/blog/announcing-our-investment-in-coderabbit"
+      ],
+      "limits": "Andy/Maggie co-authored firm lead post and assigned team/board role remain qualified. Do not turn them into a personal lead assertion."
+    },
+    {
+      "firm_name": "Menlo Ventures",
+      "comparable_company": "Greptile",
+      "reason": "Direct product match; exact Deedy transaction leadership and general firm cheque range not established.",
+      "known_facts": {
+        "responsible_partner": "Deedy Das, official deal-specific portfolio assignment and board appointment",
+        "historical_round": "October 19, 2026 USD50M Series B led by Menlo"
+      },
+      "missing_required_fields": [
+        "transaction_specific_named_partner_lead",
+        "general_firm_typical_cheque_or_relevant_scoped_policy_match"
+      ],
+      "source_urls": [
+        "https://menlovc.com/team/deedy-das/",
+        "https://menlovc.com/portfolio/greptile/",
+        "https://www.greptile.com/blog/series-b"
+      ],
+      "limits": "Separate Anthology/Inception programme sizes/intakes cannot silently become this firm-wide Series B or general seed mandate."
+    },
+    {
+      "firm_name": "Craft Ventures / Insight Partners / Standard Capital / Qumra Capital / Karma-DIG",
+      "reason": "Targeted search produced association or firm-level leadership rather than an adopted complete record. Not needed to pad the one-firm source-backed shortlist.",
+      "missing_required_fields": [
+        "transaction_specific_named_partner_evidence_for_selected_recent_deal",
+        "complete_policy_and_intake_record_for_selected_firm"
+      ],
+      "limits": "This is a bounded-search outcome, not a claim that such evidence cannot exist."
+    }
+  ],
+  "readiness_interpretation": {
+    "one_to_three_ranked_firms_requirement_from_parent": "One selected firm has every requested evidence field, with dated-policy/historical-lead scope retained. The literal brief does not state a minimum number of ranked investors.",
+    "lead_gap_closed_for": "AlleyCorp / Actual AI historical seed leader Kenneth Auchenberg",
+    "current_contact_not_historical_lead": "Approach current AlleyCorp through official investment enquiries; do not present Kenneth at his present firm as an AlleyCorp route.",
+    "not_proved": "No claim of investment willingness, current open allocation, response guarantee, pipeline acceptance or whole-entry submission readiness. Integration, arbitrary-input/live workflow, product ranking and release gates belong to parent review."
+  },
+  "operations": {
+    "tinyfish": 0,
+    "paid": 0,
+    "outreach": 0,
+    "account_actions": 0,
+    "publication": 0,
+    "runtime_or_normalized_data_edits": 0
+  },
+  "original_observations_preserved": true
+}

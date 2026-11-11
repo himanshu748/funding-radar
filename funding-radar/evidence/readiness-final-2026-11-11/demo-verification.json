@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-11T09:13:49.244705+00:00",
+  "file": "../../docs/media/funding-radar-demo.mp4",
+  "sha256": "ccf05ae879892369622ae918ec7b8b222ee3fae77ef4b3682fd9200b27bc7a24",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "60/1"
+      }
+    ],
+    "format": {
+      "duration": "100.000000",
+      "size": "3476540"
+    }
+  },
+  "format": "Silent captioned edit of actual browser captures; not continuous real-time screen recording. Live-start and completion were captured during the genuine run; other scenes show saved replay.",
+  "review": "Source contact sheet plus rendered date-review and ending frames visually inspected. No fabricated UI, user outcomes or generated voice.",
+  "within_portal_25mb_limit": true
+}

@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-11T08:03:53.535215+00:00",
+  "portal": "https://www.tinybounties.com/crm?view=claims",
+  "bounty": "Funding Radar",
+  "claim_status": "CLAIMED",
+  "claimed_date": "2026-11-11",
+  "submitted": false,
+  "submission_attempted": false,
+  "daily_slot_consumed": false,
+  "form": {
+    "build_url_required": true,
+    "linkedin_url_required": true,
+    "x_url_required": true,
+    "notes_max_characters": 2000,
+    "media_optional": true,
+    "media_max_files": 5,
+    "media_max_bytes_per_file_display": "25 MB"
+  },
+  "global_rule_conflict": "The rulebook says X optional; this actual form marks X required. Prepare both social links. Discord showcase remains required by rulebook.",
+  "final_action": "Owner must make final Submit bounty click; agent will not click it.",
+  "cutoff": {
+    "America/Los_Angeles": "2026-11-17 23:59",
+    "Asia/Kolkata": "2026-11-18 13:29"
+  },
+  "source_snapshots": {
+    "brief_sha256": "bd2467b57e88e53263e8a72837f0adb468762a587b109d92c29b2f5639c90d76",
+    "rulebook_sha256": "6ac425248e7873321008d1d5cf50127282e0a1cef1fdd1511840248d88bb0e9b",
+    "form_sha256": "07ec29bf0d42f55b98bed80a69ef13f7e5387041135f911003608f86d88bfda3"
+  },
+  "public_publication_or_outreach_performed": false
+}

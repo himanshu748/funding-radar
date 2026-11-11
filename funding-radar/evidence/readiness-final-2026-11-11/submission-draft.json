@@ -1,0 +1,12 @@
+{
+  "status": "DRAFT_NOT_READY",
+  "build_url": null,
+  "proposed_repository": "https://github.com/himanshu748/funding-radar",
+  "notes": "Funding Radar helps a founder explain an investor shortlist before sending the first email. Start with product, stage and country, then follow comparable funding rounds to the people and firms behind them.\n\nThree original TinySet investigations cover US developer tools, UK energy software and India payments infrastructure. They retain thirty provider rows. Dated reviews correct or withhold claims, while six separately labelled public-web additions bring reviewed recent-company coverage to ten per case. Those additions are not TinySet output.\n\nThe selected shortlist connects AlleyCorp, Pi Labs, Realyze and Arkam to investment proof, a named responsible deal person, scoped cheque/stage policy and a real founder route. Fit scores explain the order. Historical role changes, firm-versus-round leadership and country/stage differences stay visible. Volve remains conditional; unsupported recent personal-lead claims are excluded.\n\nA new security-compliance brief also completed a genuine run: nineteen returned rows, sixteen raw recent claims and seventeen companies supported by later human review, with no manual additions. Its SignalFire record remains conditional because AI-native eligibility and current programme intake are unconfirmed. No investor is approach-ready for that input. Generic dispatch is real; source verification and investor enrichment remain human-reviewed steps.\n\nThe workbench includes source inspectors, search, filters and JSON/CSV exports. Paid research has explicit start, request identity, status and cancellation; live access defaults off behind an authorized private grant. Local verification passed 131 tests, a fresh-copy install, TypeScript/build/formatting, fifteen desktop-browser checks and twelve actual-download checks. A 100-second captioned demo shows the real workflow. Public access and required promotion links remain pending.",
+  "notes_characters": 1878,
+  "linkedin_url": null,
+  "x_url": null,
+  "discord_url": null,
+  "media": "../../docs/media/funding-radar-demo.mp4",
+  "final_action": "Owner makes the final prize-entry click; this file is neither a submission nor proof of a saved portal draft."
+}

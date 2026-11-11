@@ -1,0 +1,827 @@
+{
+  "checked_at": "2026-11-11T08:15:20.957132+00:00",
+  "kind": "authorized-funding-radar-genuine-live-ui-test",
+  "request_id": "b742b001-ae3f-4069-a25f-731e21cd5c35",
+  "description": "US seed software startup automating security compliance evidence and vendor questionnaires for SaaS teams",
+  "owner_authorization": "Authorize $2 for one live test",
+  "maximum_new_reservation_usd": 2,
+  "aggregate_ceiling_usd": 16,
+  "automatic_retry": false,
+  "target_rows": 20,
+  "returned_rows": 19,
+  "provider_reported_qualifying_companies": 16,
+  "independent_source_review": "pending; not implied by provider success",
+  "dataset_id": "cd007556-5467-4a49-8220-8cc30c124067",
+  "run_id": "41f528da-8e82-4500-a72b-357c0d7a251e",
+  "completed_at": "2026-11-11T07:58:06.138Z",
+  "provider_status": "ready",
+  "ui_result_and_json_csv_exports_confirmed": true,
+  "retained_reservation_microusd": 2000000,
+  "client_row_count_estimate_microusd": 1900000,
+  "invoice_verified": false,
+  "reservation_is_not_verified_charge": true,
+  "price_and_existing_funds_checked_before_create": true,
+  "billing_or_auto_reload_changes": false,
+  "create_requests": 1,
+  "populate_requests": 1,
+  "sanitized_provider_event_count": 113,
+  "sanitized_provider_events": [
+    {
+      "kind": "tinyset-request",
+      "phase": "wallet_pricing",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_create",
+      "method": "POST",
+      "http_status": 201,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_fill",
+      "method": "POST",
+      "http_status": 202,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "dataset_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    },
+    {
+      "kind": "tinyset-request",
+      "phase": "rows_read",
+      "method": "GET",
+      "http_status": 200,
+      "outcome": "response"
+    }
+  ],
+  "old_control_files_unchanged": true,
+  "old_control_file_count": 7,
+  "observation_identity_hash": "0eb26a472b2d7c973d2603d44cd27fd57a1293f435ee9cb365783806ff000a81",
+  "source_export_sha256": "44574976e06ce99745037d6983b396871ef3608cbbbe846701c8518e64c0ad61",
+  "submission_performed": false,
+  "additional_provider_operation_authorized": false
+}

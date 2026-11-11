@@ -1,0 +1,27 @@
+{
+  "name": "funding-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "tsx funding-radar/src/server.ts",
+    "test": "node scripts/run-tests.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "format:check": "prettier --check \"shared/**/*.ts\" \"providers/**/*.ts\" \"funding-radar/{src,test,scripts}/**/*.ts\" \"funding-radar/web/**/*.{js,css,html}\" \"funding-radar/evidence/readiness-2026-11-10/case-*.json\" \"funding-radar/evidence/{completion-2026-11-11,readiness-final-2026-11-11}/*.json\" \"**/*.md\" package.json tsconfig.json scripts/*.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "description": "Find the investment behind the investor, with dated evidence and explicit unknowns."
+}

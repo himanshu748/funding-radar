@@ -1,0 +1,84 @@
+{
+  "format": "funding-radar-observations-v1",
+  "mode": "synthetic_fixture",
+  "dataset_id": "06d4f45a-e86b-4eec-a075-3f131b1ea177",
+  "run_id": "2fccbc12-0da5-4857-a457-55df614ac4b3",
+  "collected_at": "2026-11-08T07:00:00.000Z",
+  "rows": [
+    {
+      "_id": "climate",
+      "data": {
+        "investor_name": "Synthetic climate Capital",
+        "investor_url": "https://climate.example.com",
+        "portfolio_company": "Synthetic climate Labs",
+        "portfolio_url": "https://climatelabs.example.com",
+        "evidence_url": "https://climate.example.com/portfolio",
+        "evidence_summary": "Synthetic climate Capital invested in Synthetic climate Labs, a UK climate startup, at pre-seed on 2026-10-10.",
+        "sector": "climate",
+        "stage": "pre-seed",
+        "geography": "UK",
+        "investment_date": "2026-10-10"
+      }
+    },
+    {
+      "_id": "health",
+      "data": {
+        "investor_name": "Synthetic health Capital",
+        "investor_url": "https://health.example.com",
+        "portfolio_company": "Synthetic health Labs",
+        "portfolio_url": "https://healthlabs.example.com",
+        "evidence_url": "https://health.example.com/portfolio",
+        "evidence_summary": "Synthetic health Capital invested in Synthetic health Labs, a US health startup, at seed on 2026-10-10.",
+        "sector": "health",
+        "stage": "seed",
+        "geography": "US",
+        "investment_date": "2026-10-10"
+      }
+    },
+    {
+      "_id": "payments",
+      "data": {
+        "investor_name": "Synthetic payments Capital",
+        "investor_url": "https://payments.example.com",
+        "portfolio_company": "Synthetic payments Labs",
+        "portfolio_url": "https://paymentslabs.example.com",
+        "evidence_url": "https://payments.example.com/portfolio",
+        "evidence_summary": "Synthetic payments Capital invested in Synthetic payments Labs, a India fintech startup, at series-a on 2026-10-10.",
+        "sector": "fintech",
+        "stage": "series-a",
+        "geography": "India",
+        "investment_date": "2026-10-10"
+      }
+    },
+    {
+      "_id": "education",
+      "data": {
+        "investor_name": "Synthetic education Capital",
+        "investor_url": "https://education.example.com",
+        "portfolio_company": "Synthetic education Labs",
+        "portfolio_url": "https://educationlabs.example.com",
+        "evidence_url": "https://education.example.com/portfolio",
+        "evidence_summary": "Synthetic education Capital invested in Synthetic education Labs, a Europe education startup, at growth on 2026-10-10.",
+        "sector": "education",
+        "stage": "growth",
+        "geography": "Europe",
+        "investment_date": "2026-10-10"
+      }
+    },
+    {
+      "_id": "software",
+      "data": {
+        "investor_name": "Synthetic software Capital",
+        "investor_url": "https://software.example.com",
+        "portfolio_company": "Synthetic software Labs",
+        "portfolio_url": "https://softwarelabs.example.com",
+        "evidence_url": "https://software.example.com/portfolio",
+        "evidence_summary": "Synthetic software Capital invested in Synthetic software Labs, a US software startup, at series-b on 2026-10-10.",
+        "sector": "software",
+        "stage": "series-b",
+        "geography": "US",
+        "investment_date": "2026-10-10"
+      }
+    }
+  ]
+}

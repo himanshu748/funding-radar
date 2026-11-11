@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-11T09:23:35.156626+00:00",
+  "scanner_scope": "Full staged text blobs. No Git history exists yet.",
+  "scanner_result": "Eight known-pattern findings reviewed; standard scan incomplete for eight binary assets. This is not an unqualified clean verdict.",
+  "findings": [
+    {
+      "files": [
+        "funding-radar/evidence/recorded-investigations/fresh-security-export.json",
+        "funding-radar/evidence/recorded-investigations/fresh-security-review.json"
+      ],
+      "rule": "OpenAI-shaped token",
+      "disposition": "False positives: each pattern is contained in a public funding-article URL slug on siliconangle.com. Complete bounded inspection found no standalone credential. Immutable producer bytes are unchanged."
+    },
+    {
+      "files": [
+        "funding-radar/test/recording.test.ts",
+        "funding-radar/test/research-session.test.ts",
+        "providers/test/pricing.test.ts"
+      ],
+      "rule": "Credential assignment",
+      "disposition": "Intentional synthetic strings testing rejection/redaction of secret-like fields; no usable credential."
+    }
+  ],
+  "binary_assets": "Existing local fonts and reviewed Funding Radar screenshots/video; omitted from text scan. Video/capture provenance and artifact-scoped scan are recorded separately.",
+  "artifact_scope_receipt": "../readiness-final-2026-11-11/artifact-scan-final.json",
+  "unresolved_findings": 0,
+  "matched_values_included": false,
+  "raw_keys_or_private_state_included": false
+}

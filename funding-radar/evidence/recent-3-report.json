@@ -1,0 +1,306 @@
+{
+  "format": "funding-radar-recent-report-v2",
+  "mode": "saved_live",
+  "startup": {
+    "description": "India series-a fintech startup building payments software for small businesses",
+    "sectors": [
+      "fintech",
+      "software"
+    ],
+    "stage": "series-a",
+    "geography": "india"
+  },
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "dataset_id": "d12c71ff-3a88-4d15-bc93-cf4be5336399",
+  "run_id": "711052f8-04ec-48c8-8b39-db9dc524c075",
+  "collected_at": "2026-11-08T08:16:59.561Z",
+  "rows": [
+    {
+      "row_id": "c0cf5fdc-bb18-4a6a-b578-e5c4614d4ecc",
+      "company_name": "Bachatt",
+      "company_url": "https://bachatt.app/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": "india",
+      "round_stage": "Series A",
+      "investor_name": "Accel",
+      "investor_url": "https://accel.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Pratik Agarwal",
+        "source_url": "https://bachatt.app/press-release",
+        "summary": "Press release quotes Pratik Agarwal, Partner, Accel, on the Series A investment."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "Comparable sector overlap is not evidenced.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "e71c7064-6ead-4a27-a5dc-ac2a5f18a721",
+      "company_name": "Xflow",
+      "company_url": "https://xflowpay.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "General Catalyst",
+      "investor_url": "https://generalcatalyst.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": {
+        "url": "https://generalcatalyst.com/contact",
+        "source_url": "https://generalcatalyst.com/contact",
+        "summary": "General Catalyst's official 'Connect with Us' page lists its offices and phone numbers (San Francisco +1 415-659-5000; New York +1 212-775-4000; Bengaluru office) as the public contact route."
+      },
+      "unknowns": [
+        "Comparable sector overlap is not evidenced.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "3a6617f3-7bf1-4616-91fb-948f6c9bd374",
+      "company_name": "Knight FinTech",
+      "company_url": "https://knightfintech.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "fintech",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Accel",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "7c28a9a0-6719-479d-aa4a-bbf1640b20b4",
+      "company_name": "Skydo",
+      "company_url": "https://skydo.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "fintech"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Susquehanna Asia Venture Capital",
+      "investor_url": "https://sig-asiavc.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "b5f87367-f65a-48a5-b0ec-8b74cdbade43",
+      "company_name": "BeyondSquare Solutions",
+      "company_url": "https://beyondsquare.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Avant Global Corporation",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "0a9ed518-0bed-450f-938b-a52053756522",
+      "company_name": "GoKwik",
+      "company_url": "https://gokwik.co/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "RTP Global",
+      "investor_url": "https://rtp.vc/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Galina Chifina",
+        "source_url": "https://rtp.vc/views/gokwik-series-growth-round-raise-2025",
+        "summary": "RTP Global's own portfolio-news post on GoKwik's $13M round quotes 'Galina Chifina, Partner and CEO at RTP Global', identifying her as the RTP Global partner commenting on and leading the deal."
+      },
+      "contact_route": {
+        "url": "https://rtp.vc/contact",
+        "source_url": "https://rtp.vc/contact",
+        "summary": "RTP Global's official website contact page (https://rtp.vc/contact) is the firm's public enquiry route for deal and general contacts."
+      },
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "14d0a0d1-bc81-4e09-b3b3-35c3b77d629a",
+      "company_name": "Recur Club",
+      "company_url": "https://recur.club/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "InfoEdge Ventures",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Investor identity is unresolved.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "7f9cd6d5-4996-42dc-a006-c40b41b98daa",
+      "company_name": "FinBox",
+      "company_url": "https://finbox.in/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "WestBridge Capital",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Investor identity is unresolved.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "fbfafac2-a527-46d8-9668-2ae528733f41",
+      "company_name": "Snapmint",
+      "company_url": "https://snapmint.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "fintech"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "General Atlantic",
+      "investor_url": "https://generalatlantic.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Shantanu Rastogi",
+        "source_url": "https://generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform",
+        "summary": "In the official 31 Oct 2025 General Atlantic press release, Shantanu Rastogi, Managing Director and Head of India at General Atlantic, is quoted on the Snapmint investment, identifying him as the GA partner on the deal."
+      },
+      "contact_route": {
+        "url": "https://generalatlantic.com/contact",
+        "source_url": "https://generalatlantic.com/contact",
+        "summary": "General Atlantic's official Contact page lists general and media enquiry emails plus the Mumbai office address (Level 19, Birla Aurora, Worli, Mumbai, +91 68 28522000) as public contact routes."
+      },
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "689527c3-f0bc-4051-ac8a-bccc33460158",
+      "company_name": "Optimo Capital",
+      "company_url": "https://optimocapital.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "Blume Ventures",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": {
+        "name": "Ashish Fafadia",
+        "source_url": "https://blume.vc/optimo-loans",
+        "summary": "Blume Ventures' official portfolio page for Optimo Loans names Ashish Fafadia as the Investment Lead and notes Blume partnered in 2024 via Fund IV."
+      },
+      "contact_route": {
+        "url": "https://blume.vc/contact-us",
+        "source_url": "https://blume.vc/contact-us",
+        "summary": "Blume Ventures' official Contact Us page gives the firm's public contact instructions for media and investor-relations enquiries (cold pitches are explicitly not accepted)."
+      },
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Investor identity is unresolved.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque."
+      ],
+      "evidence": null
+    }
+  ],
+  "investors": [],
+  "coverage": {
+    "scope": "ten_recent_company_evidence_only",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 0,
+    "complete": false,
+    "shortfall": 10
+  },
+  "warning": "Provider-reported recent-company research; source truth is not independently verified. Unknown cheque, stage, partner and contact fields are explicit. No current mandate or funding outcome is promised."
+}

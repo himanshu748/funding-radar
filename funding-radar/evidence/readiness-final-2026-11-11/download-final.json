@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-11T09:13:49.244705+00:00",
+  "method": "Actual browser JSON and CSV downloads, then local content validation",
+  "checks": {
+    "request_id_retained": true,
+    "recorded_live_origin": true,
+    "saved_live_collection": true,
+    "original_rows_19": true,
+    "reviewed_recent_17": true,
+    "excluded_2": true,
+    "zero_approach_ready": true,
+    "fresh_research_off": true,
+    "not_a_release_approval": true,
+    "csv_19_rows": true,
+    "csv_provenance_columns": true,
+    "csv_original_rows_separate": true
+  },
+  "passed": 12,
+  "sha256": {
+    "json": "32d8c4dddd90dc1f96740fe1d8e41b19011093bcb993ea3f5b65953f6a27b8a5",
+    "csv": "82c5745890384818c6da29d805a6c006e316239a107deb8e82067a1add8aaaf3"
+  },
+  "provider_calls": 0
+}

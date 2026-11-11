@@ -1,0 +1,41 @@
+OFFLINE VERIFICATION; synthetic provider stubs only; no live calls
+Command: npx tsx --test funding-radar/test/core.test.ts zombie-check/test/core.test.ts zombie-check/test/io.test.ts zombie-check/test/transport.test.ts
+Exit: 0
+✔ one-line startup plans are bounded, differentiated, schema-valid and never populate automatically (9.880667ms)
+✔ different startup inputs produce explainably different rankings without a funding promise (25.88ms)
+✔ aggregators, ambiguous identity, stale observations, blocked rows and negated investment claims stay unresolved (7.390833ms)
+✔ duplicate identities and fabricated stage/date fields cannot improve a score (1.669041ms)
+✔ partial saved results disclose incomplete coverage instead of filling missing investors (0.399541ms)
+✔ CLI reads explicit synthetic observations, exports explainable CSV and refuses overwrite (829.593375ms)
+✔ 500 supplied rows become bounded explicit-identity plans without starting paid fills (31.717292ms)
+✔ quoted CSV data survives and malformed/ambiguous source rows fail explicitly (2.757792ms)
+✔ invalid rows remain in the sheet while repeated websites keep separate source IDs (1.167458ms)
+✔ public URL syntax excludes credentials, private literals, access links and fragments (2.197792ms)
+✔ long identity manifests split before provider bounds without losing rows (1.705125ms)
+✔ paginated rows follow documented cursors and reject repeated or contradictory progress (0.865584ms)
+✔ page errors, bounds and cancellation never return an apparently complete partial set (2.965292ms)
+✔ every one of 500 inputs survives missing, blocked, off-domain and unmatched results (21.028584ms)
+✔ negative absence, ambiguous identity and hostile page-style instructions do not prove closure (1.602625ms)
+✔ conflicting, stale and future-effective evidence stays unresolved (1.2925ms)
+✔ job status needs the exact job page and cannot borrow company-homepage activity (0.986625ms)
+✔ CSV output neutralizes spreadsheet formulas without changing original JSON data (0.70925ms)
+✔ shared-site paths and future closure language cannot borrow a current dead verdict (1.1ms)
+Wrote 500 explicitly synthetic input rows. These are not live business records.
+Prepared 20 non-populating request plans; zero provider calls.
+✔ documented CLI produces a 500-row synthetic plan without importing keys or running a provider (69.3255ms)
+✔ saved observation files require declared provenance and documented row envelopes (9.371583ms)
+✔ unsupported credential-bearing input URLs never reach report or plan artifacts (1.905958ms)
+✔ 500-row TinySet proof cannot be started under the ten-dollar shared pool (11.189875ms)
+✔ TinySet defaults off and actual grant row bounds reject before any provider request (85.495208ms)
+✔ TinySet reserves before explicit non-populating creation and single bounded fill; cursor pages are complete (144.2385ms)
+✔ response loss after fill triggers one cancellation and confirms terminal accounting without a paid retry (81.928833ms)
+✔ a cancelling receipt without terminal confirmation halts the shared pool (81.835666ms)
+✔ broken pages fail without a fixture or partial result; a finished remote run remains accounted (67.87125ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1690.266625

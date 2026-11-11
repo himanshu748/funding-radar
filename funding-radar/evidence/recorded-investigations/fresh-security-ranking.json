@@ -1,0 +1,116 @@
+{
+  "format": "funding-radar-reviewed-ranking-v1",
+  "checked_at": "2026-11-11T08:47:02.558Z",
+  "research_snapshot_sha256": "9cc203f5cd349f52cf9ba056922fb30fb8584b88acd4af9747ba67dadaab3cfa",
+  "scope": "Dated investor research for the genuinely unseen security-compliance input. SignalFire has sourced investment, named firm-investment responsibility, a scoped seed cheque range and a real founder-facing contact. Its AI-specific route and current intake remain unconfirmed for this input, so it is a conditional watchlist record, not an approach-ready recommendation. No extra provider run or outreach occurred.",
+  "investors": [
+    {
+      "investor_name": "SignalFire",
+      "investor_url": "https://www.signalfire.com/",
+      "typical_cheque": {
+        "minimum": 1000000,
+        "maximum": 5000000,
+        "currency": "USD",
+        "scope": "Planned seed-stage commitments for the 2025 fund vintage, reported in an original April 7, 2025 interview with founder Chris Farmer; not Conveyor's allocation or the firm's entire multi-stage range.",
+        "summary": "USD 1M–5M at seed in the published 2025 deployment plan. Reconfirm the range for a current raise; this is a dated fund-strategy statement, not guaranteed capacity.",
+        "source_urls": [
+          "https://news.crunchbase.com/venture/signalfire-new-fund-seed-early-stage-applied-ai/"
+        ]
+      },
+      "stage_focus": {
+        "values": [
+          "Pre-seed",
+          "Seed",
+          "Series A",
+          "Series B"
+        ],
+        "summary": "The current published firm strategy targets applied-AI companies from pre-seed through Series B, including cybersecurity and enterprise workflows. Seed is explicitly included despite the Series B comparable.",
+        "source_urls": [
+          "https://www.signalfire.com/blog/signalfire-raises-one-billion-in-new-capital",
+          "https://www.signalfire.com/team/tony-pezzullo"
+        ]
+      },
+      "geography_focus": {
+        "values": [
+          "United States"
+        ],
+        "summary": "The reviewed investment is in San Francisco-based Conveyor, establishing a US investment precedent. This pass did not find an exhaustive current country-eligibility policy.",
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/conveyor-raises-20m-series-b-to-lead-the-agentic-ai-race-in-customer-trust-automation-for-security-reviews-and-rfps-302479538.html"
+        ]
+      },
+      "geography_fit": "supported",
+      "geography_fit_note": "The target is US-based and the dated issuer release identifies the comparable as San Francisco-based. This supports a US precedent; it does not establish every founder's eligibility, domicile rules or current geographic mandate.",
+      "similar_companies": [
+        {
+          "company_row_id": "11c59b97-f7ed-413e-99b7-7d12b2229eef",
+          "company_country": "United States",
+          "product_fit": "direct",
+          "fit_summary": "Conveyor automates customer security reviews, questionnaires, trust-center document access and RFPs: directly relevant to the target's compliance-evidence/vendor-questionnaire workflow. Its USD 20M Series B is later-stage than the target seed round.",
+          "investment_source_urls": [
+            "https://www.prnewswire.com/news-releases/conveyor-raises-20m-series-b-to-lead-the-agentic-ai-race-in-customer-trust-automation-for-security-reviews-and-rfps-302479538.html",
+            "https://www.signalfire.com/blog/conveyor-investor"
+          ],
+          "lead": {
+            "name": "Tony Pezzullo",
+            "title": "Partner at SignalFire; Principal in the June 2025 issuer release",
+            "role": "Named SignalFire investment representative and transaction-linked Conveyor board director; firm-investment responsibility supported by combined first-person and transaction evidence.",
+            "attribution": "first_person_with_transaction_corroboration",
+            "summary": "Tony personally announced SignalFire leading the Series B and his partnership with the founder, contributed the firm's investment article, and was named by Conveyor as joining its board as part of that raise. These independent first-person/company statements establish a transaction-specific responsible person beyond a press quotation.",
+            "qualification": "SignalFire is the expressly named round-leading firm. The combined sources support Tony's responsibility for the firm's investment and associated board representation; they do not say he was sole negotiator, sole decision-maker or personally the overall syndicate leader. Do not flatten these roles into an unqualified personal round-lead claim.",
+            "current_status": "The currently published firm profile lists Tony as a SignalFire Partner and includes seed, cybersecurity and Series A/B focus; the issuer release used Principal at announcement.",
+            "team_continuity": "same_firm",
+            "source_urls": [
+              "https://www.linkedin.com/posts/tonypezzullo_big-news-signalfire-is-leading-conveyor-activity-7338962134522806275-llXW",
+              "https://www.linkedin.com/posts/conveyorhq_were-thrilled-to-have-tony-pezzullo-from-activity-7341156069391446016-Or1O",
+              "https://www.signalfire.com/blog/conveyor-investor",
+              "https://www.signalfire.com/team/tony-pezzullo"
+            ]
+          }
+        }
+      ],
+      "contact_route": {
+        "url": "https://www.signalfire.com/blog/ai-lab",
+        "email": "ailab@signalfire.com",
+        "type": "investment_email",
+        "summary": "Officially published AI Lab founder inquiry route for experienced founders, big-tech managers or sector experts building an AI startup. The contact article is dated June 2023; the firm's 2025 strategy still identifies AI Lab as an early-founder initiative. This is program-specific, not Tony's direct inbox, a general pitch form, or a delivery-tested promise of active intake.",
+        "source_urls": [
+          "https://www.signalfire.com/blog/ai-lab",
+          "https://www.signalfire.com/blog/signalfire-raises-one-billion-in-new-capital",
+          "https://www.businesswire.com/news/home/20250407594969/en/AI-Native-VC-SignalFire-Raises-Over-%241B-to-Fuel-the-Next-Wave-of-Applied-AI-Startups-Pushing-AUM-to-%243B"
+        ]
+      },
+      "fit_conditions": [
+        {
+          "condition": "The startup must match the applied-AI programme scope",
+          "status": "unconfirmed",
+          "detail": "The input describes workflow automation but does not state that the startup is AI-native. Confirm programme relevance before using this route.",
+          "source_urls": [
+            "https://www.signalfire.com/blog/ai-lab",
+            "https://www.signalfire.com/blog/signalfire-raises-one-billion-in-new-capital",
+            "https://www.businesswire.com/news/home/20250407594969/en/AI-Native-VC-SignalFire-Raises-Over-%241B-to-Fuel-the-Next-Wave-of-Applied-AI-Startups-Pushing-AUM-to-%243B"
+          ]
+        },
+        {
+          "condition": "Current programme intake must be confirmed",
+          "status": "unconfirmed",
+          "detail": "The official founder contact remains published, but the original contact article is dated2023 and this check does not confirm current cohort intake or response.",
+          "source_urls": [
+            "https://www.signalfire.com/blog/ai-lab",
+            "https://www.signalfire.com/blog/signalfire-raises-one-billion-in-new-capital",
+            "https://www.businesswire.com/news/home/20250407594969/en/AI-Native-VC-SignalFire-Raises-Over-%241B-to-Fuel-the-Next-Wave-of-Applied-AI-Startups-Pushing-AUM-to-%243B"
+          ]
+        }
+      ],
+      "cautions": [
+        "The brief does not explicitly say the startup uses AI. SignalFire's current published thesis and this founder route are applied-AI oriented; establish that fit before treating the route as suitable.",
+        "Conveyor is an existing company in the exact target workflow. A relevant portfolio investment may also create competition/conflict constraints; no conflict clearance or willingness to back a direct competitor was obtained.",
+        "The comparable is Series B. The separately sourced seed mandate and USD 1M–5M seed-plan range establish stage relevance, not an actual cheque offered to this startup.",
+        "The founder route is a published program-specific email. Current cohort intake, deliverability and response likelihood were not tested; no outreach was sent.",
+        "Tony's precise firm-investment responsibility uses combined first-person plus transaction corroboration. Preserve that attribution and distinguish it from the firm leading the overall round.",
+        "US geography is supported by a directly sourced US investment precedent, not an exhaustive eligibility policy. Confirm domicile and current mandate with the firm."
+      ]
+    }
+  ],
+  "provider_operations_started": 0
+}

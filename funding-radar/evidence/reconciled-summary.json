@@ -1,0 +1,119 @@
+{
+  "kind": "funding-radar-existing-evidence-finalization",
+  "new_provider_operations": 0,
+  "originals_preserved": true,
+  "generated_at": "2026-11-08T09:11:47.500Z",
+  "inputs": [
+    {
+      "input": 1,
+      "description": "US seed developer software startup building automated code review for engineering teams",
+      "coverage": {
+        "scope": "ten_provider_reported_recent_company_claims",
+        "required_similar_companies": 10,
+        "raw_rows": 10,
+        "distinct_recent_similar_companies": 9,
+        "complete": false,
+        "shortfall": 1
+      },
+      "investors": 8,
+      "date_precision": {
+        "day": 9,
+        "month": 0,
+        "unestablished": 1
+      },
+      "source_checks": {
+        "provider": "tinyfish-fetch",
+        "artifact": "source-audit-v2.json",
+        "original_source_operations": 20,
+        "new_provider_operations": 0,
+        "unit_price_microusd": 0,
+        "fetched": 12,
+        "not_corroborated": 8,
+        "halted": false,
+        "rows_with_retrieved_source": 3,
+        "rows_with_uncorroborated_source": 3,
+        "rows_not_checked": 4,
+        "warning": "Retrieval, text presence and publication metadata are separate from semantic investment verification. Redirect rejections were not retried."
+      },
+      "unknown_fields": {
+        "cheque": 10,
+        "lead_partner": 9,
+        "contact_route": 7
+      }
+    },
+    {
+      "input": 2,
+      "description": "UK seed climate software startup forecasting energy flexibility for grid operators",
+      "coverage": {
+        "scope": "ten_provider_reported_recent_company_claims",
+        "required_similar_companies": 10,
+        "raw_rows": 10,
+        "distinct_recent_similar_companies": 9,
+        "complete": false,
+        "shortfall": 1
+      },
+      "investors": 6,
+      "date_precision": {
+        "day": 9,
+        "month": 0,
+        "unestablished": 1
+      },
+      "source_checks": {
+        "provider": "tinyfish-fetch",
+        "artifact": "source-audit-v2.json",
+        "original_source_operations": 20,
+        "new_provider_operations": 0,
+        "unit_price_microusd": 0,
+        "fetched": 12,
+        "not_corroborated": 8,
+        "halted": false,
+        "rows_with_retrieved_source": 3,
+        "rows_with_uncorroborated_source": 4,
+        "rows_not_checked": 3,
+        "warning": "Retrieval, text presence and publication metadata are separate from semantic investment verification. Redirect rejections were not retried."
+      },
+      "unknown_fields": {
+        "cheque": 10,
+        "lead_partner": 6,
+        "contact_route": 9
+      }
+    },
+    {
+      "input": 3,
+      "description": "India series-a fintech startup building payments software for small businesses",
+      "coverage": {
+        "scope": "ten_provider_reported_recent_company_claims",
+        "required_similar_companies": 10,
+        "raw_rows": 10,
+        "distinct_recent_similar_companies": 9,
+        "complete": false,
+        "shortfall": 1
+      },
+      "investors": 5,
+      "date_precision": {
+        "day": 5,
+        "month": 4,
+        "unestablished": 1
+      },
+      "source_checks": {
+        "provider": "tinyfish-fetch",
+        "artifact": "source-audit-v2.json",
+        "original_source_operations": 20,
+        "new_provider_operations": 0,
+        "unit_price_microusd": 0,
+        "fetched": 12,
+        "not_corroborated": 8,
+        "halted": false,
+        "rows_with_retrieved_source": 1,
+        "rows_with_uncorroborated_source": 1,
+        "rows_not_checked": 8,
+        "warning": "Retrieval, text presence and publication metadata are separate from semantic investment verification. Redirect rejections were not retried."
+      },
+      "unknown_fields": {
+        "cheque": 10,
+        "lead_partner": 6,
+        "contact_route": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-11-10T11:01:22.463280+00:00",
+  "method": "actual_in_app_browser",
+  "provider_operations_started": 0,
+  "bounty_submissions_started": 0,
+  "checks": [
+    {
+      "id": "landing",
+      "status": "PASS",
+      "detail": "Landing page and saved workspace loaded in the in-app browser."
+    },
+    {
+      "id": "three_saved_cases",
+      "status": "PASS",
+      "detail": "Developer tools, climate/energy and India fintech showed 8/6/6 reviewed recent companies from 10 original rows each."
+    },
+    {
+      "id": "original_vs_review",
+      "status": "PASS",
+      "detail": "CodeAnt retained original May 8 claim and separate month-only boundary conflict."
+    },
+    {
+      "id": "old_round_excluded",
+      "status": "PASS",
+      "detail": "Climate status filter isolated Amperon: original 2026 label vs reviewed 2023 financing."
+    },
+    {
+      "id": "keyboard_tab_navigation",
+      "status": "PASS",
+      "detail": "Right Arrow selected Investor candidates from Companies."
+    },
+    {
+      "id": "dialog_escape_focus",
+      "status": "PASS",
+      "detail": "Escape closed inspector and restored focus to the Amperon inspect button."
+    },
+    {
+      "id": "investor_fact_review",
+      "status": "PASS",
+      "detail": "6 Degrees showed scoped EUR 1M-7.5M initial range and contact source; exact deal partner stayed unknown."
+    },
+    {
+      "id": "empty_search",
+      "status": "PASS",
+      "detail": "Unmatched company search showed clear empty state and reset action."
+    },
+    {
+      "id": "india_date_correction",
+      "status": "PASS",
+      "detail": "Xflow inspector separated original Feb 23 from investor announcement Feb 24."
+    },
+    {
+      "id": "browser_json_export",
+      "status": "PASS",
+      "detail": "Actual case 2 download parsed with 10 rows, 6 reviewed and 2 excluded; submission_ready false."
+    },
+    {
+      "id": "browser_csv_export",
+      "status": "PASS",
+      "detail": "Actual case 1 CSV downloaded with original/review date columns and review statuses."
+    },
+    {
+      "id": "different_startup_plan",
+      "status": "PASS",
+      "detail": "France health/radiology brief produced local 10-row plan, preserving unrecognized country in full description."
+    },
+    {
+      "id": "browser_plan_export",
+      "status": "PASS",
+      "detail": "Actual plan download retained input, provider_calls 0, live_dispatch_allowed false and populate false."
+    },
+    {
+      "id": "manual_reduced_motion",
+      "status": "PASS",
+      "detail": "User control set data-motion off; CSS disables animation/transition."
+    },
+    {
+      "id": "desktop_layout_bounds",
+      "status": "PASS",
+      "detail": "Observed DOM viewport width 1280 and page scrollWidth 1280; no horizontal document overflow."
+    },
+    {
+      "id": "mobile_viewport",
+      "status": "NOT_TESTED",
+      "detail": "In-app browser viewport override was previously ineffective; owner requested keeping checks in that browser. No alternate automation used."
+    },
+    {
+      "id": "os_motion_preference",
+      "status": "NOT_TESTED",
+      "detail": "OS reduced-motion emulation not available in this check; manual preference passed."
+    }
+  ],
+  "known_capture_limit": "Native in-app screenshots show a narrower visible pane than the1280px DOM viewport; no full-device/mobile visual claim.",
+  "final_standalone_smoke": {
+    "checked_at": "2026-11-10T11:34:48.800591+00:00",
+    "status": "PASS",
+    "detail": "Reloaded final standalone code: all three saved cases showed 8/10. The selected climate case showed 8 reviewed, 10 original and 0 pending, with the latest 11:22 source-review time.",
+    "reviewed_recent_counts": [
+      8,
+      8,
+      8
+    ],
+    "source_manifest_sha256": "efa90729fbfadd050267115d318cf216aeec0c14f9f732363cf5852781550b2e"
+  }
+}

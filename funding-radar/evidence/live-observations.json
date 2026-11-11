@@ -1,0 +1,84 @@
+{
+  "format": "funding-radar-observations-v1",
+  "mode": "saved_live",
+  "dataset_id": "ff28b18c-67d0-4a9b-aa02-ec307b963b5a",
+  "run_id": "8b4f1b82-ebfa-4f0c-b506-ea76892f0fb3",
+  "collected_at": "2026-11-08T07:30:14.590Z",
+  "rows": [
+    {
+      "_id": "5327913b-fe57-4d10-9dc0-fdaef586767f",
+      "data": {
+        "investor_name": "Sustainable Ventures",
+        "investor_url": "https://sustainableventures.co.uk/investment",
+        "portfolio_company": "Sennen Tech",
+        "portfolio_url": "https://sennen.tech",
+        "evidence_url": "https://sustainableventures.co.uk/portfolio-companies",
+        "evidence_summary": "Sustainable Ventures, a UK early-stage climate tech fund, lists Sennen Tech on its portfolio page as backed in 2019; Sennen Tech develops software for managing complex renewable power generation projects for energy operators.",
+        "sector": "Climate tech software / renewable energy asset management",
+        "stage": "Early stage",
+        "geography": "United Kingdom",
+        "investment_date": null
+      }
+    },
+    {
+      "_id": "fd15aa50-1013-4e6b-838d-145a9e3b06be",
+      "data": {
+        "investor_name": "Bethnal Green Ventures",
+        "investor_url": "https://bethnalgreenventures.com",
+        "portfolio_company": "Piclo",
+        "portfolio_url": "https://piclo.energy",
+        "evidence_url": "https://bethnalgreenventures.com/portfolio",
+        "evidence_summary": "Bethnal Green Ventures' official portfolio page lists Piclo, a smart and flexible energy system venture, under its 'A Sustainable Planet' theme, documenting BGV's investment in this UK energy software company.",
+        "sector": "Energy software / climate tech",
+        "stage": "Pre-seed/early-stage",
+        "geography": "UK",
+        "investment_date": "2020-12-23"
+      }
+    },
+    {
+      "_id": "710dfe63-3bac-46a5-9890-9338516f476b",
+      "data": {
+        "investor_name": "Green Angel Syndicate",
+        "investor_url": "https://greenangelsyndicate.com",
+        "portfolio_company": "enee.io",
+        "portfolio_url": "https://enee.io",
+        "evidence_url": "https://greenangelventures.com/news/green-angel-syndicate-completes-investment-in-ambitious-new-battery-monitoring-technology",
+        "evidence_summary": "Green Angel Syndicate led enee.io's \u00a31m+ funding round (announced 12 Dec 2022), funding development of its energy monitoring/management software platform.",
+        "sector": "Climate / energy management software (IoT monitoring)",
+        "stage": "Early-stage (pre-seed/seed, S/EIS)",
+        "geography": "UK (Manchester)",
+        "investment_date": "2022-12-12"
+      }
+    },
+    {
+      "_id": "510c54e9-1ada-4119-8f2c-4439f1f41e60",
+      "data": {
+        "investor_name": "Octopus Ventures",
+        "investor_url": "https://octopusventures.com",
+        "portfolio_company": "Metris Energy",
+        "portfolio_url": "https://metrisenergy.com",
+        "evidence_url": "https://octopusventures.com/blog/our-investment-in-metris",
+        "evidence_summary": "Octopus Ventures announced it co-led Metris Energy's $2.3 million pre-seed round (blog dated 24 Jan 2024), backing its AI-powered solar assessment and management platform for commercial property owners across Europe.",
+        "sector": "Climate tech / solar energy software",
+        "stage": "Pre-seed",
+        "geography": "UK / Europe",
+        "investment_date": "2024-01-24"
+      }
+    },
+    {
+      "_id": "259a611e-25b9-4c2c-976e-b6a0af8d3d4c",
+      "data": {
+        "investor_name": "Aenu VC",
+        "investor_url": "https://aenu.com",
+        "portfolio_company": "Metris Energy",
+        "portfolio_url": null,
+        "evidence_url": "https://businesscloud.co.uk/news/metris-energy-raises-2m-to-power-up-solar-economy",
+        "evidence_summary": "Aenu VC co-led a \u00a32 million pre-Seed round in Metris Energy, a UK AI-powered solar energy platform for commercial property owners, alongside Octopus Ventures. The funding supports development of Metris's end-to-end platform that assesses, installs and monetises solar energy for commercial real estate.",
+        "sector": "Climate tech / solar software",
+        "stage": "pre-Seed",
+        "geography": "United Kingdom",
+        "investment_date": "2024-01-24"
+      }
+    }
+  ]
+}

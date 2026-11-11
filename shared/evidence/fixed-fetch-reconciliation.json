@@ -1,0 +1,22 @@
+{
+  "kind": "explicit_operator_reviewed_fixed_fetch_reconciliation",
+  "grant_id": "835e303b-344c-4726-8bb9-2bfd6a3c22ff",
+  "reservation_id": "993eb48e-fbc0-46c9-a42d-0d4b09812663",
+  "request_id": "4cd44917-6555-43ee-8a7f-3ed5e6a6453e",
+  "policy_id": "fetch-public",
+  "http_status_class": "2xx",
+  "http_status": null,
+  "error_code": "RESPONSE_TOO_LARGE",
+  "evidence_sha256": "01ae344c8da3057d5f190f376aa1ab58e07c8d3d3aa0128ebcbf5dc7ce6a61ba",
+  "reconciled_at": "2026-11-08T07:38:41.472Z",
+  "action": "fixed_fetch_terminal_failure",
+  "reserved_microusd_retained": 0,
+  "operations_before": 27,
+  "operations_after": 27,
+  "reserved_microusd_before": 3000000,
+  "reserved_microusd_after": 3000000,
+  "grant_and_binding_unchanged": true,
+  "ledger_reset": false,
+  "reservation_refund": false,
+  "provider_requests_during_reconciliation": 0
+}

@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-11-11T09:04:09.265039+00:00",
+  "status": "LOCAL_RELEASE_CANDIDATE_VERIFIED_PUBLICATION_PENDING",
+  "source_manifest": "source-manifest.json",
+  "source_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
+  "source_files_count": 84,
+  "software": {
+    "tests": {
+      "passed": 131,
+      "failed": 0,
+      "skipped": 0,
+      "receipt": "tests-final.txt"
+    },
+    "typecheck": "typecheck-final.txt",
+    "build": "build-final.txt",
+    "format": "format-final.txt"
+  },
+  "clean_install": "clean-install.json",
+  "browser": {
+    "receipt": "browser-final.json",
+    "passed": 15,
+    "total": 15
+  },
+  "actual_download_content_checks": {
+    "receipt": "download-final.json",
+    "passed": 12
+  },
+  "recorded_demo": "demo-verification.json",
+  "artifact_scan": "artifact-scan-final.json",
+  "preservation": "preservation-final.json",
+  "independent_review": "INDEPENDENT_FINAL_REVIEW.md",
+  "original_demo_coverage": {
+    "original_rows": [10, 10, 10],
+    "reviewed_original_companies": [8, 8, 8],
+    "separate_public_web_additions": [2, 2, 2],
+    "reviewed_recent": [10, 10, 10],
+    "usable_reviewed_investors": [1, 2, 1]
+  },
+  "new_live_test": {
+    "receipt": "live-test.json",
+    "attempts": 1,
+    "requested_rows_ceiling": 20,
+    "returned_rows": 19,
+    "reviewed_recent": 17,
+    "manual_company_additions": 0,
+    "excluded": 2,
+    "usable_investors": 0,
+    "conditional_investors": 1,
+    "funding_reservation_usd": 2,
+    "row_count_estimate_usd": 1.9,
+    "settled_invoice_verified": false,
+    "additional_calls_authorized": false
+  },
+  "publication_performed": false,
+  "submission_performed": false,
+  "submission_ready": false,
+  "eligibility": {
+    "checked_at": "2026-11-11T09:04:09.265039+00:00",
+    "method": "Authenticated portal Overview visibly displays Student CURRENT; no profile/account edits.",
+    "status": "current_student_program_observed"
+  },
+  "original_work_review": {
+    "scope": "Implementation/source inventory and independent technical review; product built for this bounty. References informed principles; no existing competing product or external app repository is vendored. Shared own budget/provider modules and their provenance remain visible.",
+    "limitation": "Not an organizer originality ruling or exhaustive internet similarity audit."
+  },
+  "remaining_gates": [
+    "Owner approval to publish reviewed Funding Radar code/public evidence/media and shown social copy.",
+    "Usable public build URL and required LinkedIn, X and TinyFish Discord share URLs with target-side readbacks.",
+    "Final public-access/originality/eligibility/deadline and actual portal-field checks before READY.",
+    "Owner-only final prize-entry click; verify submitted/in-review only afterward."
+  ],
+  "nonmandatory_limits": [
+    "Mobile viewport and OS reduced-motion emulation remain unverified in the in-app browser; desktop keyboard/manual motion were checked.",
+    "General input dispatch is real; semantic verification and investor enrichment remain human-reviewed steps. The fourth input supplies a conditional watchlist, not a fully actionable fresh shortlist or all-input autonomous guarantee."
+  ]
+}

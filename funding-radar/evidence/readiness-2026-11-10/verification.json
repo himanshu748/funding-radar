@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-11-10T11:30:33.580264+00:00",
+  "status": "LOCAL_PACKAGE_VERIFIED_NOT_READY",
+  "node": "v26.12.0",
+  "source_manifest_sha256": "efa90729fbfadd050267115d318cf216aeec0c14f9f732363cf5852781550b2e",
+  "source_manifest": "source-manifest.json",
+  "source_files_count": 63,
+  "isolated_package_install": {
+    "command": "npm ci --ignore-scripts",
+    "exit_code": 0,
+    "vulnerabilities_reported": 0
+  },
+  "checks": {
+    "tests": {
+      "command": "npm test",
+      "exit_code": 0,
+      "receipt": "tests.txt",
+      "passed": 78
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "exit_code": 0,
+      "receipt": "typecheck.txt"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "receipt": "build.txt"
+    },
+    "format": {
+      "command": "npm run format:check",
+      "exit_code": 0,
+      "receipt": "format.txt"
+    }
+  },
+  "funding_tests": 29,
+  "package_tests": 78,
+  "browser_receipt": "browser-checks.json",
+  "reviewed_recent_counts": [
+    8,
+    8,
+    8
+  ],
+  "provider_operations_during_software_gate": 0,
+  "authorized_provider_attempt_receipt": "supplement-outcome.json",
+  "old_controls_unchanged": true,
+  "original_tinyset_observations_preserved": true,
+  "publication_performed": false,
+  "submission_performed": false,
+  "submission_ready": false,
+  "remaining_gates": [
+    "Ten supported recent comparables per case; current coverage is 8/8/8.",
+    "Complete investor cheque, exact recent-deal partner and contact evidence; zero approach-ready matches.",
+    "Broad-input live behavior, final access/video/promotion and authenticated destination checks.",
+    "Mobile viewport and OS motion emulation unverified."
+  ]
+}

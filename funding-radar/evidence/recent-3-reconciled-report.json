@@ -1,0 +1,686 @@
+{
+  "format": "funding-radar-recent-report-v2",
+  "mode": "saved_live",
+  "startup": {
+    "description": "India series-a fintech startup building payments software for small businesses",
+    "sectors": [
+      "fintech",
+      "software"
+    ],
+    "stage": "series-a",
+    "geography": "india"
+  },
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "dataset_id": "d12c71ff-3a88-4d15-bc93-cf4be5336399",
+  "run_id": "711052f8-04ec-48c8-8b39-db9dc524c075",
+  "collected_at": "2026-11-08T08:16:59.561Z",
+  "rows": [
+    {
+      "row_id": "c0cf5fdc-bb18-4a6a-b578-e5c4614d4ecc",
+      "company_name": "Bachatt",
+      "company_url": "https://bachatt.app/",
+      "announced_on": "2026-03-30",
+      "announced_month": "2026-03",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "fintech"
+      ],
+      "geography": "india",
+      "round_stage": "Series A",
+      "investor_name": "Accel",
+      "investor_url": "https://accel.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Pratik Agarwal",
+        "source_url": "https://bachatt.app/press-release",
+        "summary": "Press release quotes Pratik Agarwal, Partner, Accel, on the Series A investment."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://bachatt.app/press-release",
+        "summary": "Official Bachatt press release dated 30 March 2026: AI-led savings & wealth platform for middle India raised USD 12M Series A led by Accel, with participation from existing investors Lightspeed and Info Edge Ventures; serves shopkeepers, dealers, manufacturers and business owners.",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "text_retrieved",
+        "checked_url": "https://bachatt.app/press-release",
+        "url_match": "exact",
+        "observed_at": "2026-11-08T08:42:09.511Z",
+        "text_sha256": "72547ae3732964ea8177bfe541f8d34e0770631db4ce5f30fe45d23feffaed1f",
+        "semantic_verification": "not_established",
+        "text_checks": {
+          "company_name_present": true,
+          "investor_name_present": true,
+          "supplied_exact_day_literal_present": false
+        },
+        "published_days": []
+      }
+    },
+    {
+      "row_id": "e71c7064-6ead-4a27-a5dc-ac2a5f18a721",
+      "company_name": "Xflow",
+      "company_url": "https://xflowpay.com/",
+      "announced_on": "2026-02-23",
+      "announced_month": "2026-02",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "fintech"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "General Catalyst",
+      "investor_url": "https://generalcatalyst.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": {
+        "url": "https://generalcatalyst.com/contact",
+        "source_url": "https://generalcatalyst.com/contact",
+        "summary": "General Catalyst's official 'Connect with Us' page lists its offices and phone numbers (San Francisco +1 415-659-5000; New York +1 212-775-4000; Bengaluru office) as the public contact route."
+      },
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown."
+      ],
+      "evidence": {
+        "url": "https://xflowpay.com/press/xflow-raises-series-a-funding-$16-million",
+        "summary": "Company press release dated 2026-02-23: Xflow raised $16.6M in a Series A round led by General Catalyst, with Square Peg, Stripe, Lightspeed and Moore Capital participating and PayPal Ventures joining as a new investor, at an $85M post-money valuation.",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "not_corroborated",
+        "checked_url": "https://xflowpay.com/press/xflow-raises-series-a-funding-$16-million",
+        "error": "REDIRECT_REJECTED",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "3a6617f3-7bf1-4616-91fb-948f6c9bd374",
+      "company_name": "Knight FinTech",
+      "company_url": "https://knightfintech.com/",
+      "announced_on": "2026-01-02",
+      "announced_month": "2026-01",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "fintech",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Accel",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://inc42.com/buzz/from-arya-ag-to-knight-fintech-indian-startups-raised-104-mn-this-week",
+        "summary": "Inc42 weekly funding report: On 2 Jan 2026, fintech SaaS startup Knight FinTech announced a $23.6 Mn Series A funding round led by Accel, with participation from IIFL, Rocket Capital, Prime Ventures, 3one4 Capital, Commerce VC and Trifecta Capital.",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "7c28a9a0-6719-479d-aa4a-bbf1640b20b4",
+      "company_name": "Skydo",
+      "company_url": "https://skydo.com/",
+      "announced_on": "2025-12-10",
+      "announced_month": "2025-12",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "fintech"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Susquehanna Asia Venture Capital",
+      "investor_url": "https://sig-asiavc.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://skydo.com/blog/skydo-series-a-funding-announcement",
+        "summary": "Skydo's official blog post dated 10 December 2025 announces a Series A round led by Susquehanna Asia Venture Capital with participation from Elevation Capital and Eximius Ventures; the $10 million funds scaling of Skydo's RBI-authorised cross-border payments platform for Indian exporters (30,000+ MSMEs, 32+ currencies).",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "b5f87367-f65a-48a5-b0ec-8b74cdbade43",
+      "company_name": "BeyondSquare Solutions",
+      "company_url": "https://beyondsquare.com/",
+      "announced_on": "2025-09-17",
+      "announced_month": "2025-09",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "fintech",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Avant Global Corporation",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://theheadandtale.com/fintech-news/beyondsquare-solutions-secures--4-million-in-series-a-funding-led-by-avant-global-corp",
+        "summary": "BeyondSquare Solutions, the Bengaluru company behind FinAlyzer, raised US$4 million in a Series A round led by Avant Global Corporation, announced 2025-09-17. Proceeds strengthen FinAlyzer's automation, compliance intelligence and scalability for enterprises with complex reporting structures, and expand its footprint in the Middle East, Europe and Southeast Asia. Entrackr confirms the $4M Series A led by Avant Global, executed in three stages (new/convertible shares, existing-shareholder subscriptions, warrant conversion).",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "0a9ed518-0bed-450f-938b-a52053756522",
+      "company_name": "GoKwik",
+      "company_url": "https://gokwik.co/",
+      "announced_on": null,
+      "announced_month": "2025-06",
+      "announcement_precision": "month",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "fintech",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "RTP Global",
+      "investor_url": "https://rtp.vc/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Galina Chifina",
+        "source_url": "https://rtp.vc/views/gokwik-series-growth-round-raise-2025",
+        "summary": "RTP Global's own portfolio-news post on GoKwik's $13M round quotes 'Galina Chifina, Partner and CEO at RTP Global', identifying her as the RTP Global partner commenting on and leading the deal."
+      },
+      "contact_route": {
+        "url": "https://rtp.vc/contact",
+        "source_url": "https://rtp.vc/contact",
+        "summary": "RTP Global's official website contact page (https://rtp.vc/contact) is the firm's public enquiry route for deal and general contacts."
+      },
+      "unknowns": [
+        "Exact announcement day is unknown; the supported month lies wholly inside the recent window.",
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque."
+      ],
+      "evidence": {
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/indian-fintechs-raise-usd-157-million-in-june-2025-key-funding-insights/122294351",
+        "summary": "ETBFSI monthly funding report (Jul 7, 2025) states GoKwik, offering checkout optimisation and conversion solutions for e-commerce merchants, raised USD 13 million in June 2025 from RTP Global, Z47, Peak XV Partners, and Think Investments (1lattice data).",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "14d0a0d1-bc81-4e09-b3b3-35c3b77d629a",
+      "company_name": "Recur Club",
+      "company_url": "https://recur.club/",
+      "announced_on": null,
+      "announced_month": "2025-09",
+      "announcement_precision": "month",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "InfoEdge Ventures",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Exact announcement day is unknown; the supported month lies wholly inside the recent window.",
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Investor identity is unresolved.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/indian-fintechs-secure-usd-3443-million-in-october-2025-funding-boost/125222975",
+        "summary": "ETBFSI September 2025 funding report (Nov 10, 2025 article) states Recur Club led the month with a USD 50 million round in September 2025.",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "7f9cd6d5-4996-42dc-a006-c40b41b98daa",
+      "company_name": "FinBox",
+      "company_url": "https://finbox.in/",
+      "announced_on": null,
+      "announced_month": "2025-09",
+      "announcement_precision": "month",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "WestBridge Capital",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Exact announcement day is unknown; the supported month lies wholly inside the recent window.",
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Investor identity is unresolved.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/indian-fintechs-secure-usd-3443-million-in-october-2025-funding-boost/125222975",
+        "summary": "ETBFSI September 2025 funding report states FinBox raised USD 40 million in September 2025 (ETBFSI/1lattice data).",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "fbfafac2-a527-46d8-9668-2ae528733f41",
+      "company_name": "Snapmint",
+      "company_url": "https://snapmint.com/",
+      "announced_on": null,
+      "announced_month": "2025-10",
+      "announcement_precision": "month",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "fintech"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "General Atlantic",
+      "investor_url": "https://generalatlantic.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Shantanu Rastogi",
+        "source_url": "https://generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform",
+        "summary": "In the official 31 Oct 2025 General Atlantic press release, Shantanu Rastogi, Managing Director and Head of India at General Atlantic, is quoted on the Snapmint investment, identifying him as the GA partner on the deal."
+      },
+      "contact_route": {
+        "url": "https://generalatlantic.com/contact",
+        "source_url": "https://generalatlantic.com/contact",
+        "summary": "General Atlantic's official Contact page lists general and media enquiry emails plus the Mumbai office address (Level 19, Birla Aurora, Worli, Mumbai, +91 68 28522000) as public contact routes."
+      },
+      "unknowns": [
+        "Exact announcement day is unknown; the supported month lies wholly inside the recent window.",
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque."
+      ],
+      "evidence": {
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/indian-fintechs-secure-usd-3443-million-in-october-2025-funding-boost/125222975",
+        "summary": "ETBFSI October 2025 funding report states Snapmint, a provider of no-credit-card EMI payment solutions for online purchases, raised USD 125 million from General Atlantic in October 2025.",
+        "collected_at": "2026-11-08T08:16:59.561Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "689527c3-f0bc-4051-ac8a-bccc33460158",
+      "company_name": "Optimo Capital",
+      "company_url": "https://optimocapital.com/",
+      "announced_on": null,
+      "announced_month": null,
+      "announcement_precision": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "Blume Ventures",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": {
+        "name": "Ashish Fafadia",
+        "source_url": "https://blume.vc/optimo-loans",
+        "summary": "Blume Ventures' official portfolio page for Optimo Loans names Ashish Fafadia as the Investment Lead and notes Blume partnered in 2024 via Fund IV."
+      },
+      "contact_route": {
+        "url": "https://blume.vc/contact-us",
+        "source_url": "https://blume.vc/contact-us",
+        "summary": "Blume Ventures' official Contact Us page gives the firm's public contact instructions for media and investor-relations enquiries (cold pitches are explicitly not accepted)."
+      },
+      "unknowns": [
+        "Comparable sector overlap is not evidenced.",
+        "Exact announcement day is unknown; the supported month lies wholly inside the recent window.",
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Investor identity is unresolved.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque."
+      ],
+      "evidence": null,
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    }
+  ],
+  "investors": [
+    {
+      "id": "accel.com|accel",
+      "investor_name": "Accel",
+      "investor_url": "https://accel.com/",
+      "score": 75,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap.",
+        "+20: a comparable company raised at the startup’s stage.",
+        "+10: comparable-company geography matches."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Bachatt",
+          "company_url": "https://bachatt.app/",
+          "announced_on": "2026-03-30",
+          "announced_month": "2026-03",
+          "announcement_precision": "day",
+          "round_stage": "Series A",
+          "evidence": {
+            "url": "https://bachatt.app/press-release",
+            "summary": "Official Bachatt press release dated 30 March 2026: AI-led savings & wealth platform for middle India raised USD 12M Series A led by Accel, with participation from existing investors Lightspeed and Info Edge Ventures; serves shopkeepers, dealers, manufacturers and business owners.",
+            "collected_at": "2026-11-08T08:16:59.561Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": {
+            "name": "Pratik Agarwal",
+            "source_url": "https://bachatt.app/press-release",
+            "summary": "Press release quotes Pratik Agarwal, Partner, Accel, on the Series A investment."
+          }
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Series A"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "generalcatalyst.com|general catalyst",
+      "investor_name": "General Catalyst",
+      "investor_url": "https://generalcatalyst.com/",
+      "score": 70,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap.",
+        "+20: a comparable company raised at the startup’s stage.",
+        "+5: an official public contact route is evidenced."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Xflow",
+          "company_url": "https://xflowpay.com/",
+          "announced_on": "2026-02-23",
+          "announced_month": "2026-02",
+          "announcement_precision": "day",
+          "round_stage": "Series A",
+          "evidence": {
+            "url": "https://xflowpay.com/press/xflow-raises-series-a-funding-$16-million",
+            "summary": "Company press release dated 2026-02-23: Xflow raised $16.6M in a Series A round led by General Catalyst, with Square Peg, Stripe, Lightspeed and Moore Capital participating and PayPal Ventures joining as a new investor, at an $85M post-money valuation.",
+            "collected_at": "2026-11-08T08:16:59.561Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": null
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Series A"
+      ],
+      "contact_routes": [
+        {
+          "url": "https://generalcatalyst.com/contact",
+          "source_url": "https://generalcatalyst.com/contact",
+          "summary": "General Catalyst's official 'Connect with Us' page lists its offices and phone numbers (San Francisco +1 415-659-5000; New York +1 212-775-4000; Bengaluru office) as the public contact route."
+        }
+      ],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "sig-asiavc.com|susquehanna asia venture capital",
+      "investor_name": "Susquehanna Asia Venture Capital",
+      "investor_url": "https://sig-asiavc.com/",
+      "score": 65,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap.",
+        "+20: a comparable company raised at the startup’s stage."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Skydo",
+          "company_url": "https://skydo.com/",
+          "announced_on": "2025-12-10",
+          "announced_month": "2025-12",
+          "announcement_precision": "day",
+          "round_stage": "Series A",
+          "evidence": {
+            "url": "https://skydo.com/blog/skydo-series-a-funding-announcement",
+            "summary": "Skydo's official blog post dated 10 December 2025 announces a Series A round led by Susquehanna Asia Venture Capital with participation from Elevation Capital and Eximius Ventures; the $10 million funds scaling of Skydo's RBI-authorised cross-border payments platform for Indian exporters (30,000+ MSMEs, 32+ currencies).",
+            "collected_at": "2026-11-08T08:16:59.561Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": null
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Series A"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "generalatlantic.com|general atlantic",
+      "investor_name": "General Atlantic",
+      "investor_url": "https://generalatlantic.com/",
+      "score": 50,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap.",
+        "+5: an official public contact route is evidenced."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Snapmint",
+          "company_url": "https://snapmint.com/",
+          "announced_on": null,
+          "announced_month": "2025-10",
+          "announcement_precision": "month",
+          "round_stage": null,
+          "evidence": {
+            "url": "https://bfsi.economictimes.indiatimes.com/articles/indian-fintechs-secure-usd-3443-million-in-october-2025-funding-boost/125222975",
+            "summary": "ETBFSI October 2025 funding report states Snapmint, a provider of no-credit-card EMI payment solutions for online purchases, raised USD 125 million from General Atlantic in October 2025.",
+            "collected_at": "2026-11-08T08:16:59.561Z",
+            "provenance": "provider_reported",
+            "source_type": "third_party_reported"
+          },
+          "lead_partner": {
+            "name": "Shantanu Rastogi",
+            "source_url": "https://generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform",
+            "summary": "In the official 31 Oct 2025 General Atlantic press release, Shantanu Rastogi, Managing Director and Head of India at General Atlantic, is quoted on the Snapmint investment, identifying him as the GA partner on the deal."
+          }
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [],
+      "contact_routes": [
+        {
+          "url": "https://generalatlantic.com/contact",
+          "source_url": "https://generalatlantic.com/contact",
+          "summary": "General Atlantic's official Contact page lists general and media enquiry emails plus the Mumbai office address (Level 19, Birla Aurora, Worli, Mumbai, +91 68 28522000) as public contact routes."
+        }
+      ],
+      "unknowns": [
+        "Exact announcement day is unknown; the supported month lies wholly inside the recent window.",
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "rtp.vc|rtp global",
+      "investor_name": "RTP Global",
+      "investor_url": "https://rtp.vc/",
+      "score": 50,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap.",
+        "+5: an official public contact route is evidenced."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "GoKwik",
+          "company_url": "https://gokwik.co/",
+          "announced_on": null,
+          "announced_month": "2025-06",
+          "announcement_precision": "month",
+          "round_stage": null,
+          "evidence": {
+            "url": "https://bfsi.economictimes.indiatimes.com/articles/indian-fintechs-raise-usd-157-million-in-june-2025-key-funding-insights/122294351",
+            "summary": "ETBFSI monthly funding report (Jul 7, 2025) states GoKwik, offering checkout optimisation and conversion solutions for e-commerce merchants, raised USD 13 million in June 2025 from RTP Global, Z47, Peak XV Partners, and Think Investments (1lattice data).",
+            "collected_at": "2026-11-08T08:16:59.561Z",
+            "provenance": "provider_reported",
+            "source_type": "third_party_reported"
+          },
+          "lead_partner": {
+            "name": "Galina Chifina",
+            "source_url": "https://rtp.vc/views/gokwik-series-growth-round-raise-2025",
+            "summary": "RTP Global's own portfolio-news post on GoKwik's $13M round quotes 'Galina Chifina, Partner and CEO at RTP Global', identifying her as the RTP Global partner commenting on and leading the deal."
+          }
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [],
+      "contact_routes": [
+        {
+          "url": "https://rtp.vc/contact",
+          "source_url": "https://rtp.vc/contact",
+          "summary": "RTP Global's official website contact page (https://rtp.vc/contact) is the firm's public enquiry route for deal and general contacts."
+        }
+      ],
+      "unknowns": [
+        "Exact announcement day is unknown; the supported month lies wholly inside the recent window.",
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    }
+  ],
+  "coverage": {
+    "scope": "ten_provider_reported_recent_company_claims",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 9,
+    "complete": false,
+    "shortfall": 1
+  },
+  "warning": "Provider-reported recent-company research; source truth is not independently verified. Unknown cheque, stage, partner and contact fields are explicit. No current mandate or funding outcome is promised.",
+  "source_audit": {
+    "provider": "tinyfish-fetch",
+    "artifact": "source-audit-v2.json",
+    "original_source_operations": 20,
+    "new_provider_operations": 0,
+    "unit_price_microusd": 0,
+    "fetched": 12,
+    "not_corroborated": 8,
+    "halted": false,
+    "rows_with_retrieved_source": 1,
+    "rows_with_uncorroborated_source": 1,
+    "rows_not_checked": 8,
+    "warning": "Retrieval, text presence and publication metadata are separate from semantic investment verification. Redirect rejections were not retried."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-10T11:11:53.225841+00:00",
+  "status": "LOCAL_PACKAGE_VERIFIED_NOT_READY",
+  "node": "v26.12.0",
+  "source_manifest_sha256": "59bb6b319cabf1b0c8d88642c659a8775fe853a3d422b3e2aad56f377a910aff",
+  "source_manifest": "source-manifest.json",
+  "source_files_count": 63,
+  "isolated_package_install": {
+    "command": "npm ci --ignore-scripts",
+    "exit_code": 0,
+    "vulnerabilities_reported": 0
+  },
+  "checks": {
+    "tests": {
+      "command": "npm test",
+      "exit_code": 0,
+      "receipt": "tests.txt",
+      "passed": 77
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "exit_code": 0,
+      "receipt": "typecheck.txt"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "receipt": "build.txt"
+    },
+    "format": {
+      "command": "npm run format:check",
+      "exit_code": 0,
+      "receipt": "format.txt"
+    }
+  },
+  "funding_tests": 28,
+  "package_tests": 77,
+  "browser_receipt": "browser-checks.json",
+  "reviewed_recent_counts": [8, 6, 6],
+  "provider_operations_started": 0,
+  "billing_or_grant_changes": false,
+  "original_tinyset_observations_preserved": true,
+  "publication_performed": false,
+  "submission_performed": false,
+  "submission_ready": false,
+  "remaining_gates": [
+    "Ten independently supported recent comparable companies per demo.",
+    "Complete sourced investment, typical cheque, historical stage, exact deal partner and contact detail.",
+    "Authorized broad-input live verification, final public access/media/promotion and destination review.",
+    "Mobile viewport and OS reduced-motion emulation are unverified."
+  ]
+}

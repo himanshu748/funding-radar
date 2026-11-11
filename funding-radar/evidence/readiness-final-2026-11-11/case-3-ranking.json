@@ -1,0 +1,73 @@
+{
+  "format": "funding-radar-reviewed-ranking-v1",
+  "checked_at": "2026-11-11T08:28:11.946Z",
+  "research_snapshot_sha256": "4f7e6a57d03d849b2facb40decb497bf0f41bb27f8533bc493c41fa3c230c9d4",
+  "scope": "Ordinary public-source investor review supplements the preserved TinySet/company evidence. This selected shortlist includes required named investment responsibility, dated/scoped cheque policy, stage focus and real founder routes. It is not exhaustive. Professional attribution is not automatically legal-counsel participation; collective, historical/current and firm-versus-round roles retain their qualifications. No provider execution or outreach was performed by this source review.",
+  "investors": [
+    {
+      "investor_name": "Arkam Ventures",
+      "investor_url": "https://arkamvc.com/",
+      "typical_cheque": {
+        "minimum": 1000000,
+        "maximum": 5000000,
+        "currency": "USD",
+        "scope": "Firm-wide published cheque range, not actual TransBnk cheque or an offer.",
+        "summary": "Current official published firm range is USD1M–5M. This does not disclose Arkam contribution to the USD25M TransBnk round.",
+        "source_urls": ["https://arkamvc.com/"]
+      },
+      "stage_focus": {
+        "values": ["seed", "series-a", "series-b"],
+        "summary": "Seed through Series B. Current generic strategy includes the example Series A. The comparable historical deal is Series B.",
+        "source_urls": ["https://arkamvc.com/"]
+      },
+      "geography_focus": {
+        "values": ["india"],
+        "summary": "India-focused strategy and the India comparable support the startup country; actual current investor interest remains unestablished.",
+        "source_urls": ["https://arkamvc.com/"]
+      },
+      "geography_fit": "supported",
+      "geography_fit_note": "India investment strategy and the India-based payment/transaction-software comparable support geographic relevance, not guaranteed eligibility.",
+      "similar_companies": [
+        {
+          "company_row_id": "public:india-transbnk-20250827",
+          "company_country": "india",
+          "product_fit": "adjacent",
+          "fit_summary": "B2B transaction/payment APIs and SaaS supply a financial-infrastructure analogue, but serve banks and enterprises rather than only small merchants. The comparable was SeriesB; current firm policy includes the input SeriesA.",
+          "investment_source_urls": [
+            "https://www.bvp.com/news/reimagining-indias-corporate-banking-systems-with-transbnk",
+            "https://arkamvc.com/portfolio/transbnk",
+            "https://www.linkedin.com/posts/bala-srinivasa-454646_why-we-invested-in-transbnk-you-often-learn-activity-7368879684199047170-mvcv"
+          ],
+          "lead": {
+            "name": "Bala Srinivasa",
+            "title": "Managing Director",
+            "role": "Responsible senior investment partner within Arkam’s TransBnk participation",
+            "attribution": "first_person_with_transaction_corroboration",
+            "summary": "Bala gives the firm’s first-person investment thesis and personal founder meeting; colleague attributes that thesis to him; founder describes named Arkam team securing this round. This supports responsibility, not sole negotiation or overall round leadership.",
+            "qualification": "Arkam participated in this SeriesB; Bessemer was overall round lead. The named Arkam investment responsibility is based on combined transaction-specific personal/colleague/founder accounts, not a claim of sole negotiation.",
+            "current_status": "Current official Arkam team page names Bala Srinivasa Managing Director.",
+            "team_continuity": "same_firm",
+            "source_urls": [
+              "https://arkamvc.com/team/bala-srinivasa",
+              "https://www.linkedin.com/posts/bala-srinivasa-454646_why-we-invested-in-transbnk-you-often-learn-activity-7368879684199047170-mvcv",
+              "https://www.linkedin.com/pulse/conviction-behind-transbnk-abhishek-mishra-kgxgc"
+            ]
+          }
+        }
+      ],
+      "contact_route": {
+        "url": "https://arkamvc.com/",
+        "email": null,
+        "type": "founder_form",
+        "summary": "Explicit founder pitch controls; no account action, outreach or delivery test. The form asks founder details and a deck.",
+        "source_urls": ["https://arkamvc.com/"]
+      },
+      "cautions": [
+        "Comparable serves enterprises/banks rather than only small merchants.",
+        "Historical comparable is Series B, one stage later than requested example.",
+        "No allocation, investor interest, accepted pitch or funding promise is inferred."
+      ]
+    }
+  ],
+  "provider_operations_started": 0
+}

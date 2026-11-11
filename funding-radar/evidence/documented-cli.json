@@ -1,0 +1,50 @@
+{
+  "mode": "synthetic_fixture",
+  "provider_calls": 0,
+  "commands": [
+    {
+      "command": "npx tsx zombie-check/src/cli.ts example <temporary-output>/synthetic.csv",
+      "exit": 0,
+      "stdout": "Wrote 500 explicitly synthetic input rows. These are not live business records.\n",
+      "stderr": ""
+    },
+    {
+      "command": "npx tsx zombie-check/src/cli.ts plan <temporary-output>/synthetic.csv <temporary-output>/plan --synthetic --available-usd 10",
+      "exit": 0,
+      "stdout": "Prepared 20 non-populating request plans; zero provider calls.\n",
+      "stderr": ""
+    },
+    {
+      "command": "npx tsx funding-radar/src/cli.ts plan UK pre-seed climate startup building solar forecasting <temporary-output>/funding-plan.json",
+      "exit": 0,
+      "stdout": "Wrote offline 5-row plan; provider calls: 0; minimum row estimate: $0.50.\n",
+      "stderr": ""
+    },
+    {
+      "command": "npx tsx funding-radar/src/cli.ts rank UK pre-seed climate startup building solar forecasting funding-radar/examples/synthetic-observations.json <temporary-output>/funding-report.json",
+      "exit": 0,
+      "stdout": "Ranked 5 supplied rows in synthetic_fixture mode; provider calls: 0.\n",
+      "stderr": ""
+    },
+    {
+      "command": "npx tsx funding-radar/src/cli.ts rank US seed health startup building clinical diagnostics funding-radar/examples/synthetic-observations.json <temporary-output>/health.csv",
+      "exit": 0,
+      "stdout": "Ranked 5 supplied rows in synthetic_fixture mode; provider calls: 0.\n",
+      "stderr": ""
+    }
+  ],
+  "zombie_cost": {
+    "currency": "USD",
+    "unit": "row",
+    "row_price_microusd": 100000,
+    "required_researched_rows": 500,
+    "minimum_cost_microusd": 50000000,
+    "available_pool_microusd": 10000000,
+    "shortfall_microusd": 40000000,
+    "sufficient_budget": false,
+    "meets_minimum_input": true,
+    "live_dispatch_allowed": false,
+    "explanation": "INSUFFICIENT_BUDGET: obtaining every supplied valid row through TinySet exceeds the shared pool. Do not start a default or full-sheet fill.",
+    "limits": "Minimum row-charge estimate, not an invoice, coverage guarantee or spending grant."
+  }
+}

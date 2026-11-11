@@ -1,0 +1,211 @@
+{
+  "format": "funding-radar-reviewed-ranking-v1",
+  "checked_at": "2026-11-11T08:28:11.943Z",
+  "research_snapshot_sha256": "1a577eee4a004ad71f6e071c640dd95dfbdc3ae1fb001ce6660bde1807a46bae",
+  "scope": "Ordinary public-source investor review supplements the preserved TinySet/company evidence. This selected shortlist includes required named investment responsibility, dated/scoped cheque policy, stage focus and real founder routes. It is not exhaustive. Professional attribution is not automatically legal-counsel participation; collective, historical/current and firm-versus-round roles retain their qualifications. No provider execution or outreach was performed by this source review.",
+  "investors": [
+    {
+      "investor_name": "Pi Labs",
+      "investor_url": "https://pilabs.vc/",
+      "typical_cheque": {
+        "minimum": 350000,
+        "maximum": 1000000,
+        "currency": "GBP",
+        "scope": "Official published typical or initial investment range, not the comparable round total or an individual allocation.",
+        "summary": "FAQ typical GBP350k–1M; direct investment programme separately says up to GBP3M, a different scope.",
+        "source_urls": ["https://pilabs.vc/investment-faqs"]
+      },
+      "stage_focus": {
+        "values": ["pre-seed", "seed", "series-a"],
+        "summary": "Pre-Seed, Seed, Series A",
+        "source_urls": ["https://pilabs.vc/investment-faqs"]
+      },
+      "geography_focus": {
+        "values": ["europe"],
+        "summary": "Published geographic scope: European startups going global; firm is UK-based",
+        "source_urls": [
+          "https://pilabs.vc/investment-faqs",
+          "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables"
+        ]
+      },
+      "geography_fit": "supported",
+      "geography_fit_note": "European investment scope supports relevance to the UK input; the Belgian comparable is cross-border and programme eligibility/current interest still need founder confirmation.",
+      "similar_companies": [
+        {
+          "company_row_id": "29e137f6-75c8-4cbf-81b9-c8a6ae7347bb",
+          "company_country": "belgium",
+          "product_fit": "direct",
+          "fit_summary": "Companion supplies software for energy forecasting, optimisation and flexibility, serving enterprise assets rather than only grid operators.",
+          "investment_source_urls": [
+            "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+            "https://realyzeventures.com/companion-energy-raises-e7-8m-in-oversubscribed-seed-round-to-scale-enterprise-energy-intelligence-across-europe/",
+            "https://www.linkedin.com/posts/pi-labs-ltd-_we-are-excited-to-co-lead-companionenergy-activity-7469725055284047872-RnMh"
+          ],
+          "lead": {
+            "name": "Dhruv Gupta",
+            "title": "Principal",
+            "role": "Named Pi Labs investment lead for Companion; firm co-lead/co-investor descriptions conflict.",
+            "attribution": "first_person_with_transaction_corroboration",
+            "summary": "Named for Pi Labs in professional post describing round leadership; first-person investment thesis corroborates personal diligence/involvement. Professional attribution and first-person exact-round accounts are assessed together; this is not a quote-only or board-only inference.",
+            "qualification": "Specific attribution is stronger than a quote or board seat, but no inspected investor/company source directly states that Dhruv personally led the transaction. Do not upgrade title or hide firm-role conflict. Investment confirmed; co-lead claimed by Pi Labs/company; Realyze calls Pi Labs co-investor",
+            "current_status": "Current official team lists Principal. Earlier Investment Manager labels are not silently promoted to Partner.",
+            "team_continuity": "same_firm",
+            "source_urls": [
+              "https://www.linkedin.com/posts/lize-van-looy-a8a217116_seed-funding-for-companionenergy-to-accelerate-activity-7469735866698199040-8XSt",
+              "https://www.linkedin.com/pulse/pi-labs-investment-companion-energy-dhruv-gupta-wdtke",
+              "https://pilabs.vc/team",
+              "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables"
+            ]
+          }
+        }
+      ],
+      "contact_route": {
+        "url": "https://pilabs.vc/directinvestment",
+        "email": null,
+        "type": "open_intake",
+        "summary": "official year-round direct investment invitation. Application form fields were not exposed by parser; no acceptance or response is promised.",
+        "source_urls": [
+          "https://pilabs.vc/new-investment",
+          "https://pilabs.vc/directinvestment"
+        ]
+      },
+      "cautions": [
+        "Companion is Belgian and enterprise-energy focused, rather than a UK grid-operator tool.",
+        "Named responsible person is Principal; individual leadership evidence remains qualified, and primary firm-role descriptions differ.",
+        "Primary descriptions conflict: Pi Labs/company say co-lead, Realyze says Pi Labs co-investor. Confirmed investment is not disputed; overall-round role is qualified."
+      ]
+    },
+    {
+      "investor_name": "Realyze Ventures",
+      "investor_url": "https://realyzeventures.com/",
+      "typical_cheque": {
+        "minimum": 500000,
+        "maximum": 3000000,
+        "currency": "EUR",
+        "scope": "Official published typical or initial investment range, not the comparable round total or an individual allocation.",
+        "summary": "Official current team/investment page states EUR0.5M–3M initial tickets.",
+        "source_urls": ["https://realyzeventures.com/team/"]
+      },
+      "stage_focus": {
+        "values": ["pre-seed", "seed", "series-a"],
+        "summary": "Pre-Seed, Seed, Series A",
+        "source_urls": ["https://realyzeventures.com/team/"]
+      },
+      "geography_focus": {
+        "values": ["europe"],
+        "summary": "Published geographic scope: Pan-European",
+        "source_urls": ["https://realyzeventures.com/team/"]
+      },
+      "geography_fit": "supported",
+      "geography_fit_note": "European investment scope supports relevance to the UK input; the Belgian comparable is cross-border and programme eligibility/current interest still need founder confirmation.",
+      "similar_companies": [
+        {
+          "company_row_id": "29e137f6-75c8-4cbf-81b9-c8a6ae7347bb",
+          "company_country": "belgium",
+          "product_fit": "direct",
+          "fit_summary": "Companion supplies software for energy forecasting, optimisation and flexibility, serving enterprise assets rather than only grid operators.",
+          "investment_source_urls": [
+            "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+            "https://realyzeventures.com/companion-energy-raises-e7-8m-in-oversubscribed-seed-round-to-scale-enterprise-energy-intelligence-across-europe/"
+          ],
+          "lead": {
+            "name": "Marnix Roes",
+            "title": "Director | Head of Investments",
+            "role": "Named Realyze investment lead within the Companion seed-leading team.",
+            "attribution": "first_person_with_transaction_corroboration",
+            "summary": "First-person plural leadership statement for exact seed, corroborated by professional post naming him for Realyze. Professional attribution and first-person exact-round accounts are assessed together; this is not a quote-only or board-only inference.",
+            "qualification": "Source supports Marnix as the named deal investor in the leading team; it does not explicitly assign personal transaction leadership separately from firm/team leadership. Neither his earlier nor current title is Partner. Lead; the company describes Realyze as co-lead with Pi Labs",
+            "current_status": "Current title Director / Head of Investments; the round-era Investment Manager title is kept distinct.",
+            "team_continuity": "same_firm",
+            "source_urls": [
+              "https://www.linkedin.com/posts/marnixr_new-week-new-investment-announcement-activity-7469642582399283200-VmiI",
+              "https://www.linkedin.com/posts/lize-van-looy-a8a217116_seed-funding-for-companionenergy-to-accelerate-activity-7469735866698199040-8XSt",
+              "https://realyzeventures.com/team/",
+              "https://realyzeventures.com/companion-energy-raises-e7-8m-in-oversubscribed-seed-round-to-scale-enterprise-energy-intelligence-across-europe/"
+            ]
+          }
+        }
+      ],
+      "contact_route": {
+        "url": "https://realyzeventures.com/team/",
+        "email": "mr@realyzeventures.com",
+        "type": "investment_email",
+        "summary": "public named investment contact and founder-facing firm contact invitation. Direct contact, not a verified formal application process or guaranteed invitation to invest.",
+        "source_urls": [
+          "https://realyzeventures.com/team/",
+          "https://realyzeventures.com/"
+        ]
+      },
+      "cautions": [
+        "Built-world/commercial-enterprise focus is narrower than arbitrary grid forecasting.",
+        "Pan-European policy is not a promise of interest in this particular UK founder.",
+        "The named person is Director/Head of Investments, not a Partner; plural leadership attribution remains explicit."
+      ]
+    },
+    {
+      "investor_name": "Volve Capital",
+      "investor_url": "https://volve.capital/",
+      "typical_cheque": {
+        "minimum": 200000,
+        "maximum": 500000,
+        "currency": "EUR",
+        "scope": "Official initial ticket range; follow-on capacity up to EUR1M is separate.",
+        "summary": "Initial EUR200k–500k; the separately published follow-on capacity is not substituted for this range.",
+        "source_urls": ["https://volve.capital/"]
+      },
+      "stage_focus": {
+        "values": ["pre-seed"],
+        "summary": "Pre-seed and follow-on Seed; first professional investor",
+        "source_urls": ["https://volve.capital/"]
+      },
+      "geography_focus": {
+        "values": ["benelux", "dach", "nordics"],
+        "summary": "Published geographic scope: Benelux, DACH, Nordics",
+        "source_urls": ["https://volve.capital/"]
+      },
+      "geography_fit": "excluded",
+      "geography_fit_note": "The UK input is outside the named Benelux/DACH/Nordics focus; seed is described as follow-on, so this is a conditional watchlist record.",
+      "similar_companies": [
+        {
+          "company_row_id": "ed020e33-93a3-413e-b92f-853e8e132d61",
+          "company_country": "belgium",
+          "product_fit": "direct",
+          "fit_summary": "NOX provides home-energy flexibility software; European flexibility is directly related, while the customer and country differ.",
+          "investment_source_urls": [
+            "https://www.linkedin.com/company/energy-nox",
+            "https://www.linkedin.com/posts/joost-bijlsma-12045b82_energytransition-flexibility-seedround-activity-7510992028860563457-qjFd"
+          ],
+          "lead": {
+            "name": "Joost Bijlsma",
+            "title": "General Partner",
+            "role": "Named General Partner announcing the firm co-leading NOX seed.",
+            "attribution": "first_person_with_transaction_corroboration",
+            "summary": "First-person co-leading statement for exact NOX seed. Professional attribution and first-person exact-round accounts are assessed together; this is not a quote-only or board-only inference.",
+            "qualification": "Direct first-person group leadership is stronger than an outside quote or board role, but does not distinguish Joost from fellow GP Maurits as the responsible transaction lead. Sole leadership is not required. Co-lead with Rise PropTech Fund",
+            "current_status": "Current official team page names him General Partner.",
+            "team_continuity": "same_firm",
+            "source_urls": [
+              "https://www.linkedin.com/posts/joost-bijlsma-12045b82_energytransition-flexibility-seedround-activity-7510992028860563457-qjFd",
+              "https://volve.capital/team/"
+            ]
+          }
+        }
+      ],
+      "contact_route": {
+        "url": "https://volve.capital/",
+        "email": "info@volve.capital",
+        "type": "investment_email",
+        "summary": "official inbox plus GP public invitation for fund-fitting founders to reach out. No request was sent. The invitation is conditional on fit; UK geography is not established.",
+        "source_urls": [
+          "https://volve.capital/",
+          "https://www.linkedin.com/posts/joost-bijlsma-12045b82_volve-capital-closes-its-first-9-million-activity-7401546030456029184-NVjR"
+        ]
+      },
+      "cautions": [
+        "Seed participation is a follow-on in a company backed earlier; this does not prove a new UK seed cheque mandate.",
+        "Do not put Volve in an unqualified UK approach list."
+      ]
+    }
+  ],
+  "provider_operations_started": 0
+}

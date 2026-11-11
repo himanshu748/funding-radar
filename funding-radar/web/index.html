@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Find the investment behind the investor. Explore recent company rounds, inspect sources and build a research brief with Funding Radar."
+    />
+    <title>Funding Radar | Follow the evidence</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#workspace">Skip to research workspace</a>
+    <header class="nav">
+      <a class="brand" href="#"
+        ><span class="brand-mark" aria-hidden="true">f<span>r</span></span
+        >Funding Radar<span class="edition">RESEARCH EDITION</span></a
+      >
+      <nav aria-label="Main">
+        <a href="#method">How it works</a
+        ><a class="nav-cta" href="#workspace"
+          >Open workspace <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> BUILT WITH TINYSET</p>
+          <h1 id="hero-title">
+            Find the backer.<br /><span>Follow the proof.</span>
+          </h1>
+          <p class="hero-description">
+            The best lead is a relevant investment you can actually trace. Turn
+            a startup brief into comparable rounds, investor candidates and a
+            clear view of what still needs checking.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#workspace"
+              >Explore the research <span aria-hidden="true">↗</span></a
+            ><a class="text-link" href="#method"
+              >See the method <span aria-hidden="true">↓</span></a
+            >
+          </div>
+          <div class="hero-footnote">
+            <span class="mini-cross" aria-hidden="true">+</span>
+            <p>
+              Four genuine TinySet investigations.<br />Saved evidence with a
+              separate source review. No key needed to explore.
+            </p>
+          </div>
+        </div>
+        <div
+          class="hero-diagram"
+          aria-label="Company round to investment evidence to an investor research shortlist"
+        >
+          <div class="diagram-label">
+            <span>01 / A BETTER STARTING POINT</span
+            ><span aria-hidden="true">↗</span>
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="diagram-center">
+            <span class="center-glyph" aria-hidden="true">◎</span
+            ><span>Relevant<br /><strong>investment</strong></span>
+          </div>
+          <div class="diagram-node node-one">
+            <span class="node-icon" aria-hidden="true">↗</span>
+            <div>
+              <small>FIND THE COMPARABLE</small
+              ><strong>A company like yours</strong>
+            </div>
+          </div>
+          <div class="diagram-node node-two">
+            <span class="node-icon" aria-hidden="true">≡</span>
+            <div>
+              <small>READ THE EVIDENCE</small
+              ><strong>A real funding round</strong>
+            </div>
+            <span class="node-check" aria-hidden="true">✓</span>
+          </div>
+          <div class="diagram-node node-three">
+            <span class="node-icon" aria-hidden="true">⌁</span>
+            <div>
+              <small>BUILD THE SHORTLIST</small
+              ><strong>Who backed it, and why</strong>
+            </div>
+          </div>
+          <div class="diagram-bottom">
+            <span>Evidence before outreach.</span
+            ><span class="coordinates">SOURCE → CONTEXT → FIT</span>
+          </div>
+        </div>
+      </section>
+      <section class="principles" aria-label="Research principles">
+        <p>Less guesswork.<br /><strong>More context.</strong></p>
+        <div>
+          <span>01</span>
+          <p>Start with real rounds,<br />not a generic investor list.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <p>Keep an announcement date<br />separate from a page update.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <p>
+            Keep missing details visible.<br />A round total is not a cheque.
+          </p>
+        </div>
+      </section>
+      <section
+        class="research"
+        id="workspace"
+        aria-labelledby="workspace-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE RESEARCH WORKSPACE</p>
+            <h2 id="workspace-title">
+              Open a brief.<br />Look beneath the list.
+            </h2>
+          </div>
+          <p>
+            Explore investigations collected on 8 and 11 November 2026. Three
+            briefs include sourced investor shortlists. Security and compliance
+            includes a conditional SignalFire watchlist with zero approach-ready
+            investors. Source reviews are dated separately. Opening a brief
+            starts no live research.
+          </p>
+        </div>
+        <div class="workbench">
+          <aside class="sidebar">
+            <div class="sidebar-top">
+              <span class="small-label">SAVED INVESTIGATIONS</span
+              ><span class="number-tag">04</span>
+            </div>
+            <div id="case-list" aria-label="Saved startup briefs">
+              <p class="loading">Loading saved research…</p>
+            </div>
+            <button class="new-brief" id="new-brief">
+              <span aria-hidden="true">+</span> Prepare your own brief
+            </button>
+            <div class="sidebar-note">
+              <span class="status-dot"></span>
+              <div>
+                <strong id="live-availability">Live research disabled</strong>
+                <p id="live-availability-help">
+                  Browse saved evidence or prepare a plan. Neither uses provider
+                  credits.
+                </p>
+              </div>
+            </div>
+          </aside>
+          <div class="workspace-content" id="case-content" aria-live="polite">
+            <p class="loading">Loading the investigation…</p>
+          </div>
+        </div>
+      </section>
+      <section class="method" id="method" aria-labelledby="method-title">
+        <div class="method-intro">
+          <p class="eyebrow">THE METHOD</p>
+          <h2 id="method-title">A shorter list.<br />A longer paper trail.</h2>
+          <p>
+            Research is useful when you can see how it was reached. TinySet
+            discovers company rounds. A separate source review checks what those
+            pages actually establish.
+          </p>
+        </div>
+        <ol>
+          <li>
+            <span>01</span>
+            <div>
+              <h3>Describe the startup</h3>
+              <p>
+                Product, funding stage and country shape the brief. Preparing a
+                new plan is local and free of provider calls.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div>
+              <h3>Find comparable rounds</h3>
+              <p>
+                TinySet researches company-round rows from the live web. Four
+                genuine investigations are saved with original receipts. The
+                first three runs remain intact.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div>
+              <h3>Check, then shortlist</h3>
+              <p>
+                Review dates, investment links and fit. A commenting executive
+                is not automatically the deal lead. Unknown cheques and contact
+                routes stay unknown.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>04</span>
+            <div>
+              <h3>Take the evidence with you</h3>
+              <p>
+                Export JSON or CSV with original provenance, dated review
+                findings and unresolved questions. No investor outreach is sent.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+      <section class="closing">
+        <span class="brand-mark" aria-hidden="true">f<span>r</span></span>
+        <h2>Start with a reason.<br />Keep the receipt.</h2>
+        <a class="button primary" href="#workspace">Back to the workspace ↗</a>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#">Funding Radar</a>
+      <p>
+        Independent research software. Historical deals do not establish current
+        investor interest.
+      </p>
+      <span>Built for TinyFish Bounty Drop 002</span>
+    </footer>
+    <dialog id="detail-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-top">
+        <span class="small-label">EVIDENCE INSPECTOR</span
+        ><button
+          class="icon-button"
+          id="close-detail"
+          aria-label="Close evidence inspector"
+        >
+          ✕
+        </button>
+      </div>
+      <div id="dialog-content"></div>
+    </dialog>
+    <dialog id="brief-dialog" aria-labelledby="brief-title">
+      <div class="dialog-top">
+        <span class="small-label">YOUR NEXT INVESTIGATION</span
+        ><button
+          class="icon-button"
+          id="close-brief"
+          aria-label="Close new brief"
+        >
+          ✕
+        </button>
+      </div>
+      <div class="dialog-body">
+        <h2 id="brief-title">A brief before a list.</h2>
+        <p>
+          Describe what the startup does, its stage and country. This prepares a
+          local research plan. Live research is a separate choice when enabled;
+          it never starts from preparing the plan.
+        </p>
+        <form id="brief-form">
+          <label for="description">One-line startup description</label
+          ><textarea
+            id="description"
+            name="description"
+            minlength="15"
+            maxlength="1000"
+            rows="4"
+            required
+            placeholder="UK seed climate software startup building solar forecasting for grid operators"
+          ></textarea>
+          <p class="field-help">
+            15–1,000 characters. No private company information needed.
+          </p>
+          <button class="button primary" id="prepare-plan" type="submit">
+            Prepare research plan ↗
+          </button>
+        </form>
+        <div id="plan-result" role="status"></div>
+        <section
+          id="live-controls"
+          class="live-controls"
+          aria-labelledby="live-title"
+          hidden
+        >
+          <span class="small-label">OPTIONAL PAID RESEARCH</span>
+          <h3 id="live-title">Research this brief with TinySet</h3>
+          <p id="live-limit-summary">
+            Configured row ceiling and estimated cost are not available yet.
+            Paid research stays disabled until these limits can be shown.
+          </p>
+          <p id="live-price-note"></p>
+          <p>
+            This uses TinyFish credits. A failed request is never repeated
+            automatically, and new provider findings still need source review.
+          </p>
+          <button
+            class="button primary"
+            id="start-research"
+            type="button"
+            disabled
+          >
+            Run paid research ↗
+          </button>
+          <div
+            id="live-status"
+            role="status"
+            aria-live="polite"
+            tabindex="-1"
+          ></div>
+          <div class="live-actions">
+            <button
+              class="button secondary"
+              id="cancel-research"
+              type="button"
+              hidden
+            >
+              Request cancellation
+            </button>
+            <button
+              class="export-link"
+              id="check-research"
+              type="button"
+              hidden
+            >
+              Check this same run
+            </button>
+          </div>
+        </section>
+      </div>
+    </dialog>
+    <div class="toast" id="toast" role="status"></div>
+  </body>
+</html>

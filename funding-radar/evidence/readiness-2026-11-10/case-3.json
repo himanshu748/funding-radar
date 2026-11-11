@@ -1,0 +1,752 @@
+{
+  "format": "funding-radar-source-review-v1",
+  "case_id": 3,
+  "checked_at": "2026-11-10T10:38:43Z",
+  "method": "ordinary_web_primary_source_review",
+  "original_observations_sha256": "d0fd32414bf9051e13cd8055c06c40163062da4a2ce2c298bb5fc3fab48d9a85",
+  "scope": "Separate manual public-web corroboration of the original TinySet research. Historical window remains 2025-05-08 through 2026-11-08. Original observations, provider receipts and reports are preserved. Source kind and indexed-versus-body retrieval are retained; adjacent fit is a reviewer assessment, never a new current investor mandate. No new provider operation. Later enrichment checked at 2026-11-10T11:22:20Z adds dated reporting for Bachatt/Knight and scoped investor range/contact facts. This combines primary pages with identified news and direct interviews; the initial review timestamp is retained. No provider operation was started by this enrichment.",
+  "rows": [
+    {
+      "row_id": "c0cf5fdc-bb18-4a6a-b578-e5c4614d4ecc",
+      "company_name": "Bachatt",
+      "decision": "verified_recent",
+      "announced_on": null,
+      "announced_month": "2026-03",
+      "notes": [
+        "Round review: USD 12,000,000 Series A.",
+        "Announcement review: March 2026 month precision is now corroborated by PTI reporting published 31 March 2026. The company dateline itself says 30 March without printing the year; reporting day and company dateline remain distinct.",
+        "Investor identities/roles: Accel (lead).",
+        "Adjacent fit: Savings, wealth and credit for consumers and self-employed merchants; not merchant payment-processing software.",
+        "Associated partner versus exact lead: Pratik Agarwal (Accel partner quoted and portfolio partner). Evidence status: associated not proven exact deal lead.",
+        "Qualification: The completed Series A falls within March 2026. Exact full-day primary publication is not independently established, and product fit stays adjacent: consumer/self-employed merchant savings, wealth and credit rather than direct merchant payment processing.",
+        "Later enrichment checked 2026-11-10T11:22:20Z: PTI reports the company statement, $12M Series A and Accel lead on 31 March 2026; the new dated corroboration does not establish an individual cheque or exact personal deal leader."
+      ],
+      "sources": [
+        {
+          "url": "https://bachatt.app/press-release",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: $12M Series A, Accel lead, 30 March dateline without explicit year; page refers to Feb 2026 activity."
+        },
+        {
+          "url": "https://www.accel.com/companies/bachatt",
+          "kind": "investor",
+          "supports": ["date", "partner"],
+          "note": "Source page review: Bachatt portfolio association, initial seed investment in 2026, Pratik Agarwal as partner."
+        },
+        {
+          "url": "https://www.newsdrum.in/business/fintech-firm-bachatt-raises-usd-12-mn-in-funding-round-led-by-accel-11439973",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "investor",
+            "stage",
+            "amount",
+            "fit"
+          ],
+          "note": "PTI wire story, published 31 March 2026 17:01 IST, reporting Bachatt company statement: $12M Series A led by Accel for savings/wealth/credit serving merchants and self-employed users. Supports March 2026; publication day is not substituted for the company dateline."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "announced_on"
+      ]
+    },
+    {
+      "row_id": "e71c7064-6ead-4a27-a5dc-ac2a5f18a721",
+      "company_name": "Xflow",
+      "decision": "verified_recent",
+      "announced_on": "2026-02-24",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 16,600,000 Series A.",
+        "Announcement review: 2026-02-24.",
+        "Investor identities/roles: General Catalyst (lead).",
+        "Comparable fit: Indian B2B cross-border payments platform serving exporters and SaaS businesses.",
+        "Associated partner versus exact lead: Alex Tran (General Catalyst managing director quoted). Evidence status: associated not proven exact deal lead.",
+        "Qualification: Official original company URL was not retrievable; participating investor primary release supports the event with a different day.",
+        "Saved February 23 day differs from the investor announcement dated February 24."
+      ],
+      "sources": [
+        {
+          "url": "https://newsroom.paypal-corp.com/2026-02-24-Xflow-Raises-16M-Series-A",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: 24 February 2026 announcement, $16.6M Series A, General Catalyst lead; Alex Tran comments."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "3a6617f3-7bf1-4616-91fb-948f6c9bd374",
+      "company_name": "Knight FinTech",
+      "decision": "verified_recent",
+      "announced_on": null,
+      "announced_month": "2026-01",
+      "notes": [
+        "Round review: January 2026 reporting supports completion/announcement of a multi-tranche Series A. Crowdfund Insider reports $23.6M while ETBFSI reports $30M; the amount and cumulative-versus-new-money split remain qualified, not silently reconciled.",
+        "Announcement review: January 2026 month precision. ETBFSI published 2 January 2026 reports the company announcement that Friday; 3 January 2026 trade reporting describes completed multi-tranche funding. The company indexed article dated 12 January is a separate publication event.",
+        "Investor identities/roles: Accel (portfolio investor at Series A).",
+        "Adjacent fit: B2B banking/lending/treasury infrastructure; serves financial institutions rather than directly selling merchant payments.",
+        "Associated partner versus exact lead: Rachit Parekh (portfolio partner). Evidence status: associated not proven exact deal lead.",
+        "Qualification: Recent completion/announcement is supported by dated reporting, but do not count all $23.6M or $30M as newly paid in January. Exact tranche cash-flow dates and the amount discrepancy remain unresolved; the product fit is adjacent banking/lending infrastructure.",
+        "Saved January 2 exact timing now has dated news corroboration, while differing amounts and older Series A/A+ tranches remain visible. Month precision is retained to avoid equating announcement, article publication and all tranche completion dates.",
+        "Later enrichment checked 2026-11-10T11:22:20Z uses read news bodies, separately from earlier indexed-only company text. No investor cheque or exact named deal leader is inferred."
+      ],
+      "sources": [
+        {
+          "url": "https://www.accel.com/companies/knight-fintech",
+          "kind": "investor",
+          "supports": ["identity", "stage", "investor", "fit", "partner"],
+          "note": "Source page review: Series A initial investment and partner association with Rachit Parekh, without a round date."
+        },
+        {
+          "url": "https://www.knightfintech.com/knowledgecenter/",
+          "kind": "company",
+          "supports": ["identity", "stage", "amount", "date"],
+          "note": "search_index_text_only: Indexed page lists 12 January 2026 coverage of a completed $23.6M multi-tranche Series A. Direct body returned iframe only."
+        },
+        {
+          "url": "https://knightfintech.com/about-us/",
+          "kind": "company",
+          "supports": ["identity", "stage", "amount", "fit"],
+          "note": "search_index_text_only: Indexed history lists February 2024 Series A, April 2025 A+ and January 2026 total funding. Do not treat cumulative or earlier tranches as new January funding."
+        },
+        {
+          "url": "https://bfsi.economictimes.indiatimes.com/articles/knight-fintech-secures-30m-series-a-funding-to-transform-digital-lending-and-risk-management/126305136",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "investor",
+            "stage",
+            "fit"
+          ],
+          "note": "ETBFSI published 2 January 2026 16:57 IST, updated 17:04, reports the company announcement that Friday and describes fintech banking/lending infrastructure. It reports $30M, conflicting with $23.6M elsewhere; neither amount is adopted as individual cheque."
+        },
+        {
+          "url": "https://www.crowdfundinsider.com/2026/01/257062-accel-leads-23-6m-series-a-in-indias-knight-fintech/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "investor",
+            "stage",
+            "fit"
+          ],
+          "note": "Trade report published 3 January 2026, Michael Wong: company says $23.6M Series A led by Accel and completed through multiple tranches. January completion reporting is distinct from every tranche being new in that month. Banking/lending software fit remains adjacent."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "announced_on",
+        "new_money_in_January",
+        "tranche_chronology",
+        "single_unqualified_round_amount"
+      ]
+    },
+    {
+      "row_id": "7c28a9a0-6719-479d-aa4a-bbf1640b20b4",
+      "company_name": "Skydo",
+      "decision": "verified_recent",
+      "announced_on": "2025-12-10",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 10,000,000 Series A.",
+        "Announcement review: 2025-12-10; updated: 2026-11-03.",
+        "Investor identities/roles: Susquehanna Asia Venture Capital (lead).",
+        "Comparable fit: Cross-border collections and receivables software for Indian exporters, MSMEs and freelancers.",
+        "Associated partner versus exact lead: not established. Evidence status: unknown. No named investing partner appears in the company announcement.",
+        "Qualification: No cheque size or exact-deal partner established."
+      ],
+      "sources": [
+        {
+          "url": "https://www.skydo.com/blog/skydo-series-a-funding-announcement",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: 10 December 2025 publication; $10M Series A led by Susquehanna Asia Venture Capital, Elevation and Eximius participation; cross-border tools for Indian exporters."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "b5f87367-f65a-48a5-b0ec-8b74cdbade43",
+      "company_name": "BeyondSquare Solutions",
+      "decision": "not_comparable",
+      "announced_on": "2025-09-18",
+      "announced_month": null,
+      "notes": [
+        "Round review: structure: strategic minority share acquisition with conditional stages; planned share acquisition usd: 4000000; advisory costs usd: 150000. Evidence status: verified with structure qualification.",
+        "Announcement review: company announcement: 2025-09-18; investor announcement: 2025-08-01; agreement date: 2025-08-01; board resolution: 2025-04-30.",
+        "Investor identities/roles: AVANT GROUP CORPORATION (strategic investor/acquirer). Evidence status: contradicted and corrected.",
+        "Comparable fit: strength: weak; reason: Enterprise consolidation/reporting accounting software. Strategic corporate acquisition does not prove a repeatable Series A VC mandate for payments startups.",
+        "Associated partner versus exact lead: not established. Evidence status: unknown. CFO enquiry contact is not a deal partner.",
+        "Qualification: Part of the planned transaction is performance-contingent; announcement does not establish all stages completed at once. Poor comparable fit cannot be hidden by fintech keyword matching.",
+        "Saved Avant Global Corporation is the wrong identity; official investor is AVANT GROUP CORPORATION.",
+        "Saved September 17 announcement differs from company September 18 and earlier investor August 1 disclosure.",
+        "Series A label not supported by the primary transaction notices."
+      ],
+      "sources": [
+        {
+          "url": "https://finalyzer.ai/finalyzer-secures-investment-from-global-enterprise-avant-group/",
+          "kind": "company",
+          "supports": ["identity", "amount", "date", "investor"],
+          "note": "Source page review: 18 September 2025 investment announcement identifies AVANT GROUP CORPORATION and its actual domain."
+        },
+        {
+          "url": "https://www.avantgroup.com/en/ir/irnews/auto_20250801528104/pdfFile.pdf",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "pdf_text_and_table_read: 1 August 2025 share-acquisition notice: $4M share acquisition plus $150K advisory costs, three stages, conditional warrants and planned equity-method affiliate."
+        },
+        {
+          "url": "https://www.avantgroup.com/en/ir/irnews/auto_20250805530344/pdfFile.pdf",
+          "kind": "investor",
+          "supports": ["identity", "amount", "date"],
+          "note": "pdf_text_read: 5 August correction: board decision was April 30, agreement August 1; August 2025 and August 2026 transfers were scheduled."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "saved_investor_identity",
+        "Series_A_label",
+        "unconditional_completed_round",
+        "payments_comparability"
+      ]
+    },
+    {
+      "row_id": "0a9ed518-0bed-450f-938b-a52053756522",
+      "company_name": "GoKwik",
+      "decision": "verified_recent",
+      "announced_on": "2025-06-23",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 13,000,000 growth round.",
+        "Announcement review: 2025-06-23. Evidence status: contradicted and corrected.",
+        "Investor identities/roles: RTP Global (lead).",
+        "Comparable fit: strength: strong product different stage; reason: Checkout, conversion and ecommerce software for merchants; current disclosed event is a growth round rather than Series A.",
+        "Associated partner versus exact lead: Galina Chifina (RTP partner/CEO quoted). Evidence status: associated not proven exact deal lead.",
+        "Qualification: Do not equate quoting executive with exact-deal lead partner or growth stage with Series A.",
+        "Saved June 24 differs from official June 23.",
+        "Saved co-investor wording understates RTP Global lead role."
+      ],
+      "sources": [
+        {
+          "url": "https://rtp.vc/views/gokwik-series-growth-round-raise-2025",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: 23 June 2025 $13M growth round led by RTP Global; Galina Chifina comments; checkout/ecommerce products."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "14d0a0d1-bc81-4e09-b3b3-35c3b77d629a",
+      "company_name": "Recur Club",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-29",
+      "announced_month": null,
+      "notes": [
+        "Round review: stage: Series A; equity usd: 8000000; debt allocation usd: 42000000; combined headline usd: 50000000. Evidence status: verified with structure qualification.",
+        "Announcement review: 2025-09-29.",
+        "Investor identities/roles: InfoEdge Ventures (named equity backer/lead alongside other named equity firms).",
+        "Adjacent fit: AI debt-advisory and financing platform for SMEs and startups, not payments software.",
+        "Associated partner versus exact lead: not established. Evidence status: unknown. The primary company post does not name Amit Behl or an exact-deal partner.",
+        "Qualification: Separate credit funding for users from the platform equity raise, and do not use company financing intake as InfoEdge pitch intake.",
+        "$50M combines equity and debt allocation; it is not InfoEdge cheque size or $50M pure equity."
+      ],
+      "sources": [
+        {
+          "url": "https://www.recurclub.com/blog/announcing-our-50m-series-a",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: 29 September 2025 announcement: $8M equity with named equity backers and $42M debt allocation, rather than $50M equity or one investor cheque."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "USD50M_pure_equity",
+        "InfoEdge_specific_cheque",
+        "Amit_Behl_deal_lead"
+      ]
+    },
+    {
+      "row_id": "7f9cd6d5-4996-42dc-a006-c40b41b98daa",
+      "company_name": "FinBox",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-16",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 40,000,000 Series B. Evidence status: verified with structure qualification.",
+        "Announcement review: announcement dateline: 2025-09-16; published date: 2025-09-17.",
+        "Investor identities/roles: WestBridge Capital (incoming lead).",
+        "Comparable fit: strength: adjacent different stage; reason: Indian B2B credit/lending infrastructure, later Series B rather than the target Series A.",
+        "Associated partner versus exact lead: Deepak Ramineedi (WestBridge partner quoted). Evidence status: associated not proven exact deal lead.",
+        "Qualification: Company media contact is not an investor pitch route.",
+        "Headline amount includes secondary, not solely new primary capital."
+      ],
+      "sources": [
+        {
+          "url": "https://research.finbox.in/blog/finbox-raises-40mn-seriesb-westbridge-a91-credit-infrastructure-technology-expansion/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: 16 September dateline and 17 September 2025 publication; $40M Series B mixes primary and secondary, led by WestBridge. Deepak Ramineedi comments."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "fbfafac2-a527-46d8-9668-2ae528733f41",
+      "company_name": "Snapmint",
+      "decision": "verified_recent",
+      "announced_on": "2025-10-31",
+      "announced_month": null,
+      "notes": [
+        "Round review: . Evidence status: partially verified. Funding relationship is verified, but investor press release withholds financial terms and does not name Series B.",
+        "Announcement review: 2025-10-31.",
+        "Investor identities/roles: General Atlantic (lead).",
+        "Comparable fit: strength: payments adjacent different customer; reason: Consumer EMI-on-UPI financing distributed via merchants, not the same B2B merchant payments product.",
+        "Associated partner versus exact lead: Shantanu Rastogi (General Atlantic managing director/India head quoted). Evidence status: associated not proven exact deal lead.",
+        "Qualification: Official financial terms are undisclosed. Keep third-party amount separate and unverified.",
+        "Saved $125M amount and Series B label are not substantiated by official investor release."
+      ],
+      "sources": [
+        {
+          "url": "https://www.generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform/",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: 31 October 2025 funding led by General Atlantic. Financial terms and round label are not disclosed. Shantanu Rastogi comments."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "USD125M_amount",
+        "Series_B_label"
+      ]
+    },
+    {
+      "row_id": "689527c3-f0bc-4051-ac8a-bccc33460158",
+      "company_name": "Optimo Capital",
+      "decision": "not_comparable",
+      "announced_on": null,
+      "announced_month": "2025-10",
+      "notes": [
+        "Round review: equity inr: 1500000000; debt inr: 1100000000. Evidence status: verified with precision qualification. Primary newsletter does not name round Series A. It separates equity round from debt.",
+        "Announcement review: month: 2025-10; newsletter published: 2025-11-04. Evidence status: verified with precision qualification. October portfolio-update period is stated; the exact announcement day is not supplied.",
+        "Investor identities/roles: Blume Ventures (participant).",
+        "Comparable fit: strength: weak adjacent; reason: Digital property-backed MSME lender/NBFC with AI underwriting; not a merchant payments software vendor.",
+        "Associated partner versus exact lead: Ashish Fafadia (Blume portfolio investment lead, association since 2024). Evidence status: associated not proven exact deal lead. Blume portfolio role does not establish leading the 2025 round; primary newsletter names founder as round lead.",
+        "Qualification: Existing tenth row can become a primary-corroborated October funding event after identity/product corrections. It still cannot be called a strong payments comparable or a complete investor-detail match.",
+        "Official portfolio links optimocapital.in; saved optimocapital.com identity is unestablished.",
+        "Saved collateral-free product claim is contradicted by primary property-backed lending descriptions.",
+        "Saved October 29 exact day not corroborated; retain month precision."
+      ],
+      "sources": [
+        {
+          "url": "https://infullblume.substack.com/p/in-full-blume-coaches-and-credit",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "amount",
+            "date",
+            "investor",
+            "fit"
+          ],
+          "note": "Source page review: October 2025 portfolio update confirms INR150cr equity round led by founder Prashant Pitti, Blume and Omnivore participating; separate INR110cr debt. Publication 4 November 2025; exact event day not stated."
+        },
+        {
+          "url": "https://blume.vc/newsletters/in-full-blume/in-full-blume-coaches-credit-building-indias-travel-and-lending-rails-and-more-october-2025",
+          "kind": "investor",
+          "supports": ["date"],
+          "note": "Source page review: Official Blume page links full investor-authored October newsletter and dates publication 4 November 2025."
+        },
+        {
+          "url": "https://optimocapital.in/",
+          "kind": "company",
+          "supports": ["identity", "fit"],
+          "note": "Source page review: Property-backed loans for MSMEs, operated through Nipun Projects and Finance; contradicts collateral-free description."
+        },
+        {
+          "url": "https://blume.vc/optimo-loans",
+          "kind": "investor",
+          "supports": ["partner"],
+          "note": "Source page review: Optimo Loans is a Blume investment; links company to optimocapital.in; names Ashish Fafadia investment lead, partnered in 2024."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "saved_company_dot_com_identity",
+        "collateral_free_product",
+        "Series_A_label",
+        "payments_software_comparability",
+        "announced_on"
+      ]
+    }
+  ],
+  "investors": [
+    {
+      "name": "Accel",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "No conclusion that the value is unavailable elsewhere.; not found in bounded primary review"
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "Bachatt: Series A; Knight: Series A initial investment",
+          "source_urls": [
+            "https://bachatt.app/press-release",
+            "https://www.accel.com/companies/knight-fintech"
+          ],
+          "note": "verified historical"
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "https://www.accel.com/contact-us",
+          "source_urls": ["https://www.accel.com/contact-us"],
+          "note": "No explicit startup application/warm-intro path in retrieved body.; general contact only"
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Portfolio associations for Pratik Agarwal and Rachit Parekh, exact-deal leadership unproved.",
+          "source_urls": [
+            "https://bachatt.app/press-release",
+            "https://www.accel.com/companies/bachatt",
+            "https://www.accel.com/companies/knight-fintech"
+          ],
+          "note": "Portfolio associations for Pratik Agarwal and Rachit Parekh, exact-deal leadership unproved."
+        }
+      ]
+    },
+    {
+      "name": "General Catalyst",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "No conclusion that the value is unavailable elsewhere.; not found in bounded primary review"
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "Xflow: Series A",
+          "source_urls": [
+            "https://newsroom.paypal-corp.com/2026-02-24-Xflow-Raises-16M-Series-A"
+          ],
+          "note": "verified historical"
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "Alex Tran publishes professional email atran@generalcatalyst.com at https://www.generalcatalyst.com/team/alex-tran.",
+          "source_urls": ["https://www.generalcatalyst.com/team/alex-tran"],
+          "note": "Direct investment-professional contact is real; no explicit startup application or open-intake policy was established. Generic office contacts are not substituted as pitching permission. Later enrichment checked at 2026-11-10T11:22:20Z."
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Alex Tran: official Xflow investor association and firm fintech/growth leadership; exact February 2026 deal leadership unproved.",
+          "source_urls": [
+            "https://www.generalcatalyst.com/companies/xflow",
+            "https://www.generalcatalyst.com/team/alex-tran",
+            "https://newsroom.paypal-corp.com/2026-02-24-Xflow-Raises-16M-Series-A"
+          ],
+          "note": "Portfolio association and quotation do not establish exact transaction lead. Typical relevant cheque range remains unknown; unrelated Creation/old seed-program ranges were rejected. Later enrichment checked at 2026-11-10T11:22:20Z."
+        }
+      ]
+    },
+    {
+      "name": "Susquehanna Asia Venture Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "No conclusion that the value is unavailable elsewhere.; not found in bounded primary review"
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "published strategy: Series A to IPO; Skydo: Series A",
+          "source_urls": [
+            "https://sig-asiavc.com/about/",
+            "https://www.skydo.com/blog/skydo-series-a-funding-announcement"
+          ],
+          "note": "verified"
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "https://sig-asiavc.com/contact/",
+          "source_urls": ["https://sig-asiavc.com/contact/"],
+          "note": "insufficient pitch route"
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.skydo.com/blog/skydo-series-a-funding-announcement"
+          ],
+          "note": "Unknown for Skydo."
+        }
+      ]
+    },
+    {
+      "name": "General Atlantic",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "No conclusion that the value is unavailable elsewhere.; not found in bounded primary review"
+        },
+        {
+          "field": "stage",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform/"
+          ],
+          "note": "unknown for this round"
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "https://www.generalatlantic.com/contact/",
+          "source_urls": ["https://www.generalatlantic.com/contact/"],
+          "note": "Do not use capital-solutions, recruiting or media routes as a startup pitch form.; general contact only"
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Shantanu Rastogi quoted; exact-deal leadership unproved.",
+          "source_urls": [
+            "https://www.generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform/"
+          ],
+          "note": "Shantanu Rastogi quoted; exact-deal leadership unproved."
+        }
+      ]
+    },
+    {
+      "name": "RTP Global",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "USD 1,000,000-10,000,000 typical India cheques; dated August 2025 statement about the 2023 global fund deploying from early 2024.",
+          "source_urls": [
+            "https://www.financialexpress.com/business/ai-valuations-in-india-remain-much-more-reasonable-than-us-3935532/lite/"
+          ],
+          "note": "Direct interview with Asia partner Nishit Garg. Mostly seed/Series A, occasionally early B; not the GoKwik allocation, a funding commitment or a guarantee of unchanged current policy. Later enrichment checked at 2026-11-10T11:22:20Z."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Official strategy: pre-seed, seed and Series A; June 2025 GoKwik comparable was a growth round.",
+          "source_urls": [
+            "https://rtp.vc/faq",
+            "https://rtp.vc/views/gokwik-series-growth-round-raise-2025"
+          ],
+          "note": "Keep current published strategy distinct from historical comparable stage. Later enrichment checked at 2026-11-10T11:22:20Z."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "Pitch through https://rtp.vc/contact or published hello@rtp.vc.",
+          "source_urls": ["https://rtp.vc/faq"],
+          "note": "Official FAQ explicitly invites founder pitches through these routes. No outreach performed. Later enrichment checked at 2026-11-10T11:22:20Z."
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Galina Chifina: historical investment leadership in GoKwik supported; exact June 2025 round responsibility unproved.",
+          "source_urls": [
+            "https://economictimes.indiatimes.com/prime/technology-and-startups/if-trust-is-lacking-investors-must-create-space-for-open-discussion-with-founders-galina-chafina/primearticleshow/103541039.cms",
+            "https://rtp.vc/team/galina-chifina",
+            "https://rtp.vc/views/gokwik-series-growth-round-raise-2025"
+          ],
+          "note": "Dated September 2023 interview synopsis explicitly reports that she led RTP investments including GoKwik; official bio strengthens that history. Neither proves leadership of this particular later round. Later enrichment checked at 2026-11-10T11:22:20Z."
+        }
+      ]
+    },
+    {
+      "name": "Blume Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "min: 1500000; max: 3000000; currency: USD",
+          "source_urls": [
+            "https://blume.vc/?trk=public_profile__reactions-text"
+          ],
+          "note": "Published FAQ includes Fund IV context, not a verified Fund V policy or any individual Optimo cheque.; verified published faq with age limit; FAQ has Fund IV context and is not verified Fund V policy or any individual Optimo cheque."
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "stages: seed; pre-Series A",
+          "source_urls": [
+            "https://blume.vc/?trk=public_profile__reactions-text"
+          ],
+          "note": "verified published faq"
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Ashish Fafadia portfolio investment lead, not proved leader of 2025 round.",
+          "source_urls": ["https://blume.vc/optimo-loans"],
+          "note": "Ashish Fafadia portfolio investment lead, not proved leader of 2025 round."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "Portfolio founder or trusted mutual-contact introduction; if unavailable, researched direct outreach to the relevant investment professional following Blume homepage FAQ.",
+          "source_urls": [
+            "https://blume.vc/?trk=public_profile__reactions-text",
+            "https://blume.vc/contact-us"
+          ],
+          "note": "Official policy excludes media and investor-relations routes from founder pitching. No email was guessed or message sent. Later enrichment checked at 2026-11-10T11:22:20Z."
+        }
+      ]
+    },
+    {
+      "name": "InfoEdge Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "USD 300,000-5,000,000 flexible typical range in FAQ; USD 500,000-5,000,000 average-cheque range in strategy headline.",
+          "source_urls": ["https://www.infoedgeventures.in/about"],
+          "note": "Both published scopes occur on the same official page. Preserve the lower-bound distinction and acknowledged exceptions; do not infer InfoEdge share of the Recur equity raise. Later enrichment checked at 2026-11-10T11:22:20Z."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Official strategy: pre-seed, seed, Series A, India focus. Recur Club historical event is a Series A equity raise.",
+          "source_urls": [
+            "https://www.infoedgeventures.in/about",
+            "https://www.recurclub.com/blog/announcing-our-50m-series-a"
+          ],
+          "note": "The company separates $8M equity from $42M debt allocation. B2B financing-platform fit stays adjacent to payments. Later enrichment checked at 2026-11-10T11:22:20Z."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "Submit founder pitches at connect@infoedgeventures.com; https://www.infoedgeventures.in/.",
+          "source_urls": ["https://www.infoedgeventures.in/"],
+          "note": "Homepage explicitly invites pitches at this address; it is not merely an office directory. Later enrichment checked at 2026-11-10T11:22:20Z."
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Amit Behl comments on Recur Club; exact September 2025 transaction leadership is unproved. Current official team label: Partner, Capital 2B.",
+          "source_urls": [
+            "https://www.infoedgeventures.in/team",
+            "https://b2b.economictimes.indiatimes.com/amp/news/entrepreneur/recur-club-raises-50-million-led-by-infoedge-ventures-and-others/124211307"
+          ],
+          "note": "Quotation is not exact-deal lead evidence; current title is preserved instead of inventing a separate present InfoEdge partner appointment. Later enrichment checked at 2026-11-10T11:22:20Z."
+        }
+      ]
+    }
+  ],
+  "blockers": [
+    "No prioritized investor has all typical-cheque, exact-recent-deal personal lead and explicit founder-intake requirements independently closed.",
+    "RTP now has a dated USD1M-10M India-strategy range and InfoEdge has published typical/average ranges and explicit pitching routes; exact recent-deal partner responsibility is still limited. Other cheque gaps and scope caveats remain.",
+    "Several former personal lead assertions rested only on quotation or portfolio association; historical leadership is not silently promoted to the exact recent round.",
+    "Only eight of ten original company rows are supported as recent comparable or explicitly adjacent fintech-software cases. BeyondSquare strategic acquisition and Optimo property-backed NBFC stay excluded as weak payments-software comparables.",
+    "Bachatt uses March2026 and Knight January2026 month precision after dated-news enrichment. Exact full-day primary dating, Knight magnitude/tranche chronology, and adjacent product-fit qualifications remain visible.",
+    "Current-stage/mandate fit must not be inferred from historical investments. Blume FAQ retains Fund IV age caveat; no current individual cheque or exact2025 Optimo deal leader is inferred."
+  ],
+  "provider_operations_started": 0,
+  "updated_at": "2026-11-10T11:22:20Z"
+}

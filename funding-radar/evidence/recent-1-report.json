@@ -1,0 +1,378 @@
+{
+  "format": "funding-radar-recent-report-v2",
+  "mode": "saved_live",
+  "startup": {
+    "description": "US seed developer software startup building automated code review for engineering teams",
+    "sectors": [
+      "software"
+    ],
+    "stage": "seed",
+    "geography": "us"
+  },
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "dataset_id": "1058316e-a3ee-40a2-9780-8d8b44196fd9",
+  "run_id": "60cb2833-7e3a-407e-bb4b-8efbc9270800",
+  "collected_at": "2026-11-08T08:08:18.656Z",
+  "rows": [
+    {
+      "row_id": "76dc0a38-a658-4b83-b9fd-c3a8e98894a9",
+      "company_name": "Actual AI",
+      "company_url": "https://actual.ai/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "term:code",
+        "term:engineering"
+      ],
+      "geography": null,
+      "round_stage": "Seed",
+      "investor_name": "AlleyCorp",
+      "investor_url": "https://alleycorp.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": {
+        "url": "https://alleycorp.com/contact",
+        "source_url": "https://alleycorp.com/contact",
+        "summary": "AlleyCorp's official contact page (alleycorp.com/contact/) lists info@alleycorp.com as its public contact route."
+      },
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "50bb9666-c1be-47ed-8145-a5527aafbc8a",
+      "company_name": "Greptile",
+      "company_url": "https://greptile.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": "Series B",
+      "investor_name": "Menlo Ventures",
+      "investor_url": "https://menlovc.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Deedy Das",
+        "source_url": "https://greptile.com/blog/series-b",
+        "summary": "Greptile's Series B blog states Menlo Ventures led the round and Deedy Das (Menlo partner) is joining the board."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "0ab7195b-b3af-43bc-8576-9483058957dc",
+      "company_name": "Momentic",
+      "company_url": "https://momentic.ai/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Standard Capital",
+      "investor_url": "https://standardcap.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": {
+        "url": "https://standardcap.com/apply",
+        "source_url": "https://standardcap.com/",
+        "summary": "Standard Capital's official site states founders apply via its application form (standardcap.com/apply) and that questions about the application process can be emailed to apply@standardcap.com."
+      },
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "6f2d5853-a43e-405b-a17e-c9dbdbbbdfd0",
+      "company_name": "CodeRabbit",
+      "company_url": "https://coderabbit.ai/",
+      "announced_on": "2025-09-16",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "term:engineering"
+      ],
+      "geography": null,
+      "round_stage": "Series B",
+      "investor_name": "Scale Venture Partners",
+      "investor_url": "https://scalevp.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews",
+        "summary": "CodeRabbit announced a $60M Series B on 2025-09-16 led by Scale Venture Partners, with participation from NVentures (NVIDIA's VC arm), CRV, Harmony Partners, Flex Capital, Engineering Capital and Pelion Venture Partners; total capital raised reached $88M.",
+        "collected_at": "2026-11-08T08:08:18.656Z",
+        "provenance": "provider_reported"
+      }
+    },
+    {
+      "row_id": "133da117-d7c5-4546-bf65-9888086b0d38",
+      "company_name": "Coder",
+      "company_url": "https://coder.com/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "KKR (funds managed by)",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": {
+        "url": "https://kkr.com/contact",
+        "source_url": "https://kkr.com/contact",
+        "summary": "KKR's official Contact page lists its general inquiries line +1 (212) 750-8300 and a press/media contact email media@kkr.com for journalists."
+      },
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Comparable sector overlap is not evidenced.",
+        "Investor identity is unresolved.",
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "2ff4fc8f-87e2-4a4f-9f07-f1cb4d50b763",
+      "company_name": "CodeAnt AI",
+      "company_url": "https://codeant.ai/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "term:code",
+        "term:review"
+      ],
+      "geography": "us",
+      "round_stage": "Seed",
+      "investor_name": "Y Combinator",
+      "investor_url": "https://ycombinator.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "eef8343b-7e78-4924-89cd-9f79e721fe8d",
+      "company_name": "Span",
+      "company_url": "https://span.app/",
+      "announced_on": "2025-11-17",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": null,
+      "investor_name": "Craft Ventures",
+      "investor_url": "https://craftventures.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://span.app/blog/series-a",
+        "summary": "Span (Attuned Inc.), San Francisco, announced 2025-11-17 that it raised $25M in combined Seed and Series A funding. Investors: Craft Ventures (Series A lead), Alt Capital, SV Angel, BoxGroup, Bling Capital, plus 100+ tech executives. Span's developer-intelligence platform tracks engineer time and AI code-editor usage and detects AI-generated code; customers include Ramp, Vanta, Intercom and Braze.",
+        "collected_at": "2026-11-08T08:08:18.656Z",
+        "provenance": "provider_reported"
+      }
+    },
+    {
+      "row_id": "b09b3eac-460d-44bc-ad26-0d4f974f007b",
+      "company_name": "Testkube",
+      "company_url": "https://testkube.io/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Insight Partners",
+      "investor_url": "https://insightpartners.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "A completed funding event needs explicit primary-source evidence.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "43b28e93-2052-4389-8d73-0463f39b9202",
+      "company_name": "Qodo",
+      "company_url": "https://qodo.ai/",
+      "announced_on": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "term:code",
+        "term:review"
+      ],
+      "geography": null,
+      "round_stage": "Series B",
+      "investor_name": "Qumra Capital",
+      "investor_url": "https://qumracapital.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "A completed funding event needs explicit primary-source evidence.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": null
+    },
+    {
+      "row_id": "f98273e0-bfd1-4e4a-96ee-365a01219714",
+      "company_name": "Swarmia",
+      "company_url": "https://swarmia.com/",
+      "announced_on": "2025-06-18",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Karma Ventures, DIG Ventures",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://swarmia.com/blog/series-a-funding",
+        "summary": "Swarmia's official blog (Jun 18, 2025) announced $11M Series A led by Karma Ventures and DIG Ventures, with existing investors Alven and Lifeline Ventures plus angels Cal Henderson and Romain Huet. tech.eu (2025-06-18) corroborates: Finland's Swarmia raised EUR10M, round led by DIG Ventures and Karma Ventures, to improve developer productivity.",
+        "collected_at": "2026-11-08T08:08:18.656Z",
+        "provenance": "provider_reported"
+      }
+    }
+  ],
+  "investors": [
+    {
+      "id": "craftventures.com|craft ventures",
+      "investor_name": "Craft Ventures",
+      "investor_url": "https://craftventures.com/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: evidenced comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Span",
+          "company_url": "https://span.app/",
+          "announced_on": "2025-11-17",
+          "round_stage": null,
+          "evidence": {
+            "url": "https://span.app/blog/series-a",
+            "summary": "Span (Attuned Inc.), San Francisco, announced 2025-11-17 that it raised $25M in combined Seed and Series A funding. Investors: Craft Ventures (Series A lead), Alt Capital, SV Angel, BoxGroup, Bling Capital, plus 100+ tech executives. Span's developer-intelligence platform tracks engineer time and AI code-editor usage and detects AI-generated code; customers include Ramp, Vanta, Intercom and Braze.",
+            "collected_at": "2026-11-08T08:08:18.656Z",
+            "provenance": "provider_reported"
+          },
+          "lead_partner": null
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [],
+      "contact_routes": [],
+      "unknowns": [
+        "Round stage is unknown.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "scalevp.com|scale venture partners",
+      "investor_name": "Scale Venture Partners",
+      "investor_url": "https://scalevp.com/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: evidenced comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "CodeRabbit",
+          "company_url": "https://coderabbit.ai/",
+          "announced_on": "2025-09-16",
+          "round_stage": "Series B",
+          "evidence": {
+            "url": "https://coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews",
+            "summary": "CodeRabbit announced a $60M Series B on 2025-09-16 led by Scale Venture Partners, with participation from NVentures (NVIDIA's VC arm), CRV, Harmony Partners, Flex Capital, Engineering Capital and Pelion Venture Partners; total capital raised reached $88M.",
+            "collected_at": "2026-11-08T08:08:18.656Z",
+            "provenance": "provider_reported"
+          },
+          "lead_partner": null
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Series B"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    }
+  ],
+  "coverage": {
+    "scope": "ten_recent_company_evidence_only",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 3,
+    "complete": false,
+    "shortfall": 7
+  },
+  "warning": "Provider-reported recent-company research; source truth is not independently verified. Unknown cheque, stage, partner and contact fields are explicit. No current mandate or funding outcome is promised."
+}

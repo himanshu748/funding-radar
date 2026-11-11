@@ -1,0 +1,791 @@
+{
+  "format": "funding-radar-source-review-v1",
+  "case_id": 1,
+  "checked_at": "2026-11-10T10:38:06Z",
+  "method": "ordinary_web_primary_source_review",
+  "original_observations_sha256": "d04351fcce291793f48291673bd07a4271737f1fc940d7d021a054afaab1aac9",
+  "scope": "Separate manual public-web corroboration of the original TinySet research. Historical window remains 2025-05-08 through 2026-11-08. Original observations, provider receipts and reports are preserved. Source kind and indexed-versus-body retrieval are retained; adjacent fit is a reviewer assessment, never a new current investor mandate. No new provider operation. Investor details for AlleyCorp, Standard Capital, Menlo Ventures and Scale Venture Partners received a separate later public-source review at 2026-11-10T11:20:58Z. The original row-review timestamp, observations hash and company decisions remain unchanged; investor enrichment does not establish a complete approach-ready shortlist.",
+  "rows": [
+    {
+      "row_id": "76dc0a38-a658-4b83-b9fd-c3a8e98894a9",
+      "company_name": "Actual AI",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-29",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 3,200,000 Seed. Evidence status: verified mixed sources.",
+        "Announcement review: day: 2025-09-29. Evidence status: verified secondary day. Exact date is not separately primary-corroborated.",
+        "Investor identities/roles: AlleyCorp (lead).",
+        "Comparable fit: Direct engineering-management and review workflow; Seattle seed-stage supports input geography/stage.",
+        "Individual lead qualification: not established. Evidence status: unknown. Kenneth Auchenberg is quoted; do not infer sole lead responsibility.",
+        "Historical-window assessment: inside using secondary day"
+      ],
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/alleycorp_seattle-startup-actual-ai-raises-32m-to-activity-7378481627364114436-txSF",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "investor",
+            "partner"
+          ],
+          "note": "Indexed page text: AlleyCorp states its lead investment in Actual AI $3.2M seed and quotes Kenneth Auchenberg. Indexed relative dating is insufficient to establish the exact announcement day; a quote is not proof of personal lead responsibility."
+        },
+        {
+          "url": "https://www.geekwire.com/2025/seattle-startup-actual-ai-raises-3-2m-to-build-ai-agents-for-engineering-managers/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date"
+          ],
+          "note": "Indexed page text: September 29, 2025 dated report gives $3.2M seed led by AlleyCorp. Exact day is secondary corroboration, while investment identity has separate primary support."
+        },
+        {
+          "url": "https://actual.ai/about",
+          "kind": "company",
+          "supports": ["identity", "investor", "fit"],
+          "note": "full_page_and_index: Company identifies itself as Seattle-based, seed-stage, focused on architecture governance and engineering management, and lists AlleyCorp among seed backers. No round announcement day or $3.2M amount is stated."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "50bb9666-c1be-47ed-8145-a5527aafbc8a",
+      "company_name": "Greptile",
+      "decision": "verified_recent",
+      "announced_on": "2026-10-19",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 50,000,000 Series B.",
+        "Announcement review: day: 2026-10-19.",
+        "Investor identities/roles: Menlo Ventures (lead).",
+        "Comparable fit: Direct code-review comparator; Series B differs from seed target.",
+        "Individual lead qualification: Deedy Das. Evidence status: verified associated deal partner. Firm leads; official portfolio associates him with this Series B and company names board appointment. Sole personal-lead wording not explicit.",
+        "Historical-window assessment: inside"
+      ],
+      "sources": [
+        {
+          "url": "https://www.greptile.com/blog/series-b",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor",
+            "partner"
+          ],
+          "note": "full_page: October 19, 2026 announcement reports a $50M Series B led by Menlo Ventures and says Deedy Das joins the board. Product is code review and independent code validation."
+        },
+        {
+          "url": "https://menlovc.com/team/deedy-das/",
+          "kind": "investor",
+          "supports": ["partner"],
+          "note": "Indexed page text: Official profile assigns Greptile 2026 Series B partnership to Deedy Das and states his early-stage AI/infrastructure/software focus."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "0ab7195b-b3af-43bc-8576-9483058957dc",
+      "company_name": "Momentic",
+      "decision": "verified_recent",
+      "announced_on": "2025-11-24",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 15,000,000 Series A.",
+        "Announcement review: day: 2025-11-24. Evidence status: verified indexed company day.",
+        "Investor identities/roles: Standard Capital (lead).",
+        "Comparable fit: Adjacent software-QA buyer/workflow; Series A differs from seed. Standard explicitly post-PMF.",
+        "Individual lead qualification: not established. Evidence status: unknown. Dalton Caldwell authors the announcement; do not infer sole deal lead from authorship.",
+        "Historical-window assessment: inside"
+      ],
+      "sources": [
+        {
+          "url": "https://momentic.ai/blog/series-a",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor"
+          ],
+          "note": "search_index_body; direct_open_rejected_text_markdown: Indexed company announcement by Wei-Wei Wu dated November 24, 2025 reports $15M Series A led by Standard Capital for automated software verification. Direct web open failed on text/markdown; this is indexed rather than direct-page corroboration."
+        },
+        {
+          "url": "https://www.standardcap.com/changelog/post/momentic-series-a-led-by-standard-capital",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "investor",
+            "partner"
+          ],
+          "note": "full_page: Dalton Caldwell article dated November 26, 2025 explicitly confirms Standard led Momentic Series A. It describes his relationship with the founders but does not explicitly name a sole deal-leading partner or give cheque size."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "6f2d5853-a43e-405b-a17e-c9dbdbbbdfd0",
+      "company_name": "CodeRabbit",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-16",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 60,000,000 Series B.",
+        "Announcement review: day: 2025-09-16.",
+        "Investor identities/roles: Scale Venture Partners (lead).",
+        "Comparable fit: Direct AI-code-review comparator; Series B and Scale A/B policy differ from seed target.",
+        "Individual lead qualification: Andy Vitus. Evidence status: verified associated deal partner. Andy and Maggie Basta co-author the firm lead announcement; Andy has board seat. Sole individual lead is not explicit.",
+        "Historical-window assessment: inside"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor"
+          ],
+          "note": "full_page: September 16, 2025 founder-authored announcement reports $60M Series B led by Scale Venture Partners for AI code review. Round total is not a Scale cheque."
+        },
+        {
+          "url": "https://www.scalevp.com/blog/announcing-our-investment-in-coderabbit",
+          "kind": "investor",
+          "supports": ["date", "identity", "investor", "partner"],
+          "note": "full_page: September 16, 2025 post is authored by Andy Vitus and Maggie Basta and states Scale leads CodeRabbit Series B. Co-authorship supports deal association, not a sole personal lead."
+        },
+        {
+          "url": "https://www.scalevp.com/team/andy-vitus?tab=news",
+          "kind": "investor",
+          "supports": ["partner"],
+          "note": "Indexed page text: Official profile names Andy Vitus a partner focused on AI infrastructure/devops and a CodeRabbit board member."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "133da117-d7c5-4546-bf65-9888086b0d38",
+      "company_name": "Coder",
+      "decision": "not_comparable",
+      "announced_on": "2026-04-01",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 90,000,000 Series C.",
+        "Announcement review: day: 2026-04-01.",
+        "Investor identities/roles: KKR-managed funds (lead).",
+        "Comparable fit: Adjacent engineering infrastructure; Series C growth financing is a weak seed-stage investor fit.",
+        "Individual lead qualification: not established. Evidence status: unknown. Ben Pederson quote establishes role/title only.",
+        "Historical-window assessment: inside",
+        "Excluded as a weak comparator for this automated-code-review seed startup: enterprise development infrastructure and a Series C growth round do not establish a relevant seed investor match. The financing itself is corroborated."
+      ],
+      "sources": [
+        {
+          "url": "https://coder.com/blog/90m-series-c-led-by-kkr-to-advance-secure-enterprise-ai-development",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor",
+            "partner"
+          ],
+          "note": "full_page: April 1, 2026 announcement reports $90M Series C led by KKR-managed funds. Ben Pederson is quoted as KKR managing director; that alone does not prove he personally led the deal. Product is enterprise development infrastructure."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "2ff4fc8f-87e2-4a4f-9f07-f1cb4d50b763",
+      "company_name": "CodeAnt AI",
+      "decision": "unresolved",
+      "announced_on": null,
+      "announced_month": "2025-05",
+      "notes": [
+        "Round review: USD 2,000,000 Seed. Evidence status: verified company month.",
+        "Announcement review: month: 2025-05. Evidence status: conflicted. Saved May8 is the later news date; May7 report says announced that day. Whole month straddles May8 start.",
+        "Investor identities/roles: Y Combinator (participant or co lead unproved). Evidence status: partially verified secondary. No reviewed primary round announcement names the exact role.",
+        "Comparable fit: Direct product and US seed fit, but historical-window eligibility not established.",
+        "Individual lead qualification: not established. Evidence status: unknown. Tom Blomfield quote does not establish exact personal deal-leading responsibility.",
+        "Historical-window assessment: unresolved boundary do not count"
+      ],
+      "sources": [
+        {
+          "url": "https://codeant.ai/about",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date"
+          ],
+          "note": "Indexed page text: Official timeline states May 2025 and $2M seed, without an exact day. May 1 through May 31 straddles the historical May 8 window boundary."
+        },
+        {
+          "url": "https://www.securityweek.com/codeant-ai-raises-2-million-for-code-quality-and-application-security-platform/",
+          "kind": "news",
+          "supports": ["date", "investor", "partner"],
+          "note": "Indexed page text: May 7, 2025 report states the company announced its $2M seed that Wednesday and names YC among backers. This conflicts with using the later May 8 news-publication day as round announcement. Primary company timeline has no day, so no exact correction is asserted from primary evidence."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "announced_on",
+        "recency_eligibility",
+        "investor_lead_role"
+      ]
+    },
+    {
+      "row_id": "eef8343b-7e78-4924-89cd-9f79e721fe8d",
+      "company_name": "Span",
+      "decision": "verified_recent",
+      "announced_on": "2025-11-17",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 25,000,000. Evidence status: partially verified. Current company extraction does not substantiate Seed/Series A split.",
+        "Announcement review: day: 2025-11-17. Evidence status: verified indexed company day. Direct extracted body omits date; date is from company search index.",
+        "Investor identities/roles: Craft Ventures. Evidence status: unknown. Current company body does not name firm; investor graphic not read. Do not silently import secondary claim as primary proof.",
+        "Comparable fit: Adjacent engineering intelligence; investor relationship/round-stage detail needs corroboration. Avoid confusing span.app with electrical-panel span.io.",
+        "Individual lead qualification: not established. Evidence status: unknown. Profile confirms Brian role but not Span deal involvement.",
+        "Historical-window assessment: inside for company announcement only"
+      ],
+      "sources": [
+        {
+          "url": "https://www.span.app/blog/series-a",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "amount",
+            "fit",
+            "date",
+            "investor"
+          ],
+          "note": "full_page_plus_index_date: Company article reports $25M and developer-intelligence functionality. The indexed page gives November 17, 2025; direct extracted body omits that date and does not name Craft or specify the Seed/Series A split. Investor graphic was not readable through this tool; Craft leadership remains uncorroborated here."
+        },
+        {
+          "url": "https://www.craftventures.com/team/brian-murray",
+          "kind": "investor",
+          "supports": ["identity", "investor", "partner"],
+          "note": "Indexed page text: Brian Murray is partner and COO. Retrieved content does not connect him to Span or give a pitch route or cheque range."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "round_stage",
+        "Craft_Ventures_lead_relationship"
+      ]
+    },
+    {
+      "row_id": "b09b3eac-460d-44bc-ad26-0d4f974f007b",
+      "company_name": "Testkube",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-23",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 8,000,000 Series A.",
+        "Announcement review: day: 2025-09-23. Investor republication headline metadata says Sep13, body says Sep23; issuer timestamp resolves publication day.",
+        "Investor identities/roles: Insight Partners (co-lead); Ratmir Timashev (co-lead).",
+        "Comparable fit: Adjacent continuous software testing; Series A differs from seed.",
+        "Individual lead qualification: not established. Evidence status: unknown. Mike Triplett is quoted; no personal lead assertion. Ratmir is named co-lead investor.",
+        "Historical-window assessment: inside"
+      ],
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/testkube-raises-8m-series-a-to-help-software-quality-keep-pace-with-ai-development-velocity-302563442.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor",
+            "partner"
+          ],
+          "note": "full_page: Page identifies Testkube as issuer and has September 23, 2025 timestamp/dateline. Reports $8M Series A led by existing investors Ratmir Timashev and Insight Partners, for continuous software testing. Mike Triplett is quoted, but no personal lead role or cheque disclosed."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "43b28e93-2052-4389-8d73-0463f39b9202",
+      "company_name": "Qodo",
+      "decision": "verified_recent",
+      "announced_on": "2026-03-30",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 70,000,000 Series B.",
+        "Announcement review: day: 2026-03-30.",
+        "Investor identities/roles: Qumra Capital (lead).",
+        "Comparable fit: Direct code-review/governance comparator; Series B differs from seed target.",
+        "Individual lead qualification: not established. Evidence status: unknown. Boaz Morris quote and partner title do not alone establish deal lead.",
+        "Historical-window assessment: inside"
+      ],
+      "sources": [
+        {
+          "url": "https://www.qodo.ai/blog/qodo-70m-series-b-shift-to-artificial-wisdom/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor"
+          ],
+          "note": "Indexed page text: CEO-authored March 30, 2026 company post confirms $70M Series B led by Qumra Capital for code review/governance."
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/03/30/3264740/0/en/qodo-raises-70m-to-accelerate-fight-against-software-slop-from-openclaw-and-claude-code.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor",
+            "partner"
+          ],
+          "note": "full_page: Qodo is the named issuer on March 30, 2026. It reports $70M Series B led by Qumra and quotes partner Boaz Morris; the quote does not expressly establish that he led the deal."
+        },
+        {
+          "url": "https://qumracapital.com/team/boaz-morris/",
+          "kind": "investor",
+          "supports": ["partner"],
+          "note": "full_page: Lists Boaz Morris as partner, morris@qumracapital.com, and general firm info@qumracapital.com. Direct public professional contact exists; no cold-pitch acceptance is inferred."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "f98273e0-bfd1-4e4a-96ee-365a01219714",
+      "company_name": "Swarmia",
+      "decision": "verified_recent",
+      "announced_on": "2025-06-18",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 11,000,000 Series A. Saved amount11 is a unit error; corrected review value is11,000,000, without editing original observation.",
+        "Announcement review: day: 2025-06-18.",
+        "Investor identities/roles: Karma Ventures (co-lead); DIG Ventures (co-lead). Split original combined investor identity into distinct firms in any later derived report.",
+        "Comparable fit: Adjacent PR-flow/engineering-intelligence software; Finland and Series A differ from US seed input.",
+        "Individual lead qualification: not established. Evidence status: unknown. Kristjan Laanemaa is quoted, not explicitly named personal deal lead.",
+        "Historical-window assessment: inside"
+      ],
+      "sources": [
+        {
+          "url": "https://www.swarmia.com/blog/series-a-funding/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "fit",
+            "date",
+            "investor",
+            "partner"
+          ],
+          "note": "full_page: Founder-authored announcement dated June 18, 2025 reports an $11M Series A co-led by Karma Ventures and DIG Ventures. It describes engineering-intelligence software and quotes Karma founding partner Kristjan Laanemaa, without saying he personally led the deal."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    }
+  ],
+  "investors": [
+    {
+      "name": "Y Combinator",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "USD 500,000 (YC initial standard deal)",
+          "source_urls": ["https://www.ycombinator.com/deal"],
+          "note": "Not a verified cheque in CodeAnt round; later follow-ons differ."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "accelerator_initial_investment",
+          "source_urls": [
+            "https://www.ycombinator.com/deal",
+            "https://www.ycombinator.com/apply"
+          ],
+          "note": "verified; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "https://www.ycombinator.com/apply",
+          "source_urls": ["https://www.ycombinator.com/apply"],
+          "note": "verified open application; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.securityweek.com/codeant-ai-raises-2-million-for-code-quality-and-application-security-platform/"
+          ],
+          "note": "unknown; a quotation or authorship does not establish the precise individual deal lead."
+        }
+      ]
+    },
+    {
+      "name": "AlleyCorp",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": ["https://alleycorp.com/about-us/"],
+          "note": "A general developer-software or firm-wide typical cheque range was not established. Third-party estimates and individual round totals are not adopted."
+        },
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "USD 500,000–2 million, for AlleyCorp Deep Tech/robotics/automation only",
+          "source_urls": ["https://alleycorp.com/verticals/deep-tech/"],
+          "note": "This is a supported vertical policy, not a range for Actual AI or all AlleyCorp software investments. The case does not establish that this vertical applies."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Primarily pre-seed and seed, with select Series A investments",
+          "source_urls": ["https://alleycorp.com/about-us/"],
+          "note": "Current firm policy fits the target funding stage. Actual AI is separately supported as a historical seed investment; neither fact promises present interest."
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "info@alleycorp.com; https://alleycorp.com/contact/",
+          "source_urls": [
+            "https://alleycorp.com/about-us/",
+            "https://alleycorp.com/contact/"
+          ],
+          "note": "The official about page directs investment enquiries to this firm contact. It is a general address, without a dedicated pitch form or promised review."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.linkedin.com/posts/alleycorp_seattle-startup-actual-ai-raises-32m-to-activity-7378481627364114436-txSF"
+          ],
+          "note": "The historical Actual AI announcement quotes Kenneth Auchenberg but does not expressly identify the individual who led the transaction."
+        },
+        {
+          "field": "deal_partner",
+          "status": "contradicted",
+          "value": "Kenneth Auchenberg as a current AlleyCorp partner",
+          "source_urls": ["https://kenneth.io/about"],
+          "note": "His current self-published biography identifies him as an Innovation Endeavors partner and dates the joining announcement 13 May 2026, after AlleyCorp. Preserve only the dated historical Actual AI association; do not present him as a current AlleyCorp pitch contact."
+        }
+      ]
+    },
+    {
+      "name": "Standard Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.standardcap.com/",
+            "https://www.standardcap.com/portfolio/momentic"
+          ],
+          "note": "The main Series A policy allows founders to propose raise amount and valuation; the 10–20% ownership policy and Momentic’s USD15 million total round do not establish Standard’s typical dollar cheque or its actual contribution."
+        },
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "USD 200,000 uncapped SAFE for the separate $100B Seed Group first cohort",
+          "source_urls": ["https://www.standardcap.com/100billion"],
+          "note": "This restricted offer is distinct from the Series A. The page specifies YC P26, W26, F25 or S25 eligibility and a 28 May, 9pm PT deadline. No current cycle availability was established; do not generalize this amount to all seed startups or the Momentic round."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Post-PMF Series A",
+          "source_urls": ["https://www.standardcap.com/"],
+          "note": "This is the current main offering. A seed startup still searching for product-market fit does not meet the stated stage. The restricted Seed Group is a separate programme."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "https://www.standardcap.com/apply",
+          "source_urls": ["https://www.standardcap.com/apply"],
+          "note": "An explicit investor application route is published and needs sign-in; no warm introduction is required. No application or account action was performed."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.standardcap.com/changelog/post/momentic-series-a-led-by-standard-capital"
+          ],
+          "note": "Dalton Caldwell authors the firm’s Momentic lead announcement and describes working with its founders. Authorship and interviews do not expressly establish the exact individual transaction leader."
+        }
+      ]
+    },
+    {
+      "name": "Craft Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "unknown; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "stage",
+          "status": "unknown",
+          "value": null,
+          "source_urls": ["https://www.craftventures.com/team/brian-murray"],
+          "note": "unknown; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "contact",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "No reviewed explicit investor intake route; portfolio sales contact must not be substituted."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": ["https://www.craftventures.com/team/brian-murray"],
+          "note": "unknown; Brian profile alone does not establish Span link; a quotation or authorship does not establish the precise individual deal lead."
+        }
+      ]
+    },
+    {
+      "name": "Insight Partners",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "unknown; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "Series A",
+          "source_urls": [
+            "https://www.prnewswire.com/news-releases/testkube-raises-8m-series-a-to-help-software-quality-keep-pace-with-ai-development-velocity-302563442.html"
+          ],
+          "note": "verified historical; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "tel:+12122309200",
+          "source_urls": ["https://www.insightpartners.com/contact/"],
+          "note": "General office phone; public indexed assistant email exists but current direct profile opened as shell, so not adopted as verified pitch route."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.prnewswire.com/news-releases/testkube-raises-8m-series-a-to-help-software-quality-keep-pace-with-ai-development-velocity-302563442.html"
+          ],
+          "note": "unknown; Mike is quoted only; a quotation or authorship does not establish the precise individual deal lead."
+        }
+      ]
+    },
+    {
+      "name": "Menlo Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://menlovc.com/menlo-anthology-fund/",
+            "https://menlovc.com/inception-fund/"
+          ],
+          "note": "A general Menlo typical cheque range was not established. The separately stated programme minimum and sprint SAFE cannot replace a firm-wide range or prove the Greptile cheque."
+        },
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "Anthology Fund investments start at USD 100,000; no upper amount stated",
+          "source_urls": ["https://menlovc.com/menlo-anthology-fund/"],
+          "note": "This is a fund-specific minimum rather than a typical range. There is no evidence here that Greptile’s financing came from Anthology."
+        },
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "Inception Fund typically starts with an approximately USD 100,000 SAFE per founder for its inception sprint",
+          "source_urls": ["https://menlovc.com/inception-fund/"],
+          "note": "This programme targets founders before institutional capital and may lead to a later full pre-seed investment. It is not the amount of a full round or a universal Menlo seed policy."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Deedy Das focuses on early-stage AI, infrastructure and enterprise software",
+          "source_urls": ["https://menlovc.com/team/deedy-das/"],
+          "note": "This is the named partner’s current focus. Greptile’s official portfolio separately records a 2026 Series B partnership; it does not establish every current seed mandate."
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "Anthology: pre-seed, seed and Series A in its FAQ; Inception: very early, preferably before institutional capital",
+          "source_urls": [
+            "https://menlovc.com/menlo-anthology-fund/",
+            "https://menlovc.com/inception-fund/"
+          ],
+          "note": "The programme rules are distinct and cannot be combined into one unrestricted firm-wide mandate."
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "https://menlovc.com/anthology-fund-application/",
+          "source_urls": [
+            "https://menlovc.com/menlo-anthology-fund/",
+            "https://menlovc.com/anthology-fund-application/"
+          ],
+          "note": "The parent programme page advertises rolling applications and invites contact to its listed partners. The linked application page yielded only a navigation shell in text extraction, so form availability is not independently established. This is a scoped programme route, not a Greptile product-sales contact."
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Deedy Das, explicitly assigned Menlo partner for Greptile",
+          "source_urls": [
+            "https://menlovc.com/portfolio/greptile/",
+            "https://menlovc.com/team/deedy-das/",
+            "https://www.greptile.com/blog/series-b"
+          ],
+          "note": "The official deal-specific portfolio assignment provides named partner responsibility beyond a generic board or quote association. It still does not expressly state who personally led this exact transaction; that narrower fact remains unknown."
+        }
+      ]
+    },
+    {
+      "name": "Qumra Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "unknown; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "Series B",
+          "source_urls": [
+            "https://www.qodo.ai/blog/qodo-70m-series-b-shift-to-artificial-wisdom/"
+          ],
+          "note": "verified historical; historical deal evidence and current policy are distinct. No amount in a particular round is inferred."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "mailto:morris@qumracapital.com",
+          "source_urls": ["https://qumracapital.com/team/boaz-morris/"],
+          "note": "Self-published partner email; pitch acceptance not promised. Do not use Qodo product form."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.globenewswire.com/news-release/2026/03/30/3264740/0/en/qodo-raises-70m-to-accelerate-fight-against-software-slop-from-openclaw-and-claude-code.html",
+            "https://qumracapital.com/team/boaz-morris/"
+          ],
+          "note": "unknown; Boaz quote does not establish personal lead; a quotation or authorship does not establish the precise individual deal lead."
+        }
+      ]
+    },
+    {
+      "name": "Scale Venture Partners",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "USD 5 million–50 million for usual initial investments",
+          "source_urls": ["https://www.scalevp.com/frequently-asked-questions"],
+          "note": "The current official FAQ explicitly gives this range, sized to the round and business. It is not the disclosed cheque in CodeRabbit and does not include an assumed follow-on amount."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Series A and Series B; 80% of investments are lead checks",
+          "source_urls": ["https://www.scalevp.com/frequently-asked-questions"],
+          "note": "The firm backs AI and B2B software, including DevTools and infrastructure. Its stated stage and signed-customer/repeatable-demand focus are a material mismatch for an undifferentiated seed-stage input."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "Contact the partner covering your space directly: https://www.scalevp.com/team/andy-vitus",
+          "source_urls": [
+            "https://www.scalevp.com/frequently-asked-questions",
+            "https://www.scalevp.com/team/andy-vitus",
+            "https://www.scalevp.com/contact"
+          ],
+          "note": "The official FAQ explicitly says warm introductions help but are not required, and asks founders to explain product, buyer and stage. The public hello@scalevp.com firm address is a fallback; no response is promised and no outreach occurred."
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Andy Vitus, with Sabina Smith, assigned to CodeRabbit’s Scale investment team",
+          "source_urls": [
+            "https://www.scalevp.com/portfolio/coderabbit",
+            "https://www.scalevp.com/team/andy-vitus",
+            "https://www.scalevp.com/blog/announcing-our-investment-in-coderabbit"
+          ],
+          "note": "The official portfolio explicitly assigns this deal-specific team; Andy is a current partner. The lead announcement is co-authored by Andy and Maggie Basta. These facts are stronger than an inferred board/quote association but do not expressly identify the exact individual transaction leader."
+        }
+      ]
+    }
+  ],
+  "blockers": [
+    "Ten source-supported recent comparable companies are not established: CodeAnt timing straddles the May8 boundary, and Coder is excluded as weak infrastructure/growth fit.",
+    "All eight ranked investors lack an explicitly corroborated exact individual deal leader; deal/board associations remain separately labeled.",
+    "Span Craft lead relationship and round split remain uncorroborated in reviewed primary text; source-index retrieval boundaries are retained.",
+    "Scale’s current USD5 million–50 million initial cheque range and direct partner pitch policy are now supported. General developer-software ranges for AlleyCorp and Standard, and Menlo’s firm-wide typical range, remain unknown; scoped programme and vertical policies are separate facts.",
+    "Kenneth Auchenberg is now at Innovation Endeavors, so historical Actual AI commentary cannot establish a current AlleyCorp contact. Explicit portfolio assignments identify Andy Vitus/Sabina Smith for CodeRabbit and Deedy Das for Greptile, but exact individual transaction leadership remains unproved.",
+    "Investor deepening does not close a fully evidenced investor record or change any original company decision; preserve all stage, programme, dated-policy and retrieval qualifications."
+  ],
+  "provider_operations_started": 0,
+  "updated_at": "2026-11-10T11:20:58Z"
+}

@@ -1,0 +1,884 @@
+{
+  "format": "funding-radar-source-review-v1",
+  "case_id": 2,
+  "checked_at": "2026-11-10T10:37:27Z",
+  "method": "ordinary_web_primary_source_review",
+  "original_observations_sha256": "623849ced3d41614d0c4e5ed7b255b086d6fb9f4b25c5fd999c5a06d78b61adf",
+  "scope": "Separate manual public-web corroboration of the original TinySet research. Historical window remains 2025-05-08 through 2026-11-08. Original observations, provider receipts and reports are preserved. Source kind and indexed-versus-body retrieval are retained; adjacent fit is a reviewer assessment, never a new current investor mandate. No new provider operation. Supplement at 2026-11-10T11:22:21Z: ordinary-web primary investment/team checks and dated news corroboration for NOX and FlexyGrid. The top-level checked_at retains the original checkpoint; supplemental notes carry their later time. News report dates are distinct from exact financing-close dates. No provider operation.",
+  "rows": [
+    {
+      "row_id": "8bed2177-9f40-4516-bf99-4f635db4ca00",
+      "company_name": "Amperon",
+      "decision": "out_of_window",
+      "announced_on": "2023-10-03",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 20,000,000 Series B.",
+        "Announcement review: 2023-10-03. Evidence status: contradicted. Company display date is a later page label; actual financing dateline and investor release are October 2023. Exclude this round from the May 2025-Nov 2026 window.",
+        "Investor identities/roles: Energize Capital (lead).",
+        "Comparable fit: Excellent product/energy-forecasting overlap, but this round is too old and Series B rather than seed.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Other named people; no personal lead inference: Tyler Lancaster (Energize partner and Amperon board appointee); Eileen Waris (Energize principal and board observer).",
+        "The original source link is a seed-round slug rather than the correct Series B release.",
+        "Do not recast the same historical Series B as a new 2026 event."
+      ],
+      "sources": [
+        {
+          "url": "https://www.amperon.co/newsroom/amperon-raises-20-million-series-b-to-accelerate-energy-analytics-and-grid-decarbonization",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: Header displays February 24, 2026, but the financing dateline says October 3, 2023. This is the $20M Series B led by Energize Capital, not evidence of a new 2026 round."
+        },
+        {
+          "url": "https://energizecap.com/insights/why-we-invested-in-amperon",
+          "kind": "investor",
+          "supports": ["date", "investor", "identity", "fit", "partner"],
+          "note": "Indexed source excerpt: Investor announcement is dated October 3, 2023 and confirms the $20M Series B. Tyler Lancaster joined the board and Eileen Waris became an observer. These roles are not an explicit statement that either person led the transaction."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "saved_2026_announcement",
+        "recency_eligibility"
+      ]
+    },
+    {
+      "row_id": "ed020e33-93a3-413e-b92f-853e8e132d61",
+      "company_name": "NOX Energy",
+      "decision": "verified_recent",
+      "announced_on": "2026-09-30",
+      "announced_month": null,
+      "notes": [
+        "Earlier primary-only checkpoint 2026-11-10T10:37:27Z is retained in the notes below; the later dated-news supplement resolves the public report period and completed seed stage with explicit news provenance.",
+        "Round review: EUR 3,000,000. Evidence status: partially verified. EUR3M raise verified; exact seed label is still reported by third parties.",
+        "Announcement review: not established. Evidence status: unknown. Company social content corroborates the round but relative dates do not prove September 30, 2026; that exact date remains a third-party claim.",
+        "Investor identities/roles: Rise PropTech Fund (co-lead); Volve Capital (co-lead).",
+        "Comparable fit: Direct flexibility-software overlap for European energy assets; Belgium rather than UK.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Split the combined investor string into separate firms only in a reviewed derived overlay.",
+        "Volve official website, cheque policy and named deal leader remain unresolved.",
+        "Later review 2026-11-10T11:22:21Z: dated news now supports a completed EUR3M seed and public report on 30 September 2026. Company/founder social corroboration supports identity and co-lead firms. Product is European energy flexibility software; Belgium versus UK remains a geography qualification. This is news-kind corroboration, not newly obtained primary date proof.",
+        "Exact individual investment leader, investor cheque amount and exact financing-close day remain unestablished."
+      ],
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/company/energy-nox",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "amount",
+            "investor",
+            "fit"
+          ],
+          "note": "Indexed source excerpt: Company updates and founder reposts confirm a EUR3M raise and identify Volve Capital and Rise PropTech Fund as round leads. Relative dates do not establish the supplied September 30 day."
+        },
+        {
+          "url": "https://techfundingnews.com/nox-energy-raises-e3m-to-become-the-swift-of-energy-flexibility-for-europes-homes/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Read full dated Tech Funding News article by Abhinaya Prabhu, published 30 September 2026. It reports a completed EUR3M seed, Rise PropTech and Volve Capital co-leads, and heat-pump/solar energy-market software that forecasts consumption. This supports a dated public funding report, not a precise financing settlement day."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "exact_financing_close_day"
+      ]
+    },
+    {
+      "row_id": "35265700-a90c-4390-b5aa-87d244b094fc",
+      "company_name": "FlexyGrid",
+      "decision": "verified_recent",
+      "announced_on": "2026-09-24",
+      "announced_month": null,
+      "notes": [
+        "Earlier primary-only checkpoint 2026-11-10T10:37:27Z is retained in the notes below; the later dated-news supplement resolves the public report period and completed seed stage with explicit news provenance.",
+        "Round review: amount secured: 750000; currency: EUR; stage: toward pre-Series A. Evidence status: partially verified. Portfolio confirms secured amount, but does not establish exact close date, seed classification or TechBricks contribution.",
+        "Announcement review: not established. Evidence status: unknown. No dated primary round announcement retrieved.",
+        "Investor identities/roles: TechBricks (venture builder / portfolio investor). Evidence status: partially verified.",
+        "Comparable fit: Energy-aggregation software is relevant; Italy differs from target country.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "September 24, 2026 remains third-party reported.",
+        "Do not infer a EUR250K TechBricks cheque by subtracting or dividing the total.",
+        "Later review 2026-11-10T11:22:21Z: two dated finance/startup news bodies support completed seed funding publicly reported on 24 September 2026 and an asset-light grid-flexibility software product. The Italian geography differs from the UK startup. Announcement/report day is not asserted as precise financing-close day, and planned 2027 pre-Series A is not treated as completed.",
+        "Exact individual investment leader, investor cheque amount and exact financing-close day remain unestablished."
+      ],
+      "sources": [
+        {
+          "url": "https://techbricks.io/about/portfolio/",
+          "kind": "investor",
+          "supports": ["identity", "stage", "amount", "investor", "fit"],
+          "note": "Indexed source excerpt: Portfolio identifies FlexyGrid as a distributed-energy software venture, with EUR750K secured toward a EUR3M pre-Series A and EUR500K pre-seed completed. No announcement date or exact TechBricks contribution is established."
+        },
+        {
+          "url": "https://www.startupbusiness.it/en/flexygrid-closes-its-e750000-seed-funding-round/200582/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Read full Startupbusiness funding article dated 24 September 2026. It reports a completed EUR750K seed with TechBricks participation and an asset-light software platform for distribution-grid flexibility markets. It distinguishes the completed seed from a planned Q1 2027 pre-Series A. Precise investor cheque split is not inferred."
+        },
+        {
+          "url": "https://financecommunity.it/flexygrid-chiude-un-round-da-750-mila-euro/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Read full Financecommunity article dated 24 September 2026, corroborating a closed EUR750K seed and software flexibility model. Manuele Monti is explicitly named financial advisor; this is not asserted as exact investment-lead partner proof."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "exact_financing_close_day"
+      ]
+    },
+    {
+      "row_id": "27265147-a6fe-4c96-b7e9-07ec7c874e07",
+      "company_name": "Capalo AI",
+      "decision": "verified_recent",
+      "announced_on": "2026-02-06",
+      "announced_month": null,
+      "notes": [
+        "Round review: EUR 11,000,000 Series A.",
+        "Announcement review: 2026-02-06. Body announcement dateline is February 6; display label is February 5. Preserve both fields.",
+        "Investor identities/roles: Heartcore Capital (lead); Tesi (participant); VentureFriends (participant); PROfounders (participant); Inventure (participant); Innovestor (participant).",
+        "Comparable fit: Strong battery-forecasting/VPP product fit; Finnish Series A is a later-stage/country mismatch.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Other named people; no personal lead inference: Paulina Koschitz (Heartcore Principal, quoted representative); Jan-Patrick Haikkola (Tesi Investment Manager, quoted representative)."
+      ],
+      "sources": [
+        {
+          "url": "https://capaloai.com/news/capalo-ai-raises-11m-to-become-leading-optimizer/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: Page header says February 5, 2026 while its announcement dateline says February 6, 2026. EUR11M Series A was led by Heartcore Capital. Paulina Koschitz is quoted as a Principal; the page does not explicitly name her as deal leader."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "29e137f6-75c8-4cbf-81b9-c8a6ae7347bb",
+      "company_name": "Companion.energy",
+      "decision": "verified_recent",
+      "announced_on": "2026-06-08",
+      "announced_month": null,
+      "notes": [
+        "Round review: EUR 7,800,000 seed.",
+        "Announcement review: 2026-06-08. Announcement dateline June 8; page publication label July 20. Both are within historical window, but they are distinct facts.",
+        "Investor identities/roles: Realyze Ventures (co-lead); Pi Labs (co-lead); Asterion Ventures (participant).",
+        "Comparable fit: Seed software energy optimisation matches; enterprise asset owners rather than grid operators and Belgium rather than UK.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Other named people; no personal lead inference: Marnix Roes (Realyze Investment Manager, quoted); Dhruv Gupta (Pi Labs Principal, quoted).",
+        "Original contact is a customer demo/press route to Companion, not investor fundraising intake."
+      ],
+      "sources": [
+        {
+          "url": "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: Publication label is July 20, 2026; announcement dateline is June 8, 2026. EUR7.8M seed was co-led by Realyze Ventures and Pi Labs. Marnix Roes and Dhruv Gupta comment, but neither is explicitly identified as transaction leader."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "43516b72-b563-4e55-9a14-51bdec707d33",
+      "company_name": "Axle Energy",
+      "decision": "verified_recent",
+      "announced_on": "2026-07-08",
+      "announced_month": null,
+      "notes": [
+        "Round review: USD 25,000,000 Series A.",
+        "Announcement review: 2026-07-08.",
+        "Investor identities/roles: Energize Capital (lead); Accel (participant); Picus Capital (participant); Eka (participant).",
+        "Comparable fit: Strong product and UK geography fit; Series A later than seed.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Original investor partner-source page could not be opened; exact partner leadership remains unverified."
+      ],
+      "sources": [
+        {
+          "url": "https://www.axle.energy/nl/blog/announcing-our-series-a",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Indexed source excerpt: July 8, 2026 company announcement confirms a USD25M Series A led by Energize Capital, with Accel, Picus Capital and Eka. It describes grid flexibility software and UK market activity. The original non-www URL failed to open in this tool."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "0ab96636-22aa-4743-8667-31a799b8d9e6",
+      "company_name": "Sympower",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-16",
+      "announced_month": null,
+      "notes": [
+        "Round review: EUR 19,000,000 Series B1 extension.",
+        "Announcement review: 2025-09-16.",
+        "Investor identities/roles: PGGM (lead / investing for PFZW).",
+        "Comparable fit: Relevant grid-flexibility software, but established scale-up and infrastructure investor are weak stage fit for seed startup.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Other named people; no personal lead inference: Tim van den Brule (PGGM Infrastructure investment director, quoted).",
+        "EUR19M is a disclosed investment/round-extension fact, not PGGM typical cheque range.",
+        "Company page updated June 30, 2026 is not a new financing announcement."
+      ],
+      "sources": [
+        {
+          "url": "https://www.pggm.nl/en/press/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Indexed source excerpt: September 16, 2025 investor announcement confirms PGGM led a EUR19M extension of Sympower Series B1 on behalf of PFZW. The resulting round total is EUR42M. Tim van den Brule comments as investment director; exact individual deal-lead responsibility is not stated."
+        },
+        {
+          "url": "https://sympower.net/news/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility",
+          "kind": "company",
+          "supports": ["identity", "fit", "partner"],
+          "note": "Source page review: Company page corroborates PGGM funding, extension structure and EUR42M aggregate round. Its current update label is June 30, 2026, which must not replace the September 2025 investor announcement date."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "2a9d5488-b318-489c-966a-df4832cd3903",
+      "company_name": "Co-Power",
+      "decision": "not_comparable",
+      "announced_on": "2025-06-12",
+      "announced_month": null,
+      "notes": [
+        "Round review: EUR 6,400,000 seed.",
+        "Announcement review: 2025-06-12. Evidence status: partially verified. Date of counsel public announcement. Existing June 10 exact day remains unverified; direct open returned403 and only indexed primary excerpt was available.",
+        "Investor identities/roles: Cherry Ventures (lead); Abacon Capital (participant); Aurum Impact (participant).",
+        "Comparable fit: Seed and European energy-flexibility model match, but asset-heavy installations are a less direct software comparable and Germany differs from UK.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "This may repair the previously missing recency support in a derived overlay, with source/date scope disclosed.",
+        "Norman Roechert led legal advice; he is not the investor lead partner.",
+        "Not counted as a software comparable: industrial virtual-power-plant installations are materially asset-heavy. The dated counsel announcement is inside the window, but supplies counsel publication timing rather than proving the saved June10 day."
+      ],
+      "sources": [
+        {
+          "url": "https://cherry.vc/news/infrastructure-investment-europe-cant-ignore",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: Cherry confirms leading Co-Power EUR6.4M seed alongside Abacon Capital and Aurum Impact. The page gives no visible announcement date. It describes an industrial virtual power plant with installed solar and battery infrastructure, not a pure software peer."
+        },
+        {
+          "url": "https://www.taylorwessing.com/en/insights-and-events/news/media-centre/press-releases/2025/06/taylor-wessing-advises-cherry-ventures-on-co-power",
+          "kind": "transaction_participant",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "fit",
+            "partner"
+          ],
+          "note": "search_index_excerpt_full_open_403: June 12, 2025 counsel announcement confirms EUR6.4M seed led by its client Cherry Ventures. This supplies a dated public transaction announcement inside the historical window. It does not prove the supplied June 10 day; Dr Norman Roechert is counsel, not the investor partner."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "saved_announced_on",
+        "software_comparability",
+        "legal_counsel_as_investor_partner"
+      ]
+    },
+    {
+      "row_id": "2e719927-edd8-46af-9ac5-49d4a51acc52",
+      "company_name": "Enersee",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-09",
+      "announced_month": null,
+      "notes": [
+        "Round review: EUR 4,000,000 late-seed.",
+        "Announcement review: 2025-09-09.",
+        "Investor identities/roles: 6 Degrees Capital (lead); Peak (participant).",
+        "Comparable fit: Early-stage energy-management software fit, but building-portfolio operations differ from grid-operator forecasting; Belgium differs from UK.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Other named people; no personal lead inference: Lucas Stoops (6 Degrees Partner, quoted)."
+      ],
+      "sources": [
+        {
+          "url": "https://www.enersee.ai/insights/late-seed-funding",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "amount",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: September 9, 2025 company release confirms EUR4M late-seed led by 6 Degrees Capital. Lucas Stoops is quoted as a Partner, which establishes commentary but not an explicit deal-lead assignment. Product is enterprise energy management for building portfolios."
+        }
+      ],
+      "withheld_fields": ["exact_deal_lead_partner", "actual_investor_cheque"]
+    },
+    {
+      "row_id": "a5274039-16fe-4180-962e-bfedadb0beee",
+      "company_name": "Hybrid Greentech",
+      "decision": "verified_recent",
+      "announced_on": "2026-01-22",
+      "announced_month": null,
+      "notes": [
+        "Round review: stage: growth investment; ownership: significant minority. Evidence status: partially verified. The original EUR15M amount is not stated in the checked company release.",
+        "Announcement review: 2026-01-22.",
+        "Investor identities/roles: Nordic Alpha Partners (new significant minority investor); PEAK Wind (retains existing minority stake; new funding not asserted).",
+        "Comparable fit: Relevant VPP/energy-storage platform, but Danish growth-equity stage differs from UK seed software.",
+        "Individual lead qualification: not established. Evidence status: unknown. A quoted representative, author or board appointment is not an explicit statement that this person led the deal.",
+        "Other named people; no personal lead inference: Marius Ipsen (Vice President, Investments at Nordic Alpha Partners, quoted).",
+        "Do not promote Marius Ipsen from quoted Vice President to partner or explicit transaction lead."
+      ],
+      "sources": [
+        {
+          "url": "https://www.hybridgreentech.com/blogs/nordic-alpha-partners-investment",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "stage",
+            "date",
+            "investor",
+            "fit",
+            "partner"
+          ],
+          "note": "Source page review: January 22, 2026 release confirms a growth investment and significant minority ownership by Nordic Alpha Partners; PEAK Wind retains a minority stake. No amount is disclosed on this page. Marius Ipsen is quoted as Vice President, Investments, not explicitly the deal leader."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "round_amount",
+        "EUR15M_claim",
+        "Marius_Ipsen_partner_title"
+      ]
+    }
+  ],
+  "investors": [
+    {
+      "name": "6 Degrees Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "EUR 1,000,000 to 7,500,000 (initial ticket policy)",
+          "source_urls": ["https://6degrees.vc/"],
+          "note": "Rechecked 2026-11-10T11:22:21Z: current official initial-ticket policy. This is not a disclosed individual cheque in Enersee; direct parser is iframe-only and the current indexed primary text supplies the range."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Seed and Series A; Enersee historical round described as late-seed / Seed",
+          "source_urls": [
+            "https://6degrees.vc/",
+            "https://www.enersee.ai/insights/late-seed-funding",
+            "https://6degreescapital.substack.com/p/why-we-invested-in-enersee"
+          ],
+          "note": "Company announcement and dated investor-owned investment thesis corroborate the historical Enersee relationship and Seed terminology, separately from current policy."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "https://6degrees.vc/contact",
+          "source_urls": ["https://6degrees.vc/contact"],
+          "note": "Official entrepreneur pitch invitation is retained. No form was submitted and no response is promised. Indexed primary text, rather than the iframe-only direct parser, establishes the invitation."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.enersee.ai/insights/late-seed-funding",
+            "https://6degreescapital.substack.com/p/why-we-invested-in-enersee",
+            "https://www.linkedin.com/posts/lucasstoops_why-we-invested-in-enersee-activity-7373589016211800065-7b2e",
+            "https://6degrees.vc/team"
+          ],
+          "note": "Later review 2026-11-10T11:22:21Z: Lucas Stoops is a confirmed Partner and personally discusses working with Enersee founders. The investor thesis and post say the firm led; neither explicitly assigns Lucas individual transaction leadership. This specific association is not promoted to exact deal-lead proof."
+        }
+      ]
+    },
+    {
+      "name": "Cherry Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "EUR 2,000,000 to 10,000,000 (typical investment)",
+          "source_urls": ["https://cherry.vc/about"],
+          "note": "Potentially useful seed investor once dated Co-Power evidence is handled honestly."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "pre-seed; seed; Series A",
+          "source_urls": ["https://cherry.vc/about"],
+          "note": "Potentially useful seed investor once dated Co-Power evidence is handled honestly."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "mailto:opportunity@cherry.vc",
+          "source_urls": ["https://www.cherry.vc/contact"],
+          "note": "Potentially useful seed investor once dated Co-Power evidence is handled honestly."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://cherry.vc/news/infrastructure-investment-europe-cant-ignore",
+            "https://www.taylorwessing.com/en/insights-and-events/news/media-centre/press-releases/2025/06/taylor-wessing-advises-cherry-ventures-on-co-power",
+            "https://cherry.vc/about",
+            "https://www.cherry.vc/contact"
+          ],
+          "note": "unknown not inferred from quotes. Quotation, title, legal-counsel role or board appointment is not exact personal deal-lead proof."
+        }
+      ]
+    },
+    {
+      "name": "Pi Labs",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "GBP 350,000 to 1,000,000 (FAQ typical investment; direct programme upper capacity: 3000000)",
+          "source_urls": [
+            "https://pilabs.vc/investment-faqs",
+            "https://pilabs.vc/new-investment"
+          ],
+          "note": "Preserve FAQ typical range and separate direct-investment capacity; do not merge them into one invented typical range.; Relevant European climate/building software and seed focus. Separate 2026 growth programme is closed."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "pre-seed; seed; Series A",
+          "source_urls": ["https://pilabs.vc/investment-faqs"],
+          "note": "Relevant European climate/building software and seed focus. Separate 2026 growth programme is closed."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "https://pilabs.vc/new-investment",
+          "source_urls": ["https://pilabs.vc/new-investment"],
+          "note": "Relevant European climate/building software and seed focus. Separate 2026 growth programme is closed."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+            "https://pilabs.vc/investment-faqs",
+            "https://pilabs.vc/new-investment"
+          ],
+          "note": "unknown not inferred from quotes. Quotation, title, legal-counsel role or board appointment is not exact personal deal-lead proof."
+        }
+      ]
+    },
+    {
+      "name": "Heartcore Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.heartcore.com/",
+            "https://heartcore.substack.com/p/weve-closed-our-fund-v-at-170m"
+          ],
+          "note": "Current checked primary pages and Fund V announcement do not supply a reliable current typical-cheque range. Do not divide fund size or substitute directory estimates or old interview policies."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Current inception to Series A; historical Capalo AI round: Series A",
+          "source_urls": [
+            "https://www.heartcore.com/",
+            "https://capaloai.com/news/capalo-ai-raises-11m-to-become-leading-optimizer/"
+          ],
+          "note": "Current investor stage focus and the comparable historical transaction stage are separately supported; the target startup is seed."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "team@heartcore.com; mutual introduction preferred",
+          "source_urls": ["https://www.heartcore.com/about"],
+          "note": "Official page explicitly invites founders to discuss their company and gives this alternative email. No actual mutual connection for the owner is established, and no message was sent."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://capaloai.com/news/capalo-ai-raises-11m-to-become-leading-optimizer/",
+            "https://www.linkedin.com/posts/heartcorecapital_huge-congratulations-to-capalo-ai-on-raising-activity-7425462887206449152--fMp",
+            "https://www.heartcore.com/team/paulina-koschitz"
+          ],
+          "note": "Later review 2026-11-10T11:22:21Z: Paulina Koschitz is quoted as Principal and tagged in the investor round announcement. These establish association, not an explicit individual transaction-lead assignment. The profile extraction provides no additional proof."
+        }
+      ]
+    },
+    {
+      "name": "Energize Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": ["https://energizecap.com/"],
+          "note": "No current numeric typical cheque was established in checked canonical firm pages. Third-party estimates and aggregate round/fund sizes are not substituted."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Current Ventures focus: Series A, B and C; historical Axle Energy round: Series A",
+          "source_urls": [
+            "https://energizecap.com/",
+            "https://www.axle.energy/nl/blog/announcing-our-series-a"
+          ],
+          "note": "Product and UK geography overlap are strong for Axle, but this current investor-stage focus is later than the seed target."
+        },
+        {
+          "field": "contact",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://energizecap.com/",
+            "https://energizecap.com/team/tyler-lancaster"
+          ],
+          "note": "No official founder pitch/application intake was established in checked sources. Newsletters, job applications, data-protection contacts and guessed partner email patterns are not fundraising routes."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.linkedin.com/posts/tyler-w-lancaster_funding-news-rise-of-the-vpps-edition-activity-7480637003428966400-EsiV",
+            "https://energizecap.com/team/tyler-lancaster",
+            "https://energizecap.com/insights/why-we-invested-in-axle-energy"
+          ],
+          "note": "Later review 2026-11-10T11:22:21Z: Tyler Lancaster personally announces the firm leading Axle Series A, and founders acknowledge Tyler and Agustina. His general leadership role and board association do not prove exact personal responsibility for this investment; the investor article could not be retrieved."
+        }
+      ]
+    },
+    {
+      "name": "TechBricks",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://techbricks.io/about/portfolio/",
+            "https://techbricks.io/how-it-works"
+          ],
+          "note": "Canonical portfolio company totals, round targets and studio dry powder do not establish a standard current investor cheque. No exact percentage or cheque is inferred from ambiguous allocation wording."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Historical FlexyGrid transaction: seed, publicly reported 24 September 2026",
+          "source_urls": [
+            "https://www.startupbusiness.it/en/flexygrid-closes-its-e750000-seed-funding-round/200582/",
+            "https://financecommunity.it/flexygrid-chiude-un-round-da-750-mila-euro/",
+            "https://techbricks.io/about/portfolio/"
+          ],
+          "note": "Dated news corroborates the completed seed. The future pre-Series A target in canonical portfolio material remains a planned raise, not completed funding or a generic open mandate."
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "https://techbricks.io/build-with-us",
+          "source_urls": ["https://techbricks.io/build-with-us"],
+          "note": "Later review 2026-11-10T11:22:21Z: canonical founder page invites deeptech co-building and displays a Get in Touch call to action. The direct parser did not expose its submission destination; this is not labeled a verified open VC pitch form. The studio expressly differs from a funding-only offer."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://financecommunity.it/flexygrid-chiude-un-round-da-750-mila-euro/",
+            "https://techbricks.io/about"
+          ],
+          "note": "Later review 2026-11-10T11:22:21Z: Financecommunity names TechBricks founder/CEO Manuele Monti as financial advisor to the exact EUR750K transaction. This explicit advisory role remains separate from lead investment-partner responsibility."
+        }
+      ]
+    },
+    {
+      "name": "PGGM",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.pggm.nl/en/press/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility"
+          ],
+          "note": "Disclosed EUR19M Sympower amount is not a typical cheque range.; Institutional infrastructure mandate and Series B1 extension are weak seed fit."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "infrastructure growth",
+          "source_urls": [
+            "https://www.pggm.nl/en/press/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility"
+          ],
+          "note": "Institutional infrastructure mandate and Series B1 extension are weak seed fit."
+        },
+        {
+          "field": "contact",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.pggm.nl/en/press/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility"
+          ],
+          "note": "Press route and portfolio-company contact are not startup investment intake.; Institutional infrastructure mandate and Series B1 extension are weak seed fit."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.pggm.nl/en/press/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility"
+          ],
+          "note": "unknown not inferred from quotes. Quotation, title, legal-counsel role or board appointment is not exact personal deal-lead proof."
+        }
+      ]
+    },
+    {
+      "name": "Nordic Alpha Partners",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "Growth and asset-heavy industrial focus are weak fit for asset-light seed software."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "industrial greentech growth",
+          "source_urls": ["https://www.nordicalpha.com/about"],
+          "note": "Growth and asset-heavy industrial focus are weak fit for asset-light seed software."
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "mailto:info@nordicalpha.com; fundraising intake confirmed: False",
+          "source_urls": ["https://www.nordicalpha.com/"],
+          "note": "Growth and asset-heavy industrial focus are weak fit for asset-light seed software."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.hybridgreentech.com/blogs/nordic-alpha-partners-investment",
+            "https://www.nordicalpha.com/about",
+            "https://www.nordicalpha.com/"
+          ],
+          "note": "unknown not inferred from quotes. Quotation, title, legal-counsel role or board appointment is not exact personal deal-lead proof."
+        }
+      ]
+    },
+    {
+      "name": "Rise PropTech Fund",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "limited",
+          "value": "EUR 500,000 to 3,000,000 (per company across multiple rounds)",
+          "source_urls": ["https://riseproptech.eu/investment-strategy/"],
+          "note": "Retain this allocation scope; not a numerical initial-cheque claim.; Proptech/energy resources fit; mandate mainly Benelux,DACH,France gives UK geography gap."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "late-seed; Series A",
+          "source_urls": ["https://riseproptech.eu/investment-strategy/"],
+          "note": "Proptech/energy resources fit; mandate mainly Benelux,DACH,France gives UK geography gap."
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "mailto:info@riseproptech.eu; fundraising intake confirmed: False",
+          "source_urls": ["https://riseproptech.eu/investment-strategy/"],
+          "note": "Proptech/energy resources fit; mandate mainly Benelux,DACH,France gives UK geography gap."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.linkedin.com/company/energy-nox",
+            "https://riseproptech.eu/investment-strategy/"
+          ],
+          "note": "unknown not inferred from quotes. Quotation, title, legal-counsel role or board appointment is not exact personal deal-lead proof."
+        }
+      ]
+    },
+    {
+      "name": "Volve Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "Company post confirms lead-firm name, but official investor identity/domain/current mandate and investor detail unresolved."
+        },
+        {
+          "field": "stage",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "Company post confirms lead-firm name, but official investor identity/domain/current mandate and investor detail unresolved."
+        },
+        {
+          "field": "contact",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "Company post confirms lead-firm name, but official investor identity/domain/current mandate and investor detail unresolved."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": ["https://www.linkedin.com/company/energy-nox"],
+          "note": "unknown not inferred from quotes. Quotation, title, legal-counsel role or board appointment is not exact personal deal-lead proof."
+        }
+      ]
+    },
+    {
+      "name": "Realyze Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "Energy/building-software relevance supported, but no typical cheque or explicit deal lead established."
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "early stage European real estate and energy technology",
+          "source_urls": [
+            "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables"
+          ],
+          "note": "Company round release describes co-investor focus; independent current investor mandate not fully checked.; Energy/building-software relevance supported, but no typical cheque or explicit deal lead established."
+        },
+        {
+          "field": "contact",
+          "status": "limited",
+          "value": "https://realyzeventures.com/contactus/; email: hello@realyzeventures.com; fundraising intake confirmed: False",
+          "source_urls": [
+            "https://realyzeventures.com/contactus/",
+            "https://realyzeventures.com/imprint/"
+          ],
+          "note": "Energy/building-software relevance supported, but no typical cheque or explicit deal lead established."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+            "https://realyzeventures.com/contactus/",
+            "https://realyzeventures.com/imprint/"
+          ],
+          "note": "unknown not inferred from quotes. Quotation, title, legal-counsel role or board appointment is not exact personal deal-lead proof."
+        }
+      ]
+    }
+  ],
+  "blockers": [
+    "At least two additional distinct qualifying recent companies are required after excluding Amperon and Co-Power; the retained eight reviewed companies do not meet ten.",
+    "No checked primary source explicitly identifies the individual transaction lead for these deals.",
+    "Most typical cheque ranges remain unknown; general-office emails are not all verified fundraising intake.",
+    "All exact individual investment deal leaders remain unknown; quoted representatives and legal counsel are not promoted to that role.",
+    "Later 2026-11-10T11:22:21Z news corroboration supports NOX and FlexyGrid reported funding dates and completed seed events. Case coverage is now eight, still below ten; Amperon remains out of window and Co-Power remains excluded for fit.",
+    "News report days do not establish precise financing settlement dates. All exact individual transaction leaders remain unknown; current typical cheques and genuine pitch routes remain incomplete for most candidates."
+  ],
+  "provider_operations_started": 0,
+  "updated_at": "2026-11-10T11:22:21Z"
+}

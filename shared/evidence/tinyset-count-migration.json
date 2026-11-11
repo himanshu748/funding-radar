@@ -1,0 +1,32 @@
+{
+  "kind": "explicit_authorized_tinyset_policy_migration",
+  "recorded_at": "2026-11-08T07:57:43.874Z",
+  "pool_id": "expansion-2026-11-08",
+  "grant_id": "835e303b-344c-4726-8bb9-2bfd6a3c22ff",
+  "audit": {
+    "id": "8d030639-e019-4fc5-b0d4-1a673e089d0a",
+    "recorded_at": "2026-11-08T07:57:42.935Z",
+    "previous_grant_sha256": "5c5249432cc9c7b928453634d570dcf270eb2b20b507a7a30b78c429c4299637",
+    "next_grant_sha256": "83211234b87c8b0c28e714f232ca3ad3a9fe872172b44141ebefea8622600e75",
+    "policy_id": "tinyset-small",
+    "from_max_operations": 2,
+    "to_max_operations": 4,
+    "from_source_url": "https://docs.tinyfish.ai/datasets-api/reference",
+    "to_source_url": "https://docs.tinyfish.ai/datasets/reference.md",
+    "operations_preserved": 29,
+    "reserved_microusd_preserved": 3000000,
+    "entries_sha256_preserved": "1161c551fd420b512665e33df91640516d14f36c71543987b2ee6d08a901a81a"
+  },
+  "ceiling_microusd_before": 10000000,
+  "ceiling_microusd_after": 10000000,
+  "operations_before": 29,
+  "operations_after": 29,
+  "reserved_microusd_before": 3000000,
+  "reserved_microusd_after": 3000000,
+  "entries_and_reconciliation_history_identical": true,
+  "unrelated_grant_fields_identical": true,
+  "key_fingerprint_unchanged": true,
+  "provider_requests": 0,
+  "transaction_committed": true,
+  "remaining_microusd": 7000000
+}

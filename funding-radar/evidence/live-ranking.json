@@ -1,0 +1,185 @@
+{
+  "format": "funding-radar-ranking-v1",
+  "startup": {
+    "description": "UK pre-seed climate software startup building solar forecasting for energy operators",
+    "sectors": [
+      "climate",
+      "software"
+    ],
+    "stage": "pre-seed",
+    "geography": "uk"
+  },
+  "mode": "saved_live",
+  "generated_at": "2026-11-08T07:30:14.590Z",
+  "rows": [
+    {
+      "row_id": "5327913b-fe57-4d10-9dc0-fdaef586767f",
+      "investor_name": "Sustainable Ventures",
+      "investor_url": "https://sustainableventures.co.uk/investment",
+      "portfolio_company": "Sennen Tech",
+      "score": 75,
+      "status": "evidence_supported_candidate",
+      "reasons": [
+        "+30: primary investment evidence identifies this investor and company.",
+        "+35: evidenced sector overlap (climate, software).",
+        "+10: evidenced geography (uk)."
+      ],
+      "unknowns": [
+        "Investment date is unknown.",
+        "Comparable investment stage is unknown or different."
+      ],
+      "matching": {
+        "eligible": true,
+        "sectors": [
+          "climate",
+          "software"
+        ],
+        "stage": null,
+        "geography": "uk",
+        "recent": false,
+        "unknowns": [
+          "Investment date is unknown."
+        ]
+      },
+      "evidence": {
+        "url": "https://sustainableventures.co.uk/portfolio-companies",
+        "summary": "Sustainable Ventures, a UK early-stage climate tech fund, lists Sennen Tech on its portfolio page as backed in 2019; Sennen Tech develops software for managing complex renewable power generation projects for energy operators.",
+        "investment_date": null,
+        "collected_at": "2026-11-08T07:30:14.590Z",
+        "dataset_id": "ff28b18c-67d0-4a9b-aa02-ec307b963b5a",
+        "run_id": "8b4f1b82-ebfa-4f0c-b506-ea76892f0fb3",
+        "provenance": "provider_reported"
+      }
+    },
+    {
+      "row_id": "fd15aa50-1013-4e6b-838d-145a9e3b06be",
+      "investor_name": "Bethnal Green Ventures",
+      "investor_url": "https://bethnalgreenventures.com/",
+      "portfolio_company": "Piclo",
+      "score": 75,
+      "status": "evidence_supported_candidate",
+      "reasons": [
+        "+30: primary investment evidence identifies this investor and company.",
+        "+35: evidenced sector overlap (software).",
+        "+10: evidenced geography (uk)."
+      ],
+      "unknowns": [
+        "Investment date is unknown.",
+        "Comparable investment stage is unknown or different."
+      ],
+      "matching": {
+        "eligible": true,
+        "sectors": [
+          "software"
+        ],
+        "stage": null,
+        "geography": "uk",
+        "recent": false,
+        "unknowns": [
+          "Investment date is unknown."
+        ]
+      },
+      "evidence": {
+        "url": "https://bethnalgreenventures.com/portfolio",
+        "summary": "Bethnal Green Ventures' official portfolio page lists Piclo, a smart and flexible energy system venture, under its 'A Sustainable Planet' theme, documenting BGV's investment in this UK energy software company.",
+        "investment_date": null,
+        "collected_at": "2026-11-08T07:30:14.590Z",
+        "dataset_id": "ff28b18c-67d0-4a9b-aa02-ec307b963b5a",
+        "run_id": "8b4f1b82-ebfa-4f0c-b506-ea76892f0fb3",
+        "provenance": "provider_reported"
+      }
+    },
+    {
+      "row_id": "259a611e-25b9-4c2c-976e-b6a0af8d3d4c",
+      "investor_name": "Aenu VC",
+      "investor_url": "https://aenu.com/",
+      "portfolio_company": "Metris Energy",
+      "score": 0,
+      "status": "unresolved",
+      "reasons": [],
+      "unknowns": [
+        "A primary source on the investor or portfolio company origin is missing.",
+        "Evidence must explicitly identify both entities and the observed investment.",
+        "Investment date is unknown."
+      ],
+      "matching": {
+        "eligible": false,
+        "sectors": [
+          "climate"
+        ],
+        "stage": "pre-seed",
+        "geography": "uk",
+        "recent": false,
+        "unknowns": [
+          "A primary source on the investor or portfolio company origin is missing.",
+          "Evidence must explicitly identify both entities and the observed investment.",
+          "Investment date is unknown."
+        ]
+      },
+      "evidence": null
+    },
+    {
+      "row_id": "510c54e9-1ada-4119-8f2c-4439f1f41e60",
+      "investor_name": "Octopus Ventures",
+      "investor_url": "https://octopusventures.com/",
+      "portfolio_company": "Metris Energy",
+      "score": 0,
+      "status": "unresolved",
+      "reasons": [],
+      "unknowns": [
+        "Evidence must explicitly identify both entities and the observed investment.",
+        "Investment date is unknown."
+      ],
+      "matching": {
+        "eligible": false,
+        "sectors": [
+          "climate"
+        ],
+        "stage": "pre-seed",
+        "geography": "europe",
+        "recent": false,
+        "unknowns": [
+          "Evidence must explicitly identify both entities and the observed investment.",
+          "Investment date is unknown."
+        ]
+      },
+      "evidence": null
+    },
+    {
+      "row_id": "710dfe63-3bac-46a5-9890-9338516f476b",
+      "investor_name": "Green Angel Syndicate",
+      "investor_url": "https://greenangelsyndicate.com/",
+      "portfolio_company": "enee.io",
+      "score": 0,
+      "status": "unresolved",
+      "reasons": [],
+      "unknowns": [
+        "A primary source on the investor or portfolio company origin is missing.",
+        "Evidence must explicitly identify both entities and the observed investment.",
+        "Investment date is unknown."
+      ],
+      "matching": {
+        "eligible": false,
+        "sectors": [
+          "software"
+        ],
+        "stage": null,
+        "geography": null,
+        "recent": false,
+        "unknowns": [
+          "A primary source on the investor or portfolio company origin is missing.",
+          "Evidence must explicitly identify both entities and the observed investment.",
+          "Investment date is unknown."
+        ]
+      },
+      "evidence": null
+    }
+  ],
+  "input_rows": 5,
+  "coverage": {
+    "observed_rows": 5,
+    "minimum_planned_rows": 5,
+    "incomplete": false
+  },
+  "warning": "An explainable research shortlist, not investment advice or a promise of funding. Historical investments do not establish a current mandate. Provider-reported source claims require source review; importing observations does not prove this app executed a live job."
+}

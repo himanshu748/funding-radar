@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-11T07:41:15.310349+00:00",
+  "scope": "Software-only gate; all live flags off and credential/grant variables removed.",
+  "provider_operations": 0,
+  "checks": {
+    "tests-before-live": {
+      "exit_code": 0,
+      "command": "npm test",
+      "receipt": "tests-before-live.txt"
+    },
+    "typecheck-before-live": {
+      "exit_code": 0,
+      "command": "npm run typecheck",
+      "receipt": "typecheck-before-live.txt"
+    },
+    "build-before-live": {
+      "exit_code": 0,
+      "command": "npm run build",
+      "receipt": "build-before-live.txt"
+    }
+  }
+}

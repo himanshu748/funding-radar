@@ -1,0 +1,752 @@
+{
+  "format": "funding-radar-source-review-v1",
+  "case_id": 4,
+  "checked_at": "2026-11-11T08:20:00.711Z",
+  "method": "ordinary_web_primary_source_review",
+  "original_observations_sha256": "0eb26a472b2d7c973d2603d44cd27fd57a1293f435ee9cb365783806ff000a81",
+  "scope": "Public-source review of the 11 November security and compliance investigation. Seventeen companies have supported recent funding and relevant software workflows. RiskFront and Certivo are excluded on product fit. Original TinySet cells stay unchanged. Dates, geography, stages and unknown investor details remain explicit. This company review does not verify raw cheque, partner or contact claims.",
+  "rows": [
+    {
+      "row_id": "931b3d2d-0955-4a84-91a8-423da04e7927",
+      "company_name": "TrustCloud",
+      "decision": "verified_recent",
+      "announced_on": "2025-05-20",
+      "announced_month": "2025-05",
+      "notes": [
+        "The company announcement confirms USD 15 million of strategic funding, led by ServiceNow Ventures, on May 20, 2025; the Boston dateline identifies the US company.",
+        "Direct workflow fit: security assurance, continuous control monitoring, compliance evidence and security-questionnaire completion. Strategic funding and an established enterprise product are stage/maturity differences from the seed startup, not product-fit exclusions.",
+        "This review verifies the funding event and described product scope, not performance claims or a named individual transaction leader."
+      ],
+      "sources": [
+        {
+          "url": "https://www.trustcloud.ai/press/trustcloud-raises-15m-in-strategic-funding-led-by-servicenow/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Company release dated May 20, 2025 confirms USD 15 million strategic funding led by ServiceNow Ventures and describes compliance automation and security-questionnaire workflows."
+        }
+      ],
+      "withheld_fields": [
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "7eca0f2f-d700-4bd1-be23-98909cef994c",
+      "company_name": "Comp AI",
+      "decision": "verified_recent",
+      "announced_on": "2025-07-28",
+      "announced_month": "2025-07",
+      "notes": [
+        "The official press archive dates the USD 2.6 million pre-seed announcement July 28, 2025. The issuer-distributed PR Newswire release is dated August 1, 2025 and confirms the same completed round. Both dates are inside the window; this review uses the earlier company announcement date, while preserving the provider's August 1 raw date unchanged.",
+        "The archive's historical article link currently redirects to a different September 2026 Series A. The earlier event is corroborated using the dated archive entry and the separate full pre-seed issuer release; the later round is not substituted for this row.",
+        "The pre-seed issuer release identifies a San Francisco startup and OSS Capital/Grand Ventures as co-leads. It describes SOC 2/HIPAA compliance automation, with evidence collection, risk assessment and vendor onboarding agents: strong evidence-workflow fit. Planned agent capabilities in that release are plans, not independent proof of operation.",
+        "Joseph Jacks' supportive quotation does not by itself establish that he personally led this exact transaction. Current headquarters and current investment-stage fit require separate review."
+      ],
+      "sources": [
+        {
+          "url": "https://www.trycomp.ai/press",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "stage",
+            "amount"
+          ],
+          "note": "The official archive retains a July 28, 2025 entry for the USD 2.6 million pre-seed, although its article link now redirects to the later Series A."
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/comp-ai-secures-2-6m-pre-seed-to-disrupt-soc-2-market-302519788.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Issuer-supplied August 1, 2025 release confirms the USD 2.6 million pre-seed, OSS Capital/Grand Ventures co-lead roles, US identity and compliance/evidence automation scope. It is a later distribution date for the archive-listed event."
+        }
+      ],
+      "withheld_fields": [
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "c7c73122-ac43-4fed-a98d-852b3115dac3",
+      "company_name": "RiskFront",
+      "decision": "not_comparable",
+      "announced_on": "2026-01-21",
+      "announced_month": "2026-01",
+      "notes": [
+        "Dated reporting confirms a USD 3.3 million pre-seed led by Lytical Ventures on January 21, 2026; the funding is recent and real.",
+        "Excluded for workflow/buyer mismatch, not geography or stage: the official product addresses financial-crime operations, AML investigations, KYC/CDD/EDD, sanctions and transaction monitoring. The reviewed material does not establish security-compliance evidence or vendor-questionnaire automation for SaaS teams.",
+        "The provider evidence summary calls the company San Francisco-based while its structured geography says Los Angeles. The official site identifies Los Angeles; the contradictory raw claims are preserved, not silently harmonized."
+      ],
+      "sources": [
+        {
+          "url": "https://riskfront.ai/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "fit"
+          ],
+          "note": "Official site describes financial-crime risk operations, AML/KYC, sanctions and transaction-monitoring workflows, and identifies Los Angeles; these are different from the target SaaS security-assurance workflow."
+        },
+        {
+          "url": "https://siliconangle.com/2026/01/21/agentic-risk-compliance-automation-startup-riskfront-raises-3-3m-pre-seed-funding/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Article dated January 21, 2026 reports USD 3.3 million pre-seed funding led by Lytical, with Flint Capital and Oceans, for financial risk/compliance automation."
+        }
+      ],
+      "withheld_fields": [
+        "comparable_fit",
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "bcac3a85-920d-42fc-93aa-91a6db5e8057",
+      "company_name": "Vanta",
+      "decision": "verified_recent",
+      "announced_on": "2025-07-23",
+      "announced_month": "2025-07",
+      "notes": [
+        "Vanta's CEO announcement dated July 23, 2025 states that the company raised USD 150 million in Series D funding.",
+        "Direct product fit: automated compliance evidence, continuous controls, vendor reviews and security-questionnaire responses. Series D is a large maturity/stage difference from the US seed startup; it is a product-space comparable, not evidence that its investors currently fit a seed cheque.",
+        "The reviewed company article establishes funding and product scope. Wellington's asserted lead role, individual transaction partner and investor contact policy are not established by the body reviewed here."
+      ],
+      "sources": [
+        {
+          "url": "https://www.vanta.com/resources/vanta-announces-series-d",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "stage",
+            "amount"
+          ],
+          "note": "CEO-authored July 23, 2025 announcement confirms USD 150 million Series D funding and describes compliance evidence, continuous controls, vendor reviews and questionnaire automation."
+        }
+      ],
+      "withheld_fields": [
+        "investor_role",
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "11c59b97-f7ed-413e-99b7-7d12b2229eef",
+      "company_name": "Conveyor",
+      "decision": "verified_recent",
+      "announced_on": "2025-06-12",
+      "announced_month": "2025-06",
+      "notes": [
+        "Conveyor's issuer release dated June 12, 2025 confirms USD 20 million Series B funding led by SignalFire, with Oregon Venture Fund and Cervin participating, and a San Francisco dateline.",
+        "Direct workflow fit: customer security reviews, questionnaires, trust-center document access and RFP responses. Series B is later-stage than the described seed startup; round size is not a typical investor cheque.",
+        "Tony Pezzullo is quoted as a SignalFire principal, but a quotation/spokesperson role alone does not prove he personally led this exact deal. Company sales contact is not automatically an investor founder-intake route."
+      ],
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/conveyor-raises-20m-series-b-to-lead-the-agentic-ai-race-in-customer-trust-automation-for-security-reviews-and-rfps-302479538.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Issuer-supplied June 12, 2025 release confirms USD 20 million Series B led by SignalFire and describes security-review/questionnaire, trust-center and RFP automation."
+        }
+      ],
+      "withheld_fields": [
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "aa33bcf9-551e-4580-b173-09d790d705fa",
+      "company_name": "Vendict",
+      "decision": "verified_recent",
+      "announced_on": "2025-08-05",
+      "announced_month": "2025-08",
+      "notes": [
+        "The company describes a completed USD 10 million Series A co-led by Moneta VC and JAL Ventures. The issuer-distributed ACCESS Newswire text supplies an unambiguous August 5, 2025 dateline, resolving the company page's numeric 8.5.2025 display.",
+        "Direct product fit: security-questionnaire responses grounded in company documents, compliance-framework analysis and third-party risk/evidence assessment. Series A and the provider-reported Israeli geography differ from a US seed target; the New York press dateline does not establish company headquarters.",
+        "This pass verifies firm-level co-lead roles, not a personal transaction lead, investor cheque policy or founder intake. Precise headquarters are not independently established by these reviewed pages."
+      ],
+      "sources": [
+        {
+          "url": "https://vendict.com/blog/series-a-announcement",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Company announcement confirms USD 10 million Series A led by Moneta VC and JAL Ventures and describes questionnaire, framework and third-party GRC document workflows; numeric date alone is ambiguous."
+        },
+        {
+          "url": "https://www.streetinsider.com/ACCESS%2BNewswire/Vendict%2BRaises%2B%2410M%2BSeries%2BA%2Bto%2BReinvent%2BGRC%2Bwith%2BAI-Native%2C%2BHallucination-Free%2BCompliance%2BPlatform/25148928.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer release, marked SOURCE: Vendict and distributed by ACCESS Newswire, has an explicit August 5, 2025 dateline and confirms the same USD 10 million Series A. This is issuer republication, not independent reporting."
+        }
+      ],
+      "withheld_fields": [
+        "precise_headquarters",
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "c0fc6b3e-6bf2-4a68-89f5-ae804c389243",
+      "company_name": "Clearly AI",
+      "decision": "verified_recent",
+      "announced_on": "2026-02-10",
+      "announced_month": "2026-02",
+      "notes": [
+        "Founder announcement dated February 10, 2026 says Clearly AI has raised a total of USD 8.4 million in seed funding. Preserve the total-funding qualification; it does not establish that USD 8.4 million was all newly incremental capital in one closing.",
+        "Useful adjacent fit: security/privacy review of features, third-party vendors and AI deployments, using organizational documents and context. This overlaps vendor security evidence and assessment workflows but does not establish every SaaS seller-questionnaire feature. The official footer identifies Seattle, US.",
+        "The announcement lists Basis Set Ventures, Crosspoint Capital Partners, Argon Ventures, Ritual Capital and Y Combinator. It does not explicitly establish the provider's claim that Basis Set led the round; that role is withheld."
+      ],
+      "sources": [
+        {
+          "url": "https://clearly-ai.com/blog/seed-round",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Founder-authored February 10, 2026 announcement reports total seed funding of USD 8.4 million, names participating investors without assigning a lead, and describes security/privacy and third-party vendor review automation."
+        }
+      ],
+      "withheld_fields": [
+        "investor_role",
+        "incremental_round_amount",
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "b400872f-96d9-4071-bb84-c0bf1c47ea18",
+      "company_name": "Delve",
+      "decision": "verified_recent",
+      "announced_on": "2025-07-22",
+      "announced_month": "2025-07",
+      "notes": [
+        "Delve's issuer release dated July 22, 2025 announces USD 32 million Series A funding led by Insight Partners and identifies San Francisco headquarters.",
+        "Direct workflow fit: AI agents for compliance evidence collection and documentation across audit frameworks. Series A is later-stage than the target seed company; historical issuer statements about product capabilities are not independent proof of current product reliability or audit quality.",
+        "Praveen Akkiraju is quoted as an Insight managing director. This source alone does not establish his personal leadership of the precise transaction; the provider's stronger partner inference is withheld."
+      ],
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/delve-raises-32m-series-a-to-build-ai-agents-for-compliance-302510121.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Issuer-supplied July 22, 2025 release confirms USD 32 million Series A led by Insight Partners, US identity and agentic compliance evidence/documentation scope."
+        }
+      ],
+      "withheld_fields": [
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "e2c549a8-e848-4620-90a6-b878ee78e8cd",
+      "company_name": "Oneleet",
+      "decision": "verified_recent",
+      "announced_on": "2025-10-02",
+      "announced_month": "2025-10",
+      "notes": [
+        "CEO announcement dated October 2, 2025 confirms USD 33 million Series A funding led by Dawn Capital, with Frank Slootman, Arash Ferdowsi, Y Combinator and founder/CISO angels joining.",
+        "Useful security-compliance fit: integrated tools and workflows for SOC 2/ISO 27001 compliance, risk assessment and security programs. Broader security-platform scope and Series A maturity differ from a seed evidence/questionnaire point solution; the announcement does not establish the full target questionnaire feature set.",
+        "Henry Mason's early meeting with the founders is transaction involvement, not explicit proof that he led the deal. A San Francisco meeting does not establish headquarters; precise geography and the provider's personal-lead inference remain unverified."
+      ],
+      "sources": [
+        {
+          "url": "https://www.oneleet.com/blog/announcing-our-s-33m-series-a",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "CEO-authored October 2, 2025 announcement confirms USD 33 million Series A led by Dawn and describes integrated security tooling and SOC 2/ISO 27001 compliance. It mentions Henry Mason visiting San Francisco but does not establish headquarters or his exact deal-lead role."
+        }
+      ],
+      "withheld_fields": [
+        "precise_headquarters",
+        "lead_partner",
+        "partner_evidence",
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "b92e9bd8-7cb3-4560-8e67-8b07c671e558",
+      "company_name": "Risk Ledger",
+      "decision": "verified_recent",
+      "announced_on": "2026-07-15",
+      "announced_month": "2026-07",
+      "notes": [
+        "The official company announcement gives July 15, 2026 and GBP 24 million Series B funding led by Axiom Equity, with returning investor Mercia Ventures. The review upgrades the provider's month-only date using the visible primary date; the original receipt stays unchanged.",
+        "Useful direct vendor-assessment fit: standardized, maintained supplier security assessments replace repeated questionnaires and share security evidence across a network. Broader enterprise/supply-chain buyers, UK geography and Series B differ from the US seed startup. Planned AI review improvements are future use of funds, not verified shipped features.",
+        "Jonathan Organ is an Axiom founding partner quoted about the firm leading the round; the statement does not explicitly establish that he personally led this exact transaction. Company sales/support routes are not investor founder-intake routes."
+      ],
+      "sources": [
+        {
+          "url": "https://www.riskledger.com/resources/series-b-funding",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Company announcement dated July 15, 2026 confirms GBP 24 million Series B led by Axiom Equity with Mercia and explains its reusable supplier security-assessment network as an alternative to repeated questionnaires."
+        }
+      ],
+      "withheld_fields": [
+        "cheque_min",
+        "cheque_max",
+        "cheque_currency",
+        "lead_partner",
+        "partner_evidence",
+        "founder_intake_route"
+      ]
+    },
+    {
+      "row_id": "e690f01a-b15f-40df-811d-b5a7563439c8",
+      "company_name": "Zania",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-30",
+      "announced_month": "2025-09",
+      "notes": [
+        "The company explicitly dates its USD 18 million Series A announcement to September 30, 2025. NEA led; Anthology Fund and Palm Drive Capital participated.",
+        "The raw day 2025-09-30 is supported. Raw announced_month 2026-10 conflicts with the issuer body and is corrected only in this review; the provider observation remains unchanged.",
+        "Palo Alto software for compliance evidence, third-party risk and reviewed security-questionnaire responses has direct workflow overlap. Series A and enterprise/advisory customers are later and broader than the US seed SaaS description.",
+        "Thanking three NEA team members does not establish which individual led the transaction. Company demo or sales contact is not a founder route to NEA."
+      ],
+      "sources": [
+        {
+          "url": "https://zania.ai/blog/series-a-fundraise-announcement",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer body gives the financing and explicit announcement day, product tasks and Palo Alto address; it thanks an NEA team without assigning personal transaction leadership."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route"
+      ]
+    },
+    {
+      "row_id": "e66386d2-c157-4d69-9efb-08789f81e1a9",
+      "company_name": "Complaion",
+      "decision": "verified_recent",
+      "announced_on": "2026-09-28",
+      "announced_month": "2026-09",
+      "notes": [
+        "Dated reporting says Milan-based Complaion raised EUR 13.5 million led by Eurazeo and Italian Founders Fund. The read article supports a completed financing, but does not establish a round-stage label.",
+        "Company software handles ISO 27001 evidence, controls and certification work alongside ISO 9001 and NIS2, with expert auditors. This is a qualified security-evidence comparator; Italian geography, European SMEs and a software-plus-service model differ from US seed SaaS. General vendor-questionnaire automation is unverified.",
+        "The raw Seed stage is withheld. The article names Italian Founders Fund but its hyperlink points to the unrelated US Founders Fund site; the reported name is retained with this identity-link warning, not converted to the US firm."
+      ],
+      "sources": [
+        {
+          "url": "https://tech.eu/2026/09/28/complaion-raises-eur135m-to-simplify-compliance-for-european-smes/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "investor",
+            "amount"
+          ],
+          "note": "Full article dated September 28, 2026 reports the financing, Milan identity and named leads. It supplies no explicit Seed stage and contains a misleading Founders Fund hyperlink."
+        },
+        {
+          "url": "https://www.complaion.com/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "fit"
+          ],
+          "note": "Company product body describes ISO 27001 evidence and controls, certification software and lead-auditor support; it does not establish the financing stage or a generic questionnaire feature."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route",
+        "round_stage",
+        "generic_security_questionnaire_automation",
+        "independently_verified_Italian_Founders_Fund_identity_link"
+      ]
+    },
+    {
+      "row_id": "2e3f297f-4481-47a6-bc9f-1070dfd1db53",
+      "company_name": "CRACI",
+      "decision": "verified_recent",
+      "announced_on": null,
+      "announced_month": "2026-05",
+      "notes": [
+        "The issuer confirms EUR 1.4 million pre-seed financing led by Lifeline Ventures, with First Fellow Partners, Wave Ventures and Lucas Kaldstrom. Dated May 19, 2026 reporting establishes this financing was already announced by May.",
+        "Date precision is reduced to May 2026. Current company article and news index display October 1, while indexed company content read during this review showed May 8 and the independent article is dated May 19. These are conflicting publication displays, not evidence of separate rounds; no exact announcement or closing day is asserted.",
+        "Helsinki software automates SBOMs, vulnerability records and security documentation in development pipelines. This is an adjacent software-security evidence workflow, not verified vendor-questionnaire automation; Finland, pre-seed and software-product supply chains differ from the target.",
+        "The Lifeline partner quote identifies Juha Lindfors but does not prove personal transaction leadership. No legal-deadline claims from these pages are adopted."
+      ],
+      "sources": [
+        {
+          "url": "https://craci.com/news/pre-seed-round",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer body confirms financing and software-security documentation workflow. Its currently displayed October 1 date conflicts with earlier indexed May 8 content, so it is not used as an exact financing-announcement day."
+        },
+        {
+          "url": "https://craci.com/news",
+          "kind": "company",
+          "supports": [
+            "date"
+          ],
+          "note": "Current news-list entry also displays October 1 for the same EUR 1.4 million pre-seed article; this is recorded as a publication-date conflict."
+        },
+        {
+          "url": "https://techfundingnews.com/craci-cyber-resilience-act-compliance/",
+          "kind": "news",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full article has an explicit May 19, 2026 date and reports the completed EUR 1.4 million pre-seed, Helsinki identity and CI/CD security-documentation workflow. It establishes month-level recentness without proving the exact issuer-announcement day."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route",
+        "exact_announcement_day",
+        "exact_financing_closing_day",
+        "generic_security_questionnaire_automation"
+      ]
+    },
+    {
+      "row_id": "97fa2e68-a20a-4d38-8a8a-3a634d657008",
+      "company_name": "Paramify",
+      "decision": "verified_recent",
+      "announced_on": "2025-12-18",
+      "announced_month": "2025-12",
+      "notes": [
+        "Salt Lake City issuer dateline states December 18, 2025 and a USD 12 million Series A led by Moore Strategic Ventures, with Album VC, Next Frontier Capital and Frazier VC.",
+        "Automated evidence operations and security documentation support FedRAMP and other federal frameworks, with expansion into commercial security frameworks. This is a relevant compliance-evidence software comparator, qualified by Series A maturity and complex federal/enterprise emphasis rather than a narrow seed SaaS questionnaire product.",
+        "The release supports the named lead firm and round size; it does not establish an individual investment cheque, a personal deal lead or a founder intake route."
+      ],
+      "sources": [
+        {
+          "url": "https://www.paramify.com/blog/blog-paramify-announces-12-million-series-a-funding-to-accelerate-enterprise-risk-management-expansion",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer release contains the explicit Salt Lake City dateline, completed financing and automated compliance-evidence/documentation product scope."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route",
+        "generic_security_questionnaire_automation"
+      ]
+    },
+    {
+      "row_id": "aea82bda-5887-42a2-b20b-2d07817e370f",
+      "company_name": "Coverbase",
+      "decision": "verified_recent",
+      "announced_on": "2025-11-20",
+      "announced_month": "2025-11",
+      "notes": [
+        "The issuer dateline is San Francisco, November 20, 2025. The body says the USD 16.5 million Series A closed, led by Canapi Ventures. USD 20 million is cumulative financing including a prior USD 3.5 million seed, not the Series A amount.",
+        "Security assessments, third-party risk and vendor evidence within procurement overlap with the target workflow. Series A maturity and buyer-side enterprise procurement are meaningful differences from US seed software helping SaaS sellers answer questionnaires.",
+        "A Walker Forehand quote is not explicit proof of personal deal leadership. The current page title can suggest a USD 20 million Series A; the financing body supplies the more precise breakdown."
+      ],
+      "sources": [
+        {
+          "url": "https://www.coverbase.com/content-library/coverbase-raises-20m-to-bring-ai-enabled-security-to-the-forefront-of-procurement",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer body gives the explicit November 20 dateline and separates USD 16.5 million Series A from USD 3.5 million prior seed; product scope is security-first procurement and third-party risk."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route",
+        "same_customer_side_as_SaaS_seller_questionnaire_tool"
+      ]
+    },
+    {
+      "row_id": "54cfe3ec-26bb-4dd0-a626-4c5305525ceb",
+      "company_name": "Complyance",
+      "decision": "verified_recent",
+      "announced_on": "2026-02-11",
+      "announced_month": "2026-02",
+      "notes": [
+        "The company announcement dated February 11, 2026 says it raised USD 20 million Series A led by GV. Existing investors include Creandum, HV Capital, Speedinvest and Everywhere Ventures.",
+        "Evidence review, controls, vendor assessments and third-party risk provide strong security-compliance workflow overlap. New York and London offices, Series A maturity and enterprise customers are qualifications to the US seed SaaS comparison.",
+        "The Luna Schmid quotation identifies a GV partner but does not explicitly assign personal transaction leadership. Company press, partnership and support channels are not automatically an investor fundraising route."
+      ],
+      "sources": [
+        {
+          "url": "https://www.complyance.com/resources/complyance-raises-20m",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer announcement gives the explicit date, financing and participants, evidence/vendor-assessment product tasks, and New York/London office information."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route"
+      ]
+    },
+    {
+      "row_id": "1f8e5b74-1ccd-4ac0-b813-7ead05b0d5dc",
+      "company_name": "Certivo",
+      "decision": "not_comparable",
+      "announced_on": "2026-02-17",
+      "announced_month": "2026-02",
+      "notes": [
+        "The Seattle issuer release dated February 17, 2026 confirms USD 4 million seed led by Suffolk Technologies, with Pioneer Square Ventures. The financing is genuinely within the review window.",
+        "Exclude from the target comparable count: the described product automates manufacturing, building-material and physical-product regulatory documentation, including PFAS, digital product passports and supplier records linked to ERP/PLM. Shared evidence-collection terminology does not establish SaaS security-control or vendor-security-questionnaire software fit.",
+        "A Wan Li Zhu quote does not establish personal transaction leadership, and a press email is not investor founder intake."
+      ],
+      "sources": [
+        {
+          "url": "https://www.certivo.com/announcements/certivo-raises-4m-seed-round-led-by-suffolk-technologies-to-launch-the-ai-native-compliance-automation-category",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer dateline and financing are explicit. The manufacturing/building-material, product-regulation and ERP/PLM scope supports the exclusion from this SaaS-security comparison."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route",
+        "SaaS_security_compliance_comparable",
+        "security_vendor_questionnaire_automation"
+      ]
+    },
+    {
+      "row_id": "af9ef758-4000-4f7e-b5e1-69aba2efa7e9",
+      "company_name": "HelmGuard",
+      "decision": "verified_recent",
+      "announced_on": "2026-09-09",
+      "announced_month": "2026-09",
+      "notes": [
+        "The issuer body has a London, September 9, 2026 dateline and says HelmGuard raised USD 7.3 million seed co-led by Infinity Ventures and Frontline. FinTech Collective, Stage 2 Capital and Entrepreneurs First participated.",
+        "Security GRC agents, source-system evidence, third-party assessments and customer assurance have substantial workflow overlap. London headquarters with planned US expansion are retained as geography differences; regulated-enterprise coverage is broader than the target SaaS team.",
+        "Jay Ganatra is quoted as an Infinity managing partner, but the statement does not explicitly identify him as the personal transaction lead. Company demo/sales contact is not an investor founder route."
+      ],
+      "sources": [
+        {
+          "url": "https://helmguard.ai/resources/7.3m-seed-announcement",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount"
+          ],
+          "note": "Full issuer body contains the explicit London dateline, completed seed financing, named co-leads and participants, US expansion and security-evidence/risk workflow."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route"
+      ]
+    },
+    {
+      "row_id": "2aa1f48b-37f9-4160-ac2d-e7f2a760733b",
+      "company_name": "Compyl",
+      "decision": "verified_recent",
+      "announced_on": "2025-06-04",
+      "announced_month": "2025-06",
+      "notes": [
+        "The Compyl Inc. issuer-distributed release has a New York, June 4, 2025 dateline and says USD 12 million Series A closed, led by Venture Guides, with existing investors participating.",
+        "Unified GRC data, security benchmarks and continuous compliance automation support a relevant security-evidence software comparison. Series A and enterprise breadth differ from the seed SaaS description; the release alone does not verify the raw 70-plus-framework or AI-questionnaire feature claims.",
+        "Venture Guides partner Anton Simunovic joining the board is supported, but board membership does not establish individual transaction leadership. A marketing contact is not a founder route to the investor."
+      ],
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/06/04/3093377/0/en/Compyl-Closes-12-Million-in-Series-A-Funding.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "stage",
+            "amount",
+            "partner"
+          ],
+          "note": "GlobeNewswire names Compyl Inc. as the issuer. Full release has the explicit financing dateline, completed Series A, lead firm, GRC product scope and Anton Simunovic board appointment; the partner support is limited to the stated board role."
+        }
+      ],
+      "withheld_fields": [
+        "exact_individual_deal_lead",
+        "actual_investor_cheque",
+        "investor_fundraising_contact_route",
+        "70_plus_frameworks_from_this_release",
+        "AI_vendor_questionnaire_feature_from_this_release"
+      ]
+    }
+  ],
+  "investors": [],
+  "blockers": [
+    "Investor-level cheque, individual transaction responsibility and founder-route claims in this fresh recording still require separate review; no approach-ready match is claimed for this fourth recording."
+  ],
+  "provider_operations_started": 0
+}

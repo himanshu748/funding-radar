@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-11T06:35:59.891324+00:00",
+  "scope": "Offline request-shape comparison against public documentation; no account/API request, wallet read, grant change or paid retry.",
+  "documentation_url": "https://docs.tinyfish.ai/datasets/reference.md",
+  "documentation_observed_http_status": 200,
+  "documentation_sha256": "250c20ea79ba4bf6e01ea3e271ebe88d61a4a7856814acf19497332f8cbbb945",
+  "failed_request_id": "afe6192f-1105-40ca-9a12-9485e3bbf476",
+  "request_shape": {
+    "name_characters": 44,
+    "description_characters": 2955,
+    "columns": 28,
+    "target_rows": 18,
+    "populate": false
+  },
+  "checks": {
+    "name_within200": true,
+    "description_within15000": true,
+    "columns_within64": true,
+    "exactly_one_primary_key": true,
+    "separate_unique_column": true,
+    "target_rows_within250": true,
+    "populate_explicit_false": true
+  },
+  "new_documented_error": "402 INSUFFICIENT_CREDITS is now described; the prior generic failure cannot be assigned to this code without its lost HTTP status.",
+  "verdict": "No clear documented request-shape mismatch found. Semantic provider validation and the cause of the old failure remain unresolved.",
+  "historical_http_status": null,
+  "new_provider_operations": 0,
+  "future_diagnostic_change": "Opt-in library observer records method, phase, HTTP status or network failure; withholds bodies, headers, keys, balances, object IDs and arbitrary URLs. The old status was not reconstructed.",
+  "automatic_retry": false
+}

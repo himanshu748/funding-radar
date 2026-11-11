@@ -1,0 +1,99 @@
+{
+  "kind": "funding-radar-bounded-local-finalization",
+  "checked_at": "2026-11-08T09:14:02.067154+00:00",
+  "supersedes_status_only": "PAUSE-CHECKPOINT.json remains an unchanged historical checkpoint.",
+  "new_provider_operations": 0,
+  "new_spend_microusd": 0,
+  "ui_modules_changed": false,
+  "checks": [
+    {
+      "command": "node --import tsx --test funding-radar/test/*.test.ts compliance-map/test/general.test.ts",
+      "exit_code": 0,
+      "passed": 21,
+      "failed": 0,
+      "scope": "17 Funding backend tests and 4 Compliance generic-boundary tests"
+    },
+    {
+      "command": "npm run typecheck",
+      "exit_code": 0,
+      "scope": "whole workspace at check time"
+    },
+    {
+      "command": "npx prettier --check <8 owned backend/test/script/README files>",
+      "exit_code": 0,
+      "scope": "No UI modules formatted"
+    },
+    {
+      "check": "local CLI JSON/CSV and overwrite refusal",
+      "artifact": "local-finalization-cli.json",
+      "exit_code": 0
+    },
+    {
+      "check": "relative README links",
+      "existing_targets": 18
+    },
+    {
+      "check": "original observations, receipts and reports preserved",
+      "artifacts": 9
+    },
+    {
+      "check": "bounded exported key-pattern scan",
+      "files": 39,
+      "matches": 0,
+      "limits": "Pattern check only; no credentials were read."
+    }
+  ],
+  "funding": {
+    "recent_company_claims": [
+      9,
+      9,
+      9
+    ],
+    "local_investor_candidates": [
+      8,
+      6,
+      5
+    ],
+    "all_inputs_below_ten_company_minimum": true,
+    "individual_cheque_ranges_unknown": 30,
+    "audit_distinct_source_operations_already_completed": 20,
+    "audit_pages_retrieved": 12,
+    "audit_redirect_rejections": 8,
+    "direct_retrieved_row_matches": [
+      3,
+      3,
+      1
+    ],
+    "semantic_investment_verification": "not_established"
+  },
+  "compliance_readme": {
+    "accepted_requirements": 22,
+    "withheld_requirements": 11,
+    "source_verification": "provider_reported_not_independently_checked",
+    "overall_totals_and_approval_time": "unknown",
+    "backend_or_ui_changed_in_this_finalization": false
+  },
+  "original_artifact_sha256": {
+    "funding-radar/evidence/recent-1-observations.json": "d04351fcce291793f48291673bd07a4271737f1fc940d7d021a054afaab1aac9",
+    "funding-radar/evidence/recent-1-receipt.json": "6962e991a3787a1dcb5454f52bfd9ba7f21002794fd5acd928c83d7a6d25f018",
+    "funding-radar/evidence/recent-1-report.json": "385dc985771d169ef3c2d197a4d80ad32d403c2518f78c718654468af2c6183b",
+    "funding-radar/evidence/recent-2-observations.json": "623849ced3d41614d0c4e5ed7b255b086d6fb9f4b25c5fd999c5a06d78b61adf",
+    "funding-radar/evidence/recent-2-receipt.json": "d885025ce335bbcf3939a1ab402db83273a5f14aa7b745fac5c02504afdc43c7",
+    "funding-radar/evidence/recent-2-report.json": "2655aa106317ee094033c8cfe058902c4a5803bab6aabad2df3c1ecab36e8019",
+    "funding-radar/evidence/recent-3-observations.json": "d0fd32414bf9051e13cd8055c06c40163062da4a2ce2c298bb5fc3fab48d9a85",
+    "funding-radar/evidence/recent-3-receipt.json": "48e77ea8de3965c6ac40f82819dff6f0b8d105179370ff2f894dddb90d5c9763",
+    "funding-radar/evidence/recent-3-report.json": "fea33a22c70f4d8b0af63d2192543b930390a900fc0211c028037f587c2bd1ec"
+  },
+  "final_artifact_sha256": {
+    "funding-radar/src/recent.ts": "378c4488f1e88bc51b056ed8d79c4572f281c0ad799af1ad0ee4b9408270d663",
+    "funding-radar/src/recorded-audit.ts": "a4e56f78e8175ba2ef40561a1422d17a5deeee0809afd53f5a921e6fc987a6fa",
+    "funding-radar/scripts/reconcile-existing.ts": "c9c065526d0b1501164edf279a1088a4dad9dcf0ef7ce8910226264856d39dfe",
+    "funding-radar/evidence/reconciled-summary.json": "aa3381151d3755b503200b1f7d18f99127e62f1fe384e0553d1625ff12870748",
+    "funding-radar/evidence/source-audit-v2.json": "f3a8662342976d85b5992aab49bd2daa79dcfdb3b6df59aa361b1edb0b361cc3",
+    "funding-radar/README.md": "fe287e5a943dbae6ae5d9e1b9331914717dc7eaf267303b7768599665780b97a",
+    "compliance-map/README.md": "6af6d10228aa66288cff2acfd5346b9ffd8edd6486f2d4cd7d38715ab2891180",
+    "funding-radar/evidence/recent-1-reconciled-report.json": "1789ca94ac8816ab0ca58188dfeb1d7570a7cb3c57da82fcfd92ab7cd6d27468",
+    "funding-radar/evidence/recent-2-reconciled-report.json": "5cbd544f96514c0c3017f4129e05eee41551b6e1aa02489169bdc15aaca674fe",
+    "funding-radar/evidence/recent-3-reconciled-report.json": "7a0bc340bdb6e22554bac01edb15bb569c6c656775634c8bf4496fa09bfff8a3"
+  }
+}

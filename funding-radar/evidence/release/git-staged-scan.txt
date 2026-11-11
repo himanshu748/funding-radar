@@ -1,0 +1,12 @@
+scope: full staged file contents
+CRITICAL: {"file": "funding-radar/evidence/recorded-investigations/fresh-security-export.json", "line": 1, "finding": "OpenAI-shaped token", "value": "[REDACTED]"}
+CRITICAL: {"file": "funding-radar/evidence/recorded-investigations/fresh-security-review.json", "line": 116, "finding": "OpenAI-shaped token", "value": "[REDACTED]"}
+CRITICAL: {"file": "funding-radar/test/recording.test.ts", "line": 251, "finding": "Credential assignment", "value": "[REDACTED]"}
+CRITICAL: {"file": "funding-radar/test/recording.test.ts", "line": 252, "finding": "Credential assignment", "value": "[REDACTED]"}
+CRITICAL: {"file": "funding-radar/test/recording.test.ts", "line": 256, "finding": "Credential assignment", "value": "[REDACTED]"}
+CRITICAL: {"file": "funding-radar/test/recording.test.ts", "line": 335, "finding": "Credential assignment", "value": "[REDACTED]"}
+CRITICAL: {"file": "funding-radar/test/research-session.test.ts", "line": 322, "finding": "Credential assignment", "value": "[REDACTED]"}
+CRITICAL: {"file": "providers/test/pricing.test.ts", "line": 170, "finding": "Credential assignment", "value": "[REDACTED]"}
+findings: 8; files omitted: 8
+limits: known patterns only; no Git history; arbitrary untracked content excluded; staged scope excludes unstaged changes.
+WARN: scan incomplete for omitted binary, oversized, missing, or unreadable files.

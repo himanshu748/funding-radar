@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-11T07:02:19.750287+00:00",
+  "status": "LOCAL_PACKAGE_VERIFIED_NOT_READY",
+  "node": "v26.12.0",
+  "source_manifest_sha256": "1d28329e7cf4d3a238f2d5a5f4ad31a9356437a13afb61d048d0037536038d40",
+  "source_manifest": "source-manifest.json",
+  "source_files_count": 70,
+  "validation_environment": "Existing standalone install, with all provider keys/grant variables removed and live flags disabled. Not a new clean-install or live-provider pass.",
+  "checks": {
+    "tests": {
+      "command": "npm test",
+      "exit_code": 0,
+      "receipt": "tests.txt",
+      "passed": 90
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "exit_code": 0,
+      "receipt": "typecheck.txt"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "receipt": "build.txt"
+    },
+    "format": {
+      "command": "npm run format:check",
+      "exit_code": 0,
+      "receipt": "format.txt",
+      "initial_failure_receipt": "format-initial.txt"
+    }
+  },
+  "funding_tests": 41,
+  "package_tests": 90,
+  "browser_receipt": "browser-checks.json",
+  "browser_passed_ui_assertions": 19,
+  "browser_harness_corrections": 5,
+  "download_content_checks_passed": 22,
+  "reviewed_recent_counts": [10, 10, 10],
+  "reviewed_original_tinyset_counts": [8, 8, 8],
+  "ordinary_web_additions": [2, 2, 2],
+  "original_tinyset_returned_rows": [10, 10, 10],
+  "provider_operations_during_this_pass": 0,
+  "historical_attempt_receipt": "../readiness-2026-11-10/supplement-outcome.json",
+  "old_source_controls_and_evidence_unchanged_receipt": "preservation-check.json",
+  "request_contract_audit": "request-contract-audit.json",
+  "publication_performed": false,
+  "submission_performed": false,
+  "submission_ready": false,
+  "remaining_gates": [
+    "Complete reviewed investor ranking with required named deal-partner, typical cheque/stage and actual contact-route evidence; zero approach-ready matches.",
+    "General-input end-to-end discovery and complete ranking evidence; curated saved cases plus manual additions do not establish this.",
+    "Working public build link, required LinkedIn/Discord promotion, eligibility/originality and actual final-form checks.",
+    "Mobile visual viewport and OS reduced-motion emulation remain unverified; manual reduced-motion toggle was verified."
+  ],
+  "format_scope_correction": "Initial format check flagged two immutable historical receipt JSON files. They were preserved unchanged; historical formatting scope now selects source-review case data, while current receipts are checked. format-initial.txt preserves that failure.",
+  "artifact_scan": "artifact-scan.json"
+}

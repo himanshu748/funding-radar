@@ -1,0 +1,270 @@
+{
+  "checked_at": "2026-11-11T06:49:04.434Z",
+  "scope": "Local saved-case and supplement UI regression; no general-input live research or submission.",
+  "browser": "ChatGPT in-app browser",
+  "passed_ui_assertions": 19,
+  "ui_checks": [
+    {
+      "name": "Case 1 displays ten combined, ten original rows and two public additions",
+      "passed": true
+    },
+    {
+      "name": "Baz inspector explicitly separates ordinary-web provenance",
+      "passed": true
+    },
+    {
+      "name": "Baz preserves USD9M new funding versus USD17M cumulative and Israel caveat",
+      "passed": true
+    },
+    {
+      "name": "Escape closes evidence inspector and returns to Baz control",
+      "passed": true
+    },
+    {
+      "name": "Case 2 keeps original row and supplement counts distinct",
+      "passed": true
+    },
+    {
+      "name": "suena inspector preserves software fit, country/stage caveats and unknown individual lead",
+      "passed": true
+    },
+    {
+      "name": "Deftpower separates missing round stage and public provenance",
+      "passed": true
+    },
+    {
+      "name": "Case 3 preserves twelve presented sources and ten original provider rows",
+      "passed": true
+    },
+    {
+      "name": "Decentro displays June2025 month-only, qualified domicile and later stage",
+      "passed": true
+    },
+    {
+      "name": "Case3 JSON and CSV downloaded through visible controls",
+      "passed": true
+    },
+    {
+      "name": "Review notes expose supplement hash and unresolved investor/automation gates",
+      "passed": true
+    },
+    {
+      "name": "InfoEdge supplemental review preserves two cheque scopes, founder route and unknown lead",
+      "passed": true
+    },
+    {
+      "name": "Search filters to Decentro source record",
+      "passed": true
+    },
+    {
+      "name": "All three cases export JSON and CSV through UI",
+      "passed": true
+    },
+    {
+      "name": "Manual motion control restored to reduced state",
+      "passed": true
+    },
+    {
+      "name": "Arrow key switches company tab to investor candidates",
+      "passed": true
+    },
+    {
+      "name": "Unseen brief produces parsed plan while explicitly starting no research or reservation",
+      "passed": true
+    },
+    {
+      "name": "Full workspace retains saved case and paused live research after local planning",
+      "passed": true
+    },
+    {
+      "name": "Desktop page has no horizontal document overflow or open dialogs",
+      "passed": true
+    }
+  ],
+  "harness_corrections": [
+    {
+      "name": "Baz evidence preserves new USD9M round and geography caveat",
+      "passed": false,
+      "harness_issue": "Expected numeric formatting rather than rendered USD9M; corrected assertion below."
+    },
+    {
+      "name": "Decentro keeps announcement month precision rather than inventing a day",
+      "passed": false,
+      "harness_issue": "Expected abbreviated Jun rather than rendered June; corrected assertion below."
+    },
+    {
+      "name": "Supplement investor index opens InfoEdge rather than earlier original review",
+      "passed": false,
+      "harness_issue": "Expected capitalized Unknown; rendered status is lowercase unknown. Corrected assertion below."
+    },
+    {
+      "name": "Unseen brief produces local plan and no live-run claim",
+      "passed": false,
+      "harness_issue": "Negative-claim regex did not match exact Local planning only wording; corrected below."
+    },
+    {
+      "name": "Workspace remains on saved case after local planning",
+      "passed": false,
+      "harness_issue": "Post-anchor AX diff omitted unchanged saved-case content; checked full state below."
+    }
+  ],
+  "harness_corrections_explanation": "Five initial assertions used incorrect text formatting/case or a partial AX diff. Current full observations and corrected assertions confirmed the intended product behavior; original failed attempts are retained here.",
+  "download_content_checks": [
+    {
+      "case": 1,
+      "name": "JSON separates10 original and2 public records",
+      "passed": true
+    },
+    {
+      "case": 1,
+      "name": "JSON count10 is explicitly mixed and not automated discovery",
+      "passed": true
+    },
+    {
+      "case": 1,
+      "name": "Public additions have no forged original TinySet claims",
+      "passed": true
+    },
+    {
+      "case": 1,
+      "name": "Original provider observation hash remains bound",
+      "passed": true
+    },
+    {
+      "case": 1,
+      "name": "CSV contains12 records and2 explicitly public additions",
+      "passed": true
+    },
+    {
+      "case": 1,
+      "name": "CSV provider dates blank for ordinary-web additions",
+      "passed": true
+    },
+    {
+      "case": 1,
+      "name": "Not submission-ready and no approach-ready list",
+      "passed": true
+    },
+    {
+      "case": 2,
+      "name": "JSON separates10 original and2 public records",
+      "passed": true
+    },
+    {
+      "case": 2,
+      "name": "JSON count10 is explicitly mixed and not automated discovery",
+      "passed": true
+    },
+    {
+      "case": 2,
+      "name": "Public additions have no forged original TinySet claims",
+      "passed": true
+    },
+    {
+      "case": 2,
+      "name": "Original provider observation hash remains bound",
+      "passed": true
+    },
+    {
+      "case": 2,
+      "name": "CSV contains12 records and2 explicitly public additions",
+      "passed": true
+    },
+    {
+      "case": 2,
+      "name": "CSV provider dates blank for ordinary-web additions",
+      "passed": true
+    },
+    {
+      "case": 2,
+      "name": "Not submission-ready and no approach-ready list",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "JSON separates10 original and2 public records",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "JSON count10 is explicitly mixed and not automated discovery",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "Public additions have no forged original TinySet claims",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "Original provider observation hash remains bound",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "CSV contains12 records and2 explicitly public additions",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "CSV provider dates blank for ordinary-web additions",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "Not submission-ready and no approach-ready list",
+      "passed": true
+    },
+    {
+      "case": 3,
+      "name": "CSV preserves Decentro month-only precision",
+      "passed": true
+    }
+  ],
+  "download_content_checks_passed": 22,
+  "downloads": [
+    {
+      "file": "exports/browser-case-3.json",
+      "sha256": "be1572f4147a55990812468baaa3e39596d1a1204278dae811802862af54017e"
+    },
+    {
+      "file": "exports/browser-case-3.csv",
+      "sha256": "dd80cb294c046fe05ccb66543b1fc9636e87352a157e1b4064bb94dff3352b33"
+    },
+    {
+      "file": "exports/browser-case-2.json",
+      "sha256": "7421a95cf094a3f69d6b563acd1bdc302f3099706c0ac6b605ad9e5b72179195"
+    },
+    {
+      "file": "exports/browser-case-2.csv",
+      "sha256": "7062742ab0205e121bbee6a630d3d034e634896d2f74b0925c84d5c95753a873"
+    },
+    {
+      "file": "exports/browser-case-1.json",
+      "sha256": "1400d43a170895f4e023a07dfacef0889954fd5b26c4cf95f95db13e4350ffb3"
+    },
+    {
+      "file": "exports/browser-case-1.csv",
+      "sha256": "0ff07f1c67ec9a857c0f8b46093a4fb480ed7d0a241618c29580c9f896f09d30"
+    }
+  ],
+  "layout": {
+    "dialogs": 0,
+    "documentWidth": 1280,
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "mobile_viewport": "Unverified; in-app browser viewport overrides did not apply in prior pass; owner requested keeping checks here.",
+  "os_reduced_motion": "Unverified; manual control restored to reduced state.",
+  "provider_operations": 0,
+  "screenshot": "../../docs/media/workspace-2026-11-11.png",
+  "screenshot_sha256": "951279b09d71a81f9a8187b9f18cf0d1e10bdc2c069024559dfb86cd74518c73",
+  "unverified": [
+    "Fresh arbitrary-input live discovery/ranking",
+    "Mobile visual viewport",
+    "Operating-system reduced-motion emulation",
+    "Public release, promotions and final submission form"
+  ]
+}

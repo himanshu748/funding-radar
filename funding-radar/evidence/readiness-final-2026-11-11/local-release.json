@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-11T09:13:03.466858+00:00",
+  "status": "LOCAL_REVIEW_ARCHIVE_PREPARED_NOT_PUBLISHED",
+  "archive_filename": "funding-radar-release-candidate-2026-11-11.zip",
+  "archive_sha256_receipt": "The adjacent workspace outputs/funding-radar-release-candidate-2026-11-11.json records the archive bytes and digest; kept outside the ZIP to avoid a self-reference.",
+  "source_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
+  "publication_approval": "Requested for this specific package and shown LinkedIn/X/Discord copy; pending owner answer.",
+  "publication_performed": false,
+  "submission_performed": false,
+  "form_preparation": "form-draft-check.json"
+}

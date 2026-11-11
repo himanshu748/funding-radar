@@ -1,0 +1,274 @@
+{
+  "format": "funding-radar-public-source-supplement-v1",
+  "case_id": 2,
+  "checked_at": "2026-11-11T06:17:12Z",
+  "method": "ordinary_web_source_review",
+  "returned_by_tinyset": false,
+  "base_observations_sha256": "623849ced3d41614d0c4e5ed7b255b086d6fb9f4b25c5fd999c5a06d78b61adf",
+  "window": {
+    "since": "2025-05-08",
+    "as_of": "2026-11-08"
+  },
+  "scope": "Two new companies were researched through public company and investor pages on 11 November. They were not returned by TinySet and do not modify its original ten rows. Germany/Netherlands and later-stage fit qualifications remain visible. This closes combined source-count coverage only; it does not prove automated discovery or exact individual deal leadership.",
+  "companies": [
+    {
+      "row_id": "public:suena-energy",
+      "company_name": "suena energy",
+      "company_url": "https://www.suena.energy/",
+      "decision": "verified_recent",
+      "announced_on": "2025-09-17",
+      "announced_month": null,
+      "round_stage": "Series A",
+      "geography": "Germany",
+      "fit": "AI and forecast-driven flexibility trading/dispatch software for storage and renewable assets. Software supplier, rather than generation or battery hardware manufacturer.",
+      "notes": [
+        "Direct energy forecasting/flexibility overlap; Germany differs from UK and Series A differs from seed. These differences must affect ranking, not be hidden.",
+        "Reported total round: EUR 8,000,000. This is not an individual investor cheque.",
+        "Public announcement day, not independently established bank settlement or legal closing day.",
+        "Till Wyszynski (Eneco) and Pauline Wink (4impact) are quoted, but no explicit personal transaction-lead assertion was found."
+      ],
+      "sources": [
+        {
+          "url": "https://news.eneco.com/eneco-leads-8-million-investment-round-in-german-energy-tech-company-suena-energy/",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "amount"
+          ],
+          "note": "17 September 2025 release confirms EUR8M Series A, Eneco Ventures lead, named participants and forecasting-based trading software. Retrieval: full_body."
+        },
+        {
+          "url": "https://www.4impact.vc/articles/4impact-capital-joins-8-million-series-a-round-in-suena-energy",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "amount"
+          ],
+          "note": "17 September 2025 release says the round successfully closed; it identifies the syndicate and quotes Till Wyszynski and Pauline Wink. Retrieval: full_body."
+        },
+        {
+          "url": "https://www.suena.energy/post/press-release-suena-energy-secures-8-million-in-series-a-funding-to-scale-its-ai-powered-trading",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "amount"
+          ],
+          "note": "Company announcement identifies a completed Series A and Hamburg software business. Its later update label is not the financing date. Retrieval: Full body read earlier in this review; later fetch timed out. The two investor releases below remained readable.."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "individual_investor_cheque"
+      ],
+      "investors": [
+        {
+          "name": "Eneco Ventures",
+          "url": "https://www.eneco.nl/over-ons/wat-we-doen/ventures/",
+          "role": "lead (Eneco investment arm)",
+          "source_url": "https://news.eneco.com/eneco-leads-8-million-investment-round-in-german-energy-tech-company-suena-energy/",
+          "note": "Selected source-named investor, not an exhaustive syndicate. No individual deal leader or cheque is inferred."
+        },
+        {
+          "name": "4impact capital",
+          "url": "https://www.4impact.vc/",
+          "role": "participant",
+          "source_url": "https://news.eneco.com/eneco-leads-8-million-investment-round-in-german-energy-tech-company-suena-energy/",
+          "note": "Selected source-named investor, not an exhaustive syndicate. No individual deal leader or cheque is inferred."
+        }
+      ]
+    },
+    {
+      "row_id": "public:deftpower",
+      "company_name": "Deftpower",
+      "company_url": "https://www.deftpower.com/",
+      "decision": "verified_recent",
+      "announced_on": "2025-08-29",
+      "announced_month": null,
+      "round_stage": null,
+      "geography": "Netherlands",
+      "fit": "White-label EV charging software predicts demand and shifts charging towards renewable supply and lower-price/off-peak periods, providing grid flexibility. It is software, not charger manufacturing.",
+      "notes": [
+        "Relevant demand prediction and grid-flexibility software, with EV-specific rather than general grid-forecasting focus. Netherlands/Germany differs from UK; growth-scale financing differs from a seed startup.",
+        "Reported total round: EUR 12,500,000. This is not an individual investor cheque.",
+        "Two dated primary investor releases agree. Conflicting company-page display metadata is retained separately; exact settlement day is unknown.",
+        "Sara Resvik is a named lead-firm spokesperson and formal current board member. Those facts do not independently prove personal transaction leadership.",
+        "Use two investor announcement dates; do not count a new October 2024 or undated 2025 financing from this display label."
+      ],
+      "sources": [
+        {
+          "url": "https://www.endeit.com/posts/endeit-capital-leads-eu12-5m-investment-in-deftpower-to-accelerate-europes-smart-charging-future",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "amount"
+          ],
+          "note": "29 August 2025 release confirms EUR12.5M raised, Endeit lead and participants. It describes AI charging software and quotes Sara Resvik for the lead firm. Retrieval: full_body."
+        },
+        {
+          "url": "https://www.4impact.vc/articles/deftpower-secures-eu12-5m-new-funding",
+          "kind": "investor",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "investor",
+            "amount"
+          ],
+          "note": "29 August 2025 release corroborates the financing, Arnhem/Berlin locations and white-label grid-flexibility software. It identifies Pauline Wink as a quoted participant representative. Retrieval: full_body."
+        },
+        {
+          "url": "https://www.deftpower.com/nl/blog/deftpower-secures-eu12-5-million-to-accelerate-ai-powered-ev-charging-platform-for-europes-energy-transition",
+          "kind": "company",
+          "supports": ["identity", "date"],
+          "note": "Page display metadata says October 13, 2024, while body says Arnhem, Friday 29th 2025 without a month. Use the two dated investor releases for announcement day. Retrieval: indexed_primary_body."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "individual_investor_cheque",
+        "round_stage"
+      ],
+      "investors": [
+        {
+          "name": "Endeit Capital",
+          "url": "https://www.endeit.com/",
+          "role": "lead",
+          "source_url": "https://www.endeit.com/posts/endeit-capital-leads-eu12-5m-investment-in-deftpower-to-accelerate-europes-smart-charging-future",
+          "note": "Selected source-named investor, not an exhaustive syndicate. No individual deal leader or cheque is inferred."
+        },
+        {
+          "name": "4impact capital",
+          "url": "https://www.4impact.vc/",
+          "role": "existing investor participating",
+          "source_url": "https://www.endeit.com/posts/endeit-capital-leads-eu12-5m-investment-in-deftpower-to-accelerate-europes-smart-charging-future",
+          "note": "Selected source-named investor, not an exhaustive syndicate. No individual deal leader or cheque is inferred."
+        }
+      ]
+    }
+  ],
+  "investor_reviews": [
+    {
+      "name": "4impact capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "EUR 250,000 to 2,500,000 (initial ticket; capital reserved for follow-ons)",
+          "source_urls": ["https://www.4impact.vc/"],
+          "note": "Source policy or route, not evidence of willingness to invest in this startup. Best disclosed stage/cheque overlap of these three for a seed startup, but UK focus is unconfirmed; do not call approach-ready."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Seed, Series A",
+          "source_urls": ["https://www.4impact.vc/"],
+          "note": "Source policy or route, not evidence of willingness to invest in this startup. Best disclosed stage/cheque overlap of these three for a seed startup, but UK focus is unconfirmed; do not call approach-ready."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "url: https://www.4impact.vc/contact; kind: explicit founder fundraising intake",
+          "source_urls": ["https://www.4impact.vc/contact"],
+          "note": "Source policy or route, not evidence of willingness to invest in this startup. Best disclosed stage/cheque overlap of these three for a seed startup, but UK focus is unconfirmed; do not call approach-ready."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "Quotation and firm participation are not an individual lead claim. Best disclosed stage/cheque overlap of these three for a seed startup, but UK focus is unconfirmed; do not call approach-ready. No official per-company responsibility assignment was found."
+        }
+      ]
+    },
+    {
+      "name": "Eneco Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "EUR 2,000,000 to 6,000,000 (approximate first investment)",
+          "source_urls": [
+            "https://www.eneco.nl/over-ons/wat-we-doen/ventures/"
+          ],
+          "note": "Source policy or route, not evidence of willingness to invest in this startup. Direct sector fit with a larger first-ticket and traction threshold; Seed+ is not equivalent to all seed startups."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Seed+, Series A, Series B",
+          "source_urls": [
+            "https://www.eneco.nl/over-ons/wat-we-doen/ventures/"
+          ],
+          "note": "Original wording is Seed+ through B, with proven concept and visible commercial traction. Direct sector fit with a larger first-ticket and traction threshold; Seed+ is not equivalent to all seed startups."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "url: https://www.eneco.nl/over-ons/wat-we-doen/ventures/; kind: explicit funding-seeking startup/scaleup invitation with email and contact form; email: ventures@eneco.com",
+          "source_urls": [
+            "https://www.eneco.nl/over-ons/wat-we-doen/ventures/"
+          ],
+          "note": "Source policy or route, not evidence of willingness to invest in this startup. Direct sector fit with a larger first-ticket and traction threshold; Seed+ is not equivalent to all seed startups."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "Firm lead is explicit; Till's quote does not establish that he personally led the deal. Direct sector fit with a larger first-ticket and traction threshold; Seed+ is not equivalent to all seed startups. No official individual suena responsibility assignment was found."
+        }
+      ]
+    },
+    {
+      "name": "Endeit Capital",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "EUR 5,000,000 to 20,000,000 (published investment ticket; initial-versus-follow-on scope unstated)",
+          "source_urls": ["https://www.endeit.com/"],
+          "note": "Source policy or route, not evidence of willingness to invest in this startup. Relevant software investment, but disclosed late-A/B stage and EUR5M minimum fit poorly with a seed startup; no seed-suitability upgrade."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "late Series A, Series B",
+          "source_urls": ["https://www.endeit.com/about"],
+          "note": "Source policy or route, not evidence of willingness to invest in this startup. Relevant software investment, but disclosed late-A/B stage and EUR5M minimum fit poorly with a seed startup; no seed-suitability upgrade."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "url: https://www.endeit.com/about; kind: official open company-screening contact form",
+          "source_urls": ["https://www.endeit.com/about"],
+          "note": "Form asks FTE, revenue and Europe/other location. It is not explicitly called a pitch-deck application and acceptance is not guaranteed. Relevant software investment, but disclosed late-A/B stage and EUR5M minimum fit poorly with a seed startup; no seed-suitability upgrade."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "A formal board seat plus the release's lead-investor quote is not an explicit statement that Sara personally led the transaction. Relevant software investment, but disclosed late-A/B stage and EUR5M minimum fit poorly with a seed startup; no seed-suitability upgrade. Formal board/portfolio responsibility and personal transaction leadership remain distinct."
+        }
+      ]
+    }
+  ],
+  "provider_operations_started": 0
+}

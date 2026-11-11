@@ -1,0 +1,669 @@
+
+> funding-radar@0.1.0 test
+> node scripts/run-tests.mjs
+
+TAP version 13
+# Subtest: one-line startup plans are bounded, differentiated, schema-valid and never populate automatically
+ok 1 - one-line startup plans are bounded, differentiated, schema-valid and never populate automatically
+  ---
+  duration_ms: 154.906416
+  ...
+# Subtest: different startup inputs produce explainably different rankings without a funding promise
+ok 2 - different startup inputs produce explainably different rankings without a funding promise
+  ---
+  duration_ms: 89.654584
+  ...
+# Subtest: aggregators, ambiguous identity, stale observations, blocked rows and negated investment claims stay unresolved
+ok 3 - aggregators, ambiguous identity, stale observations, blocked rows and negated investment claims stay unresolved
+  ---
+  duration_ms: 8.489
+  ...
+# Subtest: duplicate identities and fabricated stage/date fields cannot improve a score
+ok 4 - duplicate identities and fabricated stage/date fields cannot improve a score
+  ---
+  duration_ms: 6.7595
+  ...
+# Subtest: partial saved results disclose incomplete coverage instead of filling missing investors
+ok 5 - partial saved results disclose incomplete coverage instead of filling missing investors
+  ---
+  duration_ms: 0.379458
+  ...
+# Subtest: unvalidated, unsupported and future investment dates never appear as established evidence
+ok 6 - unvalidated, unsupported and future investment dates never appear as established evidence
+  ---
+  duration_ms: 2.154167
+  ...
+# Subtest: CLI reads explicit synthetic observations, exports explainable CSV and refuses overwrite
+ok 7 - CLI reads explicit synthetic observations, exports explainable CSV and refuses overwrite
+  ---
+  duration_ms: 2958.460291
+  ...
+# Subtest: a rejected create preserves status and phase without logging its key, body or URL
+ok 8 - a rejected create preserves status and phase without logging its key, body or URL
+  ---
+  duration_ms: 48.055917
+  ...
+# Subtest: network failure stays distinguishable from an HTTP response and is never retried
+ok 9 - network failure stays distinguishable from an HTTP response and is never retried
+  ---
+  duration_ms: 1.011916
+  ...
+# Subtest: observer exceptions do not replace successful transport results
+ok 10 - observer exceptions do not replace successful transport results
+  ---
+  duration_ms: 0.394208
+  ...
+# Subtest: non-provider destinations are refused before sending any headers
+ok 11 - non-provider destinations are refused before sending any headers
+  ---
+  duration_ms: 0.375667
+  ...
+# Subtest: wallet, fill and row reads are classified without exposing object IDs or responses
+ok 12 - wallet, fill and row reads are classified without exposing object IDs or responses
+  ---
+  duration_ms: 0.959083
+  ...
+# Subtest: an aborted Request input is classified without requiring a duplicate init.signal
+ok 13 - an aborted Request input is classified without requiring a duplicate init.signal
+  ---
+  duration_ms: 18.161708
+  ...
+# Subtest: a rejected asynchronous observer cannot turn transport success into a process error
+ok 14 - a rejected asynchronous observer cannot turn transport success into a process error
+  ---
+  duration_ms: 27.56225
+  ...
+# Subtest: current brief plans at least10 recent comparable companies with round keys and required unknown-capable investor fields
+ok 15 - current brief plans at least10 recent comparable companies with round keys and required unknown-capable investor fields
+  ---
+  duration_ms: 18.688042
+  ...
+# Subtest: ten distinct recent similar companies qualify without inventing unavailable cheque, partner or contact fields
+ok 16 - ten distinct recent similar companies qualify without inventing unavailable cheque, partner or contact fields
+  ---
+  duration_ms: 163.221667
+  ...
+# Subtest: stale, future, impossible and uncorroborated dates do not satisfy the ten-company requirement
+ok 17 - stale, future, impossible and uncorroborated dates do not satisfy the ten-company requirement
+  ---
+  duration_ms: 17.409333
+  ...
+# Subtest: duplicate companies, unsafe links and fundraising intentions cannot inflate coverage
+ok 18 - duplicate companies, unsafe links and fundraising intentions cannot inflate coverage
+  ---
+  duration_ms: 108.418375
+  ...
+# Subtest: ranked investors arise only from recent comparable companies and require separate cheque, partner and contact evidence
+ok 19 - ranked investors arise only from recent comparable companies and require separate cheque, partner and contact evidence
+  ---
+  duration_ms: 61.045
+  ...
+# Subtest: exact English dates normalize without inventing a day; explicit whole months retain their precision
+ok 20 - exact English dates normalize without inventing a day; explicit whole months retain their precision
+  ---
+  duration_ms: 9.52
+  ...
+# Subtest: dated news is permitted by the actual brief while provenance and exact-date gaps remain visible
+ok 21 - dated news is permitted by the actual brief while provenance and exact-date gaps remain visible
+  ---
+  duration_ms: 23.798417
+  ...
+# Subtest: saved source retrieval adds hash-checked text presence without becoming semantic verification
+ok 22 - saved source retrieval adds hash-checked text presence without becoming semantic verification
+  ---
+  duration_ms: 96.222666
+  ...
+# Subtest: redirect-rejected and unchecked sources remain explicit gaps without altering eligibility claims
+ok 23 - redirect-rejected and unchecked sources remain explicit gaps without altering eligibility claims
+  ---
+  duration_ms: 4.536792
+  ...
+# Subtest: duplicate source identities and altered saved body digests fail before a corroboration claim
+ok 24 - duplicate source identities and altered saved body digests fail before a corroboration claim
+  ---
+  duration_ms: 4.99125
+  ...
+# Subtest: genuine saved export replays without upgrading provider claims or starting research
+ok 25 - genuine saved export replays without upgrading provider claims or starting research
+  ---
+  duration_ms: 502.07475
+  ...
+# Subtest: replay rejects malformed, oversized or empty bytes and invalid labels
+ok 26 - replay rejects malformed, oversized or empty bytes and invalid labels
+  ---
+  duration_ms: 1.360792
+  ...
+# Subtest: replay refuses synthetic observations and failed or uncertain transports
+ok 27 - replay refuses synthetic observations and failed or uncertain transports
+  ---
+  duration_ms: 213.275291
+  ...
+# Subtest: replay binds the exact serialized observations rather than trusting a copied digest
+ok 28 - replay binds the exact serialized observations rather than trusting a copied digest
+  ---
+  duration_ms: 68.829083
+  ...
+# Subtest: observation key order remains intact for hash-bound replay
+ok 29 - observation key order remains intact for hash-bound replay
+  ---
+  duration_ms: 74.271791
+  ...
+# Subtest: corrupt export, dataset and run identities are refused
+ok 30 - corrupt export, dataset and run identities are refused
+  ---
+  duration_ms: 80.134417
+  ...
+# Subtest: replay checks target bounds and exact row counts
+ok 31 - replay checks target bounds and exact row counts
+  ---
+  duration_ms: 123.478667
+  ...
+# Subtest: duplicate, reordered or modified transport rows cannot borrow original observations
+ok 32 - duplicate, reordered or modified transport rows cannot borrow original observations
+  ---
+  duration_ms: 20.762542
+  ...
+# Subtest: future or inconsistent collection metadata cannot establish a recorded result
+ok 33 - future or inconsistent collection metadata cannot establish a recorded result
+  ---
+  duration_ms: 125.144708
+  ...
+# Subtest: unknown envelope fields, headers, old reports and forged review claims are never returned
+ok 34 - unknown envelope fields, headers, old reports and forged review claims are never returned
+  ---
+  duration_ms: 189.642333
+  ...
+# Subtest: a separately supplied genuine review binds its hash and preserves both evidence layers
+ok 35 - a separately supplied genuine review binds its hash and preserves both evidence layers
+  ---
+  duration_ms: 429.468
+  ...
+# Subtest: review time and identity errors fail without leaking malformed review values
+ok 36 - review time and identity errors fail without leaking malformed review values
+  ---
+  duration_ms: 350.391125
+  ...
+# Subtest: optional investor review is ranked after source review with separate scopes and fixed provenance
+ok 37 - optional investor review is ranked after source review with separate scopes and fixed provenance
+  ---
+  duration_ms: 411.562375
+  ...
+# Subtest: an unseen full description and exact default bound reach one injected task, with raw provenance retained
+ok 38 - an unseen full description and exact default bound reach one injected task, with raw provenance retained
+  ---
+  duration_ms: 136.613917
+  ...
+# Subtest: an explicit row bound is forwarded and invalid configuration cannot dispatch
+ok 39 - an explicit row bound is forwarded and invalid configuration cannot dispatch
+  ---
+  duration_ms: 20.151667
+  ...
+# Subtest: invalid IDs, invalid descriptions and unknown sessions fail without dispatch
+ok 40 - invalid IDs, invalid descriptions and unknown sessions fail without dispatch
+  ---
+  duration_ms: 7.818667
+  ...
+# Subtest: same UUID and exact description are idempotent before and after completion; changed text conflicts
+ok 41 - same UUID and exact description are idempotent before and after completion; changed text conflicts
+  ---
+  duration_ms: 16.7655
+  ...
+# Subtest: a different active job is rejected and settled work releases the local concurrency slot
+ok 42 - a different active job is rejected and settled work releases the local concurrency slot
+  ---
+  duration_ms: 114.512917
+  ...
+# Subtest: twenty retained jobs are bounded without eviction or automatic repeat
+ok 43 - twenty retained jobs are bounded without eviction or automatic repeat
+  ---
+  duration_ms: 111.690125
+  ...
+# Subtest: unknown failures are redacted and retained failed IDs never retry
+ok 44 - unknown failures are redacted and retained failed IDs never retry
+  ---
+  duration_ms: 3.590709
+  ...
+# Subtest: TinySetError exposes only its public code and message
+ok 45 - TinySetError exposes only its public code and message
+  ---
+  duration_ms: 1.590292
+  ...
+# Subtest: FundingError exposes only its public code and message
+ok 46 - FundingError exposes only its public code and message
+  ---
+  duration_ms: 2.576709
+  ...
+# Subtest: ProviderError exposes only its public code and message
+ok 47 - ProviderError exposes only its public code and message
+  ---
+  duration_ms: 1.919042
+  ...
+# Subtest: ControlError exposes only its public code and message
+ok 48 - ControlError exposes only its public code and message
+  ---
+  duration_ms: 1.554583
+  ...
+# Subtest: cancel requests a single abort, waits for settlement and fences uncertain remote termination
+ok 49 - cancel requests a single abort, waits for settlement and fences uncertain remote termination
+  ---
+  duration_ms: 1.64425
+  ...
+# Subtest: a completed provider result wins an abort race without a false cancellation claim
+ok 50 - a completed provider result wins an abort race without a false cancellation claim
+  ---
+  duration_ms: 3.907458
+  ...
+# Subtest: settled library cancellation releases the slot without retrying the cancelled ID
+ok 51 - settled library cancellation releases the slot without retrying the cancelled ID
+  ---
+  duration_ms: 3.231584
+  ...
+# Subtest: cancellation before dispatch starts no injected task or remote claim
+ok 52 - cancellation before dispatch starts no injected task or remote claim
+  ---
+  duration_ms: 1.142917
+  ...
+# Subtest: invalid returned provenance fails instead of publishing a completed investigation
+ok 53 - invalid returned provenance fails instead of publishing a completed investigation
+  ---
+  duration_ms: 3.34175
+  ...
+# Subtest: a specifically withheld stage cannot survive in the derived view or earn candidate stage points
+ok 54 - a specifically withheld stage cannot survive in the derived view or earn candidate stage points
+  ---
+  duration_ms: 176.545
+  ...
+# Subtest: unreviewed provider claims cannot become independently verified or approach-ready
+ok 55 - unreviewed provider claims cannot become independently verified or approach-ready
+  ---
+  duration_ms: 105.866459
+  ...
+# Subtest: source-review overlay preserves original bytes and exposes exact raw claim separately
+ok 56 - source-review overlay preserves original bytes and exposes exact raw claim separately
+  ---
+  duration_ms: 144.16025
+  ...
+# Subtest: foreign original hash, foreign row, duplicate row and company mismatch fail closed
+ok 57 - foreign original hash, foreign row, duplicate row and company mismatch fail closed
+  ---
+  duration_ms: 112.044292
+  ...
+# Subtest: a reviewer cannot verify a round outside the fixed historical window, infer missing facts, or use unsafe sources
+ok 58 - a reviewer cannot verify a round outside the fixed historical window, infer missing facts, or use unsafe sources
+  ---
+  duration_ms: 105.00175
+  ...
+# Subtest: month precision cannot count a partly overlapping month, and exact day and month must agree
+ok 59 - month precision cannot count a partly overlapping month, and exact day and month must agree
+  ---
+  duration_ms: 21.205375
+  ...
+# Subtest: contradicted-only investor evidence cannot survive into the reviewed candidate list
+ok 60 - contradicted-only investor evidence cannot survive into the reviewed candidate list
+  ---
+  duration_ms: 158.57425
+  ...
+# Subtest: an excluded deal cannot inflate a surviving investor's score or evidence
+ok 61 - an excluded deal cannot inflate a surviving investor's score or evidence
+  ---
+  duration_ms: 85.542709
+  ...
+# Subtest: missing review stays explicitly pending in provenance and warning
+ok 62 - missing review stays explicitly pending in provenance and warning
+  ---
+  duration_ms: 15.192959
+  ...
+# Subtest: review case ID must match the selected investigation even with the correct bytes
+ok 63 - review case ID must match the selected investigation even with the correct bytes
+  ---
+  duration_ms: 99.730041
+  ...
+# Subtest: future-dated reviews cannot establish verification
+ok 64 - future-dated reviews cannot establish verification
+  ---
+  duration_ms: 40.162583
+  ...
+# Subtest: enriched review dates cannot precede the original review or lie in the future
+ok 65 - enriched review dates cannot precede the original review or lie in the future
+  ---
+  duration_ms: 108.917417
+  ...
+# Subtest: a bound review generates a sourced ranking for an arbitrary startup without granting funding certainty
+ok 66 - a bound review generates a sourced ranking for an arbitrary startup without granting funding certainty
+  ---
+  duration_ms: 159.098792
+  ...
+# Subtest: different descriptions or changed company evidence cannot borrow a reviewed investor list
+ok 67 - different descriptions or changed company evidence cannot borrow a reviewed investor list
+  ---
+  duration_ms: 4.824542
+  ...
+# Subtest: synthetic observations cannot be promoted into a live reviewed investor shortlist
+ok 68 - synthetic observations cannot be promoted into a live reviewed investor shortlist
+  ---
+  duration_ms: 0.459583
+  ...
+# Subtest: human-readable stage and country aliases preserve the actual fit
+ok 69 - human-readable stage and country aliases preserve the actual fit
+  ---
+  duration_ms: 2.200333
+  ...
+# Subtest: unconfirmed program-specific requirements remain a conditional watchlist record
+ok 70 - unconfirmed program-specific requirements remain a conditional watchlist record
+  ---
+  duration_ms: 3.547625
+  ...
+# Subtest: excluded, duplicated, missing or unrelated investment evidence cannot gain ranking points
+ok 71 - excluded, duplicated, missing or unrelated investment evidence cannot gain ranking points
+  ---
+  duration_ms: 8.335708
+  ...
+# Subtest: ranges, source sets, lead attribution and unexpected score overrides fail closed
+ok 72 - ranges, source sets, lead attribution and unexpected score overrides fail closed
+  ---
+  duration_ms: 3.893458
+  ...
+# Subtest: current stage, geography, adjacent products and moved partners affect rank without erasing historical roles
+ok 73 - current stage, geography, adjacent products and moved partners affect rank without erasing historical roles
+  ---
+  duration_ms: 2.153625
+  ...
+# Subtest: future or pre-collection reviews and duplicate www investor aliases are rejected
+ok 74 - future or pre-collection reviews and duplicate www investor aliases are rejected
+  ---
+  duration_ms: 21.715958
+  ...
+# Subtest: recorded app journey, exports and new brief require no provider access; live dispatch remains paused
+ok 75 - recorded app journey, exports and new brief require no provider access; live dispatch remains paused
+  ---
+  duration_ms: 2685.856583
+  ...
+# Subtest: opt-in HTTP research is generic, idempotent, exported and explicitly unreviewed
+ok 76 - opt-in HTTP research is generic, idempotent, exported and explicitly unreviewed
+  ---
+  duration_ms: 496.921667
+  ...
+# Subtest: HTTP cancellation preserves uncertain remote state and blocks a second investigation
+ok 77 - HTTP cancellation preserves uncertain remote state and blocks a second investigation
+  ---
+  duration_ms: 72.077334
+  ...
+# Subtest: combined source coverage never increases TinySet-returned rows or changes original receipt identity
+ok 78 - combined source coverage never increases TinySet-returned rows or changes original receipt identity
+  ---
+  duration_ms: 402.55425
+  ...
+# Subtest: new company records are explicit public-source additions with no forged original TinySet claim
+ok 79 - new company records are explicit public-source additions with no forged original TinySet claim
+  ---
+  duration_ms: 317.723958
+  ...
+# Subtest: a public-source file cannot claim provider provenance or bind a different case or source digest
+ok 80 - a public-source file cannot claim provider provenance or bind a different case or source digest
+  ---
+  duration_ms: 210.7975
+  ...
+# Subtest: duplicate identities, including www aliases, cannot inflate company coverage
+ok 81 - duplicate identities, including www aliases, cannot inflate company coverage
+  ---
+  duration_ms: 506.955042
+  ...
+# Subtest: unreviewed events, partial boundary months and shifted demonstration windows fail closed
+ok 82 - unreviewed events, partial boundary months and shifted demonstration windows fail closed
+  ---
+  duration_ms: 111.5635
+  ...
+# Subtest: Fetch meter binding preserves the generic default and maps only explicit lowercase tiers
+ok 83 - Fetch meter binding preserves the generic default and maps only explicit lowercase tiers
+  ---
+  duration_ms: 30.785209
+  ...
+# Subtest: explicit Hobby uses its exact zero-price meter among both tiers and freshly preflights every request
+ok 84 - explicit Hobby uses its exact zero-price meter among both tiers and freshly preflights every request
+  ---
+  duration_ms: 804.488833
+  ...
+# Subtest: explicit Builder cannot fall back to free Hobby under a zero-price grant
+ok 85 - explicit Builder cannot fall back to free Hobby under a zero-price grant
+  ---
+  duration_ms: 136.447833
+  ...
+# Subtest: missing, duplicate, positive or malformed Hobby quotes stop before reservation and source dispatch
+ok 86 - missing, duplicate, positive or malformed Hobby quotes stop before reservation and source dispatch
+  ---
+  duration_ms: 114.353166
+  ...
+# Subtest: generic callers retain their old contract and never silently select a tier
+ok 87 - generic callers retain their old contract and never silently select a tier
+  ---
+  duration_ms: 147.176875
+  ...
+# Subtest: invalid runtime tier fails before any provider request or reservation
+ok 88 - invalid runtime tier fails before any provider request or reservation
+  ---
+  duration_ms: 77.40175
+  ...
+# Subtest: omitted and explicit undefined selectors omit the field while retaining every fixed request bound
+ok 89 - omitted and explicit undefined selectors omit the field while retaining every fixed request bound
+  ---
+  duration_ms: 260.194375
+  ...
+# Subtest: supplied selector arrays still require one to twenty bounded nonempty strings before any provider request
+ok 90 - supplied selector arrays still require one to twenty bounded nonempty strings before any provider request
+  ---
+  duration_ms: 101.453833
+  ...
+# Subtest: a reviewed PDF-shaped URL accepts the bounded extracted-text contract from an offline provider without selectors
+ok 91 - a reviewed PDF-shaped URL accepts the bounded extracted-text contract from an offline provider without selectors
+  ---
+  duration_ms: 250.219584
+  ...
+# Subtest: USD decimal conversion never rounds cost down
+ok 92 - USD decimal conversion never rounds cost down
+  ---
+  duration_ms: 3.1405
+  ...
+# Subtest: fresh price observation requires the exact wallet meter and sufficient existing funds
+ok 93 - fresh price observation requires the exact wallet meter and sufficient existing funds
+  ---
+  duration_ms: 225.871542
+  ...
+# Subtest: missing, duplicate, mismatched and increased pricing fail closed
+ok 94 - missing, duplicate, mismatched and increased pricing fail closed
+  ---
+  duration_ms: 72.928083
+  ...
+# Subtest: provider request blocks credential-bearing and external origins before sending the key
+ok 95 - provider request blocks credential-bearing and external origins before sending the key
+  ---
+  duration_ms: 4.321875
+  ...
+# Subtest: HTTP and transport errors withhold raw bodies and do not retry
+ok 96 - HTTP and transport errors withhold raw bodies and do not retry
+  ---
+  duration_ms: 6.513125
+  ...
+# Subtest: pre-dispatch cancellation and byte limits are enforced
+ok 97 - pre-dispatch cancellation and byte limits are enforced
+  ---
+  duration_ms: 2.931333
+  ...
+# Subtest: decoded Unicode credential echoes are withheld and bounds must be finite integers
+ok 98 - decoded Unicode credential echoes are withheld and bounds must be finite integers
+  ---
+  duration_ms: 4.487959
+  ...
+# Subtest: one completed research run retains full reservation and partial synthesis warning
+ok 99 - one completed research run retains full reservation and partial synthesis warning
+  ---
+  duration_ms: 462.18175
+  ...
+# Subtest: lost accepted run ID halts shared pool and never repeats POST
+ok 100 - lost accepted run ID halts shared pool and never repeats POST
+  ---
+  duration_ms: 176.349792
+  ...
+# Subtest: explicit pre-run rejection retains reservation without claiming an uncertain live job
+ok 101 - explicit pre-run rejection retains reservation without claiming an uncertain live job
+  ---
+  duration_ms: 202.104959
+  ...
+# Subtest: deadline cancels known run and verifies terminal state
+ok 102 - deadline cancels known run and verifies terminal state
+  ---
+  duration_ms: 294.922834
+  ...
+# Subtest: unconfirmed cancellation blocks subsequent work
+ok 103 - unconfirmed cancellation blocks subsequent work
+  ---
+  duration_ms: 301.660583
+  ...
+# Subtest: explicit2→4 Set migration retains IDs, ceiling, key identity, all entries and prior recovery audit
+ok 104 - explicit2→4 Set migration retains IDs, ceiling, key identity, all entries and prior recovery audit
+  ---
+  duration_ms: 1378.924792
+  ...
+# Subtest: interruption after each of the three target writes stays fenced and explicitly resumes
+ok 105 - interruption after each of the three target writes stays fenced and explicitly resumes
+  ---
+  duration_ms: 2068.072
+  ...
+# Subtest: unrelated grant changes, wrong acknowledgements and active operations cannot authorize migration
+ok 106 - unrelated grant changes, wrong acknowledgements and active operations cannot authorize migration
+  ---
+  duration_ms: 313.305375
+  ...
+# Subtest: a prepared transaction refuses unexpected target edits without overwriting them
+ok 107 - a prepared transaction refuses unexpected target edits without overwriting them
+  ---
+  duration_ms: 347.462875
+  ...
+# Subtest: commit never steals a stale process lock or accepts another transaction ID
+ok 108 - commit never steals a stale process lock or accepts another transaction ID
+  ---
+  duration_ms: 260.286333
+  ...
+# Subtest: normal reads and reservations never initialize missing state; explicit initialization cannot overwrite
+ok 109 - normal reads and reservations never initialize missing state; explicit initialization cannot overwrite
+  ---
+  duration_ms: 226.891334
+  ...
+# Subtest: transports read immutable bounds from the bound grant rather than caller-supplied caps
+ok 110 - transports read immutable bounds from the bound grant rather than caller-supplied caps
+  ---
+  duration_ms: 5.035209
+  ...
+# Subtest: a persistent grant binding prevents reinitialization after ledger loss
+ok 111 - a persistent grant binding prevents reinitialization after ledger loss
+  ---
+  duration_ms: 151.23875
+  ...
+# Subtest: separate instances share one aggregate allowance across bounties without refunds
+ok 112 - separate instances share one aggregate allowance across bounties without refunds
+  ---
+  duration_ms: 310.527542
+  ...
+# Subtest: independent Node processes reserve against the same filesystem lock and ledger
+ok 113 - independent Node processes reserve against the same filesystem lock and ledger
+  ---
+  duration_ms: 1008.303833
+  ...
+# Subtest: zero-priced operations still consume a bounded endpoint count
+ok 114 - zero-priced operations still consume a bounded endpoint count
+  ---
+  duration_ms: 313.492375
+  ...
+# Subtest: a stricter endpoint concurrency limit applies inside a larger aggregate pool
+ok 115 - a stricter endpoint concurrency limit applies inside a larger aggregate pool
+  ---
+  duration_ms: 150.734042
+  ...
+# Subtest: concurrent reservations are serialized and cannot overrun the shared concurrency bound
+ok 116 - concurrent reservations are serialized and cannot overrun the shared concurrency bound
+  ---
+  duration_ms: 218.825625
+  ...
+# Subtest: duplicate request identities cannot launch a second paid attempt, even after terminal failure
+ok 117 - duplicate request identities cannot launch a second paid attempt, even after terminal failure
+  ---
+  duration_ms: 198.957667
+  ...
+# Subtest: known terminal cancellation retains its full reservation; uncertain termination halts the entire pool
+ok 118 - known terminal cancellation retains its full reservation; uncertain termination halts the entire pool
+  ---
+  duration_ms: 249.472875
+  ...
+# Subtest: cancelled signals reject before spending a reservation
+ok 119 - cancelled signals reject before spending a reservation
+  ---
+  duration_ms: 53.98725
+  ...
+# Subtest: missing or excessive terminal accounting blocks later work without releasing ceilings
+ok 120 - missing or excessive terminal accounting blocks later work without releasing ceilings
+  ---
+  duration_ms: 329.358917
+  ...
+# Subtest: stale, future, mismatched and increased pricing rejects before a ledger write; a discount does not shrink reservations
+ok 121 - stale, future, mismatched and increased pricing rejects before a ledger write; a discount does not shrink reservations
+  ---
+  duration_ms: 67.640667
+  ...
+# Subtest: grant identity, budget, key identity and endpoint rules cannot be silently substituted
+ok 122 - grant identity, budget, key identity and endpoint rules cannot be silently substituted
+  ---
+  duration_ms: 112.24675
+  ...
+# Subtest: corrupt totals and stale locks fail closed and are not automatically repaired
+ok 123 - corrupt totals and stale locks fail closed and are not automatically repaired
+  ---
+  duration_ms: 59.496792
+  ...
+# Subtest: credentials and connection URLs cannot be stored as provider identifiers
+ok 124 - credentials and connection URLs cannot be stored as provider identifiers
+  ---
+  duration_ms: 87.862667
+  ...
+# Subtest: runtime controls default off and require a private grant, matching ledger and matching owner-only key file
+ok 125 - runtime controls default off and require a private grant, matching ledger and matching owner-only key file
+  ---
+  duration_ms: 80.19325
+  ...
+# Subtest: malformed, overflowing and expired grants never authorize live work
+ok 126 - malformed, overflowing and expired grants never authorize live work
+  ---
+  duration_ms: 3.202083
+  ...
+# Subtest: operator CLI reports safe missing-grant failure rather than initializing state or reading a key
+ok 127 - operator CLI reports safe missing-grant failure rather than initializing state or reading a key
+  ---
+  duration_ms: 473.483042
+  ...
+# Subtest: explicit reviewed fixed Fetch recovery retains every allowance/counter and appends a bound audit
+ok 128 - explicit reviewed fixed Fetch recovery retains every allowance/counter and appends a bound audit
+  ---
+  duration_ms: 419.26825
+  ...
+# Subtest: recovery rejects mismatched identities, unsupported response proofs and uncertain non-Fetch jobs
+ok 129 - recovery rejects mismatched identities, unsupported response proofs and uncertain non-Fetch jobs
+  ---
+  duration_ms: 425.051542
+  ...
+# Subtest: one recovered Fetch cannot unhalt another uncertain operation
+ok 130 - one recovered Fetch cannot unhalt another uncertain operation
+  ---
+  duration_ms: 308.959792
+  ...
+# Subtest: one recovered Fetch cannot clear a separate missing-accounting halt
+ok 131 - one recovered Fetch cannot clear a separate missing-accounting halt
+  ---
+  duration_ms: 300.146459
+  ...
+1..131
+# tests 131
+# suites 0
+# pass 131
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8832.476

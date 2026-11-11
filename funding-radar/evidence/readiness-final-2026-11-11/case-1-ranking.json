@@ -1,0 +1,82 @@
+{
+  "format": "funding-radar-reviewed-ranking-v1",
+  "checked_at": "2026-11-11T08:28:11.941Z",
+  "research_snapshot_sha256": "8b87fca6996978a69efe2f094a07dd6347652a077b86fbe602839d38d9afba1b",
+  "scope": "Ordinary public-source investor review supplements the preserved TinySet/company evidence. This selected shortlist includes required named investment responsibility, dated/scoped cheque policy, stage focus and real founder routes. It is not exhaustive. Professional attribution is not automatically legal-counsel participation; collective, historical/current and firm-versus-round roles retain their qualifications. No provider execution or outreach was performed by this source review.",
+  "investors": [
+    {
+      "investor_name": "AlleyCorp",
+      "investor_url": "https://alleycorp.com/",
+      "typical_cheque": {
+        "minimum": 1000000,
+        "maximum": 10000000,
+        "currency": "USD",
+        "scope": "19 February2026 direct interview of AlleyCorp partner Susannah Shipton; dated partner practice, not the Actual AI allocation.",
+        "summary": "Direct attributable interview, not a database estimate or round-total inference. Susannah’s current official profile confirms AlleyCorp Partner, Diversified Technology with B2B/consumer marketplace emphasis. Do not label this a guaranteed universal allocation or the Actual AI cheque.",
+        "source_urls": [
+          "https://www.technyc.org/insights/blog/vc-spotlight-susannah-shipton",
+          "https://alleycorp.com/companies/susannah-shipton/"
+        ]
+      },
+      "stage_focus": {
+        "values": ["pre-seed", "seed", "series-a"],
+        "summary": "Primarily pre-seed and seed, select Series A; partner interview describes pre-seed through A",
+        "source_urls": [
+          "https://alleycorp.com/about-us/",
+          "https://www.technyc.org/insights/blog/vc-spotlight-susannah-shipton"
+        ]
+      },
+      "geography_focus": {
+        "values": ["us", "global"],
+        "summary": "The official firm about page describes New York and global investing; the comparable self-identifies Seattle, US.",
+        "source_urls": ["https://alleycorp.com/about-us/"]
+      },
+      "geography_fit": "supported",
+      "geography_fit_note": "US comparable geography and the firm global scope support relevance; current investment interest is not established.",
+      "similar_companies": [
+        {
+          "company_row_id": "76dc0a38-a658-4b83-b9fd-c3a8e98894a9",
+          "company_country": "us",
+          "product_fit": "adjacent",
+          "fit_summary": "Adjacent AI engineering-management, architecture-governance and review workflow; not represented as an identical automated-code-review product.",
+          "investment_source_urls": [
+            "https://www.linkedin.com/posts/alleycorp_seattle-startup-actual-ai-raises-32m-to-activity-7378481627364114436-txSF",
+            "https://www.linkedin.com/posts/auchenberg_seattle-startup-actual-ai-raises-32m-to-activity-7378488617507172352-y8qW",
+            "https://www.geekwire.com/2025/seattle-startup-actual-ai-raises-3-2m-to-build-ai-agents-for-engineering-managers/",
+            "https://actual.ai/about"
+          ],
+          "lead": {
+            "name": "Kenneth Auchenberg",
+            "title": "Partner at AlleyCorp at the time of the round",
+            "role": "Named leader of Actual AI USD3.2M seed while at AlleyCorp",
+            "attribution": "explicit_personal_lead",
+            "summary": "This replaces the prior quote-only uncertainty for historical leadership. Actual AI expressly says its seed was led by Kenneth at AlleyCorp. His present firm changed; no current AlleyCorp employment is implied.",
+            "qualification": "The company expressly names Kenneth as seed-round leader. He has since moved firms; this is historical attribution, not a current AlleyCorp contact.",
+            "current_status": "Now at Innovation Endeavors according to his current personal biography; use the current AlleyCorp investment-enquiry route.",
+            "team_continuity": "moved_firm",
+            "source_urls": [
+              "https://www.linkedin.com/posts/auchenberg_seattle-startup-actual-ai-raises-32m-to-activity-7378488617507172352-y8qW",
+              "https://kenneth.io/about"
+            ]
+          }
+        }
+      ],
+      "contact_route": {
+        "url": "https://alleycorp.com/contact/",
+        "email": "info@alleycorp.com",
+        "type": "investment_email",
+        "summary": "About page explicitly directs enquiries about AlleyCorp or investments to its contact page, which publishes this email. This is an official investment enquiry route, not an application guarantee. No email sent or delivery test performed.",
+        "source_urls": [
+          "https://alleycorp.com/about-us/",
+          "https://alleycorp.com/contact/"
+        ]
+      },
+      "cautions": [
+        "No present investment interest or offer is inferred.",
+        "Chequing policy is a dated partner interview, not a guarantee for every practice or this startup.",
+        "Historical lead partner has moved firms; the current pitch route is to AlleyCorp, not to Kenneth at his new firm."
+      ]
+    }
+  ],
+  "provider_operations_started": 0
+}

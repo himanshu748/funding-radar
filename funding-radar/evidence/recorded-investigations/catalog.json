@@ -1,0 +1,15 @@
+{
+  "format": "funding-radar-recording-catalog-v1",
+  "recordings": [
+    {
+      "id": "b742b001-ae3f-4069-a25f-731e21cd5c35",
+      "label": "Security & compliance",
+      "source_file": "fresh-security-export.json",
+      "source_sha256": "44574976e06ce99745037d6983b396871ef3608cbbbe846701c8518e64c0ad61",
+      "review_file": "fresh-security-review.json",
+      "review_sha256": "5dbae72a474599ead6147dd12b0e2093b7add984a985f4477f03d8be968668bd",
+      "ranking_file": "fresh-security-ranking.json",
+      "ranking_sha256": "84d10791f7cb7948674cccefb95d6be1c104704743a3d8b6a7f6dcc4a0c10384"
+    }
+  ]
+}

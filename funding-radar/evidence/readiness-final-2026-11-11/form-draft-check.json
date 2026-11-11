@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-11T09:11:28.167846+00:00",
+  "status": "PARTIALLY_PREPARED_NOT_SUBMITTED",
+  "claim": "Claimed Nov 11, 2026 confirmed on My claims; no Submitted marker for Funding Radar.",
+  "eligibility": "Authenticated Overview displays Student CURRENT.",
+  "notes_characters": 1878,
+  "notes_read_back": true,
+  "video_filename": "funding-radar-demo.mp4",
+  "video_selected": true,
+  "public_build_url": null,
+  "linkedin_url": null,
+  "x_url": null,
+  "final_submit_clicked": false,
+  "owner_final_action_required": true,
+  "limitation": "Unsaved browser form only. No server-side draft persistence or final submission is claimed."
+}

@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-11T09:13:49.244705+00:00",
+  "scope": "Artifact-only known-pattern text and filename scan; standalone is not Git, not a Git history scan.",
+  "scanned_text_files": 176,
+  "rules": [
+    "private_key",
+    "credential_token",
+    "jwt",
+    "literal_bearer",
+    "assigned_secret"
+  ],
+  "findings": [
+    {
+      "path": "shared/test/pool.test.ts",
+      "line": 407,
+      "rule": "credential_token",
+      "expected_synthetic_test": true,
+      "disposition": "Synthetic credential-rejection fixture; matched value withheld."
+    }
+  ],
+  "unexpected_environment_files": [],
+  "media_excluded_from_text_patterns": [
+    "funding-radar/docs/media/demo-poster.jpg",
+    "funding-radar/docs/media/shortlist.png",
+    "funding-radar/docs/media/workspace-2026-11-11.png",
+    "funding-radar/docs/media/funding-radar-demo.mp4",
+    "funding-radar/docs/media/live-recording.png",
+    "funding-radar/docs/media/landing.png",
+    "ui/assets/manrope.woff2",
+    "ui/assets/dmsans.woff2"
+  ],
+  "media_review": "Only actual local Funding Radar captures and edited captioned video. No authenticated portal/account captures are included.",
+  "unresolved_findings": 0,
+  "limitation": "Pattern scanning cannot prove absence of every possible secret."
+}

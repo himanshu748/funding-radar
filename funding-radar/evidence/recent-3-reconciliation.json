@@ -1,0 +1,63 @@
+{
+  "kind": "offline_normalization_reconciliation",
+  "provider_jobs": 0,
+  "original_run_id": "711052f8-04ec-48c8-8b39-db9dc524c075",
+  "original_dataset_id": "d12c71ff-3a88-4d15-bc93-cf4be5336399",
+  "original_report_sha256": "fea33a22c70f4d8b0af63d2192543b930390a900fc0211c028037f587c2bd1ec",
+  "current_engine_sha256": "378c4488f1e88bc51b056ed8d79c4572f281c0ad799af1ad0ee4b9408270d663",
+  "reconciled_at": "2026-11-08T09:11:47.488Z",
+  "source_observed_at": "2026-11-08T08:16:59.561Z",
+  "original_coverage": {
+    "scope": "ten_recent_company_evidence_only",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 0,
+    "complete": false,
+    "shortfall": 10
+  },
+  "reconciled_coverage": {
+    "scope": "ten_provider_reported_recent_company_claims",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 9,
+    "complete": false,
+    "shortfall": 1
+  },
+  "source_verification": "provider_reported_unverified",
+  "changes": [
+    "Use dates stated exactly in ISO or English; never emit an unsupported exact day.",
+    "Preserve an explicitly stated month only when its complete date range lies inside the research window; exact day stays null.",
+    "Retain primary and third-party provenance allowed by the authenticated brief.",
+    "Attach actual existing source-check outcomes and hash-checked text-presence tests. Retrieval never becomes semantic verification."
+  ],
+  "new_provider_operations": 0,
+  "original_artifact_sha256": {
+    "recent-3-observations.json": "d0fd32414bf9051e13cd8055c06c40163062da4a2ce2c298bb5fc3fab48d9a85",
+    "recent-3-receipt.json": "48e77ea8de3965c6ac40f82819dff6f0b8d105179370ff2f894dddb90d5c9763",
+    "recent-3-report.json": "fea33a22c70f4d8b0af63d2192543b930390a900fc0211c028037f587c2bd1ec"
+  },
+  "previous_reconciled_report_sha256": "7a0bc340bdb6e22554bac01edb15bb569c6c656775634c8bf4496fa09bfff8a3",
+  "audit_engine_sha256": "a4e56f78e8175ba2ef40561a1422d17a5deeee0809afd53f5a921e6fc987a6fa",
+  "source_audit_sha256": "f3a8662342976d85b5992aab49bd2daa79dcfdb3b6df59aa361b1edb0b361cc3",
+  "date_precision_counts": {
+    "day": 5,
+    "month": 4,
+    "unestablished": 1
+  },
+  "source_audit": {
+    "provider": "tinyfish-fetch",
+    "artifact": "source-audit-v2.json",
+    "original_source_operations": 20,
+    "new_provider_operations": 0,
+    "unit_price_microusd": 0,
+    "fetched": 12,
+    "not_corroborated": 8,
+    "halted": false,
+    "rows_with_retrieved_source": 1,
+    "rows_with_uncorroborated_source": 1,
+    "rows_not_checked": 8,
+    "warning": "Retrieval, text presence and publication metadata are separate from semantic investment verification. Redirect rejections were not retried."
+  },
+  "material_source_review_reference": "official-source-review.json",
+  "automatic_retry": false
+}

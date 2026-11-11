@@ -1,0 +1,261 @@
+{
+  "kind": "funding-source-audit-v2",
+  "provider": "tinyfish-fetch",
+  "distinct_source_checks": 20,
+  "max_authorized": 20,
+  "reservation_unit_price_microusd": 0,
+  "halted": false,
+  "automatic_retry": false,
+  "outcomes": [
+    {
+      "url": "https://cherry.vc/news/infrastructure-investment-europe-cant-ignore",
+      "index": 1,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:40:38.057Z",
+      "reservation_id": "ed1cb138-647d-4000-a2a1-d7210bcaea5a",
+      "text_sha256": "59cfef8bb1561176189b4acd24edd7dad7b3a22b853bb61349627ef8cce68d66",
+      "selected_html_bytes": 8431,
+      "metadata": [],
+      "title": "The Infrastructure Investment Europe Can't Ignore",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://amperon.co/newsroom/2m-seed-round",
+      "index": 2,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    },
+    {
+      "url": "https://rtp.vc/views/gokwik-series-growth-round-raise-2025",
+      "index": 3,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:40:45.027Z",
+      "reservation_id": "a963e661-a8a5-49d1-be44-12d80cc75b9e",
+      "text_sha256": "b98ca3d007a8031fe30f5e060f3ed9910630e3a2a82a3c40f86c6e5e90a165d4",
+      "selected_html_bytes": 11479,
+      "metadata": [],
+      "title": "GoKwik Raises $13M to Turn More Browsers into Buyers",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://www.generalatlantic.com/media-article/snapmint-announces-new-funding-led-by-general-atlantic-to-expand-its-emi-instalments-payments-platform/",
+      "index": 4,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:40:54.094Z",
+      "reservation_id": "c908fc1c-89a2-45ef-a18e-6c4a704d2e79",
+      "text_sha256": "ee45d97909d6bb24a05f18e54995ca2331e8c5277558c32ac7b1784d6342a549",
+      "selected_html_bytes": 25093,
+      "metadata": [
+        {
+          "name": "og:updated_time",
+          "value": "2026-06-05T13:50:09-04:00"
+        },
+        {
+          "name": "article:published_time",
+          "value": "2025-10-31T01:30:04-04:00"
+        },
+        {
+          "name": "article:modified_time",
+          "value": "2026-06-05T13:50:09-04:00"
+        }
+      ],
+      "title": "Snapmint announces new funding led by General Atlantic to expand its EMI (instalments) payments platform",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://www.recurclub.com/blog/announcing-our-50m-series-a",
+      "index": 5,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:40:57.062Z",
+      "reservation_id": "bbbdd39e-9fd7-4940-a7cc-4c3a5169c426",
+      "text_sha256": "7d658f8fb1ce02090393ff5a69cbc0d4fe5d7c8a2355ae78f3f2f74d4e86c397",
+      "selected_html_bytes": 10099,
+      "metadata": [],
+      "title": "Announcing our $50M Series A",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://westbridgecap.com/portfolio/finbox",
+      "index": 6,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:40:59.607Z",
+      "reservation_id": "ba374bd6-c149-43d5-a134-c58b1ba66a91",
+      "text_sha256": "0318b12783c2fefc25bceda3806c9a02bcbb49fcc417bf20386fb2ff0adfd691",
+      "selected_html_bytes": 48172,
+      "metadata": [],
+      "title": "Finbox",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://www.coderabbit.ai/blog/coderabbit-series-b-60-million-quality-gates-for-code-reviews",
+      "index": 7,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:41:02.023Z",
+      "reservation_id": "9b8bd8a8-65ca-4c04-9a53-73fa47794731",
+      "text_sha256": "41acc030b9dccad62cfb4b8fa087e32c1339ac67e51bc179de64ab12b4b4d4ec",
+      "selected_html_bytes": 38825,
+      "metadata": [],
+      "title": "Raising our $60M Series B: building the quality gates for AI-powered coding",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://greptile.com/blog/series-b",
+      "index": 8,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    },
+    {
+      "url": "https://momentic.ai/blog/series-a",
+      "index": 9,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:41:13.558Z",
+      "reservation_id": "375b9e31-8625-4178-b0f5-3cf1afee7b12",
+      "text_sha256": "2faabb10df0fc57a1fc0a58e8e53b76ee20825c0dce159b6dc15ac852176ee83",
+      "selected_html_bytes": 10988,
+      "metadata": [
+        {
+          "name": "last-modified",
+          "value": "2026-11-02T18:35:20Z"
+        },
+        {
+          "name": "article:published_time",
+          "value": "2025-11-24T00:00:00.000Z"
+        },
+        {
+          "name": "article:modified_time",
+          "value": "2026-11-02T18:35:20Z"
+        }
+      ],
+      "title": "Momentic Raises $15M Series A to Build the Definitive Verification Layer for Software",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://coder.com/blog/90m-series-c-led-by-kkr-to-advance-secure-enterprise-ai-development",
+      "index": 10,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:41:38.510Z",
+      "reservation_id": "1b67a254-2fdc-4129-90f7-b304ac05993f",
+      "text_sha256": "2c9723549ee81d3e27776a72b25dfd344a7bb494b3cab270c9a666860bbb2c97",
+      "selected_html_bytes": 15172,
+      "metadata": [],
+      "title": "Coder Secures $90M Series C Led by KKR to Advance Secure Enterprise AI Development",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://span.app/blog/series-a",
+      "index": 11,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    },
+    {
+      "url": "https://swarmia.com/blog/series-a-funding",
+      "index": 12,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    },
+    {
+      "url": "https://sympower.net/news/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility",
+      "index": 13,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:41:47.031Z",
+      "reservation_id": "586c3857-9707-4328-b089-9b06a5fda155",
+      "text_sha256": "d8e02abb26e826419e1b8ef96ea85372517d335a1b55badff122a0b41ce24c51",
+      "selected_html_bytes": 47468,
+      "metadata": [],
+      "title": "PGGM invests €19 million in Sympower to accelerate European energy flexibility",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://enersee.ai/insights/late-seed-funding",
+      "index": 14,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    },
+    {
+      "url": "https://6degrees.vc/",
+      "index": 15,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:41:57.244Z",
+      "reservation_id": "f5f25106-de8b-438e-a830-175047b3e157",
+      "text_sha256": "53dbb82a9db1957630af7f446ea85f472df3e8e580f12c7c26f5a3307a62076c",
+      "selected_html_bytes": 20264,
+      "metadata": [],
+      "title": "6 Degrees Capital – Early-Stage Venture Capital for Fintech, Enterprise Software & AI",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://capaloai.com/news/capalo-ai-raises-11m-to-become-leading-optimizer",
+      "index": 16,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    },
+    {
+      "url": "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+      "index": 17,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:42:04.295Z",
+      "reservation_id": "7e2bb2fa-31c9-48c2-849a-6d6b72cafa94",
+      "text_sha256": "87f27d07f5e299edce343fb70298d285ff37b9ddc540fdcbdea2428b376ca5b9",
+      "selected_html_bytes": 20507,
+      "metadata": [],
+      "title": "Let’s talk about energy",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://axle.energy/blog/announcing-our-series-a",
+      "index": 18,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    },
+    {
+      "url": "https://bachatt.app/press-release",
+      "index": 19,
+      "status": "fetched",
+      "observed_at": "2026-11-08T08:42:09.511Z",
+      "reservation_id": "2914e86c-1be2-4a1c-9bf0-3727ef3676c4",
+      "text_sha256": "72547ae3732964ea8177bfe541f8d34e0770631db4ce5f30fe45d23feffaed1f",
+      "selected_html_bytes": 29207,
+      "metadata": [],
+      "title": "Press Release",
+      "verification": "text_retrieved_not_semantically_verified"
+    },
+    {
+      "url": "https://xflowpay.com/press/xflow-raises-series-a-funding-$16-million",
+      "index": 20,
+      "status": "not_corroborated",
+      "error": "REDIRECT_REJECTED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false
+    }
+  ]
+}

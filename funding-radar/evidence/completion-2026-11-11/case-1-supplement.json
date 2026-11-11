@@ -1,0 +1,313 @@
+{
+  "format": "funding-radar-public-source-supplement-v1",
+  "case_id": 1,
+  "checked_at": "2026-11-11T06:17:34Z",
+  "method": "ordinary_web_source_review",
+  "returned_by_tinyset": false,
+  "base_observations_sha256": "d04351fcce291793f48291673bd07a4271737f1fc940d7d021a054afaab1aac9",
+  "window": {
+    "since": "2025-05-08",
+    "as_of": "2026-11-08"
+  },
+  "scope": "Two separately researched ordinary-web additions supplement the preserved historical TinySet case; they are not provider-returned rows or evidence of fresh automated discovery. Original observations and receipt stay unchanged. Exact dates, seed stages, Baz geography difference and individual deal-lead unknowns remain explicit. Combined company coverage does not establish a complete investor shortlist, arbitrary-input execution or submission readiness.",
+  "companies": [
+    {
+      "row_id": "public:bito-seed-extension-20250527",
+      "company_name": "Bito",
+      "decision": "verified_recent",
+      "announced_on": "2025-05-27",
+      "announced_month": null,
+      "company_url": "https://bito.ai/",
+      "round_stage": "Seed extension",
+      "geography": "Menlo Park, California, US",
+      "fit": "Direct AI-code-review comparable for developer teams: codebase-aware pull-request feedback inside GitHub, GitLab and Bitbucket. The historical seed extension and US base align with the case input.",
+      "notes": [
+        "New ordinary-web research; not returned by TinySet.",
+        "Issuer announced USD5.7M seed extension on 27 May 2025 at 10:00 ET, led by Vela. This is round total, not an investor cheque.",
+        "Exact announcement day is primary-supported and inside the original historical window. Settlement/closing day is undisclosed.",
+        "Company blog is marked Updated June 3, 2025; use the issuer May 27 timestamp for announcement date.",
+        "Company profile self-reports Menlo Park, California, US; San Francisco in the press release is a dateline, not substituted for headquarters.",
+        "Yigit Ihlamur is quoted and is a current Vela GP; primary review did not establish his Bito-specific responsibility or exact individual deal-lead role."
+      ],
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/bito-raises-5-7m-seed-extension-to-expand-ai-code-review-platform-with-codebase-awareness-302464654.html",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "stage",
+            "amount",
+            "investor"
+          ],
+          "note": "Issuer-distributed Bito announcement gives May 27, 2025, USD5.7M seed extension, Vela lead and named participants; describes AI code review."
+        },
+        {
+          "url": "https://www.linkedin.com/company/bitodev",
+          "kind": "company",
+          "supports": ["identity", "fit"],
+          "note": "Directly retrieved company profile names Menlo Park headquarters and US primary location; company domain matches bito.ai."
+        },
+        {
+          "url": "https://bito.ai/blog/bito-fundraising-2025/",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "fit",
+            "stage",
+            "amount",
+            "investor"
+          ],
+          "note": "Company confirms seed extension and Vela lead; visible June 3 update label is not adopted as first announcement day."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "settlement_date"
+      ],
+      "investors": [
+        {
+          "name": "Vela Partners",
+          "url": "https://vela.partners/",
+          "role": "lead",
+          "source_url": "https://www.prnewswire.com/news-releases/bito-raises-5-7m-seed-extension-to-expand-ai-code-review-platform-with-codebase-awareness-302464654.html",
+          "note": "Company issuer explicitly names Vela as seed-extension lead; individual lead and cheque not disclosed."
+        },
+        {
+          "name": "NextView Ventures",
+          "url": "https://nextview.vc/",
+          "role": "participant",
+          "source_url": "https://www.prnewswire.com/news-releases/bito-raises-5-7m-seed-extension-to-expand-ai-code-review-platform-with-codebase-awareness-302464654.html",
+          "note": "Company issuer explicitly names participation; no lead role, named individual or cheque inferred."
+        },
+        {
+          "name": "Maxitech Ventures",
+          "url": "https://maxitech.com/",
+          "role": "participant",
+          "source_url": "https://www.prnewswire.com/news-releases/bito-raises-5-7m-seed-extension-to-expand-ai-code-review-platform-with-codebase-awareness-302464654.html",
+          "note": "Company issuer explicitly names participation; Maxitech is distinct from Maxtech Ventures, the mining issuer."
+        },
+        {
+          "name": "Eniac Ventures",
+          "url": "https://www.eniac.vc/",
+          "role": "participant",
+          "source_url": "https://www.prnewswire.com/news-releases/bito-raises-5-7m-seed-extension-to-expand-ai-code-review-platform-with-codebase-awareness-302464654.html",
+          "note": "Company issuer explicitly names participation; no lead role, named individual or cheque inferred."
+        }
+      ]
+    },
+    {
+      "row_id": "public:baz-extended-seed-20260629",
+      "company_name": "Baz",
+      "decision": "verified_recent",
+      "announced_on": "2026-06-29",
+      "announced_month": null,
+      "company_url": "https://baz.ai/",
+      "round_stage": "Extended seed",
+      "geography": "Tel Aviv, Israel",
+      "fit": "Direct AI-code-review and engineering-review comparable, with seed-stage alignment. Investor portfolio locates Baz in Israel, so country differs from the US input and must affect fit/ranking.",
+      "notes": [
+        "New ordinary-web research; not returned by TinySet.",
+        "Company announced USD9M NEW extended-seed funding on June 29, 2026, co-led by existing Battery and boldstart; AFG Partners and Disruptive VC newly participated. USD17M is cumulative, not this round.",
+        "Exact company author date and dateline agree and are inside the original historical window. Settlement/closing day is undisclosed.",
+        "Battery portfolio states Tel Aviv, Israel. San Francisco is the press-event dateline and does not establish US headquarters.",
+        "Do not count the USD8M round from the company June 26, 2025 launch post: boldstart had already announced that financing on January 29, 2025 before this window. The selected June 2026 USD9M is explicitly additional.",
+        "Formal Battery portfolio assignment names Barak Schoster, Partner, and Lior Mallul, Principal. This establishes investment-team responsibility; it does not expressly establish individual leadership of the June 2026 financing. Ed Sim is quoted for boldstart, without an explicit personal lead statement."
+      ],
+      "sources": [
+        {
+          "url": "https://baz.ai/resources/news/baz-announces-planner-and-extended-seed-round",
+          "kind": "company",
+          "supports": [
+            "identity",
+            "completed_round",
+            "date",
+            "fit",
+            "stage",
+            "amount",
+            "investor"
+          ],
+          "note": "Dated June 29, 2026 company announcement reports USD9M new extended seed, both co-leading firms, new participants and code-review/planning product."
+        },
+        {
+          "url": "https://www.battery.com/company/baz/",
+          "kind": "investor",
+          "supports": ["identity", "fit", "investor", "partner", "stage"],
+          "note": "Official Baz portfolio gives Tel Aviv, Israel, early stage and investment team Barak Schoster plus Lior Mallul."
+        },
+        {
+          "url": "https://boldstart.vc/news/baz-your-ai-code-review-agent-welcome-to-boldstart/",
+          "kind": "investor",
+          "supports": ["identity", "investor"],
+          "note": "January 29, 2025 investor post establishes that the older USD8M financing predated this review window; it is not the selected new round."
+        },
+        {
+          "url": "https://www.afgvc.com/",
+          "kind": "investor",
+          "supports": ["identity", "investor", "fit"],
+          "note": "AFG Partners official portfolio links Baz and describes its AI-code-review platform; firm identity is distinct from similarly named financial groups."
+        }
+      ],
+      "withheld_fields": [
+        "exact_deal_lead_partner",
+        "actual_investor_cheque",
+        "settlement_date"
+      ],
+      "investors": [
+        {
+          "name": "Battery Ventures",
+          "url": "https://www.battery.com/",
+          "role": "co-lead, existing investor",
+          "source_url": "https://baz.ai/resources/news/baz-announces-planner-and-extended-seed-round",
+          "note": "Company explicitly names Battery as co-lead; portfolio separately assigns its team, without exact personal transaction-lead wording."
+        },
+        {
+          "name": "boldstart ventures",
+          "url": "https://boldstart.vc/",
+          "role": "co-lead, existing investor",
+          "source_url": "https://baz.ai/resources/news/baz-announces-planner-and-extended-seed-round",
+          "note": "Company explicitly names boldstart as co-lead. Ed Sim quote is not treated as personal lead proof."
+        },
+        {
+          "name": "AFG Partners",
+          "url": "https://www.afgvc.com/",
+          "role": "new participant",
+          "source_url": "https://baz.ai/resources/news/baz-announces-planner-and-extended-seed-round",
+          "note": "Company explicitly names new participation; AFG official portfolio independently lists Baz."
+        },
+        {
+          "name": "Disruptive VC",
+          "url": "https://disruptivevc.com/",
+          "role": "new participant",
+          "source_url": "https://baz.ai/resources/news/baz-announces-planner-and-extended-seed-round",
+          "note": "Company explicitly names new participation; no individual, cheque or lead status inferred."
+        }
+      ]
+    }
+  ],
+  "investor_reviews": [
+    {
+      "name": "Vela Partners",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "USD100,000–500,000 published seed checks",
+          "source_urls": [
+            "https://vela.partners/",
+            "https://vela.partners/contact"
+          ],
+          "note": "Current official policy; not Vela contribution in Bito round. Round total is not an individual cheque."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Inception through Series A; AI-only; San Francisco-based",
+          "source_urls": ["https://vela.partners/"],
+          "note": "Stage and sector policy are current official claims. No exclusive geography mandate or present appetite inferred. Good case-stage alignment is a reviewer assessment."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "Founder contact form: https://vela.partners/contact; engage@vela.partners; startup URL/LinkedIn/deck intake: https://vela.partners/entrepreneur-os",
+          "source_urls": [
+            "https://vela.partners/contact",
+            "https://vela.partners/entrepreneur-os"
+          ],
+          "note": "Official form explicitly includes Founder; separate startup assessment accepts deck or URL. No submission or outreach performed; no response/funding guarantee."
+        },
+        {
+          "field": "deal_partner",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [
+            "https://www.prnewswire.com/news-releases/bito-raises-5-7m-seed-extension-to-expand-ai-code-review-platform-with-codebase-awareness-302464654.html",
+            "https://vela.partners/contributors"
+          ],
+          "note": "Yigit Ihlamur is quoted in Bito announcement and current official GP, but a company-specific responsibility assignment or explicit personal round-lead assertion was not established."
+        }
+      ]
+    },
+    {
+      "name": "Scale Venture Partners",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "supported",
+          "value": "USD5 million–50 million usual initial investments",
+          "source_urls": ["https://www.scalevp.com/frequently-asked-questions"],
+          "note": "Current official range, sized to business and round; not disclosed CodeRabbit cheque."
+        },
+        {
+          "field": "stage",
+          "status": "supported",
+          "value": "Series A/B, signed customers and repeatable demand; AI/B2B software including DevTools; North America, Europe and Israel",
+          "source_urls": ["https://www.scalevp.com/frequently-asked-questions"],
+          "note": "Material stage mismatch for ordinary seed input; direct product analogue does not erase later-stage policy. Rank as later-stage watchlist rather than seed fit."
+        },
+        {
+          "field": "contact",
+          "status": "supported",
+          "value": "Direct sector-partner pitch through https://www.scalevp.com/team/andy-vitus; warm introduction helpful but not required",
+          "source_urls": [
+            "https://www.scalevp.com/frequently-asked-questions",
+            "https://www.scalevp.com/team/andy-vitus"
+          ],
+          "note": "Official FAQ explicitly permits direct pitches and asks product, buyer and stage. No outreach occurred."
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Andy Vitus, with Sabina Smith, explicitly assigned to CodeRabbit portfolio investment",
+          "source_urls": [
+            "https://www.scalevp.com/portfolio/coderabbit",
+            "https://www.scalevp.com/team/andy-vitus",
+            "https://www.scalevp.com/blog/announcing-our-investment-in-coderabbit"
+          ],
+          "note": "Official portfolio team and current partner profile support investment-specific responsibility. Andy and Maggie Basta co-author firm lead announcement; exact individual transaction leadership remains unknown."
+        }
+      ]
+    },
+    {
+      "name": "Battery Ventures",
+      "facts": [
+        {
+          "field": "typical_cheque",
+          "status": "unknown",
+          "value": null,
+          "source_urls": [],
+          "note": "No targeted official source establishes a current typical range; USD9M financing total is not a Battery cheque."
+        },
+        {
+          "field": "stage",
+          "status": "limited",
+          "value": "Early, specifically for Baz portfolio investment",
+          "source_urls": ["https://www.battery.com/company/baz/"],
+          "note": "This is investment-specific portfolio classification, not a general current firm mandate."
+        },
+        {
+          "field": "deal_partner",
+          "status": "limited",
+          "value": "Barak Schoster, Partner, with Lior Mallul, Principal, explicitly assigned to Baz portfolio investment",
+          "source_urls": [
+            "https://www.battery.com/company/baz/",
+            "https://baz.ai/resources/news/baz-announces-planner-and-extended-seed-round"
+          ],
+          "note": "Formal portfolio assignment establishes responsible investment team. Company names firm co-lead and quotes Barak; exact individual June 2026 round-lead role remains unknown."
+        },
+        {
+          "field": "contact",
+          "status": "unknown",
+          "value": null,
+          "source_urls": ["https://www.battery.com/contact/"],
+          "note": "Official page gives office addresses and phones, not an explicit founder pitch intake. No sales contact or office listing substituted for an application."
+        }
+      ]
+    }
+  ],
+  "provider_operations_started": 0
+}

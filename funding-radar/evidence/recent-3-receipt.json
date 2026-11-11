@@ -1,0 +1,42 @@
+{
+  "kind": "funding-radar-recent-live-v2",
+  "input_number": 3,
+  "description": "India series-a fintech startup building payments software for small businesses",
+  "request_id": "84085a90-9166-4a58-b4fd-79675aebd582",
+  "reservation_id": "fcfa21c7-9b71-43ce-93cf-03a9ffa7c38d",
+  "dataset_id": "d12c71ff-3a88-4d15-bc93-cf4be5336399",
+  "run_id": "711052f8-04ec-48c8-8b39-db9dc524c075",
+  "checked_at": "2026-11-08T08:16:59.561Z",
+  "target_rows": 10,
+  "returned_rows": 10,
+  "reserved_microusd": 1000000,
+  "estimated_row_cost_microusd": 1000000,
+  "provider_invoice_verified": false,
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "coverage": {
+    "scope": "ten_recent_company_evidence_only",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 0,
+    "complete": false,
+    "shortfall": 10
+  },
+  "investors_ranked": 0,
+  "source_verification": "provider_reported_unverified",
+  "known_dates": [],
+  "unknown_detail_counts": {
+    "cheque": 10,
+    "lead_partner": 6,
+    "contact_route": 6,
+    "round_stage": 5,
+    "investor_identity": 5
+  },
+  "redactions": [],
+  "original_output_sha256": "65f999190291f76a0218035bd137125a563e453cfef2779b145d53e6c294d316",
+  "monitor_or_outreach_created": false,
+  "automatic_retry": false
+}

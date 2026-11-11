@@ -1,0 +1,33 @@
+{
+  "kind": "funding-radar-v2-local-cli-check",
+  "checked_at": "2026-11-08T09:13:19.670052+00:00",
+  "new_provider_operations": 0,
+  "input": "recent-3-observations.json",
+  "checks": [
+    {
+      "format": "json",
+      "command": "node --import tsx funding-radar/src/cli.ts recent-report <original-description> funding-radar/evidence/recent-3-observations.json <fresh-output>",
+      "exit_code": 0,
+      "stdout": "Reconciled 9 distinct recent comparable companies from saved_live; provider calls:0.",
+      "output_sha256": "f56b27a5909207697a43f5f0aed986a2924deba545fb288a23b5eebca7a407f6",
+      "rows": 10,
+      "recent_claims": 9,
+      "month_precision_rows": 4,
+      "month_rows_have_no_exact_day": true
+    },
+    {
+      "kind": "overwrite_refused",
+      "exit_code": 1,
+      "existing_output_unchanged": true
+    },
+    {
+      "format": "csv",
+      "command": "node --import tsx funding-radar/src/cli.ts recent-report <original-description> funding-radar/evidence/recent-3-observations.json <fresh-output>",
+      "exit_code": 0,
+      "stdout": "Reconciled 9 distinct recent comparable companies from saved_live; provider calls:0.",
+      "output_sha256": "8d0e4c543102e73ead088876821e059d17368cd213071681038726dfb92981d4",
+      "rows": 10,
+      "month_precision_rows": 4
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_id": "ff28b18c-67d0-4a9b-aa02-ec307b963b5a",
+  "run_id": "8b4f1b82-ebfa-4f0c-b506-ea76892f0fb3",
+  "checked_at": "2026-11-08T07:30:14.590Z",
+  "target_rows": 5,
+  "row_count": 5,
+  "status": "ready",
+  "reservation_microusd": 1000000,
+  "estimated_row_cost_microusd": 500000,
+  "cost_note": "Terminal row-count estimate for this initially empty dataset; not a settled invoice. The full shared reservation remains retained."
+}

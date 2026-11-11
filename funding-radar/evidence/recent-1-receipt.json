@@ -1,0 +1,55 @@
+{
+  "kind": "funding-radar-recent-live-v2",
+  "input_number": 1,
+  "description": "US seed developer software startup building automated code review for engineering teams",
+  "request_id": "7c9f1ddb-9d4d-4f57-8140-b0baee8222f5",
+  "reservation_id": "c7957108-4b1a-4c60-a8b0-5a6233ddd4c1",
+  "dataset_id": "1058316e-a3ee-40a2-9780-8d8b44196fd9",
+  "run_id": "60cb2833-7e3a-407e-bb4b-8efbc9270800",
+  "checked_at": "2026-11-08T08:08:18.656Z",
+  "target_rows": 10,
+  "returned_rows": 10,
+  "reserved_microusd": 1000000,
+  "estimated_row_cost_microusd": 1000000,
+  "provider_invoice_verified": false,
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "coverage": {
+    "scope": "ten_recent_company_evidence_only",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 3,
+    "complete": false,
+    "shortfall": 7
+  },
+  "investors_ranked": 2,
+  "source_verification": "provider_reported_unverified",
+  "known_dates": [
+    {
+      "company": "CodeRabbit",
+      "announced_on": "2025-09-16"
+    },
+    {
+      "company": "Span",
+      "announced_on": "2025-11-17"
+    },
+    {
+      "company": "Swarmia",
+      "announced_on": "2025-06-18"
+    }
+  ],
+  "unknown_detail_counts": {
+    "cheque": 10,
+    "lead_partner": 9,
+    "contact_route": 7,
+    "round_stage": 2,
+    "investor_identity": 2
+  },
+  "redactions": [],
+  "original_output_sha256": "f348245386701841ef6d7259a58a132a6d59e15b8dfc39dccf3a39ac158c867b",
+  "monitor_or_outreach_created": false,
+  "automatic_retry": false
+}

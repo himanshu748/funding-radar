@@ -1,0 +1,715 @@
+{
+  "format": "funding-radar-recent-report-v2",
+  "mode": "saved_live",
+  "startup": {
+    "description": "UK seed climate software startup forecasting energy flexibility for grid operators",
+    "sectors": [
+      "climate",
+      "software"
+    ],
+    "stage": "seed",
+    "geography": "uk"
+  },
+  "window": {
+    "as_of": "2026-11-08",
+    "since": "2025-05-08",
+    "months": 18
+  },
+  "dataset_id": "6264c1fd-ee63-40e1-b5d4-80931d37e730",
+  "run_id": "0ad2b37a-7b11-4525-96a7-cbada67d22e6",
+  "collected_at": "2026-11-08T08:14:02.067Z",
+  "rows": [
+    {
+      "row_id": "8bed2177-9f40-4516-bf99-4f635db4ca00",
+      "company_name": "Amperon",
+      "company_url": "https://amperon.co/",
+      "announced_on": "2026-02-24",
+      "announced_month": "2026-02",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series B",
+      "investor_name": "Energize Capital",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": {
+        "name": "Tyler Lancaster",
+        "source_url": "https://amperon.co/newsroom/amperon-raises-20-million-series-b-to-accelerate-energy-analytics-and-grid-decarbonization",
+        "summary": "Amperon's Series B announcement quotes 'Energize Capital Partner Tyler Lancaster, who joins the Amperon board of directors' and describes Energize as the lead investor, naming Lancaster as the partner on the deal."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://amperon.co/newsroom/2m-seed-round",
+        "summary": "Amperon's newsroom lists 'Amperon Raises $20 Million Series B to Accelerate Energy Analytics and Grid Decarbonization' dated February 24, 2026. Amperon builds AI electricity demand/grid forecasting software for utilities, grid operators and traders.",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "not_corroborated",
+        "checked_url": "https://amperon.co/newsroom/2m-seed-round",
+        "error": "REDIRECT_REJECTED",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "ed020e33-93a3-413e-b92f-853e8e132d61",
+      "company_name": "NOX Energy",
+      "company_url": "https://nox.energy/",
+      "announced_on": "2026-09-30",
+      "announced_month": "2026-09",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "climate",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "Rise PropTech and Volve Capital",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://techfundingnews.com/nox-energy-raises-e3m-to-become-the-swift-of-energy-flexibility-for-europes-homes",
+        "summary": "Tech Funding News, 2026-09-30: Antwerp-based NOX Energy raised €3,000,000 seed co-led by Rise PropTech and Volve Capital, with Seeder Fund, Uneti Ventures, Fair Capital Impact Fund and 100in participating; software linking home heat pumps/solar to power markets and forecasting device consumption.",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "35265700-a90c-4390-b5aa-87d244b094fc",
+      "company_name": "FlexyGrid",
+      "company_url": "https://flexygrid.com/",
+      "announced_on": "2026-09-24",
+      "announced_month": "2026-09",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "climate",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "TechBricks",
+      "investor_url": "https://techbricks.io/portfolio",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://kurrant.com/kurrantly-news/flexygrid-closes-e750000-seed-round-to-aggregate-flexibility-for-italian-grid-operators",
+        "summary": "Kurrant, 2026-09-27: FlexyGrid S.r.l. (Bolzano/Rome) announced on 24 September 2026 it closed a €750,000 seed round; two thirds from foreign private investors, one third from TechBricks; software bids distributed batteries, chargers and industrial loads into Italian DSO flexibility markets (RomeFlex, MiNDFlex, EDGE).",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "third_party_reported"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "27265147-a6fe-4c96-b7e9-07ec7c874e07",
+      "company_name": "Capalo AI",
+      "company_url": "https://capaloai.com/",
+      "announced_on": "2026-02-06",
+      "announced_month": "2026-02",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Heartcore Capital",
+      "investor_url": "https://heartcore.com/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://capaloai.com/news/capalo-ai-raises-11m-to-become-leading-optimizer",
+        "summary": "Capalo AI (Helsinki, VPP/battery optimisation) announced an €11M Series A on 2026-02-06, led by Heartcore Capital with Tesi, VentureFriends, PROfounders, Inventure and Innovestor participating, to scale its AI VPP and battery storage optimisation across Europe.",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "not_corroborated",
+        "checked_url": "https://capaloai.com/news/capalo-ai-raises-11m-to-become-leading-optimizer",
+        "error": "REDIRECT_REJECTED",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "29e137f6-75c8-4cbf-81b9-c8a6ae7347bb",
+      "company_name": "Companion.energy",
+      "company_url": "https://companion.energy/",
+      "announced_on": "2026-06-08",
+      "announced_month": "2026-06",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "climate",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "Realyze Ventures and Pi Labs",
+      "investor_url": null,
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Investor identity is unresolved.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+        "summary": "Official company press release, Ghent, 8 June 2026: Companion.energy announced the close of a €7,800,000 seed round led by Realyze Ventures (Germany) and Pi Labs (UK), with participation from Asterion Ventures (France) and existing investors; real-time enterprise energy optimisation platform managing 200+ MW of distributed assets.",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "text_retrieved",
+        "checked_url": "https://companion.energy/insights/articles-news/companion-energy-raises-eu7-8m-to-rebuild-enterprise-energy-management-into-a-competitive-advantage-for-the-age-of-renewables",
+        "url_match": "exact",
+        "observed_at": "2026-11-08T08:42:04.295Z",
+        "text_sha256": "87f27d07f5e299edce343fb70298d285ff37b9ddc540fdcbdea2428b376ca5b9",
+        "semantic_verification": "not_established",
+        "text_checks": {
+          "company_name_present": true,
+          "investor_name_present": false,
+          "supplied_exact_day_literal_present": true
+        },
+        "published_days": []
+      }
+    },
+    {
+      "row_id": "43516b72-b563-4e55-9a14-51bdec707d33",
+      "company_name": "Axle Energy",
+      "company_url": "https://axle.energy/",
+      "announced_on": "2026-07-08",
+      "announced_month": "2026-07",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "term:energy",
+        "term:flexibility",
+        "term:grid"
+      ],
+      "geography": null,
+      "round_stage": "Series A",
+      "investor_name": "Energize Capital",
+      "investor_url": "https://energizecap.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Tyler Lancaster",
+        "source_url": "https://energizecap.com/insights/why-we-invested-in-axle-energy",
+        "summary": "Energize Capital 'Why We Invested in Axle Energy' (Jul 8, 2026): 'Energize Partner Tyler Lancaster joins the Axle board, and Agustina Soriano-Sergi joins as a board observer.' Names Tyler Lancaster as the Energize partner tied to the Series A; no individual cheque size is stated."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://axle.energy/blog/announcing-our-series-a",
+        "summary": "Axle Energy blog (July 8, 2026): announced $25M Series A led by Energize Capital, with Accel, Picus Capital and Eka participating; platform connects EVs, batteries and heat pumps to energy markets, helping grid operators balance the grid and resolve congestion.",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "not_corroborated",
+        "checked_url": "https://axle.energy/blog/announcing-our-series-a",
+        "error": "REDIRECT_REJECTED",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "0ab96636-22aa-4743-8667-31a799b8d9e6",
+      "company_name": "Sympower",
+      "company_url": "https://sympower.net/",
+      "announced_on": "2025-09-16",
+      "announced_month": "2025-09",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "climate",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Series B1",
+      "investor_name": "PGGM",
+      "investor_url": "https://pggm.nl/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://sympower.net/news/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility",
+        "summary": "Sympower (Amsterdam demand-side flexibility aggregator forecasting and optimising energy flexibility for grid operators) announced on 16 September 2025 that pension investor PGGM, investing for PFZW, put in €19 million as an extension of its Series B1, bringing the total round to €42 million, to scale BESS optimisation and M&A. PGGM deal person named: Tim van den Brule, investment director, PGGM Infrastructure.",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "text_retrieved",
+        "checked_url": "https://sympower.net/news/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility",
+        "url_match": "exact",
+        "observed_at": "2026-11-08T08:41:47.031Z",
+        "text_sha256": "d8e02abb26e826419e1b8ef96ea85372517d335a1b55badff122a0b41ce24c51",
+        "semantic_verification": "not_established",
+        "text_checks": {
+          "company_name_present": true,
+          "investor_name_present": true,
+          "supplied_exact_day_literal_present": true
+        },
+        "published_days": []
+      }
+    },
+    {
+      "row_id": "2a9d5488-b318-489c-966a-df4832cd3903",
+      "company_name": "Co-Power",
+      "company_url": "https://copower.energy/",
+      "announced_on": null,
+      "announced_month": null,
+      "announcement_precision": null,
+      "qualifying_recent_company": false,
+      "sector_overlap": [
+        "climate"
+      ],
+      "geography": null,
+      "round_stage": "seed",
+      "investor_name": "Cherry Ventures",
+      "investor_url": "https://cherry.vc/",
+      "cheque": null,
+      "lead_partner": null,
+      "contact_route": {
+        "url": "https://cherry.vc/contact",
+        "source_url": "https://cherry.vc/news/infrastructure-investment-europe-cant-ignore",
+        "summary": "Cherry Ventures' official news page links to its public contact page at cherry.vc/contact, the investor's official enquiry route."
+      },
+      "unknowns": [
+        "A supported funding announcement inside the recent window is missing.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown."
+      ],
+      "evidence": null,
+      "source_corroboration": {
+        "status": "text_retrieved",
+        "checked_url": "https://cherry.vc/news/infrastructure-investment-europe-cant-ignore",
+        "url_match": "exact",
+        "observed_at": "2026-11-08T08:40:38.057Z",
+        "text_sha256": "59cfef8bb1561176189b4acd24edd7dad7b3a22b853bb61349627ef8cce68d66",
+        "semantic_verification": "not_established",
+        "text_checks": {
+          "company_name_present": true,
+          "investor_name_present": false,
+          "supplied_exact_day_literal_present": false
+        },
+        "published_days": []
+      }
+    },
+    {
+      "row_id": "2e719927-edd8-46af-9ac5-49d4a51acc52",
+      "company_name": "Enersee",
+      "company_url": "https://enersee.ai/",
+      "announced_on": "2025-09-09",
+      "announced_month": "2025-09",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "climate",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Late-seed",
+      "investor_name": "6 Degrees Capital",
+      "investor_url": "https://6degrees.vc/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Lucas Stoops",
+        "source_url": "https://enersee.ai/insights/late-seed-funding",
+        "summary": "Enersee's official press release quotes Lucas Stoops, Partner at 6 Degrees Capital, commenting on the round."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://enersee.ai/insights/late-seed-funding",
+        "summary": "Enersee (Brussels, AI-native enterprise energy management / Virtual Energy Manager) announced on 2025-09-09 a €4,000,000 late-seed funding round led by 6 Degrees Capital, with participation from Peak, Alex Brabers, Bernard Hazard, Laurent Michiels and Vincent Nagels (official Enersee press release).",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "not_corroborated",
+        "checked_url": "https://enersee.ai/insights/late-seed-funding",
+        "error": "REDIRECT_REJECTED",
+        "semantic_verification": "not_established"
+      }
+    },
+    {
+      "row_id": "a5274039-16fe-4180-962e-bfedadb0beee",
+      "company_name": "Hybrid Greentech",
+      "company_url": "https://hybridgreentech.com/",
+      "announced_on": "2026-01-22",
+      "announced_month": "2026-01",
+      "announcement_precision": "day",
+      "qualifying_recent_company": true,
+      "sector_overlap": [
+        "climate",
+        "software"
+      ],
+      "geography": null,
+      "round_stage": "Growth",
+      "investor_name": "Nordic Alpha Partners",
+      "investor_url": "https://nordicalpha.com/",
+      "cheque": null,
+      "lead_partner": {
+        "name": "Marius Ipsen",
+        "source_url": "https://hybridgreentech.com/blogs/nordic-alpha-partners-investment",
+        "summary": "Official announcement quotes 'Marius Ipsen, Vice President, Investments, Nordic Alpha Partners' commenting on the investment in Hybrid Greentech, evidencing him as the named partner on the deal."
+      },
+      "contact_route": null,
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown."
+      ],
+      "evidence": {
+        "url": "https://hybridgreentech.com/blogs/nordic-alpha-partners-investment",
+        "summary": "Hybrid Greentech (Copenhagen) announced on 22 January 2026 a growth investment from Nordic Alpha Partners, which becomes a significant minority shareholder and strategic partner; existing investor PEAK Wind retains its minority share. The round is over €15M. Funds scale the AI-driven virtual power plant that aggregates batteries and distributed flexibility (EV chargers, heat pumps) and trades them across wholesale and ancillary markets for asset owners and grid operators across Europe. ABG Sundal Collier advised Hybrid Greentech on the transaction, confirming the 22 January 2026 announcement date.",
+        "collected_at": "2026-11-08T08:14:02.067Z",
+        "provenance": "provider_reported",
+        "source_type": "company_or_investor"
+      },
+      "source_corroboration": {
+        "status": "not_checked",
+        "semantic_verification": "not_established"
+      }
+    }
+  ],
+  "investors": [
+    {
+      "id": "techbricks.io|techbricks",
+      "investor_name": "TechBricks",
+      "investor_url": "https://techbricks.io/portfolio",
+      "score": 65,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap.",
+        "+20: a comparable company raised at the startup’s stage."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "FlexyGrid",
+          "company_url": "https://flexygrid.com/",
+          "announced_on": "2026-09-24",
+          "announced_month": "2026-09",
+          "announcement_precision": "day",
+          "round_stage": "seed",
+          "evidence": {
+            "url": "https://kurrant.com/kurrantly-news/flexygrid-closes-e750000-seed-round-to-aggregate-flexibility-for-italian-grid-operators",
+            "summary": "Kurrant, 2026-09-27: FlexyGrid S.r.l. (Bolzano/Rome) announced on 24 September 2026 it closed a €750,000 seed round; two thirds from foreign private investors, one third from TechBricks; software bids distributed batteries, chargers and industrial loads into Italian DSO flexibility markets (RomeFlex, MiNDFlex, EDGE).",
+            "collected_at": "2026-11-08T08:14:02.067Z",
+            "provenance": "provider_reported",
+            "source_type": "third_party_reported"
+          },
+          "lead_partner": null
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "seed"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Third-party funding report; company/investor-origin corroboration has not been supplied.",
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "6degrees.vc|6 degrees capital",
+      "investor_name": "6 Degrees Capital",
+      "investor_url": "https://6degrees.vc/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Enersee",
+          "company_url": "https://enersee.ai/",
+          "announced_on": "2025-09-09",
+          "announced_month": "2025-09",
+          "announcement_precision": "day",
+          "round_stage": "Late-seed",
+          "evidence": {
+            "url": "https://enersee.ai/insights/late-seed-funding",
+            "summary": "Enersee (Brussels, AI-native enterprise energy management / Virtual Energy Manager) announced on 2025-09-09 a €4,000,000 late-seed funding round led by 6 Degrees Capital, with participation from Peak, Alex Brabers, Bernard Hazard, Laurent Michiels and Vincent Nagels (official Enersee press release).",
+            "collected_at": "2026-11-08T08:14:02.067Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": {
+            "name": "Lucas Stoops",
+            "source_url": "https://enersee.ai/insights/late-seed-funding",
+            "summary": "Enersee's official press release quotes Lucas Stoops, Partner at 6 Degrees Capital, commenting on the round."
+          }
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Late-seed"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "energizecap.com|energize capital",
+      "investor_name": "Energize Capital",
+      "investor_url": "https://energizecap.com/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Axle Energy",
+          "company_url": "https://axle.energy/",
+          "announced_on": "2026-07-08",
+          "announced_month": "2026-07",
+          "announcement_precision": "day",
+          "round_stage": "Series A",
+          "evidence": {
+            "url": "https://axle.energy/blog/announcing-our-series-a",
+            "summary": "Axle Energy blog (July 8, 2026): announced $25M Series A led by Energize Capital, with Accel, Picus Capital and Eka participating; platform connects EVs, batteries and heat pumps to energy markets, helping grid operators balance the grid and resolve congestion.",
+            "collected_at": "2026-11-08T08:14:02.067Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": {
+            "name": "Tyler Lancaster",
+            "source_url": "https://energizecap.com/insights/why-we-invested-in-axle-energy",
+            "summary": "Energize Capital 'Why We Invested in Axle Energy' (Jul 8, 2026): 'Energize Partner Tyler Lancaster joins the Axle board, and Agustina Soriano-Sergi joins as a board observer.' Names Tyler Lancaster as the Energize partner tied to the Series A; no individual cheque size is stated."
+          }
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Series A"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "heartcore.com|heartcore capital",
+      "investor_name": "Heartcore Capital",
+      "investor_url": "https://heartcore.com/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Capalo AI",
+          "company_url": "https://capaloai.com/",
+          "announced_on": "2026-02-06",
+          "announced_month": "2026-02",
+          "announcement_precision": "day",
+          "round_stage": "Series A",
+          "evidence": {
+            "url": "https://capaloai.com/news/capalo-ai-raises-11m-to-become-leading-optimizer",
+            "summary": "Capalo AI (Helsinki, VPP/battery optimisation) announced an €11M Series A on 2026-02-06, led by Heartcore Capital with Tesi, VentureFriends, PROfounders, Inventure and Innovestor participating, to scale its AI VPP and battery storage optimisation across Europe.",
+            "collected_at": "2026-11-08T08:14:02.067Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": null
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Series A"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "nordicalpha.com|nordic alpha partners",
+      "investor_name": "Nordic Alpha Partners",
+      "investor_url": "https://nordicalpha.com/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Hybrid Greentech",
+          "company_url": "https://hybridgreentech.com/",
+          "announced_on": "2026-01-22",
+          "announced_month": "2026-01",
+          "announcement_precision": "day",
+          "round_stage": "Growth",
+          "evidence": {
+            "url": "https://hybridgreentech.com/blogs/nordic-alpha-partners-investment",
+            "summary": "Hybrid Greentech (Copenhagen) announced on 22 January 2026 a growth investment from Nordic Alpha Partners, which becomes a significant minority shareholder and strategic partner; existing investor PEAK Wind retains its minority share. The round is over €15M. Funds scale the AI-driven virtual power plant that aggregates batteries and distributed flexibility (EV chargers, heat pumps) and trades them across wholesale and ancillary markets for asset owners and grid operators across Europe. ABG Sundal Collier advised Hybrid Greentech on the transaction, confirming the 22 January 2026 announcement date.",
+            "collected_at": "2026-11-08T08:14:02.067Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": {
+            "name": "Marius Ipsen",
+            "source_url": "https://hybridgreentech.com/blogs/nordic-alpha-partners-investment",
+            "summary": "Official announcement quotes 'Marius Ipsen, Vice President, Investments, Nordic Alpha Partners' commenting on the investment in Hybrid Greentech, evidencing him as the named partner on the deal."
+          }
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Growth"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    },
+    {
+      "id": "pggm.nl|pggm",
+      "investor_name": "PGGM",
+      "investor_url": "https://pggm.nl/",
+      "score": 45,
+      "reasons": [
+        "+10: 1 distinct comparable companies with recent funding evidence (capped at30).",
+        "+35: provider-reported comparable-sector overlap."
+      ],
+      "similar_companies": [
+        {
+          "company_name": "Sympower",
+          "company_url": "https://sympower.net/",
+          "announced_on": "2025-09-16",
+          "announced_month": "2025-09",
+          "announcement_precision": "day",
+          "round_stage": "Series B1",
+          "evidence": {
+            "url": "https://sympower.net/news/pggm-invests-19m-in-sympower-to-accelerate-european-energy-flexibility",
+            "summary": "Sympower (Amsterdam demand-side flexibility aggregator forecasting and optimising energy flexibility for grid operators) announced on 16 September 2025 that pension investor PGGM, investing for PFZW, put in €19 million as an extension of its Series B1, bringing the total round to €42 million, to scale BESS optimisation and M&A. PGGM deal person named: Tim van den Brule, investment director, PGGM Infrastructure.",
+            "collected_at": "2026-11-08T08:14:02.067Z",
+            "provenance": "provider_reported",
+            "source_type": "company_or_investor"
+          },
+          "lead_partner": null
+        }
+      ],
+      "typical_cheque": null,
+      "historical_stages": [
+        "Series B1"
+      ],
+      "contact_routes": [],
+      "unknowns": [
+        "Individual investor cheque range is unknown; total round size is not a cheque.",
+        "Named lead partner is unknown.",
+        "Official public contact route is unknown.",
+        "A matching historical round stage is not established.",
+        "Comparable-company geography is unknown or different."
+      ],
+      "source_verification": "provider_reported_unverified"
+    }
+  ],
+  "coverage": {
+    "scope": "ten_provider_reported_recent_company_claims",
+    "required_similar_companies": 10,
+    "raw_rows": 10,
+    "distinct_recent_similar_companies": 9,
+    "complete": false,
+    "shortfall": 1
+  },
+  "warning": "Provider-reported recent-company research; source truth is not independently verified. Unknown cheque, stage, partner and contact fields are explicit. No current mandate or funding outcome is promised.",
+  "source_audit": {
+    "provider": "tinyfish-fetch",
+    "artifact": "source-audit-v2.json",
+    "original_source_operations": 20,
+    "new_provider_operations": 0,
+    "unit_price_microusd": 0,
+    "fetched": 12,
+    "not_corroborated": 8,
+    "halted": false,
+    "rows_with_retrieved_source": 3,
+    "rows_with_uncorroborated_source": 4,
+    "rows_not_checked": 3,
+    "warning": "Retrieval, text presence and publication metadata are separate from semantic investment verification. Redirect rejections were not retried."
+  }
+}

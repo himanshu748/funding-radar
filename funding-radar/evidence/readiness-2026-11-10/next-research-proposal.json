@@ -1,0 +1,101 @@
+{
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "created_at": "2026-11-10T11:01:22.463280+00:00",
+  "purpose": "One supplementary TinySet batch for three incomplete demo cases; all returned claims still need independent source review.",
+  "existing_authority": "The original shared $10 pool is halted; the separate Source Hunter $2 supplement is fully reserved. Neither funds this proposal.",
+  "requested_additional_ceiling_usd": 2,
+  "maximum_new_dataset_fills": 1,
+  "maximum_target_rows": 18,
+  "per_case_target_rows": 6,
+  "observed_row_price_usd": 0.1,
+  "observed_price_date": "2026-11-08",
+  "estimated_row_cost_usd": 1.8,
+  "fresh_account_pricing_required": true,
+  "abort_if_total_ceiling_exceeded": true,
+  "automatic_retry": false,
+  "other_provider_operations_authorized": false,
+  "billing_or_auto_reload_changes": false,
+  "original_artifacts_preserved": true,
+  "candidate_fields": [
+    "case_id",
+    "company_name",
+    "company_url",
+    "completed_round",
+    "announced_on_or_month",
+    "date_source_url",
+    "product_fit",
+    "investor_name",
+    "investor_url",
+    "investor_role",
+    "investment_proof_url",
+    "typical_cheque_range_currency_scope_source",
+    "historical_stage",
+    "exact_deal_partner_source_or_unknown",
+    "public_startup_intake_route_source_or_unknown"
+  ],
+  "inputs": [
+    {
+      "case_id": 1,
+      "description": "US seed developer software startup building automated code review for engineering teams",
+      "reviewed_recent": 8,
+      "candidate_target": 6,
+      "exclude_existing_companies": [
+        "Actual AI",
+        "Greptile",
+        "Momentic",
+        "CodeRabbit",
+        "Coder",
+        "CodeAnt AI",
+        "Span",
+        "Testkube",
+        "Qodo",
+        "Swarmia"
+      ],
+      "observation_sha256": "d04351fcce291793f48291673bd07a4271737f1fc940d7d021a054afaab1aac9"
+    },
+    {
+      "case_id": 2,
+      "description": "UK seed climate software startup forecasting energy flexibility for grid operators",
+      "reviewed_recent": 6,
+      "candidate_target": 6,
+      "exclude_existing_companies": [
+        "Amperon",
+        "NOX Energy",
+        "FlexyGrid",
+        "Capalo AI",
+        "Companion.energy",
+        "Axle Energy",
+        "Sympower",
+        "Co-Power",
+        "Enersee",
+        "Hybrid Greentech"
+      ],
+      "observation_sha256": "623849ced3d41614d0c4e5ed7b255b086d6fb9f4b25c5fd999c5a06d78b61adf"
+    },
+    {
+      "case_id": 3,
+      "description": "India series-a fintech startup building payments software for small businesses",
+      "reviewed_recent": 6,
+      "candidate_target": 6,
+      "exclude_existing_companies": [
+        "Bachatt",
+        "Xflow",
+        "Knight FinTech",
+        "Skydo",
+        "BeyondSquare Solutions",
+        "GoKwik",
+        "Recur Club",
+        "FinBox",
+        "Snapmint",
+        "Optimo Capital"
+      ],
+      "observation_sha256": "d0fd32414bf9051e13cd8055c06c40163062da4a2ce2c298bb5fc3fab48d9a85"
+    }
+  ],
+  "limitations": [
+    "A bounded candidate search does not guarantee ten qualifying companies per case.",
+    "Missing public cheque/partner/contact evidence may still prevent readiness.",
+    "New results must retain their real dataset/run/collection timestamps and must not be relabeled as original November 8 rows.",
+    "No fresh run, grant or ledger has been created."
+  ]
+}

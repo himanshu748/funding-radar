@@ -1,0 +1,5 @@
+OFFLINE VERIFICATION; synthetic provider stubs only; no live calls
+Command: npx prettier --check zombie-check/**/*.ts zombie-check/README.md funding-radar/**/*.ts funding-radar/**/*.json funding-radar/README.md providers/tinyset.ts
+Exit: 0
+Checking formatting...
+All matched files use Prettier code style!

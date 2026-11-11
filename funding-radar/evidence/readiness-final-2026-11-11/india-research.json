@@ -1,0 +1,598 @@
+{
+  "format": "funding-radar-india-ranked-investor-evidence-v1",
+  "case_id": 3,
+  "checked_at": "2026-11-11T07:17:01Z",
+  "method": "ordinary_free_public_web_research",
+  "returned_by_tinyset": false,
+  "provider_operations_started": 0,
+  "startup_description": "India series-a fintech startup building payments software for small businesses",
+  "historical_company_window": {
+    "since": "2025-05-08",
+    "as_of": "2026-11-08"
+  },
+  "base_observations_sha256": "d0fd32414bf9051e13cd8055c06c40163062da4a2ce2c298bb5fc3fab48d9a85",
+  "scope": "Two ranked firm recommendations for parent integration and independent acceptance review. New public-source evidence remains separate from all old observations/reviews and provider receipts. No existing code, data or docs edited; no paid provider, account operation, keys, spending, outreach or publication. No sole-negotiator proof or investor-allocated cheque is required or invented.",
+  "attribution_rule": "Named personal investment responsibility may be established by converging primary transaction-specific evidence, rather than demanding the literal verb led. A quote, title, board role or portfolio assignment alone is insufficient. Overall round-leading firm and personal responsibility within a participating firm are separate claims.",
+  "ranking_method": "Manual ordinal recommendation for the recorded India Series A brief, prioritizing merchant/payment software overlap, India/stage policy, scoped cheque disclosure, usable founder route and strength of personal transaction attribution. No automated general-input ranking or investment interest is claimed.",
+  "ranked_firms": [
+    {
+      "rank": 1,
+      "firm": "Arkam Ventures",
+      "firm_url": "https://arkamvc.com/",
+      "ranking_status": "defensible_scoped_shortlist_recommendation_for_parent_review",
+      "why_ranked_here": [
+        "Strong product overlap: TransBnk supplies corporate transaction/payment APIs and SaaS rather than a consumer saving product.",
+        "Current official seed-to-Series B strategy includes the example Series A stage; published USD1M–5M range and genuine pitch form are explicit.",
+        "Named investment responsibility has a round-specific first-person account, colleague attribution and founder decision-context confirmation."
+      ],
+      "backed_comparable": {
+        "company": "TransBnk / TBX",
+        "reviewed_row_id": "public:india-transbnk-20250827",
+        "announcement_day": "2025-08-27",
+        "round_stage": "Series B",
+        "round_total": {
+          "currency": "USD",
+          "amount": 25000000,
+          "scope": "whole round, not investor allocation",
+          "primary_secondary_split": "not established"
+        },
+        "overall_round_lead": "Bessemer Venture Partners",
+        "ranked_firm_role": "Arkam investor/participant in the Series B; not claimed overall round lead",
+        "source_ids": [
+          "arkam_transbnk",
+          "transbnk_round_lead",
+          "bala_transaction_thesis"
+        ]
+      },
+      "fields": {
+        "investment_proof": {
+          "value": "Arkam backed TransBnk/TBX at Series B.",
+          "status": "supported",
+          "source_ids": ["arkam_transbnk", "bala_transaction_thesis"],
+          "source_urls": [
+            "https://arkamvc.com/portfolio/transbnk",
+            "https://www.linkedin.com/posts/bala-srinivasa-454646_why-we-invested-in-transbnk-you-often-learn-activity-7368879684199047170-mvcv"
+          ],
+          "scope_and_limits": "Primary portfolio and transaction-specific investor account."
+        },
+        "typical_cheque": {
+          "value": {
+            "currency": "USD",
+            "min": 1000000,
+            "max": 5000000,
+            "as_published": "current website checked11 Nov 2026"
+          },
+          "status": "supported",
+          "source_ids": ["arkam_policy_intake"],
+          "source_urls": ["https://arkamvc.com/"],
+          "scope_and_limits": "Firm-wide published cheque range, not actual TransBnk cheque or an offer."
+        },
+        "stage": {
+          "value": "Seed through Series B",
+          "status": "supported",
+          "source_ids": ["arkam_policy_intake"],
+          "source_urls": ["https://arkamvc.com/"],
+          "scope_and_limits": "Current generic strategy includes the example Series A. The comparable historical deal is Series B."
+        },
+        "deal_partner": {
+          "value": {
+            "name": "Bala Srinivasa",
+            "current_role": "Managing Director",
+            "supported_role": "Responsible senior investment partner within Arkam’s TransBnk participation",
+            "basis": "Combined primary transaction-responsibility evidence; not a verbatim sole-lead claim"
+          },
+          "status": "supported_by_combined_primary_evidence",
+          "source_ids": [
+            "bala_role",
+            "bala_transaction_thesis",
+            "abhishek_thesis_attribution"
+          ],
+          "source_urls": [
+            "https://arkamvc.com/team/bala-srinivasa",
+            "https://www.linkedin.com/posts/bala-srinivasa-454646_why-we-invested-in-transbnk-you-often-learn-activity-7368879684199047170-mvcv",
+            "https://www.linkedin.com/pulse/conviction-behind-transbnk-abhishek-mishra-kgxgc"
+          ],
+          "scope_and_limits": "Bala gives the firm’s first-person investment thesis and personal founder meeting; colleague attributes that thesis to him; founder describes named Arkam team securing this round. This supports responsibility, not sole negotiation or overall round leadership."
+        },
+        "founder_route": {
+          "value": {
+            "type": "public_pitch_form",
+            "url": "https://arkamvc.com/",
+            "observed_fields": ["name", "mobile", "email", "deck_upload"]
+          },
+          "status": "supported",
+          "source_ids": ["arkam_policy_intake"],
+          "source_urls": ["https://arkamvc.com/"],
+          "scope_and_limits": "Explicit founder pitch controls; no account action, outreach or delivery test."
+        }
+      },
+      "fit_caveats": [
+        "Comparable serves enterprises/banks rather than only small merchants.",
+        "Historical comparable is Series B, one stage later than requested example.",
+        "No allocation, investor interest, accepted pitch or funding promise is inferred."
+      ],
+      "required_field_gaps": [],
+      "attribution_review_note": "Use the scoped personal investment responsibility wording. Do not rewrite it as Arkam led the USD 25M round or Bala was sole negotiator."
+    },
+    {
+      "rank": 2,
+      "firm": "RTP Global",
+      "firm_url": "https://rtp.vc/",
+      "ranking_status": "defensible_qualified_shortlist_recommendation_for_parent_review",
+      "why_ranked_here": [
+        "GoKwik directly supplies checkout/conversion software for merchants, giving useful overlap with small-business payments.",
+        "Current official India-relevant pre-seed/seed/Series A policy and explicit founder pitch route fit the example; a named-partner dated interview supplies scoped India cheque range.",
+        "Galina’s documented personal investment leadership history plus her own same-growth-round announcement support continuing named investment responsibility; source retrieval and historical-policy caveats lower confidence versus Arkam."
+      ],
+      "backed_comparable": {
+        "company": "GoKwik",
+        "reviewed_row_id": "0a9ed518-0bed-450f-938b-a52053756522",
+        "announcement_day": "2025-06-23",
+        "round_stage": "growth round",
+        "round_total": {
+          "currency": "USD",
+          "amount": 13000000,
+          "scope": "whole round, not RTP allocation",
+          "primary_secondary_split": "not established"
+        },
+        "overall_round_lead": "RTP Global",
+        "ranked_firm_role": "Overall lead firm for this growth round",
+        "source_ids": ["rtp_round", "galina_same_round_post"]
+      },
+      "fields": {
+        "investment_proof": {
+          "value": "RTP Global led GoKwik’s USD 13M June 2025 growth round.",
+          "status": "supported",
+          "source_ids": ["rtp_round"],
+          "source_urls": [
+            "https://rtp.vc/views/gokwik-series-growth-round-raise-2025"
+          ],
+          "scope_and_limits": "Firm-level round lead; amount is total funding, not its individual cheque."
+        },
+        "typical_cheque": {
+          "value": {
+            "currency": "USD",
+            "min": 1000000,
+            "max": 10000000,
+            "policy_statement_date": "2025-08-04",
+            "geographic_scope": "India deployment of the 2023 global fund"
+          },
+          "status": "supported_dated_direct_interview",
+          "source_ids": ["rtp_india_cheque"],
+          "source_urls": [
+            "https://www.financialexpress.com/business/ai-valuations-in-india-remain-much-more-reasonable-than-us-3935532/lite/"
+          ],
+          "scope_and_limits": "Asia Partner Nishit Garg’s explicit typical range. Current official FAQ supports stage/geography but does not freshly confirm numeric range; retain date and no unchanged-policy guarantee."
+        },
+        "stage": {
+          "value": "Current official pre-seed, seed and Series A; dated India interview adds occasional earlyB.",
+          "status": "supported",
+          "source_ids": ["rtp_current_stage_intake", "rtp_india_cheque"],
+          "source_urls": [
+            "https://rtp.vc/faq",
+            "https://www.financialexpress.com/business/ai-valuations-in-india-remain-much-more-reasonable-than-us-3935532/lite/"
+          ],
+          "scope_and_limits": "Typical entry policy is distinct from GoKwik historical growth follow-on."
+        },
+        "deal_partner": {
+          "value": {
+            "name": "Galina Chifina",
+            "current_role": "CEO and Partner, Asia",
+            "supported_role": "Responsible investment partner with documented GoKwik investment leadership and same-round continuing backing",
+            "basis": "Combined primary current/historical leadership and personal same-round indexed announcement"
+          },
+          "status": "supported_with_indexed_source_and_historical_scope",
+          "source_ids": [
+            "galina_role_history",
+            "galina_explicit_historical_lead",
+            "galina_same_round_post",
+            "rtp_round"
+          ],
+          "source_urls": [
+            "https://rtp.vc/team/galina-chifina",
+            "https://economictimes.indiatimes.com/prime/technology-and-startups/if-trust-is-lacking-investors-must-create-space-for-open-discussion-with-founders-galina-chafina/primearticleshow/103541039.cms",
+            "https://www.linkedin.com/posts/galina-chifina_happy-to-back-gokwik-on-their-journey-again-activity-7343217219553656832-i9Cc",
+            "https://rtp.vc/views/gokwik-series-growth-round-raise-2025"
+          ],
+          "scope_and_limits": "2023 direct interview explicitly identifies GoKwik personal investment leadership; official bio corroborates. Her own post shares this exact USD 13M growth round and personally confirms repeated backing. This supports continuity of responsibility, not a newly invented literal statement about sole 2025 deal negotiation. Direct social-body fetch was robots-denied; indexed primary text is disclosed."
+        },
+        "founder_route": {
+          "value": {
+            "type": "explicit_pitch_form_or_email",
+            "url": "https://rtp.vc/contact",
+            "email": "hello@rtp.vc"
+          },
+          "status": "supported",
+          "source_ids": ["rtp_current_stage_intake"],
+          "source_urls": ["https://rtp.vc/faq"],
+          "scope_and_limits": "Official FAQ explicitly invites founder pitches via these routes. No message sent or delivery tested."
+        }
+      },
+      "fit_caveats": [
+        "GoKwik combines payments/checkout with wider commerce/CRM engagement and therefore is broader than pure payment infrastructure.",
+        "Comparable is growth-stage follow-on; current typical entry stages remain early.",
+        "Numeric cheque evidence is dated August 2025, not a newly stated November 2026 policy.",
+        "Same-round personal social source was available only as indexed text in this check."
+      ],
+      "required_field_gaps": [],
+      "attribution_review_note": "Parent should retain the converging-evidence attribution and retrieval caveat. If policy demands a direct current round sentence explicitly assigning a personal lead, this remains an open narrower gate, not permission to fabricate that sentence."
+    }
+  ],
+  "not_promoted": [
+    {
+      "firm": "General Catalyst",
+      "comparable": "Xflow",
+      "available": [
+        "Strong exact B2B payments fit and current Series A transaction proof.",
+        "Official portfolio associates Alex Tran; founder tags him; official bio publishes professional email."
+      ],
+      "missing": [
+        "No sourced numerical typical cheque range found.",
+        "Founder tags, practice leadership and quote do not alone establish personal responsibility for this exact round; no own first-person transaction account located."
+      ],
+      "source_ids": ["gc_xflow", "gc_alex", "xflow_founder"]
+    },
+    {
+      "firm": "Susquehanna Asia Venture Capital",
+      "comparable": "Skydo",
+      "available": [
+        "Firm-level Series A lead and strong Indian exporter payments fit.",
+        "Bhavanipratap Rana quoted and founder/firm posts name representatives."
+      ],
+      "missing": [
+        "No scoped typical numerical cheque policy located.",
+        "No sufficiently clear transaction-specific personal investment lead evidence retrieved.",
+        "No verified founder-specific pitch route completed."
+      ],
+      "source_urls": [
+        "https://www.skydo.com/blog/skydo-series-a-funding-announcement",
+        "https://www.linkedin.com/posts/susquehanna-asia-vc_cross-border-payments-startup-skydo-raises-activity-7404370709503934464-VoNG"
+      ]
+    },
+    {
+      "firm": "InfoEdge Ventures",
+      "comparable": "Decentro",
+      "available": [
+        "Primary flexible typical cheque USD 300K–5M versus distinct USD 500K–5M average headline.",
+        "Primary early-stage India strategy and connect@infoedgeventures.com founder pitch route."
+      ],
+      "missing": [
+        "Exact recent Decentro personal transaction responsibility not established; no team-member guess."
+      ],
+      "source_urls": [
+        "https://www.infoedgeventures.in/about",
+        "https://www.infoedgeventures.in/",
+        "https://india.entrepreneur.com/news-and-trends/decentro-raises-inr-30-cr-in-series-b-round-to-strengthen/492861"
+      ]
+    },
+    {
+      "firm": "Bessemer Venture Partners",
+      "comparable": "TransBnk",
+      "available": [
+        "Primary overall Series B round lead; named Vishal Gupta/Anurag Begwani/Vatsalya Tandon coauthors.",
+        "Dated March 2025 India-fund investment range reported USD 5M–40M."
+      ],
+      "missing": [
+        "Suitable verified founder pitch route not established in this pass.",
+        "Coauthor/portfolio association not silently turned into sole personal transaction lead."
+      ],
+      "source_urls": [
+        "https://www.bvp.com/news/reimagining-indias-corporate-banking-systems-with-transbnk",
+        "https://www.bvp.com/team/vishal-gupta"
+      ]
+    },
+    {
+      "firm": "WestBridge Capital",
+      "comparable": "FinBox",
+      "available": [
+        "Current primary capital-investment range USD 10M–500M and Series A-to-IPO-plus strategy.",
+        "Deepak leads firm fintech practice and personally discusses FinBox; founder responds to him."
+      ],
+      "missing": [
+        "Broad capital-investment range not clearly a typical initial cheque.",
+        "General queries mailbox not explicitly verified as founder deck intake."
+      ],
+      "source_ids": [
+        "westbridge_policy",
+        "westbridge_deepak",
+        "finbox_deepak_post",
+        "westbridge_contact"
+      ]
+    },
+    {
+      "firm": "Accel / Blume",
+      "comparable": "Bachatt / excluded Optimo",
+      "available": ["Historical associated partner evidence already retained."],
+      "missing": [
+        "Bachatt savings/wealth adjacency is weaker than these B2B software picks.",
+        "Excluded Optimo property-backed lending is not reintroduced as investment proof."
+      ],
+      "source_urls": ["https://www.accel.com/companies/bachatt"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "arkam_policy_intake",
+      "url": "https://arkamvc.com/",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "We write $1M–$5M checks, lead or co-lead",
+      "supports": [
+        "current_cheque_range",
+        "current_stage",
+        "actual_pitch_form"
+      ],
+      "paraphrase": "Current homepage states seed through Series B and shows a founder deck form with name, mobile and email.",
+      "limits": "Published firm range, not TransBnk allocation or investment promise. Form observed, never submitted.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 7
+    },
+    {
+      "id": "arkam_transbnk",
+      "url": "https://arkamvc.com/portfolio/transbnk",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "B2B Transaction infrastructure",
+      "supports": [
+        "investment_relationship",
+        "series_b",
+        "software_fit",
+        "current_alias"
+      ],
+      "paraphrase": "Portfolio identifies TBX, formerly TransBnk, at Series B and describes corporate transaction software.",
+      "limits": "No individual cheque or named personal lead in this portfolio page.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 3
+    },
+    {
+      "id": "bala_role",
+      "url": "https://arkamvc.com/team/bala-srinivasa",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "MANAGING DIRECTOR",
+      "supports": ["current_partner_identity"],
+      "paraphrase": "Official investment-team page identifies Bala Srinivasa as Managing Director.",
+      "limits": "Role alone is not deal attribution.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 2
+    },
+    {
+      "id": "bala_transaction_thesis",
+      "url": "https://www.linkedin.com/posts/bala-srinivasa-454646_why-we-invested-in-transbnk-you-often-learn-activity-7368879684199047170-mvcv",
+      "retrieved_url": "https://www.linkedin.com/posts/bala-srinivasa-454646_why-we-invested-in-transbnk-you-often-learn-activity-7368879684199047170-mvcv?rcm=ACoAAAOY_jsBhCiEgxSnNQFc2IpGyWaAa0VSfW8&trk=article-ssr-frontend-pulse_little-text-block&utm_medium=member_desktop&utm_source=share",
+      "kind": "investor_personal_plus_founder_comment",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "In just 2 meetings, Bala Srinivasa Vishnuhari Pareek Abhishek Mishra stole the thunder",
+      "supports": [
+        "named_transaction_responsibility",
+        "investment_thesis",
+        "same_round_context"
+      ],
+      "paraphrase": "Bala personally recounts the April founder meeting and explains backing with Bessemer/Fundamentum. Founder identifies Bala, Abhishek and Vishnuhari in the investment decision.",
+      "limits": "Exact post day not printed. This is combined responsibility evidence, not a verbatim claim that Bala alone led the entire round. Founder comment names a team; Vishnuhari is not promoted to investment partner.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 13
+    },
+    {
+      "id": "abhishek_thesis_attribution",
+      "url": "https://www.linkedin.com/pulse/conviction-behind-transbnk-abhishek-mishra-kgxgc",
+      "retrieved_url": "https://www.linkedin.com/pulse/conviction-behind-transbnk-abhishek-mishra-kgxgc?trk=public_post",
+      "kind": "investor_personal",
+      "retrieval": "body_retrieved",
+      "published_on": "2025-09-03",
+      "excerpt": "Bala Srinivasa wrote about our thesis here",
+      "supports": ["named_transaction_responsibility", "same_round_context"],
+      "paraphrase": "Dated first-person account describes diligence and links Bala as the author of the firm investment thesis for TransBnk.",
+      "limits": "Attribution supports responsibility within Arkam participation; it does not make Arkam the overall round-leading firm.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 7
+    },
+    {
+      "id": "transbnk_round_lead",
+      "url": "https://www.bvp.com/news/reimagining-indias-corporate-banking-systems-with-transbnk",
+      "kind": "investor",
+      "retrieval": "body_retrieved_prior_review_reused",
+      "published_on": "2025-08-27",
+      "excerpt": "Bessemer leads TransBnk’s $25 million Series B",
+      "supports": ["completed_round", "announcement_day", "overall_round_lead"],
+      "paraphrase": "Primary announcement establishes Bessemer as overall round lead and USD25 million total round.",
+      "limits": "Arkam is not substituted for overall lead. USD 25M is not an allocated cheque or confirmed primary-only amount.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 7
+    },
+    {
+      "id": "rtp_round",
+      "url": "https://rtp.vc/views/gokwik-series-growth-round-raise-2025",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": "2025-06-23",
+      "excerpt": "growth round led by RTP Global",
+      "supports": [
+        "completed_round",
+        "overall_round_lead",
+        "period",
+        "merchant_software_fit"
+      ],
+      "paraphrase": "RTP announces USD13 million growth round and GoKwik checkout/commerce products for merchants.",
+      "limits": "Firm-level lead and quoted CEO alone would not establish personal deal responsibility; the additional sources below matter.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 6
+    },
+    {
+      "id": "galina_same_round_post",
+      "url": "https://www.linkedin.com/posts/galina-chifina_happy-to-back-gokwik-on-their-journey-again-activity-7343217219553656832-i9Cc",
+      "kind": "investor_personal",
+      "retrieval": "indexed_primary_text_only_direct_fetch_robots_denied",
+      "published_on": null,
+      "excerpt": "Happy to back GoKwik on their journey again and again!",
+      "supports": ["same_round_personal_investment_responsibility"],
+      "paraphrase": "Galina personally endorses backing GoKwik again while sharing RTP announcement of the USD 13M growth round.",
+      "limits": "Indexed public text was available; direct body fetch was denied by robots. Exact publication day is not invented. It does not describe sole negotiation or literal personal leadership of every round.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 10
+    },
+    {
+      "id": "galina_role_history",
+      "url": "https://rtp.vc/team/galina-chifina",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "Her leadership has driven investments",
+      "supports": [
+        "current_partner_identity",
+        "personal_investment_leadership_history"
+      ],
+      "paraphrase": "Official biography identifies CEO/Asia Partner focused on early-stage India and includes GoKwik among investments driven by her leadership.",
+      "limits": "Biography is historical company-level leadership evidence, not a standalone exact June 2025 attribution.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 5
+    },
+    {
+      "id": "galina_explicit_historical_lead",
+      "url": "https://economictimes.indiatimes.com/prime/technology-and-startups/if-trust-is-lacking-investors-must-create-space-for-open-discussion-with-founders-galina-chafina/primearticleshow/103541039.cms",
+      "kind": "news_direct_interview_profile",
+      "retrieval": "public_synopsis_retrieved_full_article_paywalled",
+      "published_on": "2023-09-11",
+      "excerpt": "led the firm’s investments in Cred, Practo, GoKwik",
+      "supports": ["explicit_personal_investment_leadership_history"],
+      "paraphrase": "Public interview introduction explicitly reports Galina led RTP investments including GoKwik.",
+      "limits": "September2023 historical attribution cannot alone establish responsibility for the 2025 follow-on. No paywall bypass or paid access used.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 8
+    },
+    {
+      "id": "rtp_india_cheque",
+      "url": "https://www.financialexpress.com/business/ai-valuations-in-india-remain-much-more-reasonable-than-us-3935532/lite/",
+      "kind": "news_direct_interview",
+      "retrieval": "body_retrieved",
+      "published_on": "2025-08-04",
+      "excerpt": "Typical cheque sizes are $1–10 million, with one or two follow-on rounds.",
+      "supports": ["india_typical_cheque", "dated_stage_strategy"],
+      "paraphrase": "Asia Partner Nishit Garg describes India deployment from the 2023 global fund: mostly seed/Series A, occasionally earlyB.",
+      "limits": "Dated August 2025 strategy, not a guarantee of unchanged November 2026 policy or the GoKwik allocation.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 12
+    },
+    {
+      "id": "rtp_current_stage_intake",
+      "url": "https://rtp.vc/faq",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "Send us your pitch through the form on our contact page or email hello@rtp.vc.",
+      "supports": ["current_stage", "current_sector", "real_founder_route"],
+      "paraphrase": "Current FAQ leads pre-seed/seed/Series A in B2B/B2C technology across India and explicitly invites founder pitches.",
+      "limits": "FAQ has no current numerical cheque range. Founder route observed, not contacted or delivery-tested.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 14
+    },
+    {
+      "id": "gc_xflow",
+      "url": "https://www.generalcatalyst.com/companies/xflow",
+      "kind": "investor",
+      "retrieval": "indexed_primary_text",
+      "published_on": null,
+      "excerpt": "Investors: Alex Tran",
+      "supports": ["portfolio_person_association"],
+      "paraphrase": "Firm portfolio assigns Xflow to Alex Tran and dates initial backing to2021.",
+      "limits": "Association alone does not prove the2026 round personal lead.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 3
+    },
+    {
+      "id": "gc_alex",
+      "url": "https://www.generalcatalyst.com/team/alex-tran",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "I lead our growth investing practice",
+      "supports": ["current_role", "professional_contact"],
+      "paraphrase": "Official biography states MD and fintech/growth practice role and publishes atran@generalcatalyst.com.",
+      "limits": "Public professional email is not an independently confirmed open founder-pitch program or numerical cheque policy.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 6
+    },
+    {
+      "id": "xflow_founder",
+      "url": "https://www.linkedin.com/posts/balajianand_we-publicly-announced-our-series-a-today-activity-7431958044277886977-kPUu",
+      "kind": "founder",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "We’ve raised $16.6M led by General Catalyst.",
+      "supports": ["round_firm_lead", "personal_association"],
+      "paraphrase": "Founder announces Series A and tags Alex among representatives of multiple firms.",
+      "limits": "Tags and firm-level lead do not alone establish personal leadership. No usable numeric GC cheque policy located.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 7
+    },
+    {
+      "id": "westbridge_policy",
+      "url": "https://westbridgecap.com/",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "Range of capital investments",
+      "supports": ["investment_range", "stage"],
+      "paraphrase": "Current site displays USD 10M–500M investment range and Series A-to-IPO-plus positioning.",
+      "limits": "Broad range of capital investments is not an initial typical cheque guarantee; current US-facing AI emphasis differs from Indian payments example.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 4
+    },
+    {
+      "id": "westbridge_deepak",
+      "url": "https://westbridgeadvisors.com/deepak-ramineedi",
+      "kind": "investor",
+      "retrieval": "indexed_primary_text",
+      "published_on": null,
+      "excerpt": "Currently he leads fintech investments for the fund.",
+      "supports": ["current_practice_lead"],
+      "paraphrase": "Official advisor biography identifies Deepak Ramineedi as partner leading fintech investments.",
+      "limits": "Practice leadership is not an exact FinBox transaction leadership statement.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 8
+    },
+    {
+      "id": "finbox_deepak_post",
+      "url": "https://www.linkedin.com/posts/deepak-ramineedi-449a465_finbox-raises-40-mn-from-westbridge-to-boost-activity-7374004084196040704-XSHh",
+      "kind": "investor_personal_plus_founder_comment",
+      "retrieval": "indexed_primary_text",
+      "published_on": null,
+      "excerpt": "We are really excited to Partner with FinBox",
+      "supports": ["same_transaction_personal_association"],
+      "paraphrase": "Deepak shares FinBox USD 40M announcement and founder Rajat replies welcoming partnership with Deepak.",
+      "limits": "Clear personal transaction relationship, but no scoped typical initial cheque or explicitly founder-directed intake completed in this review.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 8
+    },
+    {
+      "id": "westbridge_contact",
+      "url": "https://westbridgecap.com/contact",
+      "kind": "investor",
+      "retrieval": "body_retrieved",
+      "published_on": null,
+      "excerpt": "Contact us (queries@westbridgecap.com)",
+      "supports": ["general_contact"],
+      "paraphrase": "Official contact page publishes queries mailbox alongside entrepreneur/capital introduction.",
+      "limits": "General contact is not explicitly a deck/application intake. Not used as a confirmed founder pitch form.",
+      "checked_at": "2026-11-11T07:17:01Z",
+      "quoted_word_count": 3
+    }
+  ],
+  "readiness_limits": [
+    "This child supplies scoped research recommendations, not an overall READY/submitted decision.",
+    "RTP personal responsibility relies partly on indexed primary text and historical leadership continuity, explicitly distinguished from direct new formal2025 attribution.",
+    "No newly automated TinySet discovery, arbitrary-input live journey, public release, media, promotion or portal acceptance was established.",
+    "Parent must integrate and independently assess ranking and required-field wording under the actual brief."
+  ],
+  "validation": {
+    "two_unique_ranked_firms": true,
+    "ranked_companies_in_existing_reviewed_set": true,
+    "source_excerpts_max25_words": true,
+    "all_original_files_preserved": true,
+    "owned_new_files_only": true
+  }
+}
