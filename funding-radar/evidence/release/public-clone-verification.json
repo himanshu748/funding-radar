@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-11-11T09:29:26.267908+00:00",
+  "kind": "anonymous-public-clone-setup-and-package-verification",
+  "status": "passed",
+  "repository_url": "https://github.com/himanshu748/funding-radar",
+  "verified_commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+  "verified_branch": "main",
+  "public_main_at_final_readback": "5e04ec47fae84124484f31aa52bc27656df927d8",
+  "anonymous_access": {
+    "clone_succeeded": true,
+    "credential_helper": "empty",
+    "system_git_configuration_disabled": true,
+    "global_git_configuration": "/dev/null",
+    "gh_token_and_github_token_removed": true,
+    "prompting_disabled": true,
+    "final_head_readback_succeeded": true
+  },
+  "runtime": {
+    "node": "v22.14.0",
+    "npm": "10.9.2"
+  },
+  "setup": {
+    "command": ["npm", "ci", "--ignore-scripts"],
+    "exit_code": 0,
+    "receipt": "public-clone-npm-ci.txt"
+  },
+  "test_counts": {
+    "tests": 131,
+    "pass": 131,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "software_checks": {
+    "tests": {
+      "exit_code": 0,
+      "receipt": "public-clone-tests.txt"
+    },
+    "typecheck": {
+      "exit_code": 0,
+      "receipt": "public-clone-typecheck.txt"
+    },
+    "build": {
+      "exit_code": 0,
+      "receipt": "public-clone-build.txt"
+    },
+    "format": {
+      "exit_code": 0,
+      "receipt": "public-clone-format.txt"
+    }
+  },
+  "source_manifest": {
+    "receipt": "public-clone-source-comparison.json",
+    "files_expected": 84,
+    "files_matched": 84,
+    "mismatches": [],
+    "expected_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
+    "actual_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
+    "public_manifest_matches_canonical_bytes": true,
+    "post_checks_files_unchanged": true
+  },
+  "public_video": {
+    "receipt": "public-clone-video-http.json",
+    "url": "https://raw.githubusercontent.com/himanshu748/funding-radar/5e04ec47fae84124484f31aa52bc27656df927d8/funding-radar/docs/media/funding-radar-demo.mp4",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 3476540,
+    "sha256": "ccf05ae879892369622ae918ec7b8b222ee3fae77ef4b3682fd9200b27bc7a24",
+    "matches_reviewed_media": true
+  },
+  "clone_worktree_clean_after_checks": true,
+  "provider_operations_started": 0,
+  "provider_pricing_wallet_or_account_calls": 0,
+  "spending": 0,
+  "private_grants_or_ledgers_read_or_changed": false,
+  "commits_or_pushes_performed": false,
+  "canonical_source_docs_or_queues_edited": false,
+  "harness_note": "npm initially refused /dev/null as both global and user config before setup. Two distinct empty config files corrected the verification harness; see public-clone-harness-notes.json.",
+  "limits": [
+    "Verifies downloadable public source and media at the exact commit, not a hosted application or online demo.",
+    "The clone checks used live flags off and no provider key/grant environment variables; they did not repeat TinySet research.",
+    "Anonymous raw video GET proves retrieval and byte identity; GitHub served application/octet-stream, so no in-browser playback claim is made.",
+    "This receipt is a point-in-time public-main readback. Later docs-only commits are not this exact checked commit; runtime/data/test equality can be compared through the 84-file manifest.",
+    "No new desktop/mobile browser interaction was performed; existing browser receipts remain separate."
+  ],
+  "receipts": [
+    "public-clone-metadata.json",
+    "public-clone-harness-notes.json",
+    "public-clone-npm-ci.txt",
+    "public-clone-checks.json",
+    "public-clone-tests.txt",
+    "public-clone-typecheck.txt",
+    "public-clone-build.txt",
+    "public-clone-format.txt",
+    "public-clone-source-comparison.json",
+    "public-clone-video-http.json",
+    "public-clone-final-head.json"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-11-11T09:27:52.963669+00:00",
+  "commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+  "setup": {
+    "command": ["npm", "ci", "--ignore-scripts"],
+    "exit_code": 0,
+    "receipt": "public-clone-npm-ci.txt"
+  },
+  "live_flags": {
+    "FUNDING_RADAR_LIVE": "0",
+    "BOUNTY_POOL_LIVE": "0",
+    "STUDYWINDOW_LIVE": "0"
+  },
+  "credential_and_grant_variables_removed": true,
+  "checks": [
+    {
+      "name": "tests",
+      "command": ["npm", "test"],
+      "started_at": "2026-11-11T09:27:48.230473+00:00",
+      "ended_at": "2026-11-11T09:27:52.963339+00:00",
+      "duration_seconds": 4.733,
+      "exit_code": 0,
+      "receipt": "public-clone-tests.txt",
+      "receipt_sha256": "78df5b5786d18e8a2a340c42264dd6326f73ad52c3ed9b9e82be1065dbcaa6e1"
+    },
+    {
+      "name": "typecheck",
+      "command": ["npm", "run", "typecheck"],
+      "started_at": "2026-11-11T09:27:48.230677+00:00",
+      "ended_at": "2026-11-11T09:27:52.403850+00:00",
+      "duration_seconds": 4.173,
+      "exit_code": 0,
+      "receipt": "public-clone-typecheck.txt",
+      "receipt_sha256": "7ae0e2326c59ac6257578eb47246af0eed1f8da638ac03201180cf95ec456ede"
+    },
+    {
+      "name": "build",
+      "command": ["npm", "run", "build"],
+      "started_at": "2026-11-11T09:27:48.230726+00:00",
+      "ended_at": "2026-11-11T09:27:52.860787+00:00",
+      "duration_seconds": 4.63,
+      "exit_code": 0,
+      "receipt": "public-clone-build.txt",
+      "receipt_sha256": "3bb7726f76b358fcd1ecb330904a5d8821a1b1520f4f73819852cb9097e96bbb"
+    },
+    {
+      "name": "format",
+      "command": ["npm", "run", "format:check"],
+      "started_at": "2026-11-11T09:27:48.230780+00:00",
+      "ended_at": "2026-11-11T09:27:52.073430+00:00",
+      "duration_seconds": 3.843,
+      "exit_code": 0,
+      "receipt": "public-clone-format.txt",
+      "receipt_sha256": "c8db74f847b9999ef3ad759c1bbfcab08101e0139bb66d2eb5bf5ad584b49429"
+    }
+  ],
+  "all_passed": true,
+  "provider_operations": 0
+}

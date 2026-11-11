@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-11T09:27:16.525264+00:00",
+  "request_url": "https://raw.githubusercontent.com/himanshu748/funding-radar/5e04ec47fae84124484f31aa52bc27656df927d8/funding-radar/docs/media/funding-radar-demo.mp4",
+  "resolved_url": "https://raw.githubusercontent.com/himanshu748/funding-radar/5e04ec47fae84124484f31aa52bc27656df927d8/funding-radar/docs/media/funding-radar-demo.mp4",
+  "method": "GET",
+  "anonymous": true,
+  "authorization_header_sent": false,
+  "http_status": 200,
+  "content_type": "application/octet-stream",
+  "content_length_header": "3476540",
+  "bytes": 3476540,
+  "sha256": "ccf05ae879892369622ae918ec7b8b222ee3fae77ef4b3682fd9200b27bc7a24",
+  "expected_bytes": 3476540,
+  "expected_sha256": "ccf05ae879892369622ae918ec7b8b222ee3fae77ef4b3682fd9200b27bc7a24",
+  "pass": true,
+  "provider_calls": 0
+}

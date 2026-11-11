@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-11T09:28:34.335154+00:00",
+  "command": "git -c credential.helper= ls-remote --exit-code https://github.com/himanshu748/funding-radar.git refs/heads/main",
+  "exit_code": 0,
+  "stdout": "5e04ec47fae84124484f31aa52bc27656df927d8\trefs/heads/main\n",
+  "stderr": "",
+  "public_main_commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+  "verified_clone_commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+  "public_main_matches_verified_clone": true,
+  "clone_worktree_status_porcelain": "",
+  "clone_worktree_clean": true,
+  "post_checks_manifest_files": 84,
+  "post_checks_manifest_mismatches": [],
+  "pass": true
+}

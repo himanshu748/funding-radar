@@ -1,0 +1,148 @@
+{
+  "format": "funding-radar-independent-readiness-v1",
+  "checked_at": "2026-11-11T09:48:49.193747+00:00",
+  "decision": "READY_FOR_OWNER_SUBMISSION",
+  "ready_for_owner_submission": true,
+  "bounty": "Funding Radar",
+  "submitted": false,
+  "submission_confirmed": false,
+  "organizer_approval_or_award_claimed": false,
+  "basis": "The disclosed human-reviewed workbench is technically releasable; required public access, promotions, current eligibility/deadline and actual form gates are now evidenced. The remaining prize-entry action belongs to the owner.",
+  "technical_review": {
+    "receipt": "../readiness-final-2026-11-11/INDEPENDENT_FINAL_REVIEW.md",
+    "required_demo_reviewed_companies": [10, 10, 10],
+    "usable_reviewed_firms": [
+      "AlleyCorp",
+      "Pi Labs",
+      "Realyze Ventures",
+      "Arkam Ventures"
+    ],
+    "genuine_additional_run": {
+      "returned_rows": 19,
+      "source_reviewed_recent": 17,
+      "workflow_exclusions": 2,
+      "manual_company_additions": 0,
+      "conditional_investor": "SignalFire",
+      "approach_ready_investors": 0
+    },
+    "human_review_dependency_disclosed": true,
+    "all_input_autonomous_recommendation_guarantee_claimed": false
+  },
+  "public_build": {
+    "url": "https://github.com/himanshu748/funding-radar",
+    "anonymous_clone_receipt": "public-clone-verification.json",
+    "exact_verified_commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+    "tests_passed": 131,
+    "typecheck_build_format_passed": true,
+    "source_files_matched_now": 84,
+    "source_files_expected": 84,
+    "source_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
+    "source_mismatches": [],
+    "hosted_application_claimed": false
+  },
+  "promotions": {
+    "receipt": "promotion-confirmation.json",
+    "status": "PUBLISHED_AND_READ_BACK",
+    "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7526216239652950016/",
+    "x": "https://x.com/jhahimanshu653/status/2120448778662715464",
+    "discord": "https://discord.com/channels/1200506685236711554/1570009925848006777",
+    "tinyfish_linkedin_mention_read_back": true,
+    "tinyfish_x_profile_link_read_back": true,
+    "linkedin_full_video_seconds": 100,
+    "x_full_video_seconds": 100,
+    "discord_named_video": "funding-radar-demo.mp4",
+    "historical_publication_progress_superseded": "The earlier partially-published checkpoint is superseded by the later target-side-confirmed promotion receipt; no duplicate post is needed."
+  },
+  "form": {
+    "receipt": "final-form-check.json",
+    "prepared_fields": "submission-draft.json",
+    "all_required_URL_and_notes_DOM_checks_passed": true,
+    "links_match_promotion_receipt": true,
+    "notes_characters_independently_counted": 1804,
+    "notes_limit": 2000,
+    "notes_disclose_human_review_and_conditional_fourth_investor": true,
+    "media_filename": "funding-radar-demo.mp4",
+    "media_bytes": 3476540,
+    "media_sha256": "ccf05ae879892369622ae918ec7b8b222ee3fae77ef4b3682fd9200b27bc7a24",
+    "media_selection_confirmation": "Visible selected-media row and Remove control; component clears the native file input after selection. No server upload/storage claim before the owner submits.",
+    "submit_enabled": true,
+    "final_click_performed": false,
+    "form_persistence": "Unsaved browser form; recheck if the page is reloaded or its state changes."
+  },
+  "eligibility_and_cutoff": {
+    "receipt": "final-form-check.json",
+    "current_student_membership_rechecked": true,
+    "current_brief_and_rulebook_rechecked": true,
+    "individual_original_work_review": "../readiness-final-2026-11-11/verification.json",
+    "cutoff": "2026-11-17T23:59:00-08:00",
+    "cutoff_Asia_Kolkata": "2026-11-18T13:29:00+05:30",
+    "within_cutoff_at_review": true,
+    "claim_unsubmitted": true
+  },
+  "daily_dispatch": {
+    "timezone": "Asia/Kolkata",
+    "date": "2026-11-11",
+    "confirmed_submissions_today": 0,
+    "uncertain_submission_attempt_today": false,
+    "earlier_automation_decision": "SKIPPED_NO_READY_ENTRY",
+    "earlier_skip_consumed_slot": false,
+    "existing_daily_logs": [
+      {
+        "file": "2026-11-09-compliance-map.json",
+        "bounty": "Compliance Map",
+        "date": "2026-11-09",
+        "status": "SUBMITTED_IN_REVIEW_QUEUE",
+        "daily_slot_used": true
+      },
+      {
+        "file": "2026-11-10-source-hunter.json",
+        "bounty": "Source Hunter",
+        "date": "2026-11-10",
+        "status": "SUBMITTED_IN_REVIEW_QUEUE",
+        "daily_slot_used": true
+      }
+    ],
+    "permanently_preserve_and_never_resubmit": [
+      "TinyMerch (21 October, in review)",
+      "Compliance Map (9 November, submitted/in review)",
+      "Source Hunter (10 November, submitted/in review)"
+    ],
+    "slot_rule": "At most one confirmed entry per India calendar day. The owner click does not establish completion until target-side confirmation; hold uncertain state and never repeat blindly."
+  },
+  "documentation_snapshot": {
+    "reviewed_documents": [
+      "README.md",
+      "funding-radar/README.md",
+      "funding-radar/docs/EVIDENCE.md",
+      "funding-radar/docs/JUDGE_GUIDE.md",
+      "funding-radar/docs/SUBMISSION_DRAFT.md"
+    ],
+    "docs_only_publication_pending_at_review": true,
+    "scope": "The anonymous clone receipt covers exact public commit 5e04ec47fae84124484f31aa52bc27656df927d8. This decision and updated release prose are local until the parent publishes its final documentation/receipt commit. All 84 source/data/test hashes still match; no claim is made that the existing public commit already contains the new prose or this decision.",
+    "historical_NOT_READY_wording": "Earlier queue/docs and partial-publication statuses describe earlier checkpoints. This dated decision follows the completed promotion and form receipts; parent will synchronize current readiness prose and queue before owner hand-off."
+  },
+  "remaining_prize_entry_action": {
+    "actor": "owner",
+    "action": "Review the prepared form and click Submit bounty once.",
+    "agent_final_click_allowed": false,
+    "after_owner_action": "Read target-side Bounty submitted / review-queue or submitted-card confirmation before recording submission and consuming the daily slot.",
+    "automatic_repeat_allowed": false
+  },
+  "nonblocking_disclosed_limits": [
+    "Human review supplies semantic verification and investor enrichment; no all-input autonomous accuracy or positive-match guarantee.",
+    "The fourth security-compliance recording has a conditional watchlist only, with zero approach-ready investors.",
+    "Mobile sizing and operating-system reduced-motion emulation remain unverified; desktop keyboard/manual motion checks are recorded.",
+    "Public source and downloadable media are verified; no hosted application, accepted pitch, current investor interest or organizer approval is claimed.",
+    "Old empty-creation failure cause remains unknown. The full new USD 2 reservation remains retained; USD 1.90 is an estimate, not an invoice."
+  ],
+  "unresolved_required_gates": [],
+  "review_actions": {
+    "provider_or_account_API_calls": 0,
+    "browser_calls": 0,
+    "spending": 0,
+    "source_docs_queues_or_ledgers_changed": false,
+    "commits_or_pushes": false,
+    "files_written": ["independent-readiness.json", "independent-readiness.md"],
+    "temporary_cleanup": "After a no-space error, removed only generated node_modules from this reviewer's already-completed isolated anonymous-clone directory. Canonical source, checkout source, evidence and all ledgers preserved."
+  }
+}

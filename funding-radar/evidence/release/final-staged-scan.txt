@@ -1,0 +1,3 @@
+scope: full staged file contents
+findings: 0; files omitted: 0
+limits: known patterns only; no Git history; arbitrary untracked content excluded; staged scope excludes unstaged changes.

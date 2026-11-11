@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-11T09:26:42.211647+00:00",
+  "clone_directory": "/tmp/funding-radar-public-clone-7ncv82nd/repository",
+  "clone_command": "env -u GH_TOKEN -u GITHUB_TOKEN GIT_CONFIG_NOSYSTEM=1 GIT_CONFIG_GLOBAL=/dev/null GIT_TERMINAL_PROMPT=0 git -c credential.helper= clone -- https://github.com/himanshu748/funding-radar.git <isolated-directory>",
+  "clone_exit_code": 0,
+  "credential_helper": "empty",
+  "global_git_config": "/dev/null",
+  "system_git_config": false,
+  "repository": "https://github.com/himanshu748/funding-radar",
+  "git_version": "git version 2.39.5 (Apple Git-154)",
+  "node_version": "v22.14.0",
+  "npm_version": "10.9.2",
+  "commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+  "branch": "main",
+  "npm_config": "Two distinct empty files; no user/global npm credentials loaded."
+}

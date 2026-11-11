@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-11-11T09:36:39.532257+00:00",
+  "status": "PARTIALLY_PUBLISHED_NOT_READY",
+  "repository": {
+    "url": "https://github.com/himanshu748/funding-radar",
+    "public": true,
+    "initial_commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+    "anonymous_verification": "public-clone-verification.json"
+  },
+  "x": {
+    "url": "https://x.com/jhahimanshu653/status/2120448778662715464",
+    "actor": "@jhahimanshu653",
+    "published_text_and_tinyfish_profile_link_read_back": true,
+    "video_duration_seconds": 100,
+    "video_dimensions": [1920, 1080],
+    "playing": true
+  },
+  "linkedin": {
+    "status": "Final Post clicked once; reconciling target-side result. Do not repeat blindly."
+  },
+  "discord": {
+    "status": "Not posted; owner restoring existing session."
+  },
+  "provider_operations": 0,
+  "spending": 0,
+  "final_bounty_submission": false
+}

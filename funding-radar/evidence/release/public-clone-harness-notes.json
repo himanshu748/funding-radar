@@ -1,0 +1,9 @@
+{
+  "initial_setup_harness_correction": {
+    "command": "npm --version",
+    "outcome": "failed before npm ci or any repository command",
+    "cause": "npm refuses the same /dev/null file as both user and global config",
+    "correction": "Use two distinct empty configuration files inside the isolated temporary directory; no user npm config or registry credentials are loaded.",
+    "product_failure": false
+  }
+}

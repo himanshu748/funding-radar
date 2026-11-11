@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-11-11T09:41:25.211494+00:00",
+  "status": "PUBLISHED_AND_READ_BACK",
+  "india_calendar_date": "2026-11-11",
+  "repository": "https://github.com/himanshu748/funding-radar",
+  "linkedin": {
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526216239652950016/",
+    "actor": "Himanshu Kumar",
+    "tinyfish_company_url": "https://www.linkedin.com/company/tinyfish-ai/",
+    "confirmation": "Post successful notification, actual full post, company mention link, Video Player and playing100-second video.",
+    "paragraph_spacing": "13 explicit hard line breaks in final editor; normalized full text matches approved copy.",
+    "video_seconds": 100,
+    "observed_playback_dimensions": [1280, 720]
+  },
+  "x": {
+    "url": "https://x.com/jhahimanshu653/status/2120448778662715464",
+    "actor": "@jhahimanshu653",
+    "tinyfish_handle": "@Tiny_Fish",
+    "confirmation": "Published post, full approved text, TinyFish profile link and playing100-second video.",
+    "video_seconds": 100,
+    "observed_playback_dimensions": [1920, 1080]
+  },
+  "discord": {
+    "url": "https://discord.com/channels/1200506685236711554/1570009925848006777",
+    "server": "TinyFish",
+    "forum_id": "1554420983539048508",
+    "thread_id": "1570009925848006777",
+    "title": "Funding Radar: follow the investment before you pitch",
+    "actor": "himanshujha6005",
+    "confirmation": "Created thread, full spaced approved message, build link and funding-radar-demo.mp4 attachment; Copy Link returned this exact thread URL.",
+    "tags": ["App", "API"],
+    "video_filename": "funding-radar-demo.mp4"
+  },
+  "original_uploaded_video": {
+    "file": "../../docs/media/funding-radar-demo.mp4",
+    "sha256": "ccf05ae879892369622ae918ec7b8b222ee3fae77ef4b3682fd9200b27bc7a24",
+    "bytes": 3476540,
+    "duration_seconds": 100,
+    "public_file_hash_verified": "public-clone-video-http.json"
+  },
+  "new_provider_operations": 0,
+  "spending": 0,
+  "billing_or_grant_changes": false,
+  "final_bounty_submission": false,
+  "raw_account_screenshots_included": false
+}

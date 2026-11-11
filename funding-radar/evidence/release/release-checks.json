@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-11-11T09:52:24.248218+00:00",
+  "status": "READY_FOR_OWNER_SUBMISSION",
+  "verified_runtime_commit": "5e04ec47fae84124484f31aa52bc27656df927d8",
+  "source_manifest_sha256": "664392feea030feaea2e75077a6bb1b55948ac8e2a292fe4e07ac12c6714f4f1",
+  "source_files_checked": 84,
+  "all_runtime_data_tests_unchanged": true,
+  "local_markdown_links_resolved": 204,
+  "final_format": "final-format.txt",
+  "public_clone": "public-clone-verification.json",
+  "promotions": "promotion-confirmation.json",
+  "final_form": "final-form-check.json",
+  "independent_ready": "independent-readiness.json",
+  "diff_check_limit": "Two authentic npm command logs retain terminal blank lines; source/docs diff checks exclude only public-clone-build.txt and public-clone-typecheck.txt. These logs are not normalized or rewritten.",
+  "submitted": false,
+  "provider_operations": 0,
+  "spending": 0
+}

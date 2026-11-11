@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-11T09:43:57.610Z",
+  "status": "COMPLETED_UNSAVED_FORM_OWNER_CLICK_REQUIRED",
+  "checks": {
+    "build": true,
+    "notes": true,
+    "linkedin": true,
+    "x": true
+  },
+  "notes_characters": 1804,
+  "video_visibly_selected": true,
+  "submit_enabled": true,
+  "final_submit_clicked": false,
+  "submission_confirmed": false,
+  "rulebook_rechecked_today": true,
+  "current_student_membership": true,
+  "cutoff": "2026-11-17T23:59:00-08:00",
+  "rulebook_x_optional_but_actual_form_x_required": true,
+  "input_files_at_check": [],
+  "media_display": {
+    "filename": "funding-radar-demo.mp4",
+    "display_size": "3.3 MB",
+    "confirmed_by": "Visible selected media row and its Remove control. The component clears the native file input after adding the selection; an empty input file list does not negate the displayed attachment."
+  },
+  "draft_persistence": "Unsaved browser form only; the final owner click has not occurred and no target-side submission/storage confirmation is claimed."
+}
